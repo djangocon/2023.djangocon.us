@@ -1,0 +1,57 @@
+---
+description: DjangoCon US 2022 Talks / General Sessions Schedule
+heading: Talks Schedule
+layout: default
+permalink: /talks/
+published: true
+sitemap: true
+title: Talks Schedule
+---
+
+<!-- talks: day 1 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks: Monday, October 17</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Monday' %}
+          {% include schedule-talks-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: day 1 -->
+
+<!-- talks: day 2 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks: Tuesday, October 18</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Tuesday' %}
+          {% include schedule-talks-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: day 2 -->
+
+<!-- talks: day 3 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks - Deep Dives: Wednesday, October 19</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Wednesday' %}
+          {% include schedule-talks-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: day 3 -->

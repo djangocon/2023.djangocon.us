@@ -1,0 +1,137 @@
+---
+layout: base
+---
+
+<header class="subpage-header">
+  <h1>
+    {% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}
+  </h1>
+  <p class="lead">
+    <local-time datetime="{{ page.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric"
+      time-zone-name="short">
+      {{ page.date | date: "%b %d %l:%M %p %Z" }}
+    </local-time>
+    <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Los_Angeles" aria-label="View talk time on time.is">:calendar:</a>
+    {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
+    {% comment %}, in {{ page.room }}{% endcomment %}
+    {% if page.difficulty %}
+      <br>
+      <span class="label"><span class="sr-only">Audience level: </span>{{ page.difficulty }}</span>
+    {% endif %}
+  </p>
+</header>
+
+<div class="content subpage-content">
+  <div class="row">
+    <div class="column medium-10 medium-centered" markdown="1">
+      {% if page.show_video_urls or site.schedule_show_video_urls and page.video_url != blank %}
+        {% assign youtube_id = page.video_url | replace:"https://youtu.be/","" %}
+        {% include youtube-embed.html id=youtube_id %}
+
+        <section class="event-links">
+          <a
+            href="{{ page.video_url }}"
+            class="event-link button theme-brand-color5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Video</title><path d="M9 20v44h82V20zm34 10l20 12-20 12zM26 70c-2.046 0-3.788 1.24-4.563 3H13a2 2 0 1 0 0 4h8.438c.774 1.76 2.516 3 4.562 3 2.046 0 3.788-1.24 4.563-3H87a2 2 0 1 0 0-4H30.562c-.774-1.76-2.516-3-4.562-3z" overflow="visible"/></svg>
+            Video
+          </a>
+          {% if page.slides_url != blank %}
+          <a
+            href="{{ page.slides_url }}"
+            class="event-link button theme-brand-color5">
+            <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Slideshow</title><path fill-rule="evenodd" d="M48.006 6v8.395H12v60.968h34.395l-15.03 15.03 3.422 3.42 15.996-15.997L66.78 93.813l3.42-3.42-15.028-15.03H88.85V14.395H52.845V6h-4.84zM26.232 31.888H58.07v-4.355H26.232v4.355zm0 10h45.483v-4.354H26.232v4.355zm0 10h12.275v-4.355H26.232v4.354zm0 10h30.645V57.53H26.232v4.355z"/></svg>
+            Slides
+          </a>
+          {% endif %}
+        </section>
+      {% endif %}
+
+      <h2 style="text-transform:capitalize;">About This
+        {% case page.category %}
+            {% when "talks" %}
+              Talk
+            {% when "tutorials" %}
+              Tutorial
+            {% when "sprints" %}
+              Sprint
+            {% else %}
+              {{ page.category|capitalize }}
+        {% endcase %}
+      </h2>
+      {{ content }}
+
+      <a href="{{ site.ticket_link }}" class="button">
+        Buy Tickets Now
+      </a>
+
+    </div>
+  </div><!-- end .row -->
+
+{% if page.presenter_slugs %}
+
+<div class="presenters section-pad theme-light-gray">
+  <div class="row">
+    <div class="column medium-10 medium-offset-1"><h2>Presenters</h2></div>
+  </div>
+
+<ul>
+  {% for presenter_slug in page.presenter_slugs %}
+    {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+    <div class="row profile wide presenter">
+      <div class="column medium-4 medium-offset-1 large-3">
+        {% if presenter.photo_url != blank %}
+          <img
+            class="thumbnail"
+            src="{{ presenter.photo_url }}"
+            alt="Photo of {{ presenter.name }}" />
+        {% endif %}
+      </div>
+
+      <div class="column medium-7 large-7 end">
+        <h3 class="profile-name">
+          {{ presenter.name }}
+          {% if presenter.pronouns != blank %}
+            ({{ presenter.pronouns }})
+          {% endif %}
+        </h3>
+
+        {% if presenter.twitter or presenter.github or presenter.website %}
+          <ul class="social-icons">
+            {% if presenter.twitter != blank %}
+            <li>
+              <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
+                <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
+              </a>
+            </li>
+            {% endif %}
+            {% if presenter.github != blank %}
+            <li>
+              <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
+                <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
+              </a>
+              </li>
+            {% endif %}
+            {% if presenter.website != blank %}
+            <li>
+              <a class="web" href="{{ presenter.website }}" target="_blank">
+                <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+
+        {% if presenter.content != blank %}
+          {{ presenter.content | markdownify }}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+{% comment %}HACK! add some blank lines so the swoop at the top of the footer doesn't obscure the buy tickets button{% endcomment %}
+<div><br><br><br></div>
+{% endif %}
+
+
+</div><!-- end .content -->

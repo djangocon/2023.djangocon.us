@@ -1,0 +1,18 @@
+{% capture tweet %}
+🎉 {{ include.post.title }}
+
+{% if include.presenter_slugs %} by
+{% for presenter_slug in include.presenter_slugs %}
+{% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+{% if include.presenter_slugs.size > 1 %}
+ {% if presenter.twitter != blank %}@{{ presenter.twitter }}{% else %}{{ presenter.name }}{% endif %}
+{% else %}
+ {{ presenter.name }} {% if presenter.twitter != blank %}@{{ presenter.twitter }}{% endif %}
+{% endif %}
+{% endfor %}
+{% endif %}
+ #djangocon
+ #dcus
+{% endcapture %}{{ tweet | strip_newlines }}
+{% if video_url %}📺 Watch on YouTube {{ post.video_url }}{% endif %}
+➡️ Talk information {{ site.url }}{{ include.post.url }}

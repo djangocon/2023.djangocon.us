@@ -1,0 +1,5 @@
+@use 'sass:math';
+
+.event-page h1 {
+  margin-bottom: math.div($global-margin, 2);
+}

@@ -1,0 +1,18 @@
+@use 'sass:math';
+// Patterns that are specific to a page and likely not reusable.
+
+.partner-cta-box h2 {
+  margin-bottom: math.div($global-margin, 2);
+  font-size: rem-calc(28);
+}
+
+.session-details-page .subpage-content ,
+.schedule-page .subpage-content {
+  padding-bottom: 0;
+}
+
+.session-details-page {
+  .responsive-embed + .event-links {
+    margin-top: $global-margin * 2;
+  }
+}

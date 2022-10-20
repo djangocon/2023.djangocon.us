@@ -1,0 +1,47 @@
+---
+description: DjangoCon US 2022 Sprints Schedule
+heading: Sprints Schedule
+layout: default
+permalink: /sprints/
+published: true
+sitemap: true
+title: Sprints Schedule
+---
+
+<!-- sprints: day 1 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Sprints: Thursday, October 20</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Thursday' %}
+          {% include schedule-sprints-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- sprints: day 1 -->
+
+
+<!-- sprints: day 2 -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Sprints: Friday, October 21</h2>
+    {% comment %}
+    <p class="lead">
+      Tutorials are a separate registration and are TBD per session. Buy tutorial tickets before they sell out!
+    </p>
+    {% endcomment %}
+    <ul class="schedule">
+      {% for post in site.schedule %}
+        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+        {% if day == 'Friday' %}
+          {% include schedule-sprints-day.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- sprints: day 2 -->

@@ -1,0 +1,57 @@
+---
+layout: base
+permalink: /styleguide/
+sitemap: false
+---
+
+<div class="styleguide-content">
+<div class="row expanded">
+
+  {% comment %}
+    Styleguide Navigation
+  {% endcomment %}
+  <div class="column medium-3 large-2">
+    {% include styleguide/styleguide-nav.html %}
+  </div>
+
+  <div class="column medium-9 large-10 end styleguide-add-max-width">
+    <div class="tabs-content" data-tabs-content="content-tabs">
+
+      <div class="tabs-panel is-active" id="introduction">
+        {% include styleguide/styleguide-introduction.html %}
+      </div>
+
+      <div class="tabs-panel " id="branding-guidelines">
+        {% include styleguide/styleguide-branding.html %}
+      </div>
+
+      <div class="tabs-panel " id="color-guide">
+        {% include styleguide/styleguide-colors.html %}
+      </div>
+
+      <div class="tabs-panel " id="logo-files">
+        {% include styleguide/styleguide-logos.html %}
+      </div>
+
+      <div class="tabs-panel " id="icons">
+        {% include styleguide/styleguide-icons.html %}
+      </div>
+
+      <div class="tabs-panel " id="themed-page-sections">
+        {% include styleguide/styleguide-themes.html %}
+      </div>
+
+      <div class="tabs-panel " id="photo-hero-section">
+        {% include styleguide/styleguide-hero.html %}
+      </div>
+
+      <div class="tabs-panel " id="profile-card">
+        {% include styleguide/styleguide-profile.html %}
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<link href="{% link static/syntax-themes/autumn.css %}" rel="stylesheet">

@@ -1,0 +1,12 @@
+---
+description: Slack Redirect
+heading: Slack Redirect
+layout: null
+permalink: /slack/
+sitemap: false
+title: Slack Redirect
+---
+
+{% if site.slack_link != empty %}
+<meta http-equiv="refresh" content="0; url={{ site.slack_link }}">
+{% endif %}

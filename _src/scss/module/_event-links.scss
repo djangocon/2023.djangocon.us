@@ -1,0 +1,30 @@
+.event-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $global-margin * 3;
+}
+
+.event-links-heading {
+  margin-right: 1em;
+  font-size: rem-calc(28);
+  color: $black;
+}
+
+.event-link-icon {
+  height: 36px;
+}
+
+.event-link-icon path {
+  fill: currentColor;
+}
+
+.event-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .75em 1.75em;
+}
+
+.event-link-icon {
+  margin-right: .5em;
+}

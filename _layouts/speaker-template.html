@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Rubik:400,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+  </head>
+  <body class="{{ page.layout }}-page">
+
+    <div class="speaker-template">
+      {% if page.photo_url != blank %}
+        <img
+          src="{{ page.photo_url }}"
+          width="520"
+          alt="{{ page.name }}"
+          class="speaker-template-photo" />
+      {% endif %}
+
+      <h1 class="speaker-template-name">{{ page.name }}</h1>
+      <h2 class="speaker-template-session-title">
+        {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
+        {% if page.override_schedule_title %}
+          {{ page.override_schedule_title }}
+        {% else %}
+          {% assign presentation_length = presentations|size %}
+          {% for schedule in presentations %}
+            {{ schedule.title }}
+            {% if presentation_length > 1 %}<br>{% endif %}
+          {% endfor %}
+        {% endif %}
+      </h2>
+
+    </div>
+
+  </body>
+</html>

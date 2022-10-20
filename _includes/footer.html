@@ -1,0 +1,53 @@
+<footer class="footer" role="contentinfo">
+
+  <a
+    class="footer-logo"
+    href="{{ site.url }}" aria-hidden="true">
+    <img src="{{ "/static/img/submark-2022.svg" | relative_url }}"
+    alt="DjangoCon {{ site.conf_year }} | San Diego" />
+  </a>
+
+  <div class="row column">
+    <ul class="social-icons">
+      <li>
+        <a class="twitter" href="https://twitter.com/djangocon">
+          <svg class="social-icon">
+            <title>Twitter</title>
+            <use xlink:href="#twitter-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="github" href="https://github.com/djangocon/">
+          <svg class="social-icon">
+            <title>Github</title>
+            <use xlink:href="#github-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="facebook" href="https://www.facebook.com/djangoconus/">
+          <svg class="social-icon">
+            <title>Facebook</title>
+            <use xlink:href="#facebook-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <p class="text-center">
+      <strong>
+      Got questions? We can help:
+        <a
+          href="mailto:{{site.contact_us_email}}">{{site.contact_us_email}}</a>
+      </strong>
+    </p>
+
+    <small class="legal text-center">
+      &copy; {{ site.time | date: '%Y' }} DjangoCon US
+      &middot; Design by <a href="http://yupgup.com/">YupGup</a>
+      &middot; Presented by <a href="https://www.defna.org/">DEFNA</a>
+      &middot; <a href="/colophon/">Colophon</a>
+    </small>
+  </div>
+</footer>

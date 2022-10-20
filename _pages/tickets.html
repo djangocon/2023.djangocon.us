@@ -1,0 +1,161 @@
+---
+description: Information about buying tickets to DjangoCon US
+heading: Tickets
+layout: base
+permalink: /tickets/
+title: Tickets
+---
+
+<header class="subpage-header">
+  <h1>{{ page.heading }}</h1>
+</header>
+
+<div class="section-pad theme-light-gray">
+  <div class="row" id="welcome">
+    <div class="column small-12 medium-6">
+      <h2>DjangoCon US 2022 tickets are no longer on sale</h2>
+      <p>But if you want to see what they cost, or need to consult the refund policy, keep reading!</p>
+      {% comment %}
+      <h2>What ticket should I buy?</h2>
+      <p>Most people should buy an <strong>Individual</strong> ticket. If your company is paying, they should use the <strong>Corporate</strong> rate (or the <strong>Concierge</strong> rate for more flexibility; see below). For those who can't afford the Individual ticket, a <strong>discounted</strong> ticket is available; see below. And for those who want to go above and beyond and support our mission, check out the <strong>Patron</strong> ticket.</p>
+      <h2>Still want to attend DjangoCon US?</h2>
+      <p>Online tickets are still on sale!</p>
+      <a
+        class="button"
+        href="{{ site.ticket_link }}"
+        target="_blank">Buy Tickets Now</a>
+      {% endcomment %}
+    </div>
+
+    {% comment %}
+    <div class="show-for-medium column medium-5" aria-hidden="true">
+      <div class="callout">
+        <h3>Don't Forget!</h3>
+          <ul>
+            <li>Early bird tickets on sale until they're gone</li>
+            <li>If your employer is paying, please use the corporate rate.</li>
+          </ul>
+        {% comment %}
+        <h3>Tickets are nearly sold out!</h3>
+        <ul>
+          <li>Join the <a href="{{ site.ticket_link }}">waiting list</a> and we'll let you know if there's a cancellation. It happens!</li>
+          <li>There might still be tutorials available.</li>
+          <li>You can still register for sprints!</li>
+        </ul>
+        {% endcomment %}
+      </div>
+    </div>
+    {% endcomment %}
+
+
+  </div>
+</div>
+
+<div class="section-pad theme-light-gray">
+  <div class="row column small-12">
+   <h2>Ticket Prices and Types</h2>
+
+   <table>
+     <thead>
+      <tr>
+       <th>Type</th>
+       {% comment %}<th>Early Bird</th>{% endcomment %}
+       <th>Full Price</th>
+       <th>Who?</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>Individual</td>
+       {% comment %}<td>$499</td>{% endcomment %}
+       <td>$599</td>
+       <td><div>People paying their own way</div><div>Companies with 5 or fewer employees</div></td>
+      </tr>
+      <tr>
+       <td>Corporate</td>
+       {% comment %}<td>$699</td>{% endcomment %}
+       <td>$799</td>
+       <td><div>Companies with more than 5 employees</div><div>(including state agencies and nonprofits, if able)</div></td>
+      </tr>
+      <tr>
+        <td>Online Only - Individual</td>
+        {% comment %}<td>&mdash;</td>{% endcomment %}
+        <td>$149</td>
+        <td><div>People paying their own way</div><div>Companies with 5 or fewer employees</div></td>
+       </tr>
+       <tr>
+        <td>Online Only - Corporate</td>
+        {% comment %}<td>&mdash;</td>{% endcomment %}
+        <td>$299</td>
+        <td><div>Companies with more than 5 employees</div><div>(including state agencies and nonprofits, if able)</div></td>
+       </tr>
+      <tr>
+       <td>Patron</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$999</td>
+       <td><div>Attendees who wish to support our mission a little extra</div><div>Will be invited to a thank-you event</div></td>
+      </tr>
+      <tr>
+       <td>Corporate Concierge Service</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$999</td>
+       <td><div>Companies who need to buy several tickets now, and register specific people later</div><div>Companies who cannot pay with credit card</div><div>Price is per ticket</div></td>
+      </tr>
+      <tr>
+       <td>Discounted</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$299</td>
+       <td>Students, those on a lower income, or otherwise those for whom paying the full individual rate presents a financial hardship</td>
+      </tr>
+      <tr>
+        <td>Online Only - Discounted</td>
+        {% comment %}<td>&mdash;</td>{% endcomment %}
+        <td>$99</td>
+        <td>Students, those on a lower income, or otherwise those for whom paying the full individual rate presents a financial hardship</td>
+       </tr>
+      <tr>
+       <td>Tutorials</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>$199</td>
+       <td>Per tutorial</td>
+      </tr>
+      <tr>
+       <td>Sprints</td>
+       {% comment %}<td>&mdash;</td>{% endcomment %}
+       <td>Free</td>
+       <td>Please register so we can feed you</td>
+      </tr>
+     </tbody>
+   </table>
+
+    <p><strong>Individual:</strong> Companies with 5 or fewer employees, or those purchasing their own ticket without any help from their employer.</p>
+    <p><strong>Corporate:</strong> Companies with more than 5 employees. State or government institutions and non-profit organizations should use the corporate rate if they are able.</p>
+    <p><strong>Patron:</strong> Every year, particularly generous attendees ask how they can pay extra for their ticket to help us expand our mission. The extra cost of this ticket will be put toward conference expenses that increase access to the conference, such as the Opportunity Grant Fund and video captioning. Ticket holders of this type will also be invited to a special "thank you" event at the conference.</p>
+    <p><strong>Corporate Concierge Service:</strong> Companies who want to purchase several tickets in advance, but decide who will be attending the conference at a later date, or companies who cannot pay by credit card. We'll send you a registration code your employees can use to register when you're ready. We will also send you a paper invoice for record-keeping if you need.</p>
+    <p><strong>Discounted:</strong> If you’re unemployed, on a lower income, or would benefit from a lower-priced ticket for another reason. <strong>If your company is paying for your ticket, you are not eligible for this ticket type.</strong></p>
+    <p><strong>Tutorials:</strong> They are a separate cost from your conference ticket. You can register for a tutorial without registering for the conference itself.</p>
+    <p><strong>Sprints:</strong> The ticket is free, but we ask you to register so we can buy you lunch. You do not have to register for the conference itself to register for sprints.</p>
+  </div>
+</div>
+
+<div class="section-pad theme-medium-gray">
+  <div class="row column small-12">
+   <h2>What is the refund policy?</h2>
+   <p>We would hate for you to miss the conference! But we know things come up, so here's our refund policy:</p>
+   <ul>
+      <li>Refunds requested before October 1, 2022, incur a 10% cancellation fee.</li>
+      <li>Between October 2 and October 8, 2022, the cancellation fee is 25%.</li>
+      <li>Between October 9 and October 15, the cancellation fee is 50%.</li>
+      <li>The cancellation fee applies to each ticket, including tutorials.</li>
+      <li>Requests received after October 15, 2022 at 5:00 pm PDT are not eligible for a refund.</li>
+      <li>Tickets may be transferred to someone else at no charge by October 15, 2022, for tutorials and October 16 for the conference.</li>
+    </ul>
+    <p>Tickets may also be converted to online tickets, in which case the cancellation fee will only apply to the difference between the in-person ticket and the online ticket.</p>
+
+    <p>For all dates the cutoff is on or before 5:00 PM PDT per the time stamp on DEFNA’s servers.</p>
+
+    <p>DjangoCon US sold out in 2019, so buy your ticket soon!</p>
+
+    <p>We hope to see you in San Diego!</p>
+  </div>
+</div>

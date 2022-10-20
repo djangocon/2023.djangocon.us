@@ -1,0 +1,69 @@
+---
+description: DjangoCon US is only possible through the support of various organizations.
+heading: Sponsors
+layout: base
+permalink: /sponsors/
+---
+
+<header class="subpage-header">
+  <h1>{{ page.heading }}</h1>
+</header>
+
+<div class="content">
+  <div class="row column v-pad-bottom">
+    <div class="medium-6 large-7 column">
+      <p class="lead">
+        DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for six days. Thank you for your support!
+      </p>
+    </div>
+    <div class="medium-5 large-4 column">
+      {% comment %}
+      <div class="callout text-center partner-cta-box">
+        <h2>Looking for a job?</h2>
+        <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
+        <a href="/job-board/" class="button">Check out our jobs board</a>
+      </div>
+      {% endcomment %}
+      {% comment %}
+      <div class="callout text-center partner-cta-box">
+        <h2>Sponsor DjangoCon US!</h2>
+        <p>Sign up to sponsor DjangoCon US and help make the conference happen.</p>
+        <a href="/sponsors/information/" class="button">Check out sponsorship opportunities</a>
+      </div>
+      {% endcomment %}
+    </div>
+  </div>
+
+{% assign sponsors_by_level = "Diamond|Platinum|Gold|Lanyard|Silver|Bronze|Opportunity Grant|Community" | split: "|" %}
+{% for level in sponsors_by_level %}
+  <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+    {% for sponsor in site.sponsors %}
+      {% if sponsor.level == level %}
+        {% unless sponsor.hidden %}
+          <div class="row partner">
+            <div class="column medium-4 text-center">
+              <a href="{{ sponsor.url_target }}" rel="sponsored">
+                <img
+                  class="partner-logo {{ sponsor.logo_orientation }}"
+                  src="{{ sponsor.logo }}"
+                  alt="{{ sponsor.name }} Logo" />
+              </a>
+            </div>
+            <div class="column medium-8">
+              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+              {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
+              {{ sponsor_description | markdownify }}
+
+              {% if sponsor.hiring_url %}
+                <a href="{{ sponsor.hiring_url }}" class="button" rel="noopener">{{ sponsor.name }} is hiring!</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endfor %}
+
+</div>

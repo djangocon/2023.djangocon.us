@@ -1,0 +1,324 @@
+- output: ./static/img/social/presenters/kojo-idrissa.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/kojo-idrissa/
+
+- output: ./static/img/social/presenters/addison-hardy.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/addison-hardy/
+
+- output: ./static/img/social/presenters/adrienne-franke.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/adrienne-franke/
+
+- output: ./static/img/social/presenters/andrej-baranovskij.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/andrej-baranovskij/
+
+- output: ./static/img/social/presenters/andrew-mshar.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/andrew-mshar/
+
+- output: ./static/img/social/presenters/benjamin-zags-zagorsky.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/benjamin-zags-zagorsky/
+
+- output: ./static/img/social/presenters/brent-o-connor.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/brent-o-connor/
+
+- output: ./static/img/social/presenters/calvin-hendryx-parker.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/calvin-hendryx-parker/
+
+- output: ./static/img/social/presenters/camila-maia.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/camila-maia/
+
+- output: ./static/img/social/presenters/carlton-gibson.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/carlton-gibson/
+
+- output: ./static/img/social/presenters/carmela-beiro.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/carmela-beiro/
+
+- output: ./static/img/social/presenters/david-foster.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/david-foster/
+
+- output: ./static/img/social/presenters/drew-skwiers-koballa.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/drew-skwiers-koballa/
+
+- output: ./static/img/social/presenters/ed-rivas.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/ed-rivas/
+
+- output: ./static/img/social/presenters/eduardo-felipe-castegnaro.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/eduardo-felipe-castegnaro/
+
+- output: ./static/img/social/presenters/elizabeth-garrett-christensen.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/elizabeth-garrett-christensen/
+
+- output: ./static/img/social/presenters/eric-holscher.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/eric-holscher/
+
+- output: ./static/img/social/presenters/eric-matthes.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/eric-matthes/
+
+- output: ./static/img/social/presenters/erin-mullaney.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/erin-mullaney/
+
+- output: ./static/img/social/presenters/flavio-juvenal.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/flavio-juvenal/
+
+- output: ./static/img/social/presenters/heidi-white.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/heidi-white/
+
+- output: ./static/img/social/presenters/ilya-bass.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/ilya-bass/
+
+- output: ./static/img/social/presenters/iuri-de-silvio.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/iuri-de-silvio/
+
+- output: ./static/img/social/presenters/jack-linke.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/jack-linke/
+
+- output: ./static/img/social/presenters/james-ray.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/james-ray/
+
+- output: ./static/img/social/presenters/jiten-sidhpura.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/jiten-sidhpura/
+
+- output: ./static/img/social/presenters/joaquin-scocozza.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/joaquin-scocozza/
+
+- output: ./static/img/social/presenters/joshua-weaver.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/joshua-weaver/
+
+- output: ./static/img/social/presenters/juan-saavedra.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/juan-saavedra/
+
+- output: ./static/img/social/presenters/karen-tracey.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/karen-tracey/
+
+- output: ./static/img/social/presenters/katie-mclaughlin.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/katie-mclaughlin/
+
+- output: ./static/img/social/presenters/ken-whitesell.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/ken-whitesell/
+
+- output: ./static/img/social/presenters/kuldeep-pisda.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/kuldeep-pisda/
+
+- output: ./static/img/social/presenters/kyle-bebak.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/kyle-bebak/
+
+- output: ./static/img/social/presenters/lee-trout.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/lee-trout/
+
+- output: ./static/img/social/presenters/lisa-tagliaferri.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/lisa-tagliaferri/
+
+- output: ./static/img/social/presenters/luke-lee.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/luke-lee/
+
+- output: ./static/img/social/presenters/marcelo-elizeche-lando.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/marcelo-elizeche-lando/
+
+- output: ./static/img/social/presenters/mario-munoz.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/mario-munoz/
+
+- output: ./static/img/social/presenters/mason-egger.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/mason-egger/
+
+- output: ./static/img/social/presenters/maxim-danilov.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/maxim-danilov/
+
+- output: ./static/img/social/presenters/meagen-voss.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/meagen-voss/
+
+- output: ./static/img/social/presenters/paolo-melchiorre.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/paolo-melchiorre/
+
+- output: ./static/img/social/presenters/patrick-arminio.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/patrick-arminio/
+
+- output: ./static/img/social/presenters/peter-baumgartner.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/peter-baumgartner/
+
+- output: ./static/img/social/presenters/richard-yen.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/richard-yen/
+
+- output: ./static/img/social/presenters/russell-keith-magee.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/russell-keith-magee/
+
+- output: ./static/img/social/presenters/sanyam-khurana.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/sanyam-khurana/
+
+- output: ./static/img/social/presenters/sheena-o-connell.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/sheena-o-connell/
+
+- output: ./static/img/social/presenters/simon-willison.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/simon-willison/
+
+- output: ./static/img/social/presenters/syed-ansab-waqar-gillani.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/syed-ansab-waqar-gillani/
+
+- output: ./static/img/social/presenters/syed-muhammad-dawoud-sheraz-ali.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/syed-muhammad-dawoud-sheraz-ali/
+
+- output: ./static/img/social/presenters/tim-schilling.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/tim-schilling/
+
+- output: ./static/img/social/presenters/will-vincent.png
+  height: 512
+  quality: 80
+  width: 1024
+  url: https://2022.djangocon.us/presenters/will-vincent/
+

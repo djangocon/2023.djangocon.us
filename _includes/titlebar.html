@@ -1,0 +1,21 @@
+<nav class="title-bar headroom headroom--top">
+  <div class="title-bar-left">
+      <a class="logo" href="/">
+        <img src="{{ "/static/img/logo-2022.svg" | relative_url }}" alt="DjangoCon {{ site.conf_year }} | San Diego" />
+      </a>
+  </div>
+  <div class="title-bar-right">
+    <ul class="dropdown menu show-for-large" data-dropdown-menu>
+      {% include nav.html %}
+    </ul>
+    <button
+      class="hamburger hamburger--spin hide-for-large" type="button" data-toggle="offCanvasRight"
+      aria-hidden="true"
+      aria-label="A button that open and closes site navigation">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+  </div>
+</nav>
