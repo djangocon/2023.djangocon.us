@@ -59,11 +59,20 @@ Verify that you are on the `main` branch
 $ git branch
 ```
 
-Follow the instructions below to run the website on a local server. GitHub recommends using [Bundler](http://bundler.io/) to install and run Jekyll. [Ruby](https://www.ruby-lang.org) is a pre-requisite. One of the project dependencies (nokogiri) requires a Ruby version >= 2.1.0. See the [Jekyll Quick-start Guide](https://jekyllrb.com/docs/quickstart/) for more info.
+Follow the instructions below to run the website on a local server.
+
+#### Prerequisites
+
+- [Ruby](https://www.ruby-lang.org) (>= 2.5.0 & < 3.X)
+  - See the [Jekyll Quick-start Guide](https://jekyllrb.com/docs/quickstart/) for more info.
+- NodeJS (>= 10.0)
+- Python (for node-gyp)
 
 #### Install Jekyll
 
-You might need to use ```$ sudo gem install jekyll bundler foreman```
+GitHub recommends using [Bundler](http://bundler.io/) to install and run Jekyll.
+
+You might need to use `$ sudo gem install jekyll bundler foreman`
 
 ```bash
 $ gem install jekyll bundler
@@ -71,8 +80,6 @@ $ bundle install
 ```
 
 #### Install Node Dependencies
-
-You will need Node v10.0 or greater to compile frontend assets. We're using [Webpack](https://webpack.js.org/) to compile Scss and JavaScript.
 
 You'll need to install all the JS dependencies.
 
@@ -82,6 +89,8 @@ $ npm install .
 ```
 
 #### Compile CSS & JS
+
+We're using [Webpack](https://webpack.js.org/) to compile Scss and JavaScript.
 
 ```bash
 $ npm run build
