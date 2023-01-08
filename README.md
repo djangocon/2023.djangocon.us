@@ -1,4 +1,4 @@
-# 2023.djangocon.us Website
+# 2023.djangocon.us
 
 [![Contributors](https://img.shields.io/github/contributors/djangocon/2023.djangocon.us.svg)](https://github.com/djangocon/2023.djangocon.us/graphs/contributors)
 
