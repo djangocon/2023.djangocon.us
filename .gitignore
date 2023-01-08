@@ -1,1 +1,7 @@
-node_modules
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.vendor
+_site
+Gemfile.lock
+vendor
