@@ -12,14 +12,14 @@ Our Call for Proposals (CFP) will open soon!
 
 {% comment %}
 Our Call for Proposals is now closed.
-Decision notifications will be sent by July 8th, 2022.
+Decision notifications will be sent by July 8th, 2023.
 {% endcomment %}
 
 Our Call for Proposals is now closed and all decision notifications have been sent.
 
 {% comment %}
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
-Submit your talk or tutorial proposal by the end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
+Submit your talk or tutorial proposal by the end of day June 10th, 2023 [AoE](https://time.is/compare/0000_10_June_2023_in_Anywhere_on_Earth), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
@@ -42,7 +42,7 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 Please see our <a href="/covid/">COVID-19 Policy</a> for more information.
 
 {% comment %}
-At this time, we are planning on most presenters being in San Diego to present their talks in person. Things may always change depending on how the pandemic progresses over the year.
+At this time, we are planning on most presenters being in Durham to present their talks in person. Things may always change depending on how the pandemic progresses over the year.
 
 If you are unable to travel to the conference, please submit your talk with a note that you will be only be able to present a pre-recorded talk online. We will have a handful (less than 10) of online talks that we'll air during breaks in the in-person schedule and more.
 {% endcomment %}
@@ -99,5 +99,5 @@ Receipts for travel expenses will be required.
 {% comment %}
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
-Opportunity grant applications close at the end of the day on June 10, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth). We will send decision notifications by July 8, 2022.
+Opportunity grant applications close at the end of the day on June 10, 2023 [AoE](https://time.is/compare/0000_10_June_2023_in_Anywhere_on_Earth). We will send decision notifications by July 8, 2023.
 {% endcomment %}

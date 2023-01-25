@@ -1,3 +1,4 @@
+"""NOTE: You need to adjust the dates for 2023"""
 import csv
 from io import StringIO
 from turtle import title
@@ -18,7 +19,7 @@ from urllib.parse import quote_plus
 import pytz
 
 # TODO: Pull this from _config.yml
-CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
+CONFERENCE_TZ = pytz.timezone("America/New_York")
 
 
 class FrontmatterModel(BaseModel):
@@ -617,7 +618,7 @@ def generate_shots(
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://2022.djangocon.us{post['permalink']}")
+        print(f"  url: https://2023.djangocon.us{post['permalink']}")
         print()
 
 
@@ -687,7 +688,7 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
 
 
 @app.command()
-def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = False):
+def generate_2023_placeholders(event_date: datetime, create_keynotes: bool = False):
     tutorial_date = event_date
     talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
     sprints_dates = [event_date + relativedelta(days=count) for count in [4, 5]]
@@ -824,7 +825,7 @@ def process(
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
+                    image_url = f"https://2023.djangocon.us/presenters/{presenter_slug}"
                     image_url = quote_plus(image_url)
                     image_url = quote_plus(image_url)
                     image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"

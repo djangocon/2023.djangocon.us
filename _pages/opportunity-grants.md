@@ -9,10 +9,10 @@ title: Opportunity Grants
 ---
 
 {% comment %}
-We are accepting [opportunity grant](https://2022.djangocon.us/opportunity-grants/) applications
+We are accepting [opportunity grant](https://2023.djangocon.us/opportunity-grants/) applications
 
-Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until end of day June 10th, 2022 [AoE](https://time.is/compare/0000_10_June_2022_in_Anywhere_on_Earth).
-All decision notifications will be sent by July 8th, 2022.
+Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until end of day June 10th, 2023 [AoE](https://time.is/compare/0000_10_June_2023_in_Anywhere_on_Earth).
+All decision notifications will be sent by July 8th, 2023.
 {% endcomment %}
 
 Our opportunity grant application is now closed, and all decision notifications have been sent.
@@ -40,7 +40,7 @@ We feel the wording "opportunity grants" makes a positive shift towards being a 
 
 ### When will I find out whether I've received an opportunity grant?
 
-You will be notified by July 8th, 2022.
+You will be notified by July 8th, 2023.
 
 {% comment %}
 You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
