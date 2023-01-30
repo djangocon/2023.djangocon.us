@@ -31,7 +31,7 @@ title: Venue
       height="380"
       frameborder="0"
       src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJv9e4a_QYnlQRqsCuHEMJZfY&key=AIzaSyC53fhhv-toSLa-iCzc0qt8zFmVNF1vfDw" allowfullscreen></iframe>
-      
+
       <a
       class="hide-for-smedium-only"
       href="https://www.google.com/maps?ll=32.7751394,-117.139956&z=16&t=m&hl=en-US&gl=US&mapclient=embed&q=8757+Rio+San+Diego+Dr,+San+Diego,+CA+92108"
@@ -48,25 +48,26 @@ title: Venue
     </p>
   </div>
 </div>
-
+{% endcomment %}
 
 <section class="section-pad theme-medium-gray" id="hotel">
   <div class="row column">
     <div class="medium-6 column hide-for-small-only">
       <!-- TODO: update image -->
+      {% comment %}
       <img
       class="thumbnail thumbnail-block"
       src="/static/img/venue.jpg"
       alt="San Diego Marriott of Mission Valley" />
     </div>
+    {% endcomment %}
     <div class="medium-6 column">
-      <h2>Staying at the San Diego Marriott Mission Valley</h2>
+      <h2>Staying at the Durham Marriott City Center</h2>
       <p class="lead min">Our group rate of <strong>$185/night</strong> expires on September&nbsp;15, so don't wait to book your room!</p>
       <ul class="list-split">
         <li>Free Wi-Fi</li>
         <li>Room for hallway hacking</li>
-        <li>Short trip to downtown</li>
-        <li>Heated outdoor pool</li>
+        <li>In the middle of downtown</li>
       </ul>
       {% comment %}<p>ATTENTION!: If you try to book and it says the capacity is full, please email <a href="mailto:hello@djangocon.us">hello@djangocon.us</a>, and we can attempt to expand the hotel block.</p>{% endcomment %}
       <p>
@@ -78,11 +79,11 @@ title: Venue
 
 <section class="section-pad theme-medium-gray" id="hotel">
   <div class="row column">
-    
+
     <div class="medium-6 column">
       <h2>Other Hotel Options</h2>
       <p class="lead min">Our room block at the Marriott is almost completely sold out, so check out these other nearby options!</p>
-      
+
       <ul class="list-split">
         <li>Closest option: <br /><a href="https://www.marriott.com/hotels/travel/sansm-springhill-suites-san-diego-mission-valley/">SpringHill Suites by Marriott San Diego Mission Valley</a><br />$189/night</li>
         <li>Most inexpensive and walkable option: <br /><a href="https://www.wyndhamhotels.com/laquinta/san-diego-california/la-quinta-san-diego-seaworld-zoo-area/rooms-rates?brand_id=LQ&checkInDate=10/15/2022&checkOutDate=10/20/2022&useWRPoints=false&children=0&adults=1&rooms=1&loc=ChIJSx6SrQ9T2YARed8V_f0hOg0&sessionId=1661973914">La Quinta Inn & Suites San Diego SeaWorld/Zoo Area</a><br />$142/night</li>
@@ -103,18 +104,18 @@ title: Venue
 
 <div class="section-pad theme-light-gray" id="places">
   <div class="row column v-pad-bottom">
-    <h2 class="text-center">Around San Diego</h2>
-    <p class="lead column large-10 large-centered text-center">Public transportation is available via the <a href="https://www.sdmts.com/">San Diego Metropolitan Transit System</a> which includes the San Diego Trolley (Rio Vista station) and city buses. Popular ride sharing services are also available. While you're cruising around town, be sure to check out our favorite spots:</p>
+    <h2 class="text-center">Around Durham</h2>
+    <p class="lead column large-10 large-centered text-center">Public transportation is available via the <a href="https://gotriangle.org/maps-schedules/gotriangle">GoTriangle</a> and <a href="https://gotriangle.org/maps-schedules/godurham">GoDurham</a> systems which includes transit via bus to/from the Raleigh-Durham International Airport and the Durham Station (approximately 1/4 mile walk from the station to the hotel). Popular ride sharing services are also available.
+      {% comment %}While you're cruising around town, be sure to check out our favorite spots:{% endcomment %}</p>
   </div>
-  {% endcomment %}
-  
+
   {% comment %}
   Beginning of Places Around Durham...
-  
+
   To update the information in this section, please see:
-  
+
   `_data/places.yml`
-  
+
   {% endcomment %}
   {% comment %} -- Disabled until we get recommendations from locals
   {% if site.places %}
