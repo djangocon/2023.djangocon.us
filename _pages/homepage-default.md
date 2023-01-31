@@ -7,5 +7,5 @@ permalink: /homepage/
 sitemap: false
 testimonial_img: /static/img/home-testimonial.jpg
 testimonial_img_mobile: /static/img/home-testimonial-mobile.jpg
-title: DjangoCon US 2022 • October 16-21, 2022 • San Diego, CA United States
+title: DjangoCon US 2023 • October 15-20, 2023 • Durham, NC United States
 ---

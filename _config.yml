@@ -2,12 +2,12 @@ title: DjangoCon US
 url: "https://2023.djangocon.us"
 author : DjangoCon US
 description: |
-  DjangoCon US 2023 conference will take place in TBA
-  from TBA, 2023!
+  DjangoCon US 2023 conference will take place in Durham, NC
+  from October 15-20, 2023!
 enforce_ssl: "2023.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
-timezone: America/Los_Angeles
+timezone: America/New_York
 conf_year: 2023
 
 include:
@@ -113,7 +113,7 @@ visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
 cfp_application: "https://pretalx.com/djangocon-2022/cfp"
-hotel_reservation_link: "https://www.marriott.com/events/start.mi?id=1642551494496&key=GRP"
+hotel_reservation_link: "https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
 # slack_link: "https://djangoconus2022.herokuapp.com"
 opportunity_grant_application: "https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform"
 slack_link: ""

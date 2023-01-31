@@ -72,7 +72,7 @@ The following a la carte offerings are available to increase visibility on site.
 
 #### T-Shirts! Included in Gold Tier +
 
-Sign your sponsorship contract and pay your invoice by August 15, 2022 to get your logo on our conference t-shirts for all sponsors Gold and up!* T-shirts are distributed at the conference for in-person attendees to wear at no cost to them. Online attendees will be able to purchase the t-shirt to have it delivered to them from a distributor. Logos will ideally be given in one color on a transparent background and be delivered in SVG format.
+Sign your sponsorship contract and pay your invoice by August 15, 2023 to get your logo on our conference t-shirts for all sponsors Gold and up!* T-shirts are distributed at the conference for in-person attendees to wear at no cost to them. Online attendees will be able to purchase the t-shirt to have it delivered to them from a distributor. Logos will ideally be given in one color on a transparent background and be delivered in SVG format.
 
 
 #### Opening Party -- $10,000-$14,000
@@ -98,18 +98,18 @@ Sponsor logo, link, and a brief statement will appear in the email sent to all a
 #### Opportunity Grant Sponsor
 
 This sponsorship can be of any amount more than an individual ticket and can be with or without a normal sponsorship tier. These grants help us give sponsorship to attendees who could not otherwise afford to come. Sponsors will be added with name, link, and logo on our website.
-
+{% comment %}
 #### Django Girls Sponsor -- $1,000+
 
-San Diego Django Girls will be hosting a workshop aimed to encourage women and other underrepresented genders into Django development, and we are inviting you to sponsor!
+Django Girls will be hosting a workshop aimed to encourage women and other underrepresented genders into Django development, and we are inviting you to sponsor!
 
 Donors will be added to the DjangoCon US break video rotation, get a tote bag insert, and a social media post. This stacks with DjangoCon US tier perks. It's a great value! This is a gender-inclusive event.
-
+{% endcomment %}
 #### Need a custom sponsorship package?
 
 We've helped sponsors host luncheons, throw parties, and add opportunity grant sponsorship and other perks to existing packages.
 
-Whether you're joining us in San Diego or supporting us from afar, please consider sponsoring DjangoCon US 2022.
+Whether you're joining us in Durham or supporting us from afar, please consider sponsoring DjangoCon US 2023.
 
 We can't do it without you and hope to see you there!
 

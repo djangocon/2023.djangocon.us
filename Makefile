@@ -1,6 +1,6 @@
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
-DOMAIN = https://2022.djangocon.us
+DOMAIN = https://2023.djangocon.us
 IMAGE_SIZE = 1024x512
 # IMAGE_SIZE = 1400x700
 
