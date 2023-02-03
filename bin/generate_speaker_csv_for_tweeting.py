@@ -122,6 +122,7 @@ POST_TYPES = [
 
 REPO_ROOT = Path(__file__).parent.parent
 
+
 @app.command()
 def main(output_file: Path):
     """
@@ -129,10 +130,10 @@ def main(output_file: Path):
 
     The schedule path should be something like "_schedule"
     """
-    schedule_path = REPO_ROOT / '_schedule'
+    schedule_path = REPO_ROOT / "_schedule"
     speaker_path = REPO_ROOT / "_presenters"
     csv_data = []
-    for talk in schedule_path.glob('*/*.md'):
+    for talk in schedule_path.glob("*/*.md"):
         try:
             post = frontmatter.loads(talk.read_text())
             data = Schedule(**post.metadata)
@@ -140,32 +141,34 @@ def main(output_file: Path):
             if not data.presenter_slugs:
                 continue
             for slug in data.presenter_slugs:
-                speaker_file = speaker_path / f'{slug}.md'
+                speaker_file = speaker_path / f"{slug}.md"
                 speaker_post = frontmatter.loads(speaker_file.read_text())
                 speakers.append(Presenter(**speaker_post.metadata))
         except ValidationError as e:
-                typer.secho(f"{talk}", fg="red")
-                typer.echo(e.json())
-                raise
+            typer.secho(f"{talk}", fg="red")
+            typer.echo(e.json())
+            raise
         except Exception as e:
-                typer.secho(f"{talk}::{e}", fg="red")
+            typer.secho(f"{talk}::{e}", fg="red")
         else:
             twitter_handles = []
             for speaker in speakers:
                 if speaker.twitter:
                     if not speaker.twitter.startswith("@"):
-                        twitter_handles.append(f'@{speaker.twitter}')
+                        twitter_handles.append(f"@{speaker.twitter}")
                     else:
                         twitter_handles.append(speaker.twitter)
-            csv_data.append({
-                'title': data.title,
-                'speakers': ', '.join(speaker.name for speaker in speakers),
-                'twitter_handles': ', '.join(twitter_handles)
-            })
+            csv_data.append(
+                {
+                    "title": data.title,
+                    "speakers": ", ".join(speaker.name for speaker in speakers),
+                    "twitter_handles": ", ".join(twitter_handles),
+                }
+            )
             print(csv_data[-1])
 
     buffer = StringIO()
-    writer = DictWriter(buffer, fieldnames=['title', 'speakers', 'twitter_handles'])
+    writer = DictWriter(buffer, fieldnames=["title", "speakers", "twitter_handles"])
     writer.writeheader()
     writer.writerows(csv_data)
     output_file.write_text(buffer.getvalue())
