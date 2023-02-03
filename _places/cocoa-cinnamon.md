@@ -3,7 +3,7 @@ layout: base
 
 name: "Cocoa Cinnamon Old North Durham"
 hidden: false
-photo_url: "/static/img/places/21c-museum.png"
+photo_url: "/static/img/places/cocoa-cinnamon.jpg"
 location: "420 W. Geer Street"
 distance: "6 blocks (0.5 miles) away"
 map: "https://goo.gl/maps/QppXc5ZG5i3ifGMb7"
