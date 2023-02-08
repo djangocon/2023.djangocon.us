@@ -17,8 +17,7 @@ title: Speaker Resources
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
 
 * [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
-* [Frank Wiles](mailto:frank@revsys.com), President of the Board, Django Software Foundation, Founder, REVSYS.
-* [Josue Balandrano Coronel](mailto:josuebc@defna.org), DEFNA Board Member, and Software Engineer at the Texas Advanced Computing Center.
+* [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
 * [Katia Lira](mailto:katialira@defna.org), Full-Stack Dev and DEFNA Board Member. Katia gave a tutorial last year overcoming her nerves and fear and you can too!
 * [Katie McLaughlin](mailto:katie@glasnt.com), PyCon AU and DjangoCon AU Organizer, PSF Director, DSF Director.
 * [Philip James](mailto:pjj@philipjohnjames.com), Core Contributor to the BeeWare project and Senior Software Engineer at Patreon. Philip has spoken at a number of DjangoCons and PyCons around the world.
@@ -28,7 +27,7 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 
 ## Slide Guidelines
 
-* Use Keynote, PowerPoint, LibreOffice, or Google Presentations for your slides.
+* Use Keynote, PowerPoint, LibreOffice, or Google Slides for your slides.
 * Minimal slides are best—-avoid walls of text and long lists of bullets.
 * Aim for high contrast slides, avoiding colors that may be difficult to see for those with colorblindness. (You can [check your contrast online](http://webaim.org/resources/contrastchecker/); you just need the hex codes for your colors!)
 * Light background with dark text is easiest to read; be mindful that the projection screen is white.
