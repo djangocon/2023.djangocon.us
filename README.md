@@ -124,6 +124,22 @@ You will then resume the process at step 6 to submit a pull request.
 
 If you plan to continue working locally and submitting pull requests, you may want to add an upstream remote locally that points to the DjangoCon US repo, in order to fetch changes. You may also want to consider creating a feature branch (also known as a "topic" branch), making your changes there (instead of in the `main` branch), pushing to GitHub and submitting the update via pull request. You can then keep your `main` branch up-to-date while working on multiple features.
 
+### Contributing via Docker and Docker Compose
+
+If you want to use [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) to run a web server locally please follow the below steps.
+
+If Docker and Docker Compose are not installed on your system please install them by following the above links.
+
+Once both are installed you can type the following command on the project root directory.
+
+```bash
+$ docker compose up
+```
+
+If everything works then a local server is available at `http://0.0.0.0:4000`.
+
+If you want to shutdown your local server you can anytime press `ctrl-c` to stop the local server from the command line from which you have started the local server.
+
 ### Adding Contributors
 
 If you have gone through the previous installation steps, the `all-contributors-cli` package should already be installed locally by npm. The developer dependency and scripts can be found in `package.json` and the init config and JSON entries in the `.all-contributorsrc` file.
