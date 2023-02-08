@@ -19,7 +19,7 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 * [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
 * [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
 * [Katia Lira](mailto:katialira@defna.org), Full-Stack Dev and DEFNA Board Member. Katia gave a tutorial last year overcoming her nerves and fear and you can too!
-* [Katie McLaughlin](mailto:katie@glasnt.com), PyCon AU and DjangoCon AU Organizer, PSF Director, DSF Director.
+*  [Katie McLaughlin](mailto:katie+djangoconus@glasnt.com), Developer Advocate and frequent public speaker (occasional keynoter), DjangoCon AU organiser, and Secretary for the Django Software Foundation.
 * [Philip James](mailto:pjj@philipjohnjames.com), Core Contributor to the BeeWare project and Senior Software Engineer at Patreon. Philip has spoken at a number of DjangoCons and PyCons around the world.
 * [Dr. Russell Keith-Magee](mailto:russell@keith-magee.com), Founder of the BeeWare project, developing GUI tools and libraries to support the development of Python software on desktop and mobile platforms. He is also a 13 year veteran of the Django Core Team, and for 5 years, was President of the Django Software Foundation. In his day job, he wrangles data pipelines for Survata.
 {% endcomment %}
