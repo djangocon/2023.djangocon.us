@@ -1,6 +1,9 @@
-ayout: base
-name: Drew Winstel
-photo_url: /static/img/organizers/drew.jpg
-role: DEFNA Vice President, Program Co-Chair, Opportunity Grants team, Code of Conduct team
-twitter: ""
-website: https://winstel.dev/
+---
+github: HamaBarhamou
+layout: base
+name: ISSAKA HAMA Barhamou
+photo_url: /static/img/organizers/barhamou.jpg
+role: member of the Website Committee
+twitter: hama_barhamou
+website: https://hamabarhamou.github.io/monCV/
+---
