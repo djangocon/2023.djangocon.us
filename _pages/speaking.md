@@ -103,6 +103,10 @@ If $500 will not cover your expenses, we encourage you to apply for an <a href= 
 
 Opportunity grant applications close at the end of the day on May 15, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes). We will send decision notifications by June 28, 2023.
 
+### Online speaker gear reimbursement
+
+If you are speaking online, we are pleased to offer up to $500 for recording gear reimbursement to be used on qualifying expenses (camera, light, microphone, etc.). This cannot be used in conjunction with the above travel reimbursment (it's an either/or proposition).
+
 ## Pre-conference information
 
 You will have the option to upload a rough transcript of your talk approximately two weeks before the conference to give the captioning team a chance to train on any jargon you might use in your talk. This is by no means required but it will provide a more accessible experience to your audience.
