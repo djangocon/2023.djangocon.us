@@ -105,7 +105,7 @@ Opportunity grant applications close at the end of the day on May 15, 2023 at [6
 
 ### Online speaker gear reimbursement
 
-If you are speaking online, we are pleased to offer up to $500 for recording gear reimbursement to be used on qualifying expenses (camera, light, microphone, etc.). This cannot be used in conjunction with the above travel reimbursment (it's an either/or proposition).
+If you are speaking online, we are pleased to offer up to $500 for recording gear reimbursement to be used on qualifying expenses (camera, light, microphone, etc.). This cannot be used in conjunction with the above travel reimbursement (it's an either/or proposition).
 
 ## Pre-conference information
 
