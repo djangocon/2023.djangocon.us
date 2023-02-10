@@ -104,6 +104,13 @@ layout: base
               </a>
             </li>
             {% endif %}
+            {% if presenter.mastodon != blank %}
+            <li>
+              <a class="mastodon" href="{{ presenter.mastodon }}" target="_blank">
+                <svg class="mastodon-icon"><use xlink:href="#mastodon-icon"></use></svg>
+              </a>
+            </li>
+            {% endif %}
             {% if presenter.github != blank %}
             <li>
               <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
