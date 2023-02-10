@@ -46,6 +46,13 @@ title: Organizers
                   </a>
                 </li>
                 {% endif %}
+                {% if organizer.mastodon != blank %}
+                <li>
+                  <a class="mastodon" href="{{ organizer.mastodon }}" target="_blank">
+                    <svg class="mastodon-icon"><use xlink:href="#mastodon-icon"></use></svg>
+                  </a>
+                </li>
+                {% endif %}
                 {% if organizer.github != blank %}
                 <li>
                   <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank">
