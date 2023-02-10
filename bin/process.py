@@ -59,6 +59,7 @@ class Organizer(FrontmatterModel):
     title: Optional[str]
     twitter: Optional[str]
     website: Optional[str]
+    mastodon: Optional[str]
 
 
 class Page(FrontmatterModel):
@@ -98,6 +99,7 @@ class Presenter(FrontmatterModel):
     twitter: Optional[str]
     website: Optional[str]
     website_text: str = "Apply here"
+    mastodon: Optional[str]
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -500,6 +502,7 @@ def generate_opening_remarks(
             speaker.photo_url = organizer.photo_url
             speaker.website = organizer.website
             speaker.title = organizer.title
+            speaker.mastodon = organizer.mastodon
         speaker_post.metadata.update(speaker.dict(exclude_unset=True))
         output_path = Path(f"_presenters/{speaker.slug}.md")
         output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
