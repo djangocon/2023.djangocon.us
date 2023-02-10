@@ -61,6 +61,7 @@ class Organizer(FrontmatterModel):
     website: Optional[str]
     mastodon: Optional[str]
 
+
 class Page(FrontmatterModel):
     description: Optional[str]
     heading: Optional[str]
