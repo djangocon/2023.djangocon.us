@@ -9,7 +9,7 @@ title: Speaker Resources
 ## Information for Speakers
 {% comment %}* The Speaker Green Room will be in <strong>Santa Fe 4</strong> on Sunday-Wednesday.{% endcomment %}
 * Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
-* The Quiet Room will be in the <strong>Santa Fe 4</strong> on all conference days.
+* A Quiet Room will be available for attendees and speakers on all conference days.
 
 {% comment %}
 ## Need some help with your presentation?
