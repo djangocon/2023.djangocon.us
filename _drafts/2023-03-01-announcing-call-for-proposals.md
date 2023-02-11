@@ -11,7 +11,7 @@ layout: post
 title: The Call for Proposals for DjangoCon US 2023 Is Now Open!
 ---
 
-The DjangoCon 2023 organizers are excited that DjangoCon US 2023 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2023/cfp)! The deadline for submissions is June 10th, 2023 [AoE](https://time.is/compare/0000_10_June_2023_in_Anywhere_on_Earth). As long as it’s still June 10th anywhere on earth, you can submit your proposal.
+The DjangoCon 2023 organizers are excited that DjangoCon US 2023 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2023/cfp)! The deadline for submissions is May 15th, 2023 [AoE](https://time.is/compare/0000_15_May_2023_in_Anywhere_on_Earth). As long as it’s still May 15th anywhere on earth, you can submit your proposal.
 
 We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our [talk schedule](https://2023.djangocon.us/talks/) from last year for reference.
 
@@ -19,7 +19,7 @@ We fancy first-timers! If you haven’t spoken at a conference or given a tutori
 
 {% comment %}
 TODO: Update opportunity graph form and remove comments
-Plus there are perks! Presenters get free admission to DjangoCon US! Grants to assist with your travel and lodging expenses are available as well. Fill out the [Opportunity Grant](https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform) form by June 10th, 2023. Decision notifications will be sent by July 8, 2023.
+Plus there are perks! Presenters get free admission to DjangoCon US! Grants to assist with your travel and lodging expenses are available as well. Fill out the [Opportunity Grant](https://docs.google.com/forms/d/1yc1HqqcJwi669vxTTs1daJbTeiNYwqM2h3gIgqbpWVE/viewform) form by May 15th, 2023. Decision notifications will be sent by June 28, 2023.
 {% endcomment %}
 
 For more information on talk and tutorial formats, please check out our [speaker information page](https://2023.djangocon.us/speaking/).
