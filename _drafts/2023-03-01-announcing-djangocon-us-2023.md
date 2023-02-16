@@ -14,7 +14,7 @@ Many thanks to [YupGup](http://yupgup.com/) for the website.
 It looks amazing!
 {% endcomment %}
 
-The conference will be from Sunday, October 15th, through Friday, October 20th, 2023.
+The conference will have tutorials on Sunday, October 8, talks from Monday, October 16th, through Wednesday, October 18th, and sprints on Thursday and Friday October 19th and 20th, 2023.
 
 - October 8: Tutorials - Online only - ($199 per tutorial)
 - October 16, 17, &amp; 18: Talks
@@ -33,4 +33,4 @@ We look forward to seeing all of the prospective talks and tutorials!
 
 [Keep in touch](https://twitter.com/djangocon) for more announcements along the way!
 
-DjangoCon US Organizers :sailboat:
+DjangoCon US Organizers :ox:
