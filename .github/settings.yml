@@ -1,0 +1,10 @@
+repository:
+  description: 🫐 The DjangoCon US 2023 conference website
+  homepage: https://2023.djangocon.us
+  has_issues: true
+  has_wiki: false
+  has_downloads: false
+  default_branch: main
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
