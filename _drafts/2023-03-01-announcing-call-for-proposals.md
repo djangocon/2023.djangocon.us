@@ -11,7 +11,7 @@ layout: post
 title: The Call for Proposals for DjangoCon US 2023 Is Now Open!
 ---
 
-The DjangoCon 2023 organizers are excited that DjangoCon US 2023 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2023/cfp)! The deadline for submissions is May 15th, 2023 [AoE](https://time.is/compare/0000_15_May_2023_in_Anywhere_on_Earth). As long as it’s still May 15th anywhere on earth, you can submit your proposal.
+We are excited that DjangoCon US 2023 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2023/cfp)! The deadline for submissions is May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 
 We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our [talk schedule](https://2023.djangocon.us/talks/) from last year for reference.
 

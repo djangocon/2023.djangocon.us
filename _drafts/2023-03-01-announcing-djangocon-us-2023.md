@@ -26,9 +26,9 @@ Tickets are [on sale now](https://ti.to/defna/djangocon-us-2023){% comment %}Tic
 Due to the combination of a Duke home football game on October 14 and another tech conference right after ours, hotel space will be *extremely* limited in 2023.
 {% comment %}We sold out in previous years, so please take advantage of our early bird pricing!{% endcomment %}
 
-We are accepting [opportunity grant](https://2023.djangocon.us/opportunity-grants/) applications through end of day May 15th, 2023 [AoE](https://time.is/compare/0000_15_May_2023_in_Anywhere_on_Earth).
+We are accepting [opportunity grant](https://2023.djangocon.us/opportunity-grants/) applications is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 
-Now is the time to start getting your submissions for talks and tutorials ready because our [call for proposals (CFP)](https://2023.djangocon.us/speaking/) deadline is the end of day on May 15th, 2023 [AoE](https://time.is/compare/0000_15_May_2023_in_Anywhere_on_Earth).
+Now is the time to start getting your submissions for talks and tutorials ready because our [call for proposals (CFP)](https://2023.djangocon.us/speaking/) deadline open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 We look forward to seeing all of the prospective talks and tutorials!
 
 [Keep in touch](https://twitter.com/djangocon) for more announcements along the way!
