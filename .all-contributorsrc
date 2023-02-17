@@ -1,4 +1,3 @@
-
 {
   "projectName": "2023.djangocon.us",
   "projectOwner": "djangocon",
@@ -674,6 +673,41 @@
       "name": "Russell Keith-Magee",
       "avatar_url": "https://avatars.githubusercontent.com/u/37345?v=4",
       "profile": "http://cecinestpasun.com/",
+      "contributions": []
+    },
+    {
+      "login": "HamaBarhamou",
+      "name": "HAMA Barhamou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77896711?v=4",
+      "profile": "https://hamabarhamou.github.io/monCV/",
+      "contributions": []
+    },
+    {
+      "login": "MarkusH",
+      "name": "Markus Holtermann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/475613?v=4",
+      "profile": "https://markusholtermann.eu/",
+      "contributions": []
+    },
+    {
+      "login": "mclarknc",
+      "name": "Michael Clark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1074927?v=4",
+      "profile": "https://github.com/mclarknc",
+      "contributions": []
+    },
+    {
+      "login": "leetrout",
+      "name": "Lee Trout",
+      "avatar_url": "https://avatars.githubusercontent.com/u/524648?v=4",
+      "profile": "http://www.leetrout.com/",
+      "contributions": []
+    },
+    {
+      "login": "emmakodes",
+      "name": "Emmanuel Onwuegbusi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34986076?v=4",
+      "profile": "https://github.com/emmakodes",
       "contributions": []
     }
   ],
