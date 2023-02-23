@@ -21,3 +21,5 @@ collaborators:
     permission: admin
   - username: adamfast
     permission: admin
+  - username: emmakodes
+    permission: push
