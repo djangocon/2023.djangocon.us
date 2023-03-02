@@ -165,90 +165,134 @@ Thanks goes to these wonderful people:
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href='http://mtrythall.com'><img src='https://avatars2.githubusercontent.com/u/84750?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://jefftriplett.com/'><img src='https://avatars2.githubusercontent.com/u/50527?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://KellyCreativeTech.com'><img src='https://avatars3.githubusercontent.com/u/202590?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://laceyhenschel.com'><img src='https://avatars2.githubusercontent.com/u/2286304?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://katherinemichel.github.io'><img src='https://avatars3.githubusercontent.com/u/4193054?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.PeregrineSalon.com'><img src='https://avatars3.githubusercontent.com/u/68164?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/rebkin05'><img src='https://avatars1.githubusercontent.com/u/13985355?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/deatonjm'><img src='https://avatars0.githubusercontent.com/u/3345131?v=3' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='http://twitter.com/webmedic'><img src='https://avatars1.githubusercontent.com/u/744669?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/Nandutu'><img src='https://avatars1.githubusercontent.com/u/7518308?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http:/anna-oz.tumblr.com'><img src='https://avatars2.githubusercontent.com/u/8700795?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://about.me/craigbruce'><img src='https://avatars2.githubusercontent.com/u/1503648?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/daheats'><img src='https://avatars2.githubusercontent.com/u/20408533?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/jessiofhall'><img src='https://avatars0.githubusercontent.com/u/12751372?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/SaraDGore'><img src='https://avatars3.githubusercontent.com/u/2285473?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://kojoidrissa.com/'><img src='https://avatars3.githubusercontent.com/u/5251109?v=3' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='https://github.com/moniquemurphy'><img src='https://avatars0.githubusercontent.com/u/13872721?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/amfitz'><img src='https://avatars0.githubusercontent.com/u/15040326?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/cholmes5'><img src='https://avatars2.githubusercontent.com/u/27741978?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.databasesoup.com'><img src='https://avatars3.githubusercontent.com/u/115146?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='http://glasnt.com'><img src='https://avatars0.githubusercontent.com/u/813732?v=3' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/lgh2'><img src='https://avatars0.githubusercontent.com/u/17437250?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://phildini.net'><img src='https://avatars3.githubusercontent.com/u/710999?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/h34th3r329'><img src='https://avatars1.githubusercontent.com/u/15834992?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='http://twitter.com/jackmccloy'><img src='https://avatars2.githubusercontent.com/u/7756138?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/ariannedee'><img src='https://avatars2.githubusercontent.com/u/2425730?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://ana-balica.github.io/'><img src='https://avatars3.githubusercontent.com/u/2039122?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://jonibologna.com/'><img src='https://avatars0.githubusercontent.com/u/5723303?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://lmdragun.github.io'><img src='https://avatars0.githubusercontent.com/u/11346889?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://www.davidfischer.name/'><img src='https://avatars3.githubusercontent.com/u/185043?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/fcurella'><img src='https://avatars3.githubusercontent.com/u/89607?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://thekennethlove.com'><img src='https://avatars1.githubusercontent.com/u/11908?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='https://github.com/katialira'><img src='https://avatars3.githubusercontent.com/u/8711200?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://emullaney.github.io'><img src='https://avatars0.githubusercontent.com/u/11393311?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.adamfast.com'><img src='https://avatars0.githubusercontent.com/u/135851?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://robertroskam.com'><img src='https://avatars3.githubusercontent.com/u/806571?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.rmcomplexity.com'><img src='https://avatars0.githubusercontent.com/u/4007280?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/drewbrew'><img src='https://avatars1.githubusercontent.com/u/7773256?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/oreo1029'><img src='https://avatars1.githubusercontent.com/u/24420647?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://noumenal.es/'><img src='https://avatars1.githubusercontent.com/u/64686?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='https://github.com/rlconley'><img src='https://avatars1.githubusercontent.com/u/6653029?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://flinkman.com'><img src='https://avatars1.githubusercontent.com/u/29408?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/oboechick'><img src='https://avatars1.githubusercontent.com/u/15068476?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://humrich.us'><img src='https://avatars1.githubusercontent.com/u/4661889?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://nicolezuckerman.com'><img src='https://avatars0.githubusercontent.com/u/2499004?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/troy2914'><img src='https://avatars0.githubusercontent.com/u/8680944?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/bdeangelis'><img src='https://avatars0.githubusercontent.com/u/1050007?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/jlgimeno'><img src='https://avatars0.githubusercontent.com/u/17421585?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='https://github.com/cedarfall'><img src='https://avatars2.githubusercontent.com/u/50991099?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/VishvajitP'><img src='https://avatars3.githubusercontent.com/u/5609697?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://nicoledominguez.com'><img src='https://avatars0.githubusercontent.com/u/915966?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/darkcloud1801'><img src='https://avatars3.githubusercontent.com/u/5150596?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.TheGeekyWay.com'><img src='https://avatars3.githubusercontent.com/u/8039608?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://chriswilcox.dev'><img src='https://avatars2.githubusercontent.com/u/638797?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://micahlyle.com'><img src='https://avatars1.githubusercontent.com/u/10660805?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/apps/dependabot'><img src='https://avatars0.githubusercontent.com/in/29110?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='http://snowgiraffe.com'><img src='https://avatars3.githubusercontent.com/u/59829?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://dane.engineering'><img src='https://avatars3.githubusercontent.com/u/1808306?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://www.DawnWages.info/apps'><img src='https://avatars1.githubusercontent.com/u/20374042?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/felipe-lee'><img src='https://avatars0.githubusercontent.com/u/35938642?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://frances.codes'><img src='https://avatars2.githubusercontent.com/u/15336794?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://github.com/mwhansen'><img src='https://avatars3.githubusercontent.com/u/374299?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://coderanger.net/'><img src='https://avatars1.githubusercontent.com/u/128243?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='http://treyhunner.com'><img src='https://avatars0.githubusercontent.com/u/285352?v=4' width='72px;'/></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href='https://wsvincent.com'><img src='https://avatars0.githubusercontent.com/u/766418?v=4' width='72px;'/></a></td>
-    <td align="center"><a href='https://dryan.com'><img src='https://avatars.githubusercontent.com/u/15066?s=40&v=4' width='72px;'/></a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='http://mtrythall.com'><img src='https://avatars2.githubusercontent.com/u/84750?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://jefftriplett.com/'><img src='https://avatars2.githubusercontent.com/u/50527?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://KellyCreativeTech.com'><img src='https://avatars3.githubusercontent.com/u/202590?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://laceyhenschel.com'><img src='https://avatars2.githubusercontent.com/u/2286304?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://katherinemichel.github.io'><img src='https://avatars3.githubusercontent.com/u/4193054?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.PeregrineSalon.com'><img src='https://avatars3.githubusercontent.com/u/68164?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/rebkin05'><img src='https://avatars1.githubusercontent.com/u/13985355?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/deatonjm'><img src='https://avatars0.githubusercontent.com/u/3345131?v=3' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='http://twitter.com/webmedic'><img src='https://avatars1.githubusercontent.com/u/744669?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/Nandutu'><img src='https://avatars1.githubusercontent.com/u/7518308?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http:/anna-oz.tumblr.com'><img src='https://avatars2.githubusercontent.com/u/8700795?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://about.me/craigbruce'><img src='https://avatars2.githubusercontent.com/u/1503648?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/daheats'><img src='https://avatars2.githubusercontent.com/u/20408533?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/jessiofhall'><img src='https://avatars0.githubusercontent.com/u/12751372?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/SaraDGore'><img src='https://avatars3.githubusercontent.com/u/2285473?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://kojoidrissa.com/'><img src='https://avatars3.githubusercontent.com/u/5251109?v=3' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/moniquemurphy'><img src='https://avatars0.githubusercontent.com/u/13872721?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/amfitz'><img src='https://avatars0.githubusercontent.com/u/15040326?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/cholmes5'><img src='https://avatars2.githubusercontent.com/u/27741978?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.databasesoup.com'><img src='https://avatars3.githubusercontent.com/u/115146?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://glasnt.com'><img src='https://avatars0.githubusercontent.com/u/813732?v=3' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/lgh2'><img src='https://avatars0.githubusercontent.com/u/17437250?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://phildini.net'><img src='https://avatars3.githubusercontent.com/u/710999?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/h34th3r329'><img src='https://avatars1.githubusercontent.com/u/15834992?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='http://twitter.com/jackmccloy'><img src='https://avatars2.githubusercontent.com/u/7756138?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/ariannedee'><img src='https://avatars2.githubusercontent.com/u/2425730?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://ana-balica.github.io/'><img src='https://avatars3.githubusercontent.com/u/2039122?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://jonibologna.com/'><img src='https://avatars0.githubusercontent.com/u/5723303?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://lmdragun.github.io'><img src='https://avatars0.githubusercontent.com/u/11346889?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.davidfischer.name/'><img src='https://avatars3.githubusercontent.com/u/185043?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/fcurella'><img src='https://avatars3.githubusercontent.com/u/89607?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://thekennethlove.com'><img src='https://avatars1.githubusercontent.com/u/11908?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/katialira'><img src='https://avatars3.githubusercontent.com/u/8711200?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://emullaney.github.io'><img src='https://avatars0.githubusercontent.com/u/11393311?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.adamfast.com'><img src='https://avatars0.githubusercontent.com/u/135851?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://robertroskam.com'><img src='https://avatars3.githubusercontent.com/u/806571?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.rmcomplexity.com'><img src='https://avatars0.githubusercontent.com/u/4007280?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/drewbrew'><img src='https://avatars1.githubusercontent.com/u/7773256?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/oreo1029'><img src='https://avatars1.githubusercontent.com/u/24420647?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://noumenal.es/'><img src='https://avatars1.githubusercontent.com/u/64686?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/rlconley'><img src='https://avatars1.githubusercontent.com/u/6653029?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://flinkman.com'><img src='https://avatars1.githubusercontent.com/u/29408?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/oboechick'><img src='https://avatars1.githubusercontent.com/u/15068476?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://humrich.us'><img src='https://avatars1.githubusercontent.com/u/4661889?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://nicolezuckerman.com'><img src='https://avatars0.githubusercontent.com/u/2499004?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/troy2914'><img src='https://avatars0.githubusercontent.com/u/8680944?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/bdeangelis'><img src='https://avatars0.githubusercontent.com/u/1050007?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/jlgimeno'><img src='https://avatars0.githubusercontent.com/u/17421585?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/cedarfall'><img src='https://avatars2.githubusercontent.com/u/50991099?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/VishvajitP'><img src='https://avatars3.githubusercontent.com/u/5609697?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://nicoledominguez.com'><img src='https://avatars0.githubusercontent.com/u/915966?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/darkcloud1801'><img src='https://avatars3.githubusercontent.com/u/5150596?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.TheGeekyWay.com'><img src='https://avatars3.githubusercontent.com/u/8039608?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://chriswilcox.dev'><img src='https://avatars2.githubusercontent.com/u/638797?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://micahlyle.com'><img src='https://avatars1.githubusercontent.com/u/10660805?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/apps/dependabot'><img src='https://avatars0.githubusercontent.com/in/29110?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='http://snowgiraffe.com'><img src='https://avatars3.githubusercontent.com/u/59829?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://dane.engineering'><img src='https://avatars3.githubusercontent.com/u/1808306?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.DawnWages.info/apps'><img src='https://avatars1.githubusercontent.com/u/20374042?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/felipe-lee'><img src='https://avatars0.githubusercontent.com/u/35938642?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://frances.codes'><img src='https://avatars2.githubusercontent.com/u/15336794?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/mwhansen'><img src='https://avatars3.githubusercontent.com/u/374299?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://coderanger.net/'><img src='https://avatars1.githubusercontent.com/u/128243?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://treyhunner.com'><img src='https://avatars0.githubusercontent.com/u/285352?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://wsvincent.com'><img src='https://avatars0.githubusercontent.com/u/766418?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/iofall'><img src='https://avatars.githubusercontent.com/u/50991099?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.jonafato.com'><img src='https://avatars.githubusercontent.com/u/392720?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://sanchitkhurana.ml'><img src='https://avatars.githubusercontent.com/u/54467174?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://dryan.com/'><img src='https://avatars.githubusercontent.com/u/15066?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.linkedin.com/in/logankilpatrick/'><img src='https://avatars.githubusercontent.com/u/35577566?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://thib.me/'><img src='https://avatars.githubusercontent.com/u/877585?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/neilgoldman'><img src='https://avatars.githubusercontent.com/u/11390810?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/noahalorwu'><img src='https://avatars.githubusercontent.com/u/7665391?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/jalakoo'><img src='https://avatars.githubusercontent.com/u/960717?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.pythonbynight.com/'><img src='https://avatars.githubusercontent.com/u/46942991?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.drewsk.tech/'><img src='https://avatars.githubusercontent.com/u/12227241?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://medium.com/@fixitsammie'><img src='https://avatars.githubusercontent.com/u/2122543?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/ipmb'><img src='https://avatars.githubusercontent.com/u/319156?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.epicserve.com/'><img src='https://avatars.githubusercontent.com/u/191620?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/lmann4'><img src='https://avatars.githubusercontent.com/u/11095021?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://sarahabd.com/'><img src='https://avatars.githubusercontent.com/u/17890338?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/tim-schilling'><img src='https://avatars.githubusercontent.com/u/1281215?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/zags'><img src='https://avatars.githubusercontent.com/u/5118144?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.vinta.com.br/'><img src='https://avatars.githubusercontent.com/u/397989?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/elizabeth-christensen'><img src='https://avatars.githubusercontent.com/u/85628096?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/camilamaia'><img src='https://avatars.githubusercontent.com/u/2728804?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/josh7weaver'><img src='https://avatars.githubusercontent.com/u/6668727?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://ericholscher.com/'><img src='https://avatars.githubusercontent.com/u/25510?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://www.meagenvoss.com/'><img src='https://avatars.githubusercontent.com/u/45881480?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://simonwillison.net/'><img src='https://avatars.githubusercontent.com/u/9599?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/ltagliaferri'><img src='https://avatars.githubusercontent.com/u/5977693?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/contextref'><img src='https://avatars.githubusercontent.com/u/1338598?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/edufelipe'><img src='https://avatars.githubusercontent.com/u/106633?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://jacklinke.com/'><img src='https://avatars.githubusercontent.com/u/73554672?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://cecinestpasun.com/'><img src='https://avatars.githubusercontent.com/u/37345?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://hamabarhamou.github.io/monCV/'><img src='https://avatars.githubusercontent.com/u/77896711?v=4' width='72px;'/></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="12.5%"><a href='https://markusholtermann.eu/'><img src='https://avatars.githubusercontent.com/u/475613?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/mclarknc'><img src='https://avatars.githubusercontent.com/u/1074927?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='http://www.leetrout.com/'><img src='https://avatars.githubusercontent.com/u/524648?v=4' width='72px;'/></a></td>
+      <td align="center" valign="top" width="12.5%"><a href='https://github.com/emmakodes'><img src='https://avatars.githubusercontent.com/u/34986076?v=4' width='72px;'/></a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
