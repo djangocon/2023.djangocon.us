@@ -85,6 +85,12 @@ We’re open to all kinds of ideas, especially ones we haven’t thought of! Tec
 
 Still unsure if you should submit? Not only will we cover your DjangoCon ticket, but *tutorials are compensated*! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by May 15, 2023. Decision notifications will be sent by June 28, 2023.
 
+#### New Expectations for Tutorials
+
+In order to streamline the tutorial process, we're going to offer volunteer staffed office hours for tutorial attendees to help them get their machine set up. Tutorial presenters are not required to participate in these office hours. We will require that all tutorials include a setup guide by October 1st. This guide is what will be followed during the office hours.
+
+The setup guide should include a step confirming that the setup has been complete. For example, if the tutorial requires a working Django application, having the user create a superuser, run `runserver`, then log into the Django Administration site would suffice. The goal here is to uncover and resolve setup issues so that the tutorial's time can be spent on content. A thorough example for a setup guide [can be found here](https://github.com/tim-schilling/debug-tutorial/#getting-setup).
+
 ### Lightning Talks :zap: (October 16th, 17th, &amp; 18th)
 
 Not up for a full-on talk or tutorial? Looking to give your first talk at a conference?
