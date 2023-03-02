@@ -13,8 +13,6 @@ We are accepting [opportunity grant](https://2023.djangocon.us/opportunity-grant
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 All decision notifications will be sent by June 28th, 2023.
 
-Our opportunity grant application is now closed, and all decision notifications have been sent.
-
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
 <br>
