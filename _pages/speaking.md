@@ -74,7 +74,7 @@ Deep dive day is meant to follow in the footsteps of [Django Under the Hood](htt
 Talks of this nature will mix community submissions and personal invitations.
 If you believe your talk is a good fit, please indicate so on your submission to our CFP by choosing the "deep dive" tag!
 
-### Tutorials (TBD)
+### Tutorials (October 8)
 
 * Length: 3-3.5 hours
 * Format: online
