@@ -11,15 +11,16 @@ title: Speaker Resources
 * Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
 * A Quiet Room will be available for attendees and speakers on all conference days.
 
-{% comment %}
 ## Need some help with your presentation?
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
 
+{% comment %}
 * [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
 * [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
-* [Katia Lira](mailto:katialira@defna.org), Full-Stack Dev and DEFNA Board Member. Katia gave a tutorial last year overcoming her nerves and fear and you can too!
+{% endcomment %}
 * [Katie McLaughlin](mailto:katie+djangoconus@glasnt.com), Developer Advocate and frequent public speaker (occasional keynoter), DjangoCon AU organiser, and Secretary for the Django Software Foundation.
+{% comment %}
 * [Philip James](mailto:pjj@philipjohnjames.com), Core Contributor to the BeeWare project and Senior Software Engineer at Patreon. Philip has spoken at a number of DjangoCons and PyCons around the world.
 * [Dr. Russell Keith-Magee](mailto:russell@keith-magee.com), Founder of the BeeWare project, developing GUI tools and libraries to support the development of Python software on desktop and mobile platforms. He is also a 13 year veteran of the Django Core Team, and for 5 years, was President of the Django Software Foundation. In his day job, he wrangles data pipelines for Survata.
 {% endcomment %}
