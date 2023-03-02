@@ -1,7 +1,7 @@
 ---
 description: Resources to support DjangoCon 2018 speakers
 heading: Speaker Resources
-layout: default
+layout: new_layout
 permalink: /speaking/speaker-resources/
 title: Speaker Resources
 ---
