@@ -28,13 +28,13 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 
 ## Why Speak at DjangoCon US?
 
-- Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.)  {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %}
-- A professionally produced video of your talk will be published on our YouTube channel. (You may opt-out of this.)
-- Professional photographer on hand to photograph your talk. (Also optional.)
-- Expose the Django community to new tools, practices, or ideas.
-- Expand your technical, professional, and personal networks.
-- Share your discoveries with a large audience.
-- Give back to the Django community!
+-   Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.) {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %}
+-   A professionally produced video of your talk will be published on our YouTube channel. (You may opt-out of this.)
+-   Professional photographer on hand to photograph your talk. (Also optional.)
+-   Expose the Django community to new tools, practices, or ideas.
+-   Expand your technical, professional, and personal networks.
+-   Share your discoveries with a large audience.
+-   Give back to the Django community!
 
 ### COVID-19
 
@@ -62,10 +62,14 @@ If you're a first-timer - don't fret! We would love to be remembered as the conf
 
 Here are some examples of what has been accepted over the last couple of years:
 
-* [DjangoCon US 2022 Talks](https://2022.djangocon.us/talks/)
-* [DjangoCon US 2021 Talks](https://2021.djangocon.us/talks/)
-* [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
-* [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
+-   [DjangoCon US 2022 Talks](https://2022.djangocon.us/talks/)
+-   [DjangoCon US 2021 Talks](https://2021.djangocon.us/talks/)
+-   [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
+-   [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
+
+#### Online talks
+
+Just like in 2022, most talks will be in-person, and we will have several online-exclusive talks that air during breaks in the in-person session. These will air across all three talk days (Monday through Wednesday). Please indicate your preference for online or in-person in your submissions. There's a required question in pretalx asking your preference.
 
 ### Deep Dive Talks (October 18th)
 
@@ -76,14 +80,14 @@ If you believe your talk is a good fit, please indicate so on your submission to
 
 ### Tutorials (October 8)
 
-* Length: 3-3.5 hours
-* Format: online
+-   Length: 3-3.5 hours
+-   Format: online
 
 Due to venue availability constraints, we're doing tutorials exclusively online for 2023. Each tutorial session will have one main virtual classroom and breakout rooms [**TODO GET CONFIRMATION FROM SIX FEET UP**] for attendees to work together. We will also have the attendee chat in which you'll have a private channel to discuss with your attendees. Teaching assistants are welcome; just let the organizers know beforehand so we invite them to the right places.
 
 We’re open to all kinds of ideas, especially ones we haven’t thought of! Technical tutorials tend to be more popular, but we welcome all topics! Tutorials can be targeted at any experience level, just be sure to indicate clearly what you expect your students to already know or have experience with in your proposal!
 
-Still unsure if you should submit? Not only will we cover your DjangoCon ticket, but *tutorials are compensated*! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by May 15, 2023. Decision notifications will be sent by June 28, 2023.
+Still unsure if you should submit? Not only will we cover your DjangoCon ticket, but _tutorials are compensated_! However, they do not include the price of your travel or lodging. If you need help with these costs, fill out the <a href="{{site.opportunity_grant_application}}">opportunity grant</a> form by May 15, 2023. Decision notifications will be sent by June 28, 2023.
 
 #### New Expectations for Tutorials
 
@@ -103,7 +107,6 @@ Sign-ups will happen at the conference.
 As we have in the past, this year, we have set aside up to $500 per speaker to help offset the cost of travel to the conference.
 In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement.
 Receipts for travel expenses will be required.
-
 
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
