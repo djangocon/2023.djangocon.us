@@ -46,7 +46,7 @@ You should have received your notification. If you haven't, please email the opp
 
 We try to allocate opportunity grants to a diverse set of attendees based on need.
 Our review process is holistic and considers many different factors, most notably the impact we think attending DjangoCon US will have on the applicant.
-{% comment %}We want to encourage everyone who needs aid to apply for it. Do not rule yourself out before you have even applied!{% endcomment %}
+{% comment %}We want to encourage everyone who needs aid to apply for it. Do not rule yourself out before you have even applied! {% endcomment %}
 
 ### When will I receive my opportunity grant?
 
