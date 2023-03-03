@@ -62,10 +62,14 @@ If you're a first-timer - don't fret! We would love to be remembered as the conf
 
 Here are some examples of what has been accepted over the last couple of years:
 
-* [DjangoCon US 2022 Talks](https://2022.djangocon.us/talks/)
-* [DjangoCon US 2021 Talks](https://2021.djangocon.us/talks/)
-* [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
-* [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
+-   [DjangoCon US 2022 Talks](https://2022.djangocon.us/talks/)
+-   [DjangoCon US 2021 Talks](https://2021.djangocon.us/talks/)
+-   [DjangoCon US 2019 Talks](https://2019.djangocon.us/talks/)
+-   [DjangoCon US 2018 Talks](https://2018.djangocon.us/talks/)
+
+#### Online talks
+
+Just like in 2022, most talks will be in-person, and we will have several online-exclusive talks that air during breaks in the in-person session. These will air across all three talk days (Monday through Wednesday). Please indicate your preference for online or in-person in your submissions. There's a required question in pretalx asking your preference.
 
 ### Deep Dive Talks (October 18th)
 
