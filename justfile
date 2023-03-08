@@ -28,6 +28,12 @@ IMAGE_SIZE := "1024x512"
 @test:
     bundle exec rake test
 
+@start *ARGS:
+    just up --detach {{ ARGS }}
+
+@stop *ARGS:
+    just down {{ ARGS }}
+
 @up *ARGS:
     docker-compose up {{ ARGS }}
 
