@@ -68,7 +68,7 @@ async function start(ev) {
 
   displayLoading()
   $("#form").hide();
-  await fetch('https://djc-letter.herokuapp.com/invitation', {
+  await fetch('https://djc-invitation-letter-api-noahalorwu.vercel.app/invitation', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
