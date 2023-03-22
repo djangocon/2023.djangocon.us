@@ -3,7 +3,7 @@ url: "https://2023.djangocon.us"
 author : DjangoCon US
 description: |
   DjangoCon US 2023 conference will take place in Durham, NC
-  from October 15-20, 2023!
+  from October 16-20, 2023!
 enforce_ssl: "2023.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
