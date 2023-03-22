@@ -1,5 +1,5 @@
 ---
-description: Six days of talks, sprints, and tutorials by the community for the community.
+description: Five days of talks, sprints, and tutorials by the community for the community.
 hero_text_align: left
 hero_theme: green
 layout: home
