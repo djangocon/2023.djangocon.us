@@ -34,7 +34,7 @@ Well, you've come to the right place!
 - Using Django in machine learning projects
 - Performance and scaling
 - Deployment at any size
-- Career developmentdp
+- Career development
 - Ethics in programming: all code we write has consequences and potential misuse
   - The rise of AI chatbots is an especially thorny topic here
 - Personal growth: how the community helped you in some way and you'd like to pay it forward
