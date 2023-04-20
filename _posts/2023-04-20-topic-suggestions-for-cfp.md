@@ -4,7 +4,7 @@ category: General
 date: 2023-04-20 12:00:00
 image: /static/img/blog/cfp-announced-2023.png
 layout: post
-post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
+post_photo_alt: Speaker addressing a crowd at DjangoCon US 2022 in San Diego
 post_photo_url: /static/img/blog/speaking-2023-cfp.jpg
 title: Need Suggestions for a DjangoCon US 2023 Topic?
 ---
