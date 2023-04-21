@@ -49,14 +49,12 @@
 
 
 // Primary Colors
-$brand-color1: #E99C56;
-$brand-color2: #430632;
-$brand-color3: #044059;
-$brand-color4: #A9CAD0;
-$brand-color5: #C73B3D;
-$brand-color6: #5F082B;
-$brand-color7: #FBAECD;
-$brand-color8: #F7B07C;
+$brand-color1: #140A44;
+$brand-color2: #E47048;
+$brand-color3: #4975C3;
+$brand-color4: #766591;
+$brand-color5: #FDCA85;
+$brand-color6: #A1CCE4;
 
 
 $color-twitter: #1DB4EB;
@@ -103,8 +101,6 @@ $djangocon-palette: (
 
   'brand-color5': $brand-color5,
   'brand-color6': $brand-color6,
-  'brand-color7': $brand-color7,
-  'brand-color8': $brand-color8,
 
   'white': $white,
   'light-gray': $light-gray,
@@ -116,7 +112,7 @@ $djangocon-palette: (
 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Karla', Helvetica, sans-serif;
+$body-font-family: 'Plus Jakarta Sans', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -158,7 +154,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Rubik', Helvetica, sans-serif;
+$header-font-family: $body-font-family;
 $header-font-weight: 500;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -403,7 +399,7 @@ $dropdown-sizes: (
 // -----------------
 
 $dropdownmenu-arrows: true;
-$dropdownmenu-arrow-color: $white;
+$dropdownmenu-arrow-color: $brand-color6;
 $dropdownmenu-arrow-size: 6px;
 $dropdownmenu-min-width: 260px;
 $dropdownmenu-background: transparent;
@@ -474,7 +470,7 @@ $mediaobject-image-width-stacked: 100%;
 $menu-margin: 0;
 $menu-margin-nested: 0;
 $menu-item-padding: .8rem;
-$menu-item-color-active: $white;
+$menu-item-color-active: $brand-color1;
 $menu-item-background-active: get-color(primary);
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
@@ -654,8 +650,8 @@ $thumbnail-radius: 0;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: $brand-color2;
-$titlebar-color: $white;
+$titlebar-background: $white;
+$titlebar-color: $brand-color1;
 $titlebar-padding: 0;
 $titlebar-text-font-weight: $global-weight-normal;
 $titlebar-icon-color: $brand-color1;

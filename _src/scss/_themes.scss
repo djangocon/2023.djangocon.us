@@ -134,35 +134,3 @@
 
 @include generate-palette-helpers($djangocon-palette);
 
-.curve1.curve1,
-.curve2.curve2 {
-  position: relative;
-
-  & > * {
-    position: relative;
-    z-index: 2;
-  }
-
-  &:after {
-    position: absolute;
-    left: -2px;
-    z-index: 1;
-    display: block;
-    width: 101.5%;
-    height: 28vw;
-    background-repeat: no-repeat;
-    background-size: 106% auto;
-    background-position: 0 0;
-    content: "";
-  }
-
-  & + * {
-    padding-top: 14vw;
-  }
-}
-
-.curve1.curve1:after {
-  bottom: -10vw;
-  background-image: url(/static/img/curve1.svg);
-}
-
