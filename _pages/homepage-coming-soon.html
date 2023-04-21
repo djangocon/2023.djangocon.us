@@ -180,6 +180,49 @@ title: DjangoCon US 2023 will be at the Durham Convention Center in Durham, Nort
       color: var(--color-primary);
     }
 
+    .newsBlock {
+      display: flex;
+      flex-flow: row wrap;
+      padding: 2rem;
+      background: var(--color-feature-bg);
+    }
+
+    .news {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.5rem;
+      padding: 1.5rem;
+      width: 100%;
+      border-top: 8px solid var(--color-primary);
+      background: white;
+      font-size: 1.2rem;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .news-icon {
+      display: inline-block;
+      margin: 0 auto;
+      width: 140px;
+      max-width: 240px;
+    }
+
+    .news h3 {
+      font-size: 1.2rem;
+      text-align: center;
+      color: var(--color-primary);
+    }
+
+    .news p {
+      flex: 1 1 auto;
+      margin-bottom: 1.5rem;
+    }
+
+    .news a {
+      font-weight: var(--bold);
+      color: var(--color-primary);
+    }
+
     .spBlock {
       padding: 3rem 1.25rem;
       background: black url('{% link static/img/landing-page/people.jpg %}') no-repeat;
@@ -312,6 +355,27 @@ title: DjangoCon US 2023 will be at the Durham Convention Center in Durham, Nort
       <h2 class="conf-description">Book your <a href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP">hotel room</a> at the <a href="https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/">Marriott Durham City Center</a> by September 16!</h2>
       <p>The hotel connects directly to the convention center.</p>
       <h2 class="conf-description">Our <a href="/speaking/">Call for Proposals</a> and <a href="/opportunity-grants/">Opportunity Grant applications</a> are now open!</h2>
+
+      <br>
+      <br>
+
+      <h2 class="conf-locdate">Latest News</h2>
+      <div class="news">
+        {% for post in site.posts limit:12 %}
+          {% unless post.hidden %}
+          <article class="news-title medium-4 column">
+            <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
+              <div class="card-section">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3>
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                </h3>
+              </div>
+            </div>
+          </article>
+          {% endunless %}
+        {% endfor %}
+      </div>
     </header>
     <main class="siteMain">
       <div class="featuresBlock">
