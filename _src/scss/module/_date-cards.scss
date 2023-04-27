@@ -4,11 +4,17 @@
   a {
     display: flex;
     text-decoration: none;
+    color: $body-font-color;
+  }
+
+  a:hover {
+    color: $body-font-color;
   }
 
   .date-card-title {
     margin-bottom: .5rem;
     font-size: 1.6rem;
+    font-weight: $global-weight-bold;
   }
 
   p {
