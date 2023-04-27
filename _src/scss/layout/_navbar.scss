@@ -69,6 +69,9 @@
 }
 
 .title-bar {
+  max-width: $global-width;
+  margin: 0 auto;
+
   .logo {
     display: block;
     margin: 10px 0 -20px 10px;
