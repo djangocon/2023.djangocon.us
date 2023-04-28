@@ -1,12 +1,19 @@
 .button {
-  background-color: $brand-color2;
+  background-color: $brand-color3;
+
+  -webkit-mask-image: url(/static/img/button.svg);
+  mask-image: url(/static/img/button.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
 
   font-weight: $global-weight-bold;
   text-decoration: none;
   color: $white;
 
   &:hover {
-    background-color: darken($brand-color5, 15%);
+    background-color: darken($brand-color3, 15%);
   }
 }
 

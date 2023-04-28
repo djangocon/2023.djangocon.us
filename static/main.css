@@ -7475,13 +7475,19 @@ blockquote cite {
 }
 
 .button {
-  background-color: #E47048;
+  background-color: #4975C3;
+  -webkit-mask-image: url(/static/img/button.svg);
+  mask-image: url(/static/img/button.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
   font-weight: 700;
   text-decoration: none;
   color: #FFFFFF;
 }
 .button:hover {
-  background-color: #fca93a;
+  background-color: #2f5290;
 }
 
 .button.hollow:hover {
@@ -8015,6 +8021,7 @@ blockquote cite {
 }
 .home-hero .event-info-detail {
   margin-bottom: 1.5rem;
+  color: #FDCA85;
 }
 .home-hero .button + .button {
   margin-left: 0.5rem;
@@ -8219,7 +8226,7 @@ blockquote cite {
   padding-bottom: 0.5rem;
   background-color: #FFFFFF;
   font-size: 1.4rem;
-  color: #1E1E1E;
+  color: #E47048;
 }
 @media print, screen and (min-width: 64em) {
   .date-card {
