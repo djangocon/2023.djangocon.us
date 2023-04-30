@@ -7476,8 +7476,8 @@ blockquote cite {
 
 .button {
   background-color: #4975C3;
-  -webkit-mask-image: url(/static/img/button.svg);
-  mask-image: url(/static/img/button.svg);
+  -webkit-mask-image: url(/static/img/theme/button.svg);
+  mask-image: url(/static/img/theme/button.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -7490,10 +7490,18 @@ blockquote cite {
   background-color: #2f5290;
 }
 
-.button.hollow:hover {
-  border-color: #FFFFFF;
-  background-color: #FFFFFF;
+.button.hollow {
+  -webkit-mask-image: none;
+  mask-image: none;
+  background-image: url(/static/img/theme/button-hollow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #E47048;
+}
+.button.hollow:hover {
+  border-color: transparent;
+  background-image: url(/static/img/theme/button-hollow-hover.svg);
+  color: #FFFFFF;
 }
 
 .event-page h1 {
@@ -7502,6 +7510,9 @@ blockquote cite {
 
 .title-bar .menu a {
   text-decoration: none;
+}
+
+.title-bar .menu a:not(.button) {
   color: #140A44;
 }
 
@@ -7526,14 +7537,16 @@ blockquote cite {
   font-weight: 600;
 }
 
+/*
 .title-bar .button.hollow {
-  padding: 0.65rem 1rem;
-  font-size: 0.85rem;
-}
-.title-bar .button.hollow small {
-  font-size: 0.65rem;
-}
+  padding: .65rem 1rem;
+  font-size: .85rem;
 
+  small {
+    font-size: .65rem;
+  }
+}
+*/
 .off-canvas .menu .button.hollow {
   margin-right: 10px;
   margin-left: 10px;
@@ -8010,14 +8023,14 @@ blockquote cite {
 
 .home-hero {
   position: relative;
-  margin: 0 auto;
+  margin: 80px auto 0;
 }
-.home-hero .header-text {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+.home-hero .row {
+  padding: 2.5rem 1.5rem;
 }
 .home-hero h1 {
   margin-bottom: 2.25rem;
+  font-size: 1.6rem;
 }
 .home-hero .event-info-detail {
   margin-bottom: 1.5rem;
@@ -8027,6 +8040,31 @@ blockquote cite {
   margin-left: 0.5rem;
 }
 
+@media print, screen and (min-width: 55.625em) {
+  .home-hero h1 {
+    font-size: 2rem;
+  }
+  .home-hero .row {
+    background-image: url(/static/img/theme/hero-lemur.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right -12.25vw center;
+  }
+  .home-hero .header-text {
+    max-width: 26rem;
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .home-hero {
+    margin-top: 0;
+  }
+  .home-hero .row {
+    background-image: url(/static/img/theme/hero-lemur.svg), url(/static/img/theme/hero-map.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 100%, auto 100%;
+    background-position: right 18% center, right -35% center;
+  }
+}
 .photo-hero {
   background-size: cover;
 }

@@ -1,14 +1,14 @@
 .home-hero {
   position: relative;
-  margin: 0 auto;
+  margin: 80px auto 0;
 
-  .header-text {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+  .row {
+    padding: 2.5rem 1.5rem;
   }
 
   h1 {
     margin-bottom: 2.25rem;
+    font-size: 1.6rem;
   }
 
   .event-info-detail {
@@ -18,5 +18,55 @@
 
   .button + .button {
     margin-left: .5rem;
+  }
+}
+
+@include breakpoint(medium) {
+  .home-hero {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .row {
+      background-image:
+        url(/static/img/theme/hero-lemur.svg);
+
+      background-repeat:
+        no-repeat;
+
+      background-size:
+        auto 100%;
+
+      background-position:
+        right -12.25vw center;
+    }
+
+    .header-text {
+      max-width: 26rem;
+    }
+  }
+}
+
+@include breakpoint(large) {
+  .home-hero {
+    margin-top: 0;
+
+    .row {
+      background-image:
+       url(/static/img/theme/hero-lemur.svg),
+       url(/static/img/theme/hero-map.svg);
+
+      background-repeat:
+       no-repeat,
+       no-repeat;
+
+     background-size:
+       auto 100%,
+       auto 100%;
+
+      background-position:
+        right 18% center,
+        right -35% center;
+    }
   }
 }

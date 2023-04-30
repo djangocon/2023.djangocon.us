@@ -5,6 +5,9 @@
 // title bar text overrides
 .title-bar .menu a {
   text-decoration: none;
+}
+
+.title-bar .menu a:not(.button) {
   color: $brand-color1;
 }
 
@@ -30,6 +33,7 @@
   font-weight: $global-weight-semibold;
 }
 
+/*
 .title-bar .button.hollow {
   padding: .65rem 1rem;
   font-size: .85rem;
@@ -38,6 +42,7 @@
     font-size: .65rem;
   }
 }
+*/
 
 .off-canvas .menu .button.hollow {
   margin-right: 10px;
@@ -49,6 +54,7 @@
     display: none;
   }
 }
+
 
 .menu .menu { // subnav menu, with the headroom class added so it doesn't change
   text-align: left;

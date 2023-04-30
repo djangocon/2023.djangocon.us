@@ -1,8 +1,8 @@
 .button {
   background-color: $brand-color3;
 
-  -webkit-mask-image: url(/static/img/button.svg);
-  mask-image: url(/static/img/button.svg);
+  -webkit-mask-image: url(/static/img/theme/button.svg);
+  mask-image: url(/static/img/theme/button.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -17,8 +17,19 @@
   }
 }
 
-.button.hollow:hover {
-  border-color: $white;
-  background-color: $white;
+.button.hollow {
+  -webkit-mask-image: none;
+  mask-image: none;
+
+  background-image: url(/static/img/theme/button-hollow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   color: $brand-color2;
+
+  &:hover {
+    border-color: transparent;
+    background-image: url(/static/img/theme/button-hollow-hover.svg);
+    color: $white;
+  }
 }
