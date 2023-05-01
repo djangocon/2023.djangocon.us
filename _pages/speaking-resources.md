@@ -17,6 +17,9 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 
 {% comment %}
 * [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Developer Relations at Elastic, Speaker, Mentor, PSF Board Member, PyCon Open Spaces + Accessibility, PyLadies London Co-Organizer.
+{% endcomment %}
+* [Eng Seng Ng](mailto:eng@energy-solution.com), Senior Engineer at Energy Solutions. Eng Seng leads the documentation and training team for a climate-change-fighting software product at Energy Solutions.
+{% comment %}
 * [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
 {% endcomment %}
 * [Katie McLaughlin](mailto:katie+djangoconus@glasnt.com), Developer Advocate and frequent public speaker (occasional keynoter), DjangoCon AU organiser, and Secretary for the Django Software Foundation.
