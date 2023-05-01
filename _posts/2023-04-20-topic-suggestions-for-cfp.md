@@ -45,7 +45,7 @@ We'd love to see you submit it anyway. Read [Sasha's 2015 blog post](https://web
 
 ## OK, Can I ask someone for help?
 
-Sure! We have [speaker mentors](/news/introducing-speaker-mentors/) who would love to help you out in any way they can.
+Sure! We have [speaker mentors](/speaking/speaker-resources/) who would love to help you out in any way they can.
 
 ## All right, you've convinced me. How do I submit?
 
