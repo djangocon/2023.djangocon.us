@@ -33,24 +33,11 @@
   font-weight: $global-weight-semibold;
 }
 
-/*
-.title-bar .button.hollow {
-  padding: .65rem 1rem;
-  font-size: .85rem;
+.off-canvas .menu .button {
+  margin-right: 20px;
+  margin-left: 20px;
 
-  small {
-    font-size: .65rem;
-  }
-}
-*/
-
-.off-canvas .menu .button.hollow {
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 2px solid $white;
-  color: $white;
-
-  &:before {
+  &.hollow {
     display: none;
   }
 }
@@ -144,6 +131,14 @@
 
   .title-bar-right {
     padding: 1rem 1rem 0;
+  }
+
+  .title-bar .button {
+    display: none;
+
+    &.hollow {
+      display: inline-block;
+    }
   }
 }
 

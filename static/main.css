@@ -2303,58 +2303,58 @@ h6 small, .h6 small {
 
 h1, .h1 {
   font-size: 1.6346153846rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h2, .partner-footer h3, .h2 {
   font-size: 1.6346153846rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h3, .h3 {
   font-size: 1.1538461538rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h4, .h4 {
   font-size: 0.9615384615rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h5, .h5 {
   font-size: 0.8173076923rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h6, .h6 {
   font-size: 0.7692307692rem;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 @media print, screen and (min-width: 55.625em) {
   h1, .h1 {
-    font-size: 2.3076923077rem;
-  }
-  h2, .partner-footer h3, .h2 {
     font-size: 2.1153846154rem;
   }
+  h2, .partner-footer h3, .h2 {
+    font-size: 1.7307692308rem;
+  }
   h3, .h3 {
-    font-size: 1.4903846154rem;
+    font-size: 1.3461538462rem;
   }
   h4, .h4 {
-    font-size: 1.2019230769rem;
+    font-size: 1.0576923077rem;
   }
   h5, .h5 {
     font-size: 0.9615384615rem;
@@ -2365,12 +2365,12 @@ h6, .h6 {
 }
 a {
   line-height: inherit;
-  color: #E47048;
+  color: #4975C3;
   text-decoration: underline;
   cursor: pointer;
 }
 a:hover, a:focus {
-  color: #df5323;
+  color: #3963ad;
   text-decoration: none;
 }
 a img {
@@ -3921,7 +3921,7 @@ select:not([multiple]) {
   margin-bottom: 1rem;
   border: none;
   border-radius: 0;
-  background: #FFFFFF;
+  background: transparent;
   box-shadow: none;
   overflow: hidden;
   color: #1E1E1E;
@@ -4040,7 +4040,7 @@ select:not([multiple]) {
 
 .drilldown a {
   padding: 0.7rem 1rem;
-  background: #E47048;
+  background: #4975C3;
 }
 .drilldown .is-drilldown-submenu {
   position: absolute;
@@ -4874,7 +4874,7 @@ select:not([multiple]) {
   z-index: 12;
   transition: transform 0.5s ease;
   backface-visibility: hidden;
-  background: #E47048;
+  background: #4975C3;
 }
 [data-whatinput=mouse] .off-canvas {
   outline: 0;
@@ -4900,7 +4900,7 @@ select:not([multiple]) {
   z-index: 12;
   transition: transform 0.5s ease;
   backface-visibility: hidden;
-  background: #E47048;
+  background: #4975C3;
 }
 [data-whatinput=mouse] .off-canvas-absolute {
   outline: 0;
@@ -6849,115 +6849,151 @@ a.thumbnail image {
   background: rgba(181, 49, 61, 0.6);
 }
 
-.theme-brand-color1 {
+.theme-brand-color1,
+.button.theme-brand-color1 {
   background-color: #140A44;
   color: #FFFFFF;
 }
 .theme-brand-color1 a,
-.theme-brand-color1 a:hover {
+.theme-brand-color1 a:hover,
+.button.theme-brand-color1 a,
+.button.theme-brand-color1 a:hover {
   color: #FFFFFF;
 }
-.theme-brand-color1 .theme-color {
+.theme-brand-color1 .theme-color,
+.button.theme-brand-color1 .theme-color {
   color: #140A44;
 }
 
-.theme-brand-color2 {
+.theme-brand-color2,
+.button.theme-brand-color2 {
   background-color: #E47048;
   color: #FFFFFF;
 }
 .theme-brand-color2 a,
-.theme-brand-color2 a:hover {
+.theme-brand-color2 a:hover,
+.button.theme-brand-color2 a,
+.button.theme-brand-color2 a:hover {
   color: #FFFFFF;
 }
-.theme-brand-color2 .theme-color {
+.theme-brand-color2 .theme-color,
+.button.theme-brand-color2 .theme-color {
   color: #E47048;
 }
 
-.theme-brand-color3 {
+.theme-brand-color3,
+.button.theme-brand-color3 {
   background-color: #4975C3;
   color: #FFFFFF;
 }
 .theme-brand-color3 a,
-.theme-brand-color3 a:hover {
+.theme-brand-color3 a:hover,
+.button.theme-brand-color3 a,
+.button.theme-brand-color3 a:hover {
   color: #FFFFFF;
 }
-.theme-brand-color3 .theme-color {
+.theme-brand-color3 .theme-color,
+.button.theme-brand-color3 .theme-color {
   color: #4975C3;
 }
 
-.theme-brand-color4 {
+.theme-brand-color4,
+.button.theme-brand-color4 {
   background-color: #766591;
 }
-.theme-brand-color4 .theme-color {
+.theme-brand-color4 .theme-color,
+.button.theme-brand-color4 .theme-color {
   color: #766591;
 }
 
-.theme-brand-color5 {
+.theme-brand-color5,
+.button.theme-brand-color5 {
   background-color: #FDCA85;
   color: #FFFFFF;
 }
 .theme-brand-color5 a,
-.theme-brand-color5 a:hover {
+.theme-brand-color5 a:hover,
+.button.theme-brand-color5 a,
+.button.theme-brand-color5 a:hover {
   color: #FFFFFF;
 }
-.theme-brand-color5 .theme-color {
+.theme-brand-color5 .theme-color,
+.button.theme-brand-color5 .theme-color {
   color: #FDCA85;
 }
 
-.theme-brand-color6 {
+.theme-brand-color6,
+.button.theme-brand-color6 {
   background-color: #A1CCE4;
   color: #FFFFFF;
 }
 .theme-brand-color6 a,
-.theme-brand-color6 a:hover {
+.theme-brand-color6 a:hover,
+.button.theme-brand-color6 a,
+.button.theme-brand-color6 a:hover {
   color: #FFFFFF;
 }
-.theme-brand-color6 .theme-color {
+.theme-brand-color6 .theme-color,
+.button.theme-brand-color6 .theme-color {
   color: #A1CCE4;
 }
 
-.theme-white {
+.theme-white,
+.button.theme-white {
   background-color: #FFFFFF;
 }
-.theme-white .theme-color {
+.theme-white .theme-color,
+.button.theme-white .theme-color {
   color: #FFFFFF;
 }
 
-.theme-light-gray {
+.theme-light-gray,
+.button.theme-light-gray {
   background-color: #F7F8F9;
 }
-.theme-light-gray .theme-color {
+.theme-light-gray .theme-color,
+.button.theme-light-gray .theme-color {
   color: #F7F8F9;
 }
 
-.theme-medium-gray {
+.theme-medium-gray,
+.button.theme-medium-gray {
   background-color: #E9E9E9;
 }
-.theme-medium-gray .theme-color {
+.theme-medium-gray .theme-color,
+.button.theme-medium-gray .theme-color {
   color: #E9E9E9;
 }
 
-.theme-dark-gray {
+.theme-dark-gray,
+.button.theme-dark-gray {
   background-color: #CACACA;
   color: #FFFFFF;
 }
 .theme-dark-gray a,
-.theme-dark-gray a:hover {
+.theme-dark-gray a:hover,
+.button.theme-dark-gray a,
+.button.theme-dark-gray a:hover {
   color: #FFFFFF;
 }
-.theme-dark-gray .theme-color {
+.theme-dark-gray .theme-color,
+.button.theme-dark-gray .theme-color {
   color: #CACACA;
 }
 
-.theme-black {
+.theme-black,
+.button.theme-black {
   background-color: #1E1E1E;
   color: #FFFFFF;
 }
 .theme-black a,
-.theme-black a:hover {
+.theme-black a:hover,
+.button.theme-black a,
+.button.theme-black a:hover {
   color: #FFFFFF;
 }
-.theme-black .theme-color {
+.theme-black .theme-color,
+.button.theme-black .theme-color {
   color: #1E1E1E;
 }
 
@@ -7302,6 +7338,26 @@ a.thumbnail image {
   fill: #1E1E1E;
 }
 
+.card-bg-1 {
+  background-image: url(/static/img/theme/card-1.svg);
+  background-size: cover;
+}
+
+.card-bg-2 {
+  background-image: url(/static/img/theme/card-2.svg);
+  background-size: cover;
+}
+
+.card-bg-3 {
+  background-image: url(/static/img/theme/card-3.svg);
+  background-size: cover;
+}
+
+.card-bg-4 {
+  background-image: url(/static/img/theme/card-4.svg);
+  background-size: cover;
+}
+
 .bottomless > *:last-child {
   margin-bottom: 0;
 }
@@ -7493,6 +7549,7 @@ blockquote cite {
 .button.hollow {
   -webkit-mask-image: none;
   mask-image: none;
+  border: none;
   background-image: url(/static/img/theme/button-hollow.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -7537,23 +7594,11 @@ blockquote cite {
   font-weight: 600;
 }
 
-/*
-.title-bar .button.hollow {
-  padding: .65rem 1rem;
-  font-size: .85rem;
-
-  small {
-    font-size: .65rem;
-  }
+.off-canvas .menu .button {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-*/
 .off-canvas .menu .button.hollow {
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
-}
-.off-canvas .menu .button.hollow:before {
   display: none;
 }
 
@@ -7634,6 +7679,12 @@ blockquote cite {
   .title-bar-right {
     padding: 1rem 1rem 0;
   }
+  .title-bar .button {
+    display: none;
+  }
+  .title-bar .button.hollow {
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 75em) {
   .title-bar {
@@ -7647,11 +7698,6 @@ blockquote cite {
     height: 100%;
   }
 }
-.home-content {
-  position: relative;
-  z-index: 2;
-}
-
 .post-page h2:not(:first-child),
 .post-page h3 {
   margin-top: 2rem;
@@ -7771,29 +7817,34 @@ blockquote cite {
   text-decoration: none;
 }
 
-@media print, screen and (min-width: 55.625em) {
-  .subpage-header {
-    padding-top: 4rem;
-  }
-}
 .footer {
   position: relative;
-  padding-top: 4rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: clamp(4rem, 20vw, 12rem);
   background-color: #FDCA85;
+  color: #140A44;
+  background-image: url(/static/img/theme/footer-bottom.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.footer::before {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  aspect-ratio: 1584/795;
+  width: 100%;
+  background-image: url(/static/img/theme/footer-top.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 .footer p,
 .footer a,
 .footer small {
-  color: #FFFFFF;
-}
-.footer a,
-.footer svg,
-.footer path,
-.footer polygon,
-.footer rect,
-.footer g {
-  transition: all 400ms ease;
+  color: #140A44;
 }
 .footer .legal {
   display: block;
@@ -8218,7 +8269,7 @@ blockquote cite {
 .hamburger-inner,
 .hamburger-inner:before,
 .hamburger-inner:after {
-  background-color: #FFFFFF;
+  background-color: #4975C3;
 }
 
 .date-card {
@@ -8252,7 +8303,8 @@ blockquote cite {
 .date-card .month {
   display: block;
   padding: 0.3em 0.2em;
-  background-color: #E47048;
+  background-image: url(/static/img/theme/card-highlight.svg);
+  background-size: cover;
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -8262,7 +8314,6 @@ blockquote cite {
   display: block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #FFFFFF;
   font-size: 1.4rem;
   color: #E47048;
 }
@@ -8421,10 +8472,10 @@ blockquote cite {
 }
 
 .post-title a {
-  color: #E47048;
+  color: #4975C3;
 }
 .post-title a:hover {
-  color: #FDCA85;
+  color: #140A44;
 }
 
 .post-item:last-child {
@@ -8865,10 +8916,10 @@ blockquote cite {
 .social-icons a svg {
   width: 42px;
   height: 42px;
-  fill: #FFFFFF;
+  fill: #140A44;
 }
 .social-icons a:hover svg {
-  fill: #140A44;
+  fill: #FFFFFF;
 }
 .social-icons a.facebook:hover svg {
   fill: #44649D;

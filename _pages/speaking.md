@@ -1,7 +1,7 @@
 ---
 description: Information about submitting a proposal to speak at DjangoCon US
 heading: Speaking at DjangoCon US
-layout: new_layout
+layout: default
 permalink: /speaking/
 title: Speaking at DjangoCon US
 ---

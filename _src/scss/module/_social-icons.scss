@@ -22,11 +22,11 @@
   svg {
     width: 42px;
     height: 42px;
-    fill: $white;
+    fill: $primary-color;
   }
 
   &:hover svg {
-    fill: $primary-color;
+    fill: $white;
   }
 
   &.facebook:hover svg {

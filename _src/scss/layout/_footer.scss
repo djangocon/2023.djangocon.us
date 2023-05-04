@@ -1,22 +1,35 @@
 .footer {
   position: relative;
-  padding-top: 4rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: clamp(4rem, 20vw, 12rem);
   background-color: $brand-color5;
+  color: $brand-color1;
+
+  background-image: url(/static/img/theme/footer-bottom.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  &::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+
+    aspect-ratio: 1584 / 795;
+    width: 100%;
+
+    background-image: url(/static/img/theme/footer-top.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
 
   p,
   a,
   small {
-    color: $white;
-  }
-
-  a,
-  svg,
-  path,
-  polygon,
-  rect,
-  g {
-    transition: all 400ms ease;
+    color: $brand-color1;
   }
 
   .legal {

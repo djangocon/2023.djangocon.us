@@ -34,7 +34,8 @@
   .month {
     display: block;
     padding: .3em .2em;
-    background-color: $brand-color2;
+    background-image: url(/static/img/theme/card-highlight.svg);
+    background-size: cover;
     font-size: .82rem;
     font-weight: $global-weight-bold;
     text-transform: uppercase;
@@ -45,7 +46,6 @@
     display: block;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    background-color: $white;
     font-size: 1.4rem;
     color: $brand-color2;
   }

@@ -3,7 +3,7 @@ description: As part of our commitment to diversity, we are thrilled to announce
   we will be supporting individuals who need opportunity grants to attend DjangoCon
   US.
 heading: Opportunity Grants
-layout: new_layout
+layout: default
 permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
