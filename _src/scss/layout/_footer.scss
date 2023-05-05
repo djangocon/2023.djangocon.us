@@ -15,10 +15,12 @@
     top: 0;
     left: 0;
     right: 0;
-    display: block;
 
-    aspect-ratio: 1584 / 795;
+    display: block;
+    margin-bottom: 2rem;
+
     width: 100%;
+    aspect-ratio: 1584 / 795;
 
     background-image: url(/static/img/theme/footer-top.svg);
     background-position: top center;

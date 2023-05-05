@@ -3931,7 +3931,7 @@ select:not([multiple]) {
 }
 
 .card-divider {
-  padding: 1rem;
+  padding: 1.5rem;
   background: #F7F8F9;
 }
 .card-divider > :last-child {
@@ -3939,7 +3939,7 @@ select:not([multiple]) {
 }
 
 .card-section {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .card-section > :last-child {
   margin-bottom: 0;
@@ -7834,8 +7834,9 @@ blockquote cite {
   left: 0;
   right: 0;
   display: block;
-  aspect-ratio: 1584/795;
+  margin-bottom: 2rem;
   width: 100%;
+  aspect-ratio: 1584/795;
   background-image: url(/static/img/theme/footer-top.svg);
   background-position: top center;
   background-repeat: no-repeat;
