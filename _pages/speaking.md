@@ -28,7 +28,7 @@ Need help with your proposal? We've got mentors and helpful tips on our [Speaker
 
 ## Why Speak at DjangoCon US?
 
--   Presenters receive a free ticket to DjangoCon US! (Travel costs are not included, but potential speakers were encouraged to apply for an <a href="/opportunity-grants/">opportunity grant</a>.) {% comment %}Opportunity grant decision notifications have all been sent.{% endcomment %}
+-   Presenters receive a **free ticket** to DjangoCon US and up to **$500 in travel cost reimbursement!**
 -   A professionally produced video of your talk will be published on our YouTube channel. (You may opt-out of this.)
 -   Professional photographer on hand to photograph your talk. (Also optional.)
 -   Expose the Django community to new tools, practices, or ideas.
@@ -83,7 +83,7 @@ If you believe your talk is a good fit, please indicate so on your submission to
 -   Length: 3-3.5 hours
 -   Format: online
 
-Due to venue availability constraints, we're doing tutorials exclusively online for 2023. Each tutorial session will have one main virtual classroom and breakout rooms [**TODO GET CONFIRMATION FROM SIX FEET UP**] for attendees to work together. We will also have the attendee chat in which you'll have a private channel to discuss with your attendees. Teaching assistants are welcome; just let the organizers know beforehand so we invite them to the right places.
+Due to venue availability constraints, we're doing tutorials exclusively online for 2023. Each tutorial session will likely have one main virtual classroom and breakout rooms for attendees to work together. We will also have the attendee chat in which you'll have a private channel to discuss with your attendees. Teaching assistants are welcome; just let the organizers know beforehand so we invite them to the right places.
 
 We’re open to all kinds of ideas, especially ones we haven’t thought of! Technical tutorials tend to be more popular, but we welcome all topics! Tutorials can be targeted at any experience level, just be sure to indicate clearly what you expect your students to already know or have experience with in your proposal!
 
