@@ -48,6 +48,10 @@
   &.github:hover svg {
     fill: $color-github;
   }
+
+  &.mastodon:hover svg {
+    fill: $color-mastodon;
+  }
 }
 
 .social-icons.highlight svg {

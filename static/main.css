@@ -7779,9 +7779,6 @@ blockquote cite {
   }
 }
 
-.subpage-content {
-  padding-bottom: 200px;
-}
 .subpage-content .section-pad:first-child {
   padding-top: 0;
 }
@@ -8936,6 +8933,9 @@ blockquote cite {
 }
 .social-icons a.github:hover svg {
   fill: #4078c0;
+}
+.social-icons a.mastodon:hover svg {
+  fill: #3088D4;
 }
 
 .social-icons.highlight svg {
