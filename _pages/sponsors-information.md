@@ -9,8 +9,6 @@ title: Become a Sponsor
 
 ## About the Event
 
-**Sponsorship is closed for this year**.
-
 DjangoCon US is not possible without your support. The spirit of the event focuses on providing a platform for new and experiences speakers to share their stories and knowledge.
 
 ### Our goal is to keep ticket costs low while providing:
@@ -25,7 +23,7 @@ DjangoCon US is not possible without your support. The spirit of the event focus
 
 The DjangoCon US Slack channel currently has 700+ members where attendees get and give advice, discuss Django/Python issues, and all-around support each other, establishing a year-round connection that helps ensure the conference is as welcoming and comfortable as possible.
 
-We promote our sponsors on our @djangocon Twitter account, which has over 18.8K followers. Our tweets are seen around the world.
+We promote our sponsors on our @djangocon Twitter account, which has over 13K followers, and our [@djangocon@fosstodon.org](https://fosstodon.org/@djangocon) Mastodon account . Our posts are seen around the world.
 
 In the event that a profit is made from our fundraising efforts, we pay it forward by making a donation to the Django Software Foundation and supporting other Django events in North America who support our mission.
 
@@ -33,10 +31,9 @@ Endless thanks for your support, and we cannot wait to call you a partner in our
 
 Because the conference is organized by [DEFNA](https://www.defna.org/), a non-profit 501(c)(3) organization, your sponsorship is tax-deductible!
 
-**Sponsorship is closed for this year**. Want to know more about sponsorship for 2023?
+{% comment %}**Sponsorship is closed for this year**. Want to know more about sponsorship for 2024?{% endcomment %}
 
-{% comment %}Want to know more about sponsorship?{% endcomment %}
-
+**Want to know more about sponsorship??**
 
 <a href="mailto:{{site.sponsors_email}}" class="button">Contact Us Today</a>
 
