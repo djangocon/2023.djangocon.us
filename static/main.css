@@ -4478,7 +4478,7 @@ select:not([multiple]) {
   left: 100%;
   z-index: 1;
   display: none;
-  min-width: 260px;
+  min-width: 280px;
   border: none;
   background: #4975C3;
 }
