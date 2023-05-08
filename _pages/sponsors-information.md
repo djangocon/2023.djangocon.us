@@ -76,7 +76,7 @@ Sign your sponsorship contract and pay your invoice by August 15, 2023 to get yo
 
 This can be very customized. Sponsoring the opening party is a great way to introduce yourself to our attendees in a fun, lighthearted environment outside the main conference. We'll help you coordinate logistics and get the word out about your company!
 
-#### <del>Lanyard -- *Silver Tier Minimum* -- $3,500</del> SOLD!
+#### Lanyard -- *Silver Tier Minimum* -- $3,500
 
 The lanyard sponsor's logo will appear on the badge lanyards that attendees wear at the conference (and thus in all photos).
 
