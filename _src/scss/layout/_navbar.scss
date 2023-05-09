@@ -99,6 +99,10 @@
   background: $brand-color3; // Fix overlap issue
 }
 
+.is-drilldown {
+  min-height: 480px !important; // Weird Foundation bug fix
+}
+
 // tightening drop-down arrows on navigaiton parent elements
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
   padding-right: 1.1rem;
