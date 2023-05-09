@@ -96,7 +96,11 @@
 }
 
 .drilldown .is-drilldown-submenu {
-  background: $brand-color2; // Fix overlap issue
+  background: $brand-color3; // Fix overlap issue
+}
+
+.is-drilldown {
+  min-height: 480px !important; // Weird Foundation bug fix
 }
 
 // tightening drop-down arrows on navigaiton parent elements

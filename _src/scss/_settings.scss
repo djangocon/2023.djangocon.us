@@ -156,7 +156,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: 500;
+$header-font-weight: 600;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
@@ -491,10 +491,10 @@ $meter-fill-bad: $alert-color;
 // --------------
 
 $offcanvas-sizes: (
-  small: 250px
+  small: 280px
 );
 $offcanvas-vertical-sizes: (
-  small: 250px
+  small: 280px
 );
 $offcanvas-background: $brand-color3;
 $offcanvas-shadow: 0 0 10px rgba($black, 0.7);
