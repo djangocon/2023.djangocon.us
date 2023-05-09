@@ -22,11 +22,11 @@
   svg {
     width: 42px;
     height: 42px;
-    fill: $white;
+    fill: $primary-color;
   }
 
   &:hover svg {
-    fill: $primary-color;
+    fill: $white;
   }
 
   &.facebook:hover svg {
@@ -47,6 +47,10 @@
 
   &.github:hover svg {
     fill: $color-github;
+  }
+
+  &.mastodon:hover svg {
+    fill: $color-mastodon;
   }
 }
 
