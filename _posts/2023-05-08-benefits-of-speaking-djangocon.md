@@ -17,7 +17,7 @@ title: What are the Benefits of Speaking at DjangoCon?
 
 - **Up to $500 in travel cost reimbursement!**
 
-- **A professionally produced video of your talk will be published on our YouTube channel.** (You may opt-out of this.)
+- **A professionally produced video of your talk will be published on our YouTube channel.** (You may opt out of this.)
 
 - **Professional photographer on hand to photograph your talk.** (Also optional.)
 
