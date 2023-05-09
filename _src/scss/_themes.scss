@@ -26,7 +26,8 @@
   @each $name, $color in $djangocon-palette {
     $foreground-color: $white;
 
-    .theme-#{$name} {
+    .theme-#{$name},
+    .button.theme-#{$name} {
       background-color: $color;
 
       @if not index(($light-gray, $medium-gray, $white, $brand-color4), $color) {
@@ -134,35 +135,22 @@
 
 @include generate-palette-helpers($djangocon-palette);
 
-.curve1.curve1,
-.curve2.curve2 {
-  position: relative;
-
-  & > * {
-    position: relative;
-    z-index: 2;
-  }
-
-  &:after {
-    position: absolute;
-    left: -2px;
-    z-index: 1;
-    display: block;
-    width: 101.5%;
-    height: 28vw;
-    background-repeat: no-repeat;
-    background-size: 106% auto;
-    background-position: 0 0;
-    content: "";
-  }
-
-  & + * {
-    padding-top: 14vw;
-  }
+.card-bg-1 {
+  background-image: url(/static/img/theme/card-1.svg);
+  background-size: cover;
 }
 
-.curve1.curve1:after {
-  bottom: -10vw;
-  background-image: url(/static/img/curve1.svg);
+.card-bg-2 {
+  background-image: url(/static/img/theme/card-2.svg);
+  background-size: cover;
 }
 
+.card-bg-3 {
+  background-image: url(/static/img/theme/card-3.svg);
+  background-size: cover;
+}
+
+.card-bg-4 {
+  background-image: url(/static/img/theme/card-4.svg);
+  background-size: cover;
+}

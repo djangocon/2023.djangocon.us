@@ -1,18 +1,37 @@
 .button {
-  border: 4px solid $brand-color1;
-  background-color: $brand-color5;
+  background-color: $brand-color3;
+
+  -webkit-mask-image: url(/static/img/theme/button.svg);
+  mask-image: url(/static/img/theme/button.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
 
   font-weight: $global-weight-bold;
   text-decoration: none;
   color: $white;
 
   &:hover {
-    background-color: darken($brand-color5, 15%);
+    background-color: darken($brand-color3, 15%);
   }
 }
 
-.button.hollow:hover {
-  border-color: $white;
-  background-color: $white;
+.button.hollow {
+  -webkit-mask-image: none;
+  mask-image: none;
+
+  border: none;
+
+  background-image: url(/static/img/theme/button-hollow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   color: $brand-color2;
+
+  &:hover {
+    border-color: transparent;
+    background-image: url(/static/img/theme/button-hollow-hover.svg);
+    color: $white;
+  }
 }

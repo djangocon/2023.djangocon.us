@@ -2,10 +2,10 @@
 layout: base
 ---
 
-<header class="header">
-  <div class="row">
+<header class="home-hero">
+  <div class="row theme-brand-color1">
     <div class="header-text">
-      <h1>Five days of talks, sprints, and tutorials in Durham, North Carolina</h1>
+      <h1>Join us for <strong>five days</strong> of inspiration, education, and networking opportunities</h1>
 
       <div class="event-info-detail">
         <strong
@@ -21,8 +21,8 @@ layout: base
       <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
       <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
 
-      <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
       {% comment %}
+      <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
       <a class="button" href="/schedule/">Conference Schedule</a>
       {% endcomment %}
     </div>
@@ -30,59 +30,46 @@ layout: base
 </header>
 
 
-<div class="home-content">
 
-<section class="section-pad curve1 theme-brand-color3">
-  <div class="row column xlarge-9">
-    <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon US is easy for you!</p>
-
-    <div class="date-card medium-4 column">
-      <a href="/tutorials/">
-        <div class="dates">
-          <div class="month">October</div>
-          <div class="days">15</div>
-        </div>
-        <div class="details">
-          <h2 class="date-card-title">Tutorials</h2>
-          <p>One day, numerous tutorials</p>
-        </div>
-      </a>
-    </div>
-    <div class="date-card medium-4 column">
-      <a href="/talks/">
-        <div class="dates">
-          <div class="month">October</div>
-          <div class="days">16-18</div>
-        </div>
-        <div class="details">
-          <h2 class="date-card-title">Talks</h2>
-          <p>Dozens of talks chosen by the community</p>
-        </div>
-      </a>
-    </div>
-    <div class="date-card medium-4 column">
-      <a href="/sprints/">
-        <div class="dates">
-          <div class="month">October</div>
-          <div class="days">19-20</div>
-        </div>
-        <div class="details">
-          <h2 class="date-card-title">Sprints</h2>
-          <p>Team up to work on Django!</p>
-        </div>
-      </a>
-    </div>
+<div class="row column xlarge-9 theme-brand-color5 section-pad">
+  <div class="date-card medium-4 column">
+    <a href="/tutorials/">
+      <div class="dates">
+        <div class="month">October</div>
+        <div class="days card-bg-1">15</div>
+      </div>
+      <div class="details">
+        <h2 class="date-card-title">Tutorials</h2>
+        <p>One day, numerous tutorials</p>
+      </div>
+    </a>
   </div>
-</section>
-
-{% comment %}
-<div class="photo-hero-inline tint-brand-color1">
-  <img
-    src="/static/img/attendees.jpg"
-    alt="Attendees holding a sign for DjangoCon 2019"
-     />
+  <div class="date-card medium-4 column">
+    <a href="/talks/">
+      <div class="dates">
+        <div class="month">October</div>
+        <div class="days card-bg-2">16-18</div>
+      </div>
+      <div class="details">
+        <h2 class="date-card-title">Talks</h2>
+        <p>Dozens of talks chosen by the community</p>
+      </div>
+    </a>
+  </div>
+  <div class="date-card medium-4 column">
+    <a href="/sprints/">
+      <div class="dates">
+        <div class="month">October</div>
+        <div class="days card-bg-3">19-20</div>
+      </div>
+      <div class="details">
+        <h2 class="date-card-title">Sprints</h2>
+        <p>Team up to work on Django!</p>
+      </div>
+    </a>
+  </div>
 </div>
-{% endcomment %}
+
 
 <section class="section-pad">
   <div class="row column v-pad-bottom text-center">
@@ -133,7 +120,7 @@ layout: base
   </div>
 </section>
 
-<section class="news-section section-pad theme-brand-color4 back">
+<section class="news-section section-pad theme-brand-color3">
   <div class="row column v-pad-bottom">
     <h2 class="text-center">Latest News</h2>
   </div>
@@ -141,35 +128,27 @@ layout: base
   <div class="news row">
     {% for post in site.posts limit:12 %}
       {% unless post.hidden %}
-      <article class="news-title medium-4 column">
-        <div class="card {% if post.category == "Sponsorship" %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
-          <div class="card-section">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            </h3>
+        <article class="news-title medium-4 column">
+          <div class="card {% cycle "card-bg-1", "card-bg-2", "card-bg-3", "card-bg-4" %} {% if post.category == 'Sponsorship' %}card-theme-brand-color3{% else %}card-theme-brand-color2{% endif %}">
+            <div class="card-section">
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h3>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+              </h3>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
       {% endunless %}
     {% endfor %}
   </div>
 
   <div class="row v-pad-top">
     <div class="medium-4 column medium-centered text-center">
-      <a class="button" href="/news/">Read More News</a>
+      <a class="button theme-brand-color1" href="/news/">Read More News</a>
     </div>
   </div>
 </section>
 
 {% include sponsor-footer.html %}
-
-<div class="photo-hero-inline curve-top tint-brand-color1">
-  <img
-    src="/static/img/courtyard-crowd.jpg"
-    alt="The crowd of DjangoCon 2019 attendees"
-    loading="lazy"
-     />
-</div>
 
 </div><!-- end .content -->
