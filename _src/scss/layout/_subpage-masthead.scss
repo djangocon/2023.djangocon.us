@@ -29,9 +29,3 @@
 .subpage-header a {
   text-decoration: none;
 }
-
-@include breakpoint(medium) {
-  .subpage-header {
-    padding-top: 4rem;
-  }
-}
