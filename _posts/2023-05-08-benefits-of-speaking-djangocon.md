@@ -32,7 +32,7 @@ title: What are the Benefits of Speaking at DjangoCon?
 
 ## Need Topic Ideas?
 
-Head over to our topic suggestion page! [Topic Suggestions]({% post_url _posts/topic-suggestions-for-cfp %})
+Head over to our topic suggestion page! [Topic Suggestions]({% post_url _posts/2023-04-20-topic-suggestions-for-cfp %})
 
 ## All right, you've convinced me. How do I submit?
 
