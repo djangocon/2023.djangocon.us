@@ -26,13 +26,13 @@ title: What are the Benefits of Speaking at DjangoCon?
 - **Building your reputation:** Presenting at DjangoCon can establish you as an expert in the Django community, raising your profile and building your reputation.
 - **Networking:** Speaking at DjangoCon provides an opportunity to connect with other developers, designers, and enthusiasts in the Django community, allowing you to expand your network and make new connections.
 - **Career advancement:** Speaking at DjangoCon can help you advance your career by demonstrating your knowledge and expertise, which can lead to new job opportunities or promotions.
-- **Feedback and learning:** Presenting at DjangoCon gives you the opportunity to receive feedback from your peers, which can help you improve your skills and knowledge.
-- **Giving back to the community:** By sharing your knowledge and experience with others at DjangoCon, you are contributing to the growth and development of the Django community, which can be a rewarding experience in itself.
-- **Travel and conference experience:** Speaking at DjangoCon often includes travel to interesting locations and the chance to attend the conference and learn from other presenters, giving you a valuable conference experience that can help broaden your horizons.
+- **Feedback and learning:** Presenting at DjangoCon gives you the opportunity to receive feedback from your peers, which helps you improve your skills and knowledge.
+- **Giving back to the community:** By sharing your knowledge and experience with others at DjangoCon, you are contributing to the growth and development of the Django community, which is a rewarding experience in itself.
+- **Travel and conference experience:** Speaking at DjangoCon includes travel to interesting locations, attending the conference to learn from other presenters, and give you a valuable conference experience that broadens your horizons.
 
 ## Need Topic Ideas?
 
-Head over to our topic suggestion page! [Topic Suggestions](https://2023.djangocon.us/news/topic-suggestions-for-cfp/)
+Head over to our topic suggestion page! [Topic Suggestions]({% post_url _posts/topic-suggestions-for-cfp %})
 
 ## All right, you've convinced me. How do I submit?
 
