@@ -4528,7 +4528,7 @@ select:not([multiple]) {
   line-height: 1;
   white-space: nowrap;
   cursor: default;
-  background: #FDCA85;
+  background: #766591;
   color: #FFFFFF;
 }
 .label.primary {
@@ -8115,7 +8115,12 @@ blockquote cite {
     background-image: url(/static/img/theme/hero-lemur.svg), url(/static/img/theme/hero-map.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: auto 100%, auto 100%;
-    background-position: right 18% center, right -35% center;
+    background-position: right 10% center, right -23vw center;
+  }
+}
+@media screen and (min-width: 75em) {
+  .home-hero .row {
+    background-position: right 28% center, right -32% center;
   }
 }
 .photo-hero {

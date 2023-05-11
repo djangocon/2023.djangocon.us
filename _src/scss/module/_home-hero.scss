@@ -65,8 +65,18 @@
        auto 100%;
 
       background-position:
-        right 18% center,
-        right -35% center;
+        right 10% center,
+        right -23vw center
+    }
+  }
+}
+
+@include breakpoint(xlarge) {
+  .home-hero {
+    .row {
+      background-position:
+        right 28% center,
+        right -32% center;
     }
   }
 }
