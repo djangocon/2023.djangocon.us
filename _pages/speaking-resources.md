@@ -1,5 +1,5 @@
 ---
-description: Resources to support DjangoCon 2023 speakers
+description: Resources to support DjangoCon US 2023 speakers
 heading: Speaker Resources
 layout: default
 permalink: /speaking/speaker-resources/
