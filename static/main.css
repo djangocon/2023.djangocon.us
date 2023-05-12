@@ -8085,6 +8085,9 @@ blockquote cite {
   margin-bottom: 2.25rem;
   font-size: 1.6rem;
 }
+.home-hero h1 strong {
+  color: #ED8F6F;
+}
 .home-hero .event-info-detail {
   margin-bottom: 1.5rem;
   color: #FDCA85;
