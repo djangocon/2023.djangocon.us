@@ -39,10 +39,10 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 
 ### General
 
-* Use gender-neutral language wherever possible. Don't default to using "he" or "him" everywhere.
+* Use gender-neutral language wherever possible. Don't default to [using "he", "him", or "guys"](https://heyguys.cc) everywhere.
 * Be respectful of other speakers, your audience, and the community at large, especially when offering critiques. It's possible to say "this needs improvement" without saying "this is bad."
 * Consider including your social media handle(s) on your opening and closing slides! If you have space, you can even include them on the footer of every slide.
-* Consider publishing your slides after your talk (on the platform of your choice) and sharing the link with the #djangocon hashtag on social media.
+* Consider publishing your slides after your talk (on the platform of your choice) and sharing the link with the #DjangoCon hashtag on social media.
 * Include a copy of what you plan to say in each slide's notes (if possible). This will help you while you're in presenter view and also make it easier for people who may be looking at your slides after the conference.
 * Before you connect your laptop to the projector, make sure you have every window except for your slides minimized or closed to avoid accidental information disclosure.
 * Make sure you turn on your computer's do not disturb mode before starting your presentation to avoid interruptions.
@@ -55,7 +55,7 @@ Presenters, regardless of experience, sometimes want a little help. If you’d l
 * Minimal slides are best—-avoid walls of text and long lists of bullets.
 * Light background with dark text is easiest to read; be mindful that the projection screen is white.
  Choose fonts with adequate spacing between letters, and avoid thin or cursive fonts.
-* Leave the bottom 10⅓ of your slides free of text to ensure nothing is obscured by other attendees' heads.
+* Leave the bottom 25% of your slides free of text to ensure nothing is obscured by other attendees' heads.
 * If your talk requires live coding or using the terminal, make sure your editor or terminal settings are legible. Dark text on a light background (high contrast) with a large font is best.
 * Images, memes, and GIFs should be appropriate for a professional audience.
 
