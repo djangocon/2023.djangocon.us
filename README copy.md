@@ -15,7 +15,7 @@ Get started contributing by reading our [Contributing](CONTRIBUTING.md) guidelin
 
 ### Contributing via Browser
 
-1. Navigate to the [DjangoCon U.S. website repo](https://github.com/djangocon/2023.djangocon.us) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
+1. Navigate to the [DjangoCon US website repo](https://github.com/djangocon/2023.djangocon.us) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
 
 2. Head over to your GitHub account, where you will find the forked repo. This is a copy of the official code. Your changes to this forked code will not affect the official code, unless you submit a pull request and an admin merges your pull request.
 

@@ -27,7 +27,7 @@ Maybe! The FDA has extended the expiration date for some tests because the shelf
 be longer than what was originally known. You can find out if your tests are still usable on the [FDA’s
 website (the table near the end)](https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/home-otc-covid-19-diagnostic-tests).
 
-## What if I can’t find affordable tests before DjangoCon?
+## What if I can’t find affordable tests before DjangoCon US?
 
 No worries on that front! We will be bringing a number of tests to the conference
 for folks to use. When you show up, we’ll have you test before being admitted to the
@@ -43,4 +43,4 @@ this to ensure a healthy, positive conference for all attendees.
 
 ## I still have COVID-19 concerns regarding the conference, who do I contact?
 
-Reach out to us at [{{site.contact_us_email}}](mailto:{{site.contact_us_email}})! 
+Reach out to us at [{{site.contact_us_email}}](mailto:{{site.contact_us_email}})!
