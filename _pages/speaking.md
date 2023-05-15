@@ -10,21 +10,21 @@ title: Speaking at DjangoCon US
 Our Call for Proposals (CFP) will open soon!
 {% endcomment %}
 
-{% comment %}
 Our Call for Proposals is now closed.
 Decision notifications will be sent by June 28th, 2023.
-{% endcomment %}
 
 {% comment %}
 Our Call for Proposals is now closed and all decision notifications have been sent.
 {% endcomment %}
 
+{% comment %}
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
 Submit your talk or tutorial proposal by May 15, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes), and encourage your friends and colleagues to do the same.
 
 Need help with your proposal? We've got mentors and helpful tips on our [Speaker Resources](/speaking/speaker-resources/) page!
 
 <a href="{{site.cfp_application}}" class="button">Submit a Proposal</a>
+{% endcomment %}
 
 ## Why Speak at DjangoCon US?
 
@@ -108,9 +108,11 @@ As we have in the past, this year, we have set aside up to $500 per speaker to h
 In order to maximize the amount we can provide, we ask that speakers who will be reimbursed by their employer decline the assistance offered so it can be spread out among speakers who do not receive travel reimbursement.
 Receipts for travel expenses will be required.
 
+{% comment %}
 If $500 will not cover your expenses, we encourage you to apply for an <a href= "{{site.opportunity_grant_application}}">opportunity grant</a>, but we cannot guarantee it will be awarded to you.
 
 Opportunity grant applications close at the end of the day on May 15, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes). We will send decision notifications by June 28, 2023.
+{% endcomment %}
 
 ### Online speaker gear reimbursement
 
