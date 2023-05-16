@@ -33,7 +33,8 @@
         <img
           class="avatar"
           src="{{ presenter.photo_url }}"
-          alt="Photo of {{ presenter.name }}" />
+          alt="Photo of {{ presenter.name }}"
+          loading="lazy" />
         {% endif %}
         {{ presenter.name }}
         {% if presenter.pronouns != blank %}
