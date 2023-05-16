@@ -20,6 +20,14 @@
     color: $brand-color5;
   }
 
+  .event-info-location {
+    font-weight: $global-weight-bold;
+  }
+
+  .event-info-location a {
+    color: $brand-color5;
+  }
+
   .button + .button {
     margin-left: .5rem;
   }
@@ -70,7 +78,7 @@
 
       background-position:
         right 10% center,
-        right -23vw center
+        right -16vw center
     }
   }
 }
@@ -80,7 +88,7 @@
     .row {
       background-position:
         right 28% center,
-        right -32% center;
+        right -15% center;
     }
   }
 }

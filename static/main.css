@@ -6820,7 +6820,7 @@ a.thumbnail image {
   animation-delay: 700ms !important;
 }
 
-/* DjangoCon customizations */
+/* DjangoCon US customizations */
 [class*=tint-brand] {
   position: relative;
 }
@@ -8092,6 +8092,12 @@ blockquote cite {
   margin-bottom: 1.5rem;
   color: #FDCA85;
 }
+.home-hero .event-info-location {
+  font-weight: 700;
+}
+.home-hero .event-info-location a {
+  color: #FDCA85;
+}
 .home-hero .button + .button {
   margin-left: 0.5rem;
 }
@@ -8118,12 +8124,12 @@ blockquote cite {
     background-image: url(/static/img/theme/hero-lemur.svg), url(/static/img/theme/hero-map.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: auto 100%, auto 100%;
-    background-position: right 10% center, right -23vw center;
+    background-position: right 10% center, right -16vw center;
   }
 }
 @media screen and (min-width: 75em) {
   .home-hero .row {
-    background-position: right 28% center, right -32% center;
+    background-position: right 28% center, right -15% center;
   }
 }
 .photo-hero {
