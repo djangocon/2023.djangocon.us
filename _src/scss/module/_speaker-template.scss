@@ -1,45 +1,87 @@
 .speaker-template {
   position: relative;
-  padding: 70px 30px 0 500px;
+  padding: 30px 30px 0 30px;
   width: 1200px;
   height: 630px;
 
-  background-color: $brand-color2;
-  background-image: url(/static/img/speaker-template-bg.svg);
+  background-color: #F4E9DC;
+  background-image: url(/static/img/theme/speaker-card/speaker-card-bg.svg);
+  background-position: top right;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
+}
 
+.speaker-template::after {
+  display: block;
 
-  text-align: right;
-  color: $white;
+  position: absolute;
+  top: 0;
+  right: 0;
 
-  overflow: hidden;
+  z-index: 1;
 
-  &-photo {
-    position: absolute;
-    top: -10px;
-    left: -40px;
-    border-radius: 0 50% 50% 0;
-    width: 610px;
-  }
+  width: 436px;
+  height: 164px;
 
-  &-name {
-    position: relative;
-    margin-bottom: 0;
-    font-size: 3.0rem;
-  }
+  background-image: url(/static/img/theme/speaker-card/banner.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
 
-  &-name:after {
-    position: relative;
-    display: block;
-    margin: 10px 0 10px auto;
-    height: 10px;
-    width: 120px;
-    background: #290724;
-    content: "";
-  }
+.speaker-template-name,
+.speaker-template-session-title {
+  max-width: 600px;
+}
 
-  &-session-title {
-    font-family: $body-font-family;
-    font-size: 2.3rem;
+.speaker-template-name {
+  position: relative;
+  font-size: 3rem;
+  font-weight: $global-weight-bold;
+  color: $brand-color1;
+}
+
+.speaker-template-name::after {
+  display: block;
+  position: relative;
+
+  margin: .5rem 0 3rem;
+
+  width: 36%;
+  height: 26px;
+
+  background-image: url(/static/img/theme/speaker-card/line.svg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  content: "";
+}
+
+.speaker-template-session-title {
+  font-size: 2.8rem;
+  font-weight: $global-weight-normal;
+  color: #150944;
+
+  & + & {
+    margin-top: 2rem;
   }
 }
+
+.speaker-template-photo {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+
+  z-index: 0;
+
+  -webkit-mask-image: url(/static/img/theme/speaker-card/speaker-mask.svg);
+  mask-image: url(/static/img/theme/speaker-card/speaker-mask.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+          mask-size: cover;
+
+  width: 414px;
+  height: 414px;
+}
+

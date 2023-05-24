@@ -8767,40 +8767,76 @@ blockquote cite {
 
 .speaker-template {
   position: relative;
-  padding: 70px 30px 0 500px;
+  padding: 30px 30px 0 30px;
   width: 1200px;
   height: 630px;
-  background-color: #E47048;
-  background-image: url(/static/img/speaker-template-bg.svg);
+  background-color: #F4E9DC;
+  background-image: url(/static/img/theme/speaker-card/speaker-card-bg.svg);
+  background-position: top right;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
-  text-align: right;
-  color: #FFFFFF;
-  overflow: hidden;
 }
-.speaker-template-photo {
-  position: absolute;
-  top: -10px;
-  left: -40px;
-  border-radius: 0 50% 50% 0;
-  width: 610px;
-}
-.speaker-template-name {
-  position: relative;
-  margin-bottom: 0;
-  font-size: 3rem;
-}
-.speaker-template-name:after {
-  position: relative;
+
+.speaker-template::after {
   display: block;
-  margin: 10px 0 10px auto;
-  height: 10px;
-  width: 120px;
-  background: #290724;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 436px;
+  height: 164px;
+  background-image: url(/static/img/theme/speaker-card/banner.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   content: "";
 }
+
+.speaker-template-name,
 .speaker-template-session-title {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 2.3rem;
+  max-width: 600px;
+}
+
+.speaker-template-name {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #140A44;
+}
+
+.speaker-template-name::after {
+  display: block;
+  position: relative;
+  margin: 0.5rem 0 3rem;
+  width: 36%;
+  height: 26px;
+  background-image: url(/static/img/theme/speaker-card/line.svg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  content: "";
+}
+
+.speaker-template-session-title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #150944;
+}
+.speaker-template-session-title + .speaker-template-session-title {
+  margin-top: 2rem;
+}
+
+.speaker-template-photo {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  z-index: 0;
+  -webkit-mask-image: url(/static/img/theme/speaker-card/speaker-mask.svg);
+  mask-image: url(/static/img/theme/speaker-card/speaker-mask.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 414px;
+  height: 414px;
 }
 
 .partner {
