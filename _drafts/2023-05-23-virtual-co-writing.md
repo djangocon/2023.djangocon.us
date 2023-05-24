@@ -22,9 +22,9 @@ Here's how our sessions will operate:
   - 45 minutes of silent writing (mute your microphones)
   - 5-10 minutes of discussion of session, efforts, socialization.
 - Audio only - It's going to be early in the morning for some folks.
-- Code of conduct will be in effect.
-- Open to any conference goer, in-person or online.
+- Code of Conduct will be in effect.
+- Open to any conference ticket-holder, whether in-person or online.
 
-If you're interested, the sign up sheet will be shared in the conference Slack and email list near the start of the conference. There are no requirements, you're free to utilize this as much or as little as you'd like. Each morning you will join the same Zoom room. From there folks will be shuffled into breakout rooms.
+If you're interested, the sign up sheet will be shared in the conference Slack and email list near the start of the conference. There are no requirements; you're free to utilize this as much or as little as you'd like. Each morning you will join the same Zoom room. From there folks will be shuffled into breakout rooms.
 
 If you're interested, be sure to [buy your ticket]({{site.ticket_link}}) today! If you have questions, reach out to us at [{{site.contact_us_email}}](mailto:{{site.contact_us_email}}).
