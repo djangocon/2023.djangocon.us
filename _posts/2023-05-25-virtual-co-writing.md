@@ -1,7 +1,7 @@
 ---
 author: Tim Schilling
 category: General
-date: 2023-05-23 12:00:00
+date: 2023-05-25 08:00:00
 image: /static/img/blog/djangocon_us_earlybird_pricing_2023.png
 layout: post
 post_photo_alt: Organizers at DjangoCon US 2022 in San Diego preparing before the conference. But it looks like they could be co-writing!
@@ -16,7 +16,7 @@ The purpose of these sessions is to help folks write and be introduced to others
 Here's how our sessions will operate:
 
 - Days: Tuesday, Wednesday, Thursday (Oct 17-19)
-- Start time: [7:30am (US/Eastern)](https://time.is/0730_17_Oct_2023_in_Durham)
+- Start time: [7:30am (America/New_York)](https://time.is/0730_17_Oct_2023_in_Durham)
 - Duration: 60 minutes
   - 5 minutes of introductions and explanation of what you'll be writing.
   - 45 minutes of silent writing (mute your microphones)
