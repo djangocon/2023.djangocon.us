@@ -27,13 +27,13 @@ I was able to chat recently with, [Joni Trythall](https://mastodon.yupgup.com/@j
 
 > Joni: "I had always integrated design work into my previous non-profit administration duties after graduate school, but I didn’t officially make the switch until my son Ben was born 11 years ago. I needed a lot more flexibility than my previous career allowed for but also wasn’t in a position to return to school. I started learning about CSS through blogs like CSS-Tricks and tinkering on CodePen. 
 
->"I published resources (usually involving fruit) and conducted workshops as I learned it to help retain the knowledge better–like with [Pocket Guide to Writing SVG](https://svgpocketguide.com), [Flexbox Cheatsheet](https://jonitrythall.com/content/flexboxsheet.pdf), and [Tuts+ Town](https://webdesign.tutsplus.com/tutorials/web-design-for-kids-welcome-to-tuts-town--cms-23680)–and was eventually hired as a product designer. From there I spent time as a front-end developer, UX designer, marketing designer, and visual designer–with lots of learning on the job. So I’ve worn many different design hats over the years, but am happiest in the brand strategy space where I am now."
+> "I published resources (usually involving fruit) and conducted workshops as I learned it to help retain the knowledge better–like with [Pocket Guide to Writing SVG](https://svgpocketguide.com), [Flexbox Cheatsheet](https://jonitrythall.com/content/flexboxsheet.pdf), and [Tuts+ Town](https://webdesign.tutsplus.com/tutorials/web-design-for-kids-welcome-to-tuts-town--cms-23680)–and was eventually hired as a product designer. From there I spent time as a front-end developer, UX designer, marketing designer, and visual designer–with lots of learning on the job. So I’ve worn many different design hats over the years, but am happiest in the brand strategy space where I am now."
 
 ## As a local of Durham, NC, I recognize the images you created really capture Durham. What did you use for inspiration?
 
 > Joni: "The inspiration was entirely the DCUS team. While I did some initial Googling, the magic really happened during our design kick-off call. Peter lives in Durham and excitedly listed so many wonderful things about the area–you can tell he really loves it there–and the rest was gauging everyone else’s reaction to the events and locations mentioned. 
 
-> There’s definitely unique and beautiful buildings in Durham, and we touch on that a bit in the illustrations, but as the group collectively lit up when Peter was talking about the Duke Lemur Center I knew that those cuties need to be a significant part of the experience. Durham has such unique access to these delightful creatures and it would seem like a missed opportunity not to match them with this mascot-loving community. 
+> There’s definitely unique and beautiful buildings in Durham, and we touch on that a bit in the illustrations, but as the group collectively lit up when Peter [Grandstaff, the 2023 conference chair]  was talking about the Duke Lemur Center I knew that those cuties need to be a significant part of the experience. Durham has such unique access to these delightful creatures and it would seem like a missed opportunity not to match them with this mascot-loving community. 
 
 > At the same time, though, we didn’t want to be locked into just one aspect of the area. In the end the theme took on more of a “lemur explores Durham” vibe to capture additional landmarks like the bull statue and the farmer’s market. 
 
@@ -42,7 +42,7 @@ I was able to chat recently with, [Joni Trythall](https://mastodon.yupgup.com/@j
 
 ## I had a much more artistic friend take a look at your work and help inform my questions. She thinks I should ask you about the “flat” art style. Any insight into what “flat” art style is and why you use it?
 
-> Joni: "I love this question! My first experiences with illustration were actually CSS-based drawings like this one [codepin.io/jonitrythall](https://codepen.io/jonitrythall/pen/zYGKEg)–I chose the crab as a hat tip for DCUS 2022 of course. Putting basic, flat, two dimensional shapes together was the easiest way to get a graphic in place with individual shapes for animating. This same approach carried over into Illustrator and learning about SVGs. 
+> Joni: "I love this question! My first experiences with illustration were actually CSS-based drawings like [this one](https://codepen.io/jonitrythall/pen/zYGKEg)–I chose the crab as a hat tip for DCUS 2022 of course. Putting basic, flat, two dimensional shapes together was the easiest way to get a graphic in place with individual shapes for animating. This same approach carried over into Illustrator and learning about SVGs. 
 
 > Even as I’ve experimented with more “complex” drawing and texture techniques over the years I find myself always preferring the simplicity and lightness of this approach, cutting down on unnecessary complexities that may distract from the message. This style also seems to prevail over a lot of trends that come and go, especially within the tech community, and makes printing and working in Figma much easier."
 
@@ -58,11 +58,11 @@ I was able to chat recently with, [Joni Trythall](https://mastodon.yupgup.com/@j
 
 > Joni: "At YupGup we are kicking off a little initiative this summer and I’d love to share it here first with this community. It’s called “Ask a Designer” and it’s simply a friendly space for developers to ask designers questions. We want to help take the stigma, mystery, and intimidation out of design in general.  
 
-> You can email us at [askadesigner@yupgup.com](askadesigner@yupgup.com)–I can’t wait to chat." 
+> You can email us at [askadesigner@yupgup.com](mailto:askadesigner@yupgup.com)–I can’t wait to chat." 
 
 ## I saw in your YupGup bio that you have a very interesting hobby. What got you into raising butterflies?
 
-> Joni: So like a lot of things, I initially showed interest in raising butterflies to get my son involved but it ended up with me taking it to a weird level. I ordered some TINY baby caterpillars from an organization called Monarch Watch to get started. We learned so much after that first year that it’s been easier and easier to attract them naturally and raise them from eggs. By prioritizing native plants, adding milkweed, and avoiding chemicals, we’ve been able to collect 30+ eggs a year and even got our yard certified as an official monarch waystation with these changes.
+> Joni: So like a lot of things, I initially showed interest in raising butterflies to get my son involved but it ended up with me taking it to a weird level. I ordered some TINY baby caterpillars from an organization called [Monarch Watch](https://monarchwatch.org/) to get started. We learned so much after that first year that it’s been easier and easier to attract them naturally and raise them from eggs. By prioritizing native plants, adding milkweed, and avoiding chemicals, we’ve been able to collect 30+ eggs a year and even got our yard certified as an official [Monarch Waystation](https://monarchwatch.org/waystations/) with these changes.
 
 > It’s the highlight of the year for me, honestly, and I’ve added leafcutter bees to the mix as well. They are the cutest solitary bees that excel as pollinators and go through several generations a year living in little reeds I’ve set up for them. 
 
