@@ -7,9 +7,9 @@ permalink: /room-sharing/
 title: Room and Ride Sharing
 ---
 
-Do you want to share a room [one of the hotels](/venue/#welcome) with other attendees, or do you have local accommodation available? Do you want to drive to DjangoCon US from Los Angeles, Tucson, or other relatively nearby cities?
+Do you want to share a room at [one of the hotels](/venue/#welcome) with other attendees, or do you have local accommodation available? Do you want to drive to DjangoCon US from Charlotte, Greensboro, Raleigh, or other relatively nearby cities?
 
-We have a [Google sheet](https://docs.google.com/spreadsheets/d/1-O7vSIeSls_xH9w9QVjVrVjgmEciKGduKQRMocCskkk/edit#gid=1494429576) just for you! There are tabs for people who already have room
+We have a [Google sheet](https://docs.google.com/spreadsheets/d/1-MESCzq4TmzGf8t1V2FZmdVTfuwuwxBR8mlnPKOa0UU/edit?usp=sharing) just for you! There are tabs for people who already have room
 reservations and are looking for roommates, who haven't yet booked anything, who live locally and want to offer
 their homes as accommodation, and who will be driving to Durham and need car buddies.
 
@@ -28,5 +28,5 @@ When reserving your room, be sure to specify the type and number of beds. Some r
 
 **Caution:** Room and ride sharing arrangements are the responsibilities of the individual parties involved. DEFNA, DSF, and DjangoCon US staff take no responsibility, and cannot be involved in any disputes.
 
-[Share a Room or Ride (spreadsheet information)](https://docs.google.com/spreadsheets/d/1-O7vSIeSls_xH9w9QVjVrVjgmEciKGduKQRMocCskkk/edit#gid=1494429576
+[Share a Room or Ride (spreadsheet information)](https://docs.google.com/spreadsheets/d/1-MESCzq4TmzGf8t1V2FZmdVTfuwuwxBR8mlnPKOa0UU/edit?usp=sharing
 ){: class="button center medium-centered" }
