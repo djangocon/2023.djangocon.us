@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: General
-date: 2023-06-06 12:00:00
+date: 2023-06-08 12:00:00
 image: /static/img/blog/trythall-zoomies.jpg
 layout: post
 post_photo_alt: Joni Tryhall, YupGup Design Lead for DjangoCon US 2023
