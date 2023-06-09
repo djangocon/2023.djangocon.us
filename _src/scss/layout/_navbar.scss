@@ -9,12 +9,6 @@
 
 .title-bar .menu a:not(.button) {
   color: $brand-color1;
-
-  &:hover,
-  &:focus, 
-  &:active {
-    color: $brand-color3;
-  }
 }
 
 .title-bar .menu {
