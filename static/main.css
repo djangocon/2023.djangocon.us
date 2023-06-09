@@ -7572,6 +7572,9 @@ blockquote cite {
 .title-bar .menu a:not(.button) {
   color: #140A44;
 }
+.title-bar .menu a:not(.button):hover, .title-bar .menu a:not(.button):focus, .title-bar .menu a:not(.button):active {
+  color: #4975C3;
+}
 
 .title-bar .menu {
   transform: translate3d(0, 0, 0);
