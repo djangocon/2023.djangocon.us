@@ -56,7 +56,6 @@ $brand-color4: #766591;
 $brand-color5: #FDCA85;
 $brand-color6: #A1CCE4;
 
-
 $color-twitter: #1DB4EB;
 $color-facebook: #44649D;
 $color-tumblr: #335069;
@@ -208,9 +207,9 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $secondary-color;
-$blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-border: 1px solid $medium-gray;
+$blockquote-color: $primary-color;
+$blockquote-padding: rem-calc(9 20);
+$blockquote-border: 8px solid $brand-color5;
 $cite-font-size: rem-calc(15);
 $cite-color: $secondary-color;
 $cite-pseudo-content: '\2014 \0020';
