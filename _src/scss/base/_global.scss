@@ -124,4 +124,8 @@ blockquote {
     font-size: rem-calc(14px);
     color: $body-font-color;
   }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
 }

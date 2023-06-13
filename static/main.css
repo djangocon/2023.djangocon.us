@@ -2424,12 +2424,12 @@ dl dt {
 
 blockquote {
   margin: 0 0 1rem;
-  padding: 0.4326923077rem 0.9615384615rem 0 0.9134615385rem;
-  border-left: 1px solid #E9E9E9;
+  padding: 0.4326923077rem 0.9615384615rem;
+  border-left: 8px solid #FDCA85;
 }
 blockquote, blockquote p {
   line-height: 1.6;
-  color: #E47048;
+  color: #140A44;
 }
 
 abbr, abbr[title] {
@@ -7528,6 +7528,9 @@ iframe,
 blockquote cite {
   font-size: 0.6730769231rem;
   color: #1E1E1E;
+}
+blockquote p:last-of-type {
+  margin-bottom: 0;
 }
 
 .button {
