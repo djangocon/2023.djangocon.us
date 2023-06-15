@@ -15,21 +15,22 @@
       {% if page.photo_url != blank %}
         <img
           src="{{ page.photo_url }}"
-          width="520"
+          width="420"
           alt="{{ page.name }}"
           class="speaker-template-photo" />
       {% endif %}
 
       <h1 class="speaker-template-name">{{ page.name }}</h1>
-      <h2 class="speaker-template-session-title">
-        {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
+
+      {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
+
+
         {% if page.override_schedule_title %}
-          {{ page.override_schedule_title }}
+          <h2 class="speaker-template-session-title">{{ page.override_schedule_title }}</h2>
         {% else %}
           {% assign presentation_length = presentations|size %}
           {% for schedule in presentations %}
-            {{ schedule.title }}
-            {% if presentation_length > 1 %}<br>{% endif %}
+            <h2 class="speaker-template-session-title">{{ schedule.title }}</h2>
           {% endfor %}
         {% endif %}
       </h2>
