@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins, Metta Rolando
 category: General
-date: 2023-06-16 12:00:00
+date: 2023-06-23 12:00:00
 image: /static/img/blog/childcare-lactation-family.png
 layout: post
 post_photo_alt: DjangoCon US 2023 Childcare, Lactation, and Family
