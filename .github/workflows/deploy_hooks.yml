@@ -6,7 +6,7 @@ on:
 
 jobs:
   send_webhook:
-    if: ${{ github.event.deployment_status.state == 'success' }}
+    if: ${{ github.event.deployment_status == null || github.event.deployment_status.state == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Post blog published notification to Communications channel
@@ -56,10 +56,10 @@ jobs:
             // Check if the pull request has the 'blog' label
             if (label) {
               // Construct the payload for the webhook post
-              const payload = { title: prTitle, label: label.name };
+              const payload = { text: `Blog "${prTitle}" post has been published.` };
               const webhookUrl = "${{ env.WEBHOOK_URL }}";
               // Send the webhook post request
-              await fetch(webhookUrl, {
+              const fetchResponse = await fetch(webhookUrl, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(payload),
