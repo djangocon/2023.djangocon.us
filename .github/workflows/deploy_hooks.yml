@@ -50,21 +50,24 @@ jobs:
             const response = await github.graphql(query, variables);
 
             // Extract relevant information from the response
-            const prTitle = response.repository.object.associatedPullRequests.nodes[0].title;
-            const label = response.repository.object.associatedPullRequests.nodes[0].labels.nodes.find(node => node.name === 'blog');
+            const prs = response.repository.object.associatedPullRequests.nodes
+            if (prs.length >= 1) {
+              const prTitle = prs[0].title;
+              const label = prs[0].labels.nodes.find(node => node.name === 'blog');
 
-            // Check if the pull request has the 'blog' label
-            if (label) {
-              // Construct the payload for the webhook post
-              const payload = { text: `Blog "${prTitle}" post has been published.` };
-              const webhookUrl = "${{ env.WEBHOOK_URL }}";
-              // Send the webhook post request
-              const fetchResponse = await fetch(webhookUrl, {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify(payload),
-              });
-            } else {
-              // Debugging measure. Should be removed after we know this all works.
-              console.log(prTitle, label, response)
+              // Check if the pull request has the 'blog' label
+              if (label) {
+                // Construct the payload for the webhook post
+                const payload = { text: `Blog "${prTitle}" post has been published.` };
+                const webhookUrl = "${{ env.WEBHOOK_URL }}";
+                // Send the webhook post request
+                const fetchResponse = await fetch(webhookUrl, {
+                  method: 'POST',
+                  headers: {'Content-Type': 'application/json'},
+                  body: JSON.stringify(payload),
+                });
+              } else {
+                // Debugging measure. Should be removed after we know this all works.
+                console.log(prTitle, label, response)
+              }
             }
