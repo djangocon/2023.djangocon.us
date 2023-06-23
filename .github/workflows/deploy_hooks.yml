@@ -14,7 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
-          COMMIT: ${{ github.sha
+          COMMIT: ${{ github.sha }}
           WEBHOOK_URL: ${{ secrets.SLACK_COMMUNICATIONS_WEBHOOK_URL }}
 
         with:
