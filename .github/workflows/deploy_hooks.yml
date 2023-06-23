@@ -1,7 +1,8 @@
 name: Deployment Webhooks
 
 on:
-  deployment_status
+  deployment_status:
+  workflow_dispatch:
 
 jobs:
   send_webhook:
@@ -22,7 +23,7 @@ jobs:
           script: |
             // Set the GraphQL query
             const query = `
-              query ($name: String!, $owner: String!, $commit String!) {
+              query ($name:String!, $owner:String!, $commit:String!) {
                 repository(owner: $owner, name: $name) {
                   object(expression: $commit) {
                     ... on Commit {
