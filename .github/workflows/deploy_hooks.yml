@@ -1,0 +1,72 @@
+name: Deployment Webhooks
+
+on:
+  deployment_status
+
+jobs:
+  send_webhook:
+    if: ${{ github.event.deployment_status.state == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post blog published notification to Communications channel
+        uses: actions/github-script@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          COMMIT: ${{ github.sha
+          WEBHOOK_URL: ${{ secrets.SLACK_COMMUNICATIONS_WEBHOOK_URL }}
+
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Set the GraphQL query
+            const query = `
+              query ($name: String!, $owner: String!, $commit String!) {
+                repository(owner: $owner, name: $name) {
+                  object(expression: $commit) {
+                    ... on Commit {
+                      associatedPullRequests(first: 1) {
+                        nodes {
+                          title
+                          labels(first: 10) {
+                            nodes {
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            // Set the variables for the GraphQL query
+            const variables = { name: "${{ env.REPO }}, owner: "${{ env.OWNER }}", commit: "${{ env.COMMIT }}" };
+
+            // Make the GraphQL API request
+            const response = await github.graphql(query, variables);
+
+            // Extract relevant information from the response
+            const prTitle = response.repository.object.associatedPullRequests.nodes[0].title;
+            const label = response.repository.object.associatedPullRequests.nodes[0].labels.nodes.find(node => node.name === 'blog');
+
+            // Check if the pull request has the 'blog' label
+            if (label) {
+              // Construct the payload for the webhook post
+              const payload = { title: prTitle, label: label.name };
+
+              // Replace <WEBHOOK_URL> with the actual URL of your webhook endpoint
+              const webhookUrl = "${{ env.WEBHOOK_URL }}";
+
+              // Send the webhook post request
+              await fetch(webhookUrl, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload),
+              });
+            } else {
+              // Debugging measure. Should be removed after we know this all works.
+              console.log(prTitle, label, response)
+            }
