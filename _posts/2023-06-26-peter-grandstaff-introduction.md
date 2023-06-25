@@ -4,14 +4,14 @@ category: General
 date: 2023-06-26 12:00:00
 image: /static/img/organizers/peter-grandstaff.jpg
 layout: post
-post_photo_alt: Peter Grandstaff, DjangoCon US 2023 Conference Co-Chair
+post_photo_alt: Peter Grandstaff, DjangoCon US 2023 Conference Chair
 post_photo_url: /static/img/organizers/peter-grandstaff.jpg
-title: Introducing Peter Grandstaff, DjangoCon US 2023 Conference Co-Chair
+title: Introducing Peter Grandstaff, DjangoCon US 2023 Conference Chair
 ---
 
-This week I had the pleasure of chatting with one of the DjangoCon US 2023 Conference Co-Chairs, Peter Grandstaff, about her role as a conference chair and his experience with Django.
+This week I had the pleasure of chatting with the DjangoCon US 2023 Conference Chair, Peter Grandstaff, about his role as Conference Chair and his experience with Django.
 
-## How do you balance your responsibilities as a conference Chair with your work as a software developer?
+## How do you balance your responsibilities as Conference Chair with your work as a software developer?
 
 > Peter: "Most importantly, I'm able to do this as a result of the fantastic team we have at [Two Rock Software](https://tworock.io/). They keep everything running even when I need to block out time to tend to conference planning. I can't express how grateful I am for them all."
 
@@ -25,13 +25,13 @@ This week I had the pleasure of chatting with one of the DjangoCon US 2023 Confe
 
 > I was pretty absent from the Django community despite working with the framework daily for the next decade.
 
->It was in 2020 when I got to work with [Dawn Wages](http://dawnwages.info/) that I first heard some really wonderful accounts of DjangoCon US and how amazing the Django community was. I attended online in 2021 and 2022 and was pretty impressed.
+>It was in 2020 when I got to work with DCUS Sponsorship co-chair [Dawn Wages](http://dawnwages.info/) that I first heard some really wonderful accounts of DjangoCon US and how amazing the Django community was. I attended online in 2021 and 2022 and was pretty impressed.
 
 >As we came out of the pandemic and I learned that [DEFNA](https://www.defna.org/) was looking for a new host city for 2023, I dove in (again, thanks to Dawn) to try to bring the conference here to Durham and I just keep getting deeper into it as we go!"
 
-## What motivated you to apply for the role of DjangoCon US conference chair, and what do you hope to achieve in this position?
+## What motivated you to apply for the role of DjangoCon US Conference Chair, and what do you hope to achieve in this position?
 
-> Peter: "Prior to the organizing kickoff for 2023 I'd already taken on some level of leadership by hammering out all the venue and hotel contracts here in Durham. It kind of felt like a natural continuation of what I'd been doing. I'm a DjangoCon US newbie, so I was definitely reluctant to take a leadership role like that. Once I saw how many passionate and engaged volunteers we had showing up to the organizer meetings I felt confident that the Chair role was something I could manage. At least, I could manage it with a good co-chair as backup. Thankfully, the very talented Adrienne Franke, [the other co-chair] agreed to take on that role."
+> Peter: "Prior to the organizing kickoff for 2023 I'd already taken on some level of leadership by hammering out all the venue and hotel contracts here in Durham. It kind of felt like a natural continuation of what I'd been doing. I'm a DjangoCon US newbie, so I was definitely reluctant to take a leadership role like that. Once I saw how many passionate and engaged volunteers we had showing up to the organizer meetings I felt confident that the Chair role was something I could manage. At least, I could manage it with a good co-chair as backup. Thankfully, the very talented Adrienne Franke [the other co-chair] agreed to take on that role."
 
 ## What is your vision for the future of Django, and how do you plan to showcase this during the conference?
 
@@ -59,6 +59,6 @@ This week I had the pleasure of chatting with one of the DjangoCon US 2023 Confe
 
 ## Thank you so much for your taking the time to chat with me, Peter! What's the best way for people to contact you if they'd like to know more?
 
-> Peter: "The DjangoCon US organizers slack is a great place to find me, or you can find more info and contact information on the Two Rock Software website, [Two Rock](https://tworock.io)"
+> Peter: "The DjangoCon US organizers Slack is a great place to find me, or you can find more info and contact information on the Two Rock Software website, [Two Rock](https://tworock.io)"
 
-### We organizers would like to thank Peter for her leadership and work with the planning of DjangoCon US 2023!
+### We organizers would like to thank Peter for his leadership and work with the planning of DjangoCon US 2023!
