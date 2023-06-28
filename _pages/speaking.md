@@ -9,13 +9,12 @@ title: Speaking at DjangoCon US
 {% comment %}
 Our Call for Proposals (CFP) will open soon!
 {% endcomment %}
-
+{% comment %}
 Our Call for Proposals is now closed.
 Decision notifications will be sent by June 28th, 2023.
-
-{% comment %}
-Our Call for Proposals is now closed and all decision notifications have been sent.
 {% endcomment %}
+
+Our Call for Proposals is now closed and all decision notifications have been sent.
 
 {% comment %}
 Our <a href="{{ site.cfp_application }}">Call for Proposals (CFP)</a> is now open!
