@@ -10,11 +10,3 @@ Please make sure to apply the "blog" label to the pull request if it is related 
 ## Related Issue
 
 <!-- If this PR is related to an issue, provide the issue number or a brief description -->
-
-## Checklist
-
-- [ ] I have applied the "blog" label to this pull request.
-- [ ] I have tested the changes locally.
-- [ ] I have reviewed the code changes.
-- [ ] I have updated the documentation, if necessary.
-- [ ] I have added appropriate tests, if applicable.
