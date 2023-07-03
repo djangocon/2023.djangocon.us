@@ -1,3 +1,4 @@
+<!-- Please make sure to apply the "blog" label to the pull request if it is related to a blog post so that it can be published to Slack. -->
 
 ## Description
 
