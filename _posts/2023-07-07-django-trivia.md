@@ -1,8 +1,8 @@
 ---
 author: Tim Schilling
 category: General
-date: 2023-05-23 12:00:00
-image: 
+date: 2023-07-07 12:00:00
+image: /static/img/blog/trivia_night.png
 layout: post
 post_photo_alt: Djangonauts at DjangoCon US 2022 in San Diego participating in contribution sprints.
 post_photo_url: /static/img/blog/djangocon_us_sprints_2022.jpg
@@ -13,9 +13,11 @@ Round one: In what city was the first DjangoCon US held?
 
 ## Come join us at DjangoCon US for some Django trivia!
 
-This year we will be hosting a virtual trivia contest. The prizes (that I can commit to right now) are a $100 donation made to a charity of your choice and having your name(s), a link of your choosing and short statement emblazoned permanently [here](https://2023.djangocon.us/trivia/)! You can use this page to advertise yourself, your business, your side-project, or whatever you'd like [^1].
+This year we will be hosting a virtual trivia contest. The prizes are a $100 donation made to a charity of your choice and having your name(s), a link of your choosing and short statement emblazoned permanently [here](https://2023.djangocon.us/trivia/)! You can use this page to advertise yourself, your business, your side-project, or whatever you'd like [^1].
 
-Logistics:
+### Logistics:
+
+- Date & Time: To be determined!
 - Teams should be limited to five people.
 - In-person and online conference attendees are welcome to participate.
 - There will be three rounds of five questions each.
