@@ -39,11 +39,11 @@ City of [Durham Bike & Hike Map](https://www.durhamnc.gov/1031/Durham-Bike-Hike-
 
 The [North/South Greenway](https://www.dprplaymore.org/265/North-South-Greenway) (7.5 miles of paved trail).
 
-The [American Tobacco Trail](https://triangletrails.org/american-tobacco-trail) (22 miles of rails to trails).
+The [American Tobacco Trail](https://triangletrails.org/american-tobacco-trail) has 22 miles of rails to trails that starts less than a mile from the hotel and continues south for 14 milespaved and 8 more of gravel after that
 
 The [East Coast Greenway](https://www.greenway.org/states/north-carolina) runs through Durham.
 
-The [Falls Lake State Recreation Area](https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area) has 15 miles of MTB and 25 miles of hiking. 
+The [Falls Lake State Recreation Area](https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area) has 15 miles of mountain biking and 25 miles of hiking. 
 
 <img src="/static/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg" alt="Photo of bikers by Phillippe Oursel via Unsplash" title="Biking" style="width:30%; display:block; float:right;" />
 
@@ -64,11 +64,11 @@ The [Riverwalk](https://www.hillsboroughnc.gov/community/recreation-facilities/r
 
 One rental shop nearby is [Durham Cycles](https://durhamcycles.com/rentals/).
 
-Some routes from a semi-defunct bike shop (lost their lease): [Ride with GPS](https://ridewithgps.com/users/526614/routes).
+Some routes from a Durham bike shop which is looking for a new location: [Ride with GPS](https://ridewithgps.com/users/526614/routes).
 
-[Carolina Tarwheels](https://tarwheels.net/wp/) (great name, btw): road riding group with a bunch of routes published from various start points.
+[Carolina Tarwheels](https://tarwheels.net/wp/): road riding group with a bunch of routes published from various start points.
 
-The [Triangle MTB](https://www.trianglemtb.com/index.php) site is a good (albeit outdated) hub for MTB stuff in the area. 
+The [Triangle MTB](https://www.trianglemtb.com/index.php) site is a good (albeit outdated) hub for mountain biking resources in the area. 
 
 If you're interested in e-bike rentals, [Triangle Bike Rentals](https://trianglebikerentals.com/service-areas/durham-nc/) has them.
 
