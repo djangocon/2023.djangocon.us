@@ -2,7 +2,7 @@
 author: DjangoCon US Organizers
 category: General
 date: 2023-07-10 12:00:00-04:00
-image: /static/img/blog/speaking.jpg
+image: /static/img/blog/speaking-2022-cfp.jpg
 layout: post
 post_photo_alt: Speaker addressing a crowd at DjangoCon US 2019 in San Diego
 post_photo_url: /static/img/blog/speaking-2022-cfp.jpg
