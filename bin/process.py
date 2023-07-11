@@ -165,14 +165,46 @@ class Schedule(FrontmatterModel):
 
 
 POST_TYPES = [
-    {"path": "_jobs", "class_name": Job},
-    {"path": "_organizers", "class_name": Organizer},
-    {"path": "_pages", "class_name": Page},
-    {"path": "_posts", "class_name": Post},
-    {"path": "_presenters", "class_name": Presenter},
-    {"path": "_schedule/sprints", "class_name": Schedule},
-    {"path": "_schedule/talks", "class_name": Schedule},
-    {"path": "_schedule/tutorials", "class_name": Schedule},
+    {
+        "path": "_jobs",
+        "class_name": Job,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_organizers",
+        "class_name": Organizer,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_pages",
+        "class_name": Page,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_posts",
+        "class_name": Post,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_presenters",
+        "class_name": Presenter,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/sprints",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/talks",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/tutorials",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
 ]
 
 app = typer.Typer()
@@ -187,7 +219,9 @@ def fmt():
             try:
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
-                post.metadata.update(data.model_dump(exclude_unset=True))
+                post.metadata.update(
+                    data.model_dump(exclude_unset=post_type["exclude_unset"])
+                )
                 filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
                 typer.secho(f"{filename}", fg="red")
