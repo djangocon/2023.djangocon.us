@@ -1,7 +1,6 @@
-"""NOTE: You need to adjust the dates for 2023"""
+"""NOTE: You need to adjust the dates **per year**"""
 import csv
 from io import StringIO
-from turtle import title
 import frontmatter
 import inflection
 import os
@@ -14,7 +13,7 @@ from pathlib import Path
 from pydantic import BaseModel, ValidationError
 from rich import print
 from slugify import slugify
-from typing import List, Literal, Optional, Union
+from typing import List, Literal, Optional
 from urllib.parse import quote_plus
 import pytz
 
@@ -27,13 +26,13 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[datetime]
+    date: Optional[datetime] = None
     layout: str
-    permalink: Optional[str]
+    permalink: Optional[str] = None
     published: bool = True
-    redirect_from: Optional[List[str]]
-    redirect_to: Optional[str]  # via the jekyll-redirect-from plugin
-    sitemap: Optional[bool]
+    redirect_from: Optional[List[str]] = None
+    redirect_to: Optional[str] = None  # via the jekyll-redirect-from plugin
+    sitemap: Optional[bool] = None
     title: str
 
     class Config:
@@ -44,62 +43,62 @@ class Job(FrontmatterModel):
     hidden: bool = False
     layout: str = "base"
     name: str
-    title: Optional[str]
+    title: Optional[str] = None
     website: str
     website_text: str = "Apply here"
 
 
 class Organizer(FrontmatterModel):
-    github: Optional[str]
+    github: Optional[str] = None
     hidden: bool = False
     layout: str = "base"
     name: str
-    photo_url: Optional[str]
-    slug: Optional[str]
-    title: Optional[str]
-    twitter: Optional[str]
-    website: Optional[str]
-    mastodon: Optional[str]
+    photo_url: Optional[str] = None
+    slug: Optional[str] = None
+    title: Optional[str] = None
+    twitter: Optional[str] = None
+    website: Optional[str] = None
+    mastodon: Optional[str] = None
 
 
 class Page(FrontmatterModel):
-    description: Optional[str]
-    heading: Optional[str]
-    hero_text_align: Optional[str]  # homepage related
-    hero_theme: Optional[str]  # homepage related
-    layout: Optional[str]
-    testimonial_img: Optional[str]  # homepage related
-    testimonial_img_mobile: Optional[str]  # homepage related
-    title: Optional[str]
+    description: Optional[str] = None
+    heading: Optional[str] = None
+    hero_text_align: Optional[str] = None  # homepage related
+    hero_theme: Optional[str] = None  # homepage related
+    layout: Optional[str] = None
+    testimonial_img: Optional[str] = None  # homepage related
+    testimonial_img_mobile: Optional[str] = None  # homepage related
+    title: Optional[str] = None
 
 
 class Post(FrontmatterModel):
     author: Optional[str] = None
     category: Optional[str] = "General"  # TODO: build a list of these
-    categories: Optional[List[str]]
+    categories: Optional[List[str]] = None
     date: datetime  # YYYY-MM-DD HH:MM:SS +/-TTTT
     image: Optional[str] = None
     layout: Optional[str] = "post"
     slug: Optional[str] = None
-    tags: Optional[List[str]]
+    tags: Optional[List[str]] = []
 
 
 class Presenter(FrontmatterModel):
-    company: Optional[str]
-    github: Optional[str]
+    company: Optional[str] = None
+    github: Optional[str] = None
     hidden: bool = False
     layout: str = "speaker-template"
     name: str
     override_schedule_title: Optional[str] = None
-    pronouns: Optional[str]
-    photo_url: Optional[str]
-    role: Optional[str]
+    pronouns: Optional[str] = None
+    photo_url: Optional[str] = None
+    role: Optional[str] = None
     slug: Optional[str] = None
-    title: Optional[str]
-    twitter: Optional[str]
-    website: Optional[str]
+    title: Optional[str] = None
+    twitter: Optional[str] = None
+    website: Optional[str] = None
     website_text: str = "Apply here"
-    mastodon: Optional[str]
+    mastodon: Optional[str] = None
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -139,21 +138,21 @@ class Schedule(FrontmatterModel):
         ]
     ]
 
-    image: Optional[str]
+    image: Optional[str] = None
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
     presenter_slugs: Optional[List[str]] = None
-    presenters: List[dict] = None  # TODO: break this into a sub-type
+    presenters: Optional[List[dict]] = None  # TODO: break this into a sub-type
     published: bool = False
-    room: Optional[str]
-    schedule: Optional[str]
-    schedule_layout: Optional[str]  # TODO: Validate for breaks, lunch, etc
-    show_video_urls: Optional[bool]
-    slides_url: Optional[str]
-    summary: Optional[str]
+    room: Optional[str] = None
+    schedule: Optional[str] = None
+    schedule_layout: Optional[str] = None  # TODO: Validate for breaks, lunch, etc
+    show_video_urls: Optional[bool] = None
+    slides_url: Optional[str] = None
+    summary: Optional[str] = None
     tags: Optional[List[str]] = None
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
-    video_url: Optional[str]
+    video_url: Optional[str] = None
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -188,7 +187,7 @@ def fmt():
             try:
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
-                post.metadata.update(data.dict(exclude_unset=True))
+                post.metadata.update(data.model_dump(exclude_unset=True))
                 filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
                 typer.secho(f"{filename}", fg="red")
@@ -207,10 +206,10 @@ def validate():
                 data = frontmatter.loads(filename.read_text())
                 post_type["class_name"](**data.metadata)
             except ValidationError as e:
-                typer.secho(f"{filename}", fg="red")
-                typer.echo(e.json())
+                print(f"[red]{filename}[/red]")
+                print(e.json())
             except Exception as e:
-                typer.secho(f"{filename}::{e}", fg="red")
+                print(f"[red]{filename}::{e}[/red]")
 
 
 @app.command()
@@ -247,7 +246,7 @@ def generate_lactation_room(
         talk_slot="full",
         title="Lactation Room",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}"
         f"-{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-lactation-room.md"
@@ -289,7 +288,7 @@ def generate_quiet_room(
         talk_slot="full",
         title="Quiet Room",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-quiet-room.md"
@@ -334,7 +333,7 @@ def generate_registration_desk(
         talk_slot="full",
         title="Registration",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-registration.md"
@@ -363,7 +362,7 @@ def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
         talk_slot="full",
         title="Continental Breakfast",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -396,7 +395,7 @@ def generate_break(
         talk_slot="full",
         title="Break",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -432,7 +431,7 @@ def generate_early_lunch(
         title="Early Lunch",
         track=f"t{track}",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -467,7 +466,7 @@ def generate_lunch(
         talk_slot="full",
         title="Lunch",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -503,7 +502,7 @@ def generate_opening_remarks(
             speaker.website = organizer.website
             speaker.title = organizer.title
             speaker.mastodon = organizer.mastodon
-        speaker_post.metadata.update(speaker.dict(exclude_unset=True))
+        speaker_post.metadata.update(speaker.model_dump(exclude_unset=True))
         output_path = Path(f"_presenters/{speaker.slug}.md")
         output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
 
@@ -523,7 +522,7 @@ def generate_opening_remarks(
     )
     if speaker_name:
         sched.presenter_slugs = [slugify(speaker_name)]
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -561,7 +560,7 @@ def generate_lightning_talks(
         title="Lightning Talks",
         track=f"t{track}",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -598,7 +597,7 @@ def generate_keynote(
         title="Keynote (to be announced)",
         track="t1",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -749,7 +748,7 @@ def process(
 
             # TODO: Re-enable once we know everything works...
             data = Schedule(**post.metadata)
-            post.metadata.update(data.dict(exclude_unset=True))
+            post.metadata.update(data.model_dump(exclude_unset=True))
 
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
