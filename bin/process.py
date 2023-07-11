@@ -136,7 +136,7 @@ class Schedule(FrontmatterModel):
             "talks",
             "tutorials",
         ]
-    ]
+    ] = None
 
     image: Optional[str] = None
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
