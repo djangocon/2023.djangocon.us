@@ -1,0 +1,68 @@
+default_language_version:
+  python: python3.8
+
+exclude: |
+    (?x)^(
+        .devcontainer/devcontainer.json|
+        .github/contributors.json|
+        .vscode/launch.json|
+        _sitestatic/.*|
+        CONTRIBUTORS.md|
+        static/.*
+    )$
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/rtts/djhtml
+    rev: '3.0.6'
+    hooks:
+      - id: djhtml
+        entry: djhtml --tabwidth 4
+        alias: autoformat
+      - id: djcss
+        alias: autoformat
+      - id: djjs
+        alias: autoformat
+  - repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
+      - id: black
+        alias: autoformat
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: 'v0.0.278'
+    hooks:
+      - id: ruff
+        alias: autoformat
+  # - repo: https://github.com/codespell-project/codespell
+  #   rev: v2.2.2
+  #   hooks:
+  #     - id: codespell
+  #       args: [--write-changes]
+  #       alias: autoformat
+  # - repo: https://github.com/guilatrova/tryceratops
+  #   rev: v1.1.0
+  #   hooks:
+  #     - id: tryceratops
+  #       args: [--ignore, TC101, --ignore, TC200]
+  - repo: local
+    hooks:
+      - id: rustywind
+        name: rustywind Tailwind CSS class linter
+        language: node
+        additional_dependencies:
+          - rustywind@0.15.3
+        entry: rustywind
+        args: [--write]
+        types_or: [html]
+        # exclude: '.*\.min\.css'
