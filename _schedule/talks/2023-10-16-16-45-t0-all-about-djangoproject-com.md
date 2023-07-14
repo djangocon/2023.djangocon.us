@@ -6,6 +6,7 @@ accepted: true
 category: talks
 date: 2023-10-16 16:45:00-04:00
 end_date: 2023-10-16 17:10:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/all-about-djangoproject-com/
 presenter_slugs:

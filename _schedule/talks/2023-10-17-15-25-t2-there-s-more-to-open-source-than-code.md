@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2023-10-17 15:25:00-04:00
 end_date: 2023-10-17 15:50:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/there-s-more-to-open-source-than-code/
 presenter_slugs:

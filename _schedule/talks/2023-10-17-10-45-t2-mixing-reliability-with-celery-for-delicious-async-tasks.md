@@ -9,6 +9,7 @@ accepted: true
 category: talks
 date: 2023-10-17 10:45:00-04:00
 end_date: 2023-10-17 11:10:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/mixing-reliability-with-celery-for-delicious-async-tasks/
 presenter_slugs:

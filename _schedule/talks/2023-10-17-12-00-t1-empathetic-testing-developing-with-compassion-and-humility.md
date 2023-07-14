@@ -8,6 +8,7 @@ accepted: true
 category: talks
 date: 2023-10-17 12:00:00-04:00
 end_date: 2023-10-17 12:25:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/empathetic-testing-developing-with-compassion-and-humility/
 presenter_slugs:

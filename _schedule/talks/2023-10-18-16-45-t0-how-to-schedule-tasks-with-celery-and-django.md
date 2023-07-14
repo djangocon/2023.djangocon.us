@@ -8,6 +8,7 @@ accepted: true
 category: talks
 date: 2023-10-18 16:45:00-04:00
 end_date: 2023-10-18 17:30:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/how-to-schedule-tasks-with-celery-and-django/
 presenter_slugs:

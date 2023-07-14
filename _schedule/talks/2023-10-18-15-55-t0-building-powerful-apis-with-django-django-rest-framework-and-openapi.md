@@ -18,6 +18,7 @@ accepted: true
 category: talks
 date: 2023-10-18 15:55:00-04:00
 end_date: 2023-10-18 16:40:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/building-powerful-apis-with-django-django-rest-framework-and-openapi/
 presenter_slugs:

@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2023-10-18 14:55:00-04:00
 end_date: 2023-10-18 15:20:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/one-database-table-one-model-many-behaviours-proxy-model/
 presenter_slugs:

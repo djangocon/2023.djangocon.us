@@ -5,6 +5,7 @@ accepted: true
 category: talks
 date: 2023-10-16 13:20:00-04:00
 end_date: 2023-10-16 14:05:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/how-to-ride-elephants-safely-working-with-postgresql-when-your-dba-is-not-around/
 presenter_slugs:

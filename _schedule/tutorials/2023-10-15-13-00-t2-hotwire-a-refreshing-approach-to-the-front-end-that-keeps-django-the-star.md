@@ -9,6 +9,7 @@ accepted: true
 category: tutorials
 date: 2023-10-15 13:00:00-04:00
 end_date: 2023-10-15 16:30:00-04:00
+group: tutorials
 layout: session-details
 permalink: /tutorials/hotwire-a-refreshing-approach-to-the-front-end-that-keeps-django-the-star/
 presenter_slugs:

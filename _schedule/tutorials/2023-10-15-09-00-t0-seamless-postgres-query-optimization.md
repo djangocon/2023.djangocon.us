@@ -6,6 +6,7 @@ accepted: true
 category: tutorials
 date: 2023-10-15 09:00:00-04:00
 end_date: 2023-10-15 12:30:00-04:00
+group: tutorials
 layout: session-details
 permalink: /tutorials/seamless-postgres-query-optimization/
 presenter_slugs:

@@ -13,6 +13,7 @@ accepted: true
 category: talks
 date: 2023-10-16 15:25:00-04:00
 end_date: 2023-10-16 15:50:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/passkeys-on-django/
 presenter_slugs:

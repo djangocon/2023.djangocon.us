@@ -19,6 +19,7 @@ accepted: true
 category: talks
 date: 2023-10-17 14:05:00-04:00
 end_date: 2023-10-17 14:30:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/nothing-for-us-without-us-breaking-unconscious-bias-in-building-products/
 presenter_slugs:

@@ -12,6 +12,7 @@ accepted: true
 category: talks
 date: 2023-10-16 15:55:00-04:00
 end_date: 2023-10-16 16:40:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/html-ivating-your-django-web-app-s-experience-with-htmx-alpinejs-and-streaming-html/
 presenter_slugs:

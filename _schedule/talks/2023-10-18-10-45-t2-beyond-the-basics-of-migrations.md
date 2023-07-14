@@ -5,6 +5,7 @@ accepted: true
 category: talks
 date: 2023-10-18 10:45:00-04:00
 end_date: 2023-10-18 11:10:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/beyond-the-basics-of-migrations/
 presenter_slugs:

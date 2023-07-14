@@ -15,6 +15,7 @@ accepted: true
 category: talks
 date: 2023-10-17 17:15:00-04:00
 end_date: 2023-10-17 17:40:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/working-with-neo4j-with-djando-neomodel-library/
 presenter_slugs:

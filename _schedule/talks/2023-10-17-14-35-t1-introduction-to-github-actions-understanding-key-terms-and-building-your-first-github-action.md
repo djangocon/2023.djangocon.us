@@ -8,6 +8,7 @@ accepted: true
 category: talks
 date: 2023-10-17 14:35:00-04:00
 end_date: 2023-10-17 15:20:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/introduction-to-github-actions-understanding-key-terms-and-building-your-first-github-action/
 presenter_slugs:

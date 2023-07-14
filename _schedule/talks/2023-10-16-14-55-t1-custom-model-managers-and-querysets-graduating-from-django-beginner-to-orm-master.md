@@ -6,6 +6,7 @@ accepted: true
 category: talks
 date: 2023-10-16 14:55:00-04:00
 end_date: 2023-10-16 15:20:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/custom-model-managers-and-querysets-graduating-from-django-beginner-to-orm-master/
 presenter_slugs:

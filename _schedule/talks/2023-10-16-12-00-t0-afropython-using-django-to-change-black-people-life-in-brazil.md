@@ -9,6 +9,7 @@ accepted: true
 category: talks
 date: 2023-10-16 12:00:00-04:00
 end_date: 2023-10-16 12:25:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/afropython-using-django-to-change-black-people-life-in-brazil/
 presenter_slugs:

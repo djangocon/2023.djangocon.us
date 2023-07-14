@@ -8,6 +8,7 @@ accepted: true
 category: talks
 date: 2023-10-18 12:00:00-04:00
 end_date: 2023-10-18 12:25:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/django-s-data-science-makeover-integrating-d3-js-and-bokeh-for-data-visualization/
 presenter_slugs:

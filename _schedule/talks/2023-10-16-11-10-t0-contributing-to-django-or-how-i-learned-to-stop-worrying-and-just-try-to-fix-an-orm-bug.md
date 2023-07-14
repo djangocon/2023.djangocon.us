@@ -6,6 +6,7 @@ accepted: true
 category: talks
 date: 2023-10-16 11:10:00-04:00
 end_date: 2023-10-16 11:55:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/contributing-to-django-or-how-i-learned-to-stop-worrying-and-just-try-to-fix-an-orm-bug/
 presenter_slugs:

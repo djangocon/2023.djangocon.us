@@ -6,6 +6,7 @@ accepted: true
 category: talks
 date: 2023-10-16 17:15:00-04:00
 end_date: 2023-10-16 17:40:00-04:00
+group: talks
 layout: session-details
 permalink: /talks/meet-ups-a-grand-vision-for-a-humble-endeavor/
 presenter_slugs:
