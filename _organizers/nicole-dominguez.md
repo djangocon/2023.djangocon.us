@@ -1,10 +1,10 @@
 ---
 github: sodevious
 layout: base
+mastodon: https://fosstodon.org/@sodevious
 name: Nicole Dominguez
 photo_url: /static/img/organizers/nicole.jpg
 role: Swag team, Website team
-mastodon: https://fosstodon.org/@sodevious
 twitter: sodevious
 website: https://www.nicoledominguez.com
 ---

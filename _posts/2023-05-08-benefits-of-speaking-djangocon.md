@@ -9,7 +9,7 @@ post_photo_url: /static/img/blog/speaking.jpg
 title: What are the Benefits of Speaking at DjangoCon US?
 ---
 
- The DjangoCon US team would like to make sure you are aware of some of the benefits of giving a talk at DjangoCon US 2023.
+The DjangoCon US team would like to make sure you are aware of some of the benefits of giving a talk at DjangoCon US 2023.
 
 # Benefits you will receive for being a presenter:
 
@@ -37,4 +37,3 @@ Head over to our topic suggestion page! [Topic Suggestions]({% post_url 2023-04-
 ## All right, you've convinced me. How do I submit?
 
 Go to the [Speaking page](/speaking/) to see all the details.
-

@@ -3,7 +3,7 @@ author: Drew Winstel
 category: General
 date: 2022-10-18 12:00:00-07:00
 layout: post
-title: "Call for Volunteers: DjangoCon US 2023"
+title: 'Call for Volunteers: DjangoCon US 2023'
 ---
 
 As our program chair, Drew Winstel, mentioned in his opening remarks today, we would love to have more volunteers for DjangoCon US 2023. Expect to hear details on dates and venues within the next month or so.

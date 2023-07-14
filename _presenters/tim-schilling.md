@@ -1,11 +1,11 @@
 ---
-pronouns: he/him
 company: AspirEDU / Jazzband / Underdog Devs
 hidden: false
 layout: speaker-template
 name: Tim Schilling
 permalink: /presenters/tim-schilling/
 photo_url: /static/img/presenters/tim-schilling.jpeg
+pronouns: he/him
 slug: tim-schilling
 twitter: CodenameTim
 website: https://www.better-simple.com

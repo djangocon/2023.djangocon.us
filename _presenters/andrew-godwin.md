@@ -1,5 +1,5 @@
 ---
-company: "astronomer.io"
+company: astronomer.io
 github: andrewgodwin
 layout: speaker-template
 name: Andrew Godwin

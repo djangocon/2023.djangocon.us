@@ -1,5 +1,6 @@
 ---
 company: Platform.sh
+github: chadwcarlson
 hidden: false
 layout: speaker-template
 name: Chad Carlson
@@ -7,7 +8,6 @@ permalink: /presenters/chad-carlson/
 photo_url: /static/img/presenters/chad-carlson.jpg
 slug: chad-carlson
 twitter: chadwcarlson
-github: chadwcarlson
 website: https://www.linkedin.com/in/chad-carlson-1529365a/
 ---
 

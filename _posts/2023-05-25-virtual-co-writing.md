@@ -4,7 +4,8 @@ category: General
 date: 2023-05-25 08:00:00
 image: /static/img/blog/djangocon_us_earlybird_pricing_2023.png
 layout: post
-post_photo_alt: Organizers at DjangoCon US 2022 in San Diego preparing before the conference. But it looks like they could be co-writing!
+post_photo_alt: Organizers at DjangoCon US 2022 in San Diego preparing before the
+  conference. But it looks like they could be co-writing!
 post_photo_url: /static/img/blog/djangocon_us_organizers_2022.jpg
 title: DjangoCon US virtual co-writing
 ---
