@@ -1,7 +1,8 @@
 ---
-company: EnterpriseDB (EDB)
+company: EnterpriseDB
 hidden: false
 layout: speaker-template
+mastodon: null
 name: Richard Yen
 permalink: /presenters/richard-yen/
 photo_url: /static/img/presenters/richard-yen.jpg

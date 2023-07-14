@@ -2,16 +2,19 @@
 company: Goldcast Inc
 hidden: false
 layout: speaker-template
+mastodon: null
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
 photo_url: /static/img/presenters/kuldeep-pisda.jpeg
 slug: kuldeep-pisda
-twitter: kdpisda
+twitter: KdPisda
 website: null
 ---
 
-I am a full-stack developer who primarily has worked in Django, Flask, and FAST API as the backend, ReactJS in the front end, and AWS/GCP in the cloud.
+As someone passionate about technology, I have had the privilege of speaking at several international tech conferences, including APIDays India 2022, APISecure 2022, and DjangoCon US 2022. I was honored to have my proposal selected for DjangoCon US 2022, where I could share my insights with a global audience.
 
-I am two times failed entrepreneur, who had tried to set up two companies in the past. The first one was a digital publishing company where I tried to create a platform where anyone can share their experience-based learning with some paid articles/series on our platform i.e. HappyChases, and the second was a Data Science Company with my friends, we used to build Data Science Products for Entreprises, Startups, Govt bodies i.e. Codevector Labs (PS: I was one of the core members of the company, and one of our product that I lead end to end got Nascomm gamechanger award in AI by Nasscom), before joining Goldcast Inc last year as a Backend Engineer.
+While I am grateful for my recognition, I know there is always more to learn and new perspectives to consider. Therefore, I approach each speaking opportunity as a chance to continue my learning and growth, as well as a chance to share my insights with others.
 
-I am still exploring and seeking to resume my entrepreneurial journey soon if I feel enough confident about the idea. Currently, I am working as a Backend Engineer cum SRE at Goldcast.
+As a speaker, I aim to provide attendees with new ideas, fresh perspectives, and actionable insights. I strive to make my presentations engaging, educational, and thought-provoking, and I am always eager to hear feedback and incorporate new ideas.
+
+I understand that I don't know everything, and I am humbled by the opportunity to learn from others. Being involved in the tech community is an ongoing journey, and I am eager to continue learning and growing however I can.
