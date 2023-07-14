@@ -19,6 +19,16 @@ import pytz
 
 # TODO: Pull this from _config.yml
 CONFERENCE_TZ = pytz.timezone("America/New_York")
+YEAR = 2023
+
+# Define your rooms here
+LACTATION_ROOM = "Room TBA"
+QUIET_ROOM = "Room TBA"
+LUNCH_ROOM = "Junior Ballroom I"
+LARGE_TALK_ROOM = "Grand Ballroom"
+SMALL_TALK_ROOM = "Junior Ballroom II-III"
+BREAK_AREA = LUNCH_ROOM
+REGISTRATION_AREA = f"In front of {LARGE_TALK_ROOM}"
 
 
 class FrontmatterModel(BaseModel):
@@ -250,7 +260,7 @@ def validate():
 def generate_lactation_room(
     event_date: datetime,
     link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
-    room_name: str = "Private Dining Room",
+    room_name: str = LACTATION_ROOM,
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
@@ -292,7 +302,7 @@ def generate_lactation_room(
 @app.command()
 def generate_quiet_room(
     event_date: datetime,
-    room_name: str = "Santa Fe 3",
+    room_name: str = QUIET_ROOM,
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
@@ -334,7 +344,7 @@ def generate_quiet_room(
 @app.command()
 def generate_registration_desk(
     event_date: datetime,
-    location: str = "In front of Salon A",
+    location: str = REGISTRATION_AREA,
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
@@ -377,7 +387,7 @@ def generate_registration_desk(
 
 
 @app.command()
-def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
+def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
     category = "lunch"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(hours=1)
@@ -409,7 +419,7 @@ def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
 def generate_break(
     start_time: datetime,
     duration_minutes: int = 30,
-    location: str = "West Lawn",
+    location: str = BREAK_AREA,
 ):
     category = "break"
     start_time = CONFERENCE_TZ.localize(start_time)
@@ -442,7 +452,7 @@ def generate_break(
 def generate_early_lunch(
     start_time: datetime,
     duration_minutes: int = 50,
-    location: str = "West Lawn",
+    location: str = LUNCH_ROOM,
     track: int = 1,
 ):
     category = "lunch"
@@ -478,7 +488,7 @@ def generate_early_lunch(
 def generate_lunch(
     start_time: datetime,
     duration_minutes: int = 40,
-    location: str = "West Lawn",
+    location: str = LUNCH_ROOM,
 ):
     category = "talks"
     if start_time.weekday() == 6:
@@ -514,7 +524,7 @@ def generate_opening_remarks(
     start_time: datetime,
     duration_minutes: int = 15,
     speaker_name: str = "",
-    location: str = "Salon A-E",
+    location: str = LARGE_TALK_ROOM,
     track: int = 0,
 ):
     category = "talks"
@@ -569,7 +579,7 @@ def generate_opening_remarks(
 def generate_lightning_talks(
     start_time: datetime,
     duration_minutes: int = 50,
-    location: str = "Salon A-E",
+    location: str = LARGE_TALK_ROOM,
     track: int = 0,
 ):
     category = "talks"
@@ -605,7 +615,7 @@ def generate_lightning_talks(
 
 @app.command()
 def generate_keynote(
-    start_time: datetime, duration_minutes: int = 45, location: str = "Salon A-E"
+    start_time: datetime, duration_minutes: int = 45, location: str = LARGE_TALK_ROOM
 ):
     category = "talks"
     if start_time.weekday() == 6:
@@ -654,7 +664,7 @@ def generate_shots(
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://2023.djangocon.us{post['permalink']}")
+        print(f"  url: https://{YEAR}.djangocon.us{post['permalink']}")
         print()
 
 
@@ -681,7 +691,7 @@ def generate_speaker_csv_for_loudswarm(output_path: Path):
                 if data.twitter
                 else "",
                 "youtube_url": "",
-                "display_email": "",
+                "display_email": "",  # TODO add mastodon?
             }
         )
     buffer = StringIO()
@@ -699,11 +709,10 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
         post = frontmatter.loads(filename.read_text())
         talk = Schedule(**post.metadata)
         if talk.room in {
-            "West Lawn",
-            "Private Dining Room",
-            "Santa Fe 3",
-            "In front of Salon A",
-        }:
+            LUNCH_ROOM,
+            QUIET_ROOM,
+            REGISTRATION_AREA,
+        } or talk.room.startswith("Tutorial Track"):
             continue
         output.append(
             {
@@ -861,7 +870,9 @@ def process(
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    image_url = f"https://2023.djangocon.us/presenters/{presenter_slug}"
+                    image_url = (
+                        f"https://{YEAR}.djangocon.us/presenters/{presenter_slug}"
+                    )
                     image_url = quote_plus(image_url)
                     image_url = quote_plus(image_url)
                     image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
