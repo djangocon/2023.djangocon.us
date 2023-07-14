@@ -259,12 +259,12 @@ def validate():
 @app.command()
 def generate_lactation_room(
     event_date: datetime,
-    link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
+    link: str = "/news/childcare-lactation/",
     room_name: str = LACTATION_ROOM,
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
-    category = "break"
+    category = "talks"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -278,7 +278,7 @@ def generate_lactation_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category='break',
         date=start,
         end_date=end,
         layout="session-details",
@@ -334,7 +334,7 @@ def generate_quiet_room(
     )
     post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
-        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"_schedule/talks/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-quiet-room.md"
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
@@ -348,7 +348,7 @@ def generate_registration_desk(
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "break"
+    category = "talks"
     if event_date.weekday() in {3, 4}:
         raise ValueError("We don't have a registration desk on sprint days")
 
@@ -365,7 +365,7 @@ def generate_registration_desk(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category='break',
         date=start,
         end_date=end,
         layout="session-details",
@@ -388,13 +388,15 @@ def generate_registration_desk(
 
 @app.command()
 def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
-    category = "lunch"  # yes, I know...
+    category = "talks"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
+    if start_time.weekday in {3, 4}:
+        category = 'sprints'
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category='lunch',
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -421,13 +423,15 @@ def generate_break(
     duration_minutes: int = 30,
     location: str = BREAK_AREA,
 ):
-    category = "break"
+    category = "talks"
+    if start_time.weekday in {3, 4}:
+        category = 'sprints'
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category='break',
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -455,7 +459,7 @@ def generate_early_lunch(
     location: str = LUNCH_ROOM,
     track: int = 1,
 ):
-    category = "lunch"
+    category = "talks"
     if start_time.weekday() == 6:
         raise ValueError("We don't have lightning talks on tutorial days")
     elif start_time.weekday() in {3, 4}:
@@ -465,7 +469,7 @@ def generate_early_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        category=category,
+        category='lunch',
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -487,7 +491,7 @@ def generate_early_lunch(
 @app.command()
 def generate_lunch(
     start_time: datetime,
-    duration_minutes: int = 40,
+    duration_minutes: int = 45,
     location: str = LUNCH_ROOM,
 ):
     category = "talks"
@@ -734,24 +738,26 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
 
 @app.command()
 def generate_2023_placeholders(event_date: datetime, create_keynotes: bool = False):
-    tutorial_date = event_date
+    tutorial_date = event_date - relativedelta(weeks=1)
     talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
     sprints_dates = [event_date + relativedelta(days=count) for count in [4, 5]]
-    break_times = [time(10, 40), time(15, 20)]
+    break_times = [time(10, 40), time(15, 25)]
     talk_lunch_time = time(13, 20)
     tutorial_breakfast_time = time(8)
     talk_breakfast_times = [time(8), time(8, 30), time(8, 30)]
     lightning_talk_time = time(12, 30)
-    tutorial_lunch_time = sprint_lunch_time = time(12, 30)
+    # online tutorials for 2023, so no lunch
+    sprint_lunch_time = time(12, 30)
+    # tutorial_lunch_time = sprint_lunch_time
     keynote_time = time(9, 45)
     registration_open = time(8)
-    generate_registration_desk(tutorial_date)
-    generate_lactation_room(tutorial_date)
-    generate_quiet_room(tutorial_date)
-    generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
-    generate_lunch(
-        datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
-    )
+    # generate_registration_desk(tutorial_date)
+    # generate_lactation_room(tutorial_date)
+    # generate_quiet_room(tutorial_date)
+    # generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
+    # generate_lunch(
+    #     datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
+    # )
     for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
         opening_time = datetime.combine(talk_date.date(), registration_open)
         generate_lactation_room(opening_time)
