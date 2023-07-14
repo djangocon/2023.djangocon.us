@@ -28,7 +28,7 @@ People often spend so much time learning how to build apps in Django that when i
 
 Instead of offering another set of steps, I think we can help beginners to make sense of deployment by reducing the entire process to four major areas of concern and equipping them to think through each of these on its own terms:
 
-1. Static Files - why do I have to worry about these now? I thought {% static %} was handling it?
+1. Static Files - why do I have to worry about these now? I thought `{% raw %}{% static %}{% endraw %}` was handling it?
 2. Database - does my sqlite3 file not work in deployment? How do I use my cloud provider's remote DB?
 3. WSGI Server -  how do I run my app in production? Doesn't manage.py runserver work? I've never heard of WSGI, what is it and why does it matter to my Django project?
 4. Web Server (Apache/nginx/PaaS) - What do I need to understand about web servers like Apache or nginx to get my project online? Do I even need to configure a web server if I go with PaaS?
