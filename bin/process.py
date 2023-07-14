@@ -291,7 +291,7 @@ def generate_lactation_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        category='break',
+        category="break",
         date=start,
         end_date=end,
         layout="session-details",
@@ -378,7 +378,7 @@ def generate_registration_desk(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category='break',
+        category="break",
         date=start,
         end_date=end,
         layout="session-details",
@@ -404,12 +404,12 @@ def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
     category = "talks"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
     if start_time.weekday in {3, 4}:
-        category = 'sprints'
+        category = "sprints"
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category='lunch',
+        category="lunch",
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -438,13 +438,13 @@ def generate_break(
 ):
     category = "talks"
     if start_time.weekday in {3, 4}:
-        category = 'sprints'
+        category = "sprints"
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category='break',
+        category="break",
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -482,7 +482,7 @@ def generate_early_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        category='lunch',
+        category="lunch",
         date=start_time,
         end_date=end_time,
         layout="session-details",
