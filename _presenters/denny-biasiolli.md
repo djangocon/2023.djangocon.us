@@ -1,0 +1,14 @@
+---
+company: Fingerprint
+hidden: false
+layout: speaker-template
+mastodon: '@dennybiasiolli@mastodon.uno'
+name: Denny Biasiolli
+permalink: /presenters/denny-biasiolli/
+photo_url: /static/img/presenters/denny-biasiolli.jpeg
+slug: denny-biasiolli
+twitter: dennybiasiolli
+website: null
+---
+
+Developer for many years, I enjoy contributing to open source projects and I love long and exhausting sports, like triathlon, mountain running and software development :)
