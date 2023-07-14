@@ -4,7 +4,8 @@ category: General
 date: 2023-07-07 12:00:00
 image: /static/img/blog/trivia_night.png
 layout: post
-post_photo_alt: Djangonauts at DjangoCon US 2022 in San Diego participating in contribution sprints.
+post_photo_alt: Djangonauts at DjangoCon US 2022 in San Diego participating in contribution
+  sprints.
 post_photo_url: /static/img/blog/djangocon_us_sprints_2022.jpg
 title: The Great DjangoCon US 2023 Trivia Contest
 ---

@@ -3,8 +3,9 @@ author: DjangoCon US Organizers
 category: General
 date: 2023-03-27 06:00:00
 layout: post
-title: "Leaping Lemurs! Early Bird Tickets On Sale Now"
+title: Leaping Lemurs! Early Bird Tickets On Sale Now
 ---
+
 We know you're as excited as we are to get your DjangoCon US ticket, and your wait is over! Tickets are [on sale now]({{site.ticket_link}}) and more information is available on our [tickets](/tickets/) page.
 
 Here's what you need to know:

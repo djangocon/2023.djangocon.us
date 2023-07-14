@@ -5,8 +5,8 @@ layout: speaker-template
 name: Camila Maia
 permalink: /presenters/camila-maia/
 photo_url: /static/img/presenters/camila-maia.jpg
-slug: camila-maia
 pronouns: she/her
+slug: camila-maia
 twitter: cmaiacd
 website: https://cmaiacd.com
 ---
