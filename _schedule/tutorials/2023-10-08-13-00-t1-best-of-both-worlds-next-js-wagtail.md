@@ -4,8 +4,8 @@ abstract: Fully static sites have clear benefits – and limitations. Rather tha
   so we make the most of both platforms.
 accepted: true
 category: tutorials
-date: 2023-10-15 13:00:00-04:00
-end_date: 2023-10-15 16:30:00-04:00
+date: 2023-10-08 13:00:00-04:00
+end_date: 2023-10-08 16:30:00-04:00
 group: tutorials
 layout: session-details
 permalink: /tutorials/best-of-both-worlds-next-js-wagtail/

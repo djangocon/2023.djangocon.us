@@ -4,8 +4,8 @@ abstract: Seamless Postgres Query Optimization is a methodology that allows ever
   to move step-by-step to find and eliminate the worst bottlenecks in any SQL.
 accepted: true
 category: tutorials
-date: 2023-10-15 09:00:00-04:00
-end_date: 2023-10-15 12:30:00-04:00
+date: 2023-10-08 09:00:00-04:00
+end_date: 2023-10-08 12:30:00-04:00
 group: tutorials
 layout: session-details
 permalink: /tutorials/seamless-postgres-query-optimization/

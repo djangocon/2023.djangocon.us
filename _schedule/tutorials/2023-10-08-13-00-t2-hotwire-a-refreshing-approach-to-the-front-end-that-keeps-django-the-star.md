@@ -7,8 +7,8 @@ abstract: "Escape from the dark, complex web of modern application development, 
   Hotwire and radically change how you thought modern web development had to be."
 accepted: true
 category: tutorials
-date: 2023-10-15 13:00:00-04:00
-end_date: 2023-10-15 16:30:00-04:00
+date: 2023-10-08 13:00:00-04:00
+end_date: 2023-10-08 16:30:00-04:00
 group: tutorials
 layout: session-details
 permalink: /tutorials/hotwire-a-refreshing-approach-to-the-front-end-that-keeps-django-the-star/

@@ -10,8 +10,8 @@ abstract: Test Driven Development (TDD) has become a widely used methodology in 
   will provide valuable insights and techniques for mastering TDD in Django.
 accepted: true
 category: tutorials
-date: 2023-10-15 09:00:00-04:00
-end_date: 2023-10-15 12:30:00-04:00
+date: 2023-10-08 09:00:00-04:00
+end_date: 2023-10-08 12:30:00-04:00
 group: tutorials
 layout: session-details
 permalink: /tutorials/mastering-test-driven-development-in-django-a-comprehensive-guide-with-factory-boy-and-faker/

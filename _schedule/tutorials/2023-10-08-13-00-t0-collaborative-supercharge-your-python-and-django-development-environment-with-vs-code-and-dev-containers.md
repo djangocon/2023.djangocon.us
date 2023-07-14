@@ -5,8 +5,8 @@ abstract: We'll look at creating a Python and Django specific developer environm
   for you to take home to your development teams.
 accepted: true
 category: tutorials
-date: 2023-10-15 13:00:00-04:00
-end_date: 2023-10-15 16:30:00-04:00
+date: 2023-10-08 13:00:00-04:00
+end_date: 2023-10-08 16:30:00-04:00
 group: tutorials
 layout: session-details
 permalink: /tutorials/collaborative-supercharge-your-python-and-django-development-environment-with-vs-code-and-dev-containers/
