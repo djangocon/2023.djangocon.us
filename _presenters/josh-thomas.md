@@ -2,7 +2,7 @@
 company: The Westervelt Company
 hidden: false
 layout: speaker-template
-mastodon: '@josh@joshthomas.dev'
+mastodon: https://joshthomas.dev/@josh
 name: Josh Thomas
 permalink: /presenters/josh-thomas/
 photo_url: /static/img/presenters/josh-thomas.png

@@ -2,7 +2,7 @@
 company: Python Software Foundation
 hidden: false
 layout: speaker-template
-mastodon: '@baconandcoconut@freeradical.zone'
+mastodon: https://freeradical.zone/@baconandcoconut
 name: Deb Nicholson
 permalink: /presenters/deb-nicholson/
 photo_url: ''

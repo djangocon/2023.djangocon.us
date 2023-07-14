@@ -2,7 +2,7 @@
 company: Everyday Superpowers
 hidden: false
 layout: speaker-template
-mastodon: '@_chrismay@fosstodon.org'
+mastodon: https://fosstodon.org/@_chrismay
 name: Chris May
 permalink: /presenters/chris-may/
 photo_url: /static/img/presenters/chris-may.jpeg

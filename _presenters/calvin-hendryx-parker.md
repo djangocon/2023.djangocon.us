@@ -2,7 +2,7 @@
 company: Six Feet Up
 hidden: false
 layout: speaker-template
-mastodon: '@calvinhp@fosstodon.org'
+mastodon: https://fosstodon.org/@calvinhp
 name: Calvin Hendryx-Parker
 permalink: /presenters/calvin-hendryx-parker/
 photo_url: /static/img/presenters/calvin-hendryx-parker.jpg
