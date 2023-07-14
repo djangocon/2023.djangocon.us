@@ -28,7 +28,7 @@ repos:
     rev: '3.0.6'
     hooks:
       - id: djhtml
-        entry: djhtml --tabwidth 4
+        entry: djhtml --tabwidth 2
         alias: autoformat
       - id: djcss
         alias: autoformat
