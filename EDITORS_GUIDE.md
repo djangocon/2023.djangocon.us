@@ -164,5 +164,3 @@ The `{% for %}` tag also works very similarly to how it does in Django. To cycle
 Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2023.djangocon.us/blob/main/_includes/sponsor-footer.html#L3).
 
 _Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
-
-
