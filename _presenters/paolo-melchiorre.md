@@ -2,7 +2,7 @@
 company: 20tab
 hidden: false
 layout: speaker-template
-mastodon: '@paulox@fosstodon.org'
+mastodon: https://fosstodon.org/@paulox
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
 photo_url: /static/img/presenters/paolo-melchiorre.jpg

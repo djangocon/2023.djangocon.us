@@ -2,7 +2,7 @@
 company: Crowdalert
 hidden: false
 layout: speaker-template
-mastodon: '@phildini@phildini.net'
+mastodon: https://phildini.net/@phildini
 name: Philip James
 permalink: /presenters/philip-james/
 photo_url: /static/img/presenters/philip-james.png

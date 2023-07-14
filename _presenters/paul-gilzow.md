@@ -2,7 +2,7 @@
 company: Platform.sh
 hidden: false
 layout: speaker-template
-mastodon: '@gilzow@higheredweb.social'
+mastodon: https://higheredweb.social/@gilzow
 name: PAUL GILZOW
 permalink: /presenters/paul-gilzow/
 photo_url: /static/img/presenters/paul-gilzow.jpeg

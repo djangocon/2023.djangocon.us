@@ -2,7 +2,7 @@
 company: Consultant
 hidden: false
 layout: speaker-template
-mastodon: '@ramon@hola-soy-milk.online'
+mastodon: https://hola-soy-milk.online/@ramon
 name: Ramón Huidobro
 permalink: /presenters/ramon-huidobro/
 photo_url: /static/img/presenters/ramon-huidobro.jpeg

@@ -2,7 +2,7 @@
 company: Caktus Group
 hidden: false
 layout: speaker-template
-mastodon: '@tobiasmcnulty@fosstodon.org'
+mastodon: https://fosstodon.org/@tobiasmcnulty
 name: Tobias McNulty
 permalink: /presenters/tobias-mcnulty/
 photo_url: /static/img/presenters/tobias-mcnulty.jpeg

@@ -2,7 +2,7 @@
 company: Umuzi
 hidden: false
 layout: speaker-template
-mastodon: '@sheenarbw@mastodon.social'
+mastodon: https://mastodon.social/@sheenarbw
 name: Sheena
 permalink: /presenters/sheena/
 photo_url: /static/img/presenters/sheena.jpeg

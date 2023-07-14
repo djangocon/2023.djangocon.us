@@ -2,7 +2,7 @@
 company: None currently
 hidden: false
 layout: speaker-template
-mastodon: '@charlotte@hachyderm.io'
+mastodon: https://hachyderm.io/@charlotte
 name: Charlotte Mays
 permalink: /presenters/charlotte-mays/
 photo_url: /static/img/presenters/charlotte-mays.jpeg

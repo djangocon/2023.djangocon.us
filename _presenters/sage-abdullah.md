@@ -2,7 +2,7 @@
 company: Torchbox
 hidden: false
 layout: speaker-template
-mastodon: '@laymonage@fosstodon.org'
+mastodon: https://fosstodon.org/@laymonage
 name: Sage Abdullah
 permalink: /presenters/sage-abdullah/
 photo_url: /static/img/presenters/sage-abdullah.jpeg
