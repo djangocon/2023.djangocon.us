@@ -2,7 +2,7 @@
 company: Desert Oasis Healthcare
 hidden: false
 layout: speaker-template
-mastodon: '@ryancheley@mastodon.social'
+mastodon: https://mastodon.social/@ryancheley
 name: Ryan Cheley
 permalink: /presenters/ryan-cheley/
 photo_url: /static/img/presenters/ryan-cheley.jpeg

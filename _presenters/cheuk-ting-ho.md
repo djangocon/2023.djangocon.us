@@ -2,7 +2,7 @@
 company: Anaconda
 hidden: false
 layout: speaker-template
-mastodon: '@cheukting_ho@fosstodon.org'
+mastodon: https://fosstodon.org/@cheukting_ho
 name: Cheuk Ting Ho
 permalink: /presenters/cheuk-ting-ho/
 photo_url: /static/img/presenters/cheuk-ting-ho.jpeg

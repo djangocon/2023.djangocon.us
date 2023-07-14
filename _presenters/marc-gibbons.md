@@ -2,7 +2,7 @@
 company: Marc Gibbons
 hidden: false
 layout: speaker-template
-mastodon: '@marcgibbons@mastodon.social'
+mastodon: https://mastodon.social/@marcgibbons
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
 photo_url: /static/img/presenters/marc-gibbons.jpeg

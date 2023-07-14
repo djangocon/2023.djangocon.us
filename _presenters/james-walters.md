@@ -2,7 +2,7 @@
 company: Unique Management Services
 hidden: false
 layout: speaker-template
-mastodon: '@jameswalters@fosstodon.org'
+mastodon: https://fosstodon.org/@jameswalters
 name: James Walters
 permalink: /presenters/james-walters/
 photo_url: ''

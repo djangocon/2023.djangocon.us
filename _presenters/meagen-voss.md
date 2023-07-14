@@ -2,7 +2,7 @@
 company: Torchbox
 hidden: false
 layout: speaker-template
-mastodon: '@vossisboss@fosstodon.org'
+mastodon: https://fosstodon.org/@vossisboss
 name: Meagen Voss
 permalink: /presenters/meagen-voss/
 photo_url: /static/img/presenters/meagen-voss.jpg

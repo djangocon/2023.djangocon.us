@@ -2,7 +2,7 @@
 company: Microsoft, Wagtail CMS Core Team, PSF Board
 hidden: false
 layout: speaker-template
-mastodon: '@bajoranengineer@mastodon.online'
+mastodon: https://mastodon.online/@bajoranengineer
 name: Dawn Wages
 permalink: /presenters/dawn-wages/
 photo_url: /static/img/presenters/dawn-wages.jpeg
