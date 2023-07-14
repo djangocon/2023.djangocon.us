@@ -121,6 +121,10 @@ class Presenter(FrontmatterModel):
         if not self.permalink:
             self.permalink = f"/presenters/{self.slug}/"
 
+        if self.mastodon and self.mastodon.startswith("@"):
+            self.mastodon = migrate_mastodon_handle(handle=self.mastodon)
+            print(f"🚜 converting {self.mastodon=}")
+
 
 class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
@@ -216,6 +220,15 @@ POST_TYPES = [
         "exclude_unset": True,
     },
 ]
+
+
+def migrate_mastodon_handle(*, handle: str) -> str:
+    if not handle.startswith("@"):
+        return handle
+
+    username, domain = handle[1:].split("@")
+    return f"https://{domain}/@{username}"
+
 
 app = typer.Typer()
 
