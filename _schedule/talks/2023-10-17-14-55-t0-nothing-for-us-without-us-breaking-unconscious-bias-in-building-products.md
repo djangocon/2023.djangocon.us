@@ -17,8 +17,8 @@ abstract: "Are we really building products that serve everyone, or just a select
   needs & experiences for more inclusive environments."
 accepted: true
 category: talks
-date: 2023-10-17 14:05:00-04:00
-end_date: 2023-10-17 14:30:00-04:00
+date: 2023-10-17 14:55:00-04:00
+end_date: 2023-10-17 15:20:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/nothing-for-us-without-us-breaking-unconscious-bias-in-building-products/

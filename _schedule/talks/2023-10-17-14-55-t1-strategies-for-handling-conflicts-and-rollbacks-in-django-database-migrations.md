@@ -15,8 +15,8 @@ abstract: "Django is a popular web framework that comes with a powerful database
   in their own projects to improve their development workflow and ensure data integrity."
 accepted: true
 category: talks
-date: 2023-10-17 14:05:00-04:00
-end_date: 2023-10-17 14:30:00-04:00
+date: 2023-10-17 14:55:00-04:00
+end_date: 2023-10-17 15:20:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/strategies-for-handling-conflicts-and-rollbacks-in-django-database-migrations/

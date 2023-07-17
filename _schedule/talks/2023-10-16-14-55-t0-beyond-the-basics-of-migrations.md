@@ -3,22 +3,21 @@ abstract: Dig a bit into the inner workings of migrations, and learn a bit about
   advanced uses for them
 accepted: true
 category: talks
-date: 2023-10-18 10:45:00-04:00
-end_date: 2023-10-18 11:10:00-04:00
+date: 2023-10-16 14:55:00-04:00
+end_date: 2023-10-16 15:20:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/beyond-the-basics-of-migrations/
 presenter_slugs:
 - charlotte-mays
 published: true
-room: Online talks
-schedule_layout: full
+room: Junior Ballroom
 sitemap: true
 slug: beyond-the-basics-of-migrations
 summary: ''
 tags: null
 title: Beyond the Basics of Migrations
-track: t2
+track: t0
 ---
 
 This talk will go into the basic anatomy of an auto-generated migration, as well as ways to leverage migrations for more complex functionality, such as data transformation. The goal is to demystify migrations for beginners and to empower intermediate users to do more with migrations.

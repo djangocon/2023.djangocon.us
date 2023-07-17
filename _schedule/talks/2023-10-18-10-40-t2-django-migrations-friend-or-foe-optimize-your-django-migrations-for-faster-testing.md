@@ -4,8 +4,8 @@ abstract: "Django migrations are a great tool, but after years of changes in a p
   them?"
 accepted: true
 category: talks
-date: 2023-10-17 17:40:00-04:00
-end_date: 2023-10-17 18:05:00-04:00
+date: 2023-10-18 10:40:00-04:00
+end_date: 2023-10-18 11:05:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/django-migrations-friend-or-foe-optimize-your-django-migrations-for-faster-testing/
