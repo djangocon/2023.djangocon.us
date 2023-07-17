@@ -668,6 +668,72 @@ def generate_keynote(
 
 
 @app.command()
+def generate_natalia_talk(
+    start_time: datetime, duration_minutes: int = 45, location: str = LARGE_TALK_ROOM
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("No keynotes on tutorial day")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("No keynotes on tutorial day")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    speaker_post = frontmatter.loads("")
+    speaker = Presenter(
+        name="Natalia Bidart",
+        slug="natalia-bidart",
+        title="Django Fellow",
+        mastodon="https://fosstodon.org/@nessita",
+    )
+    output_path = Path(f"_presenters/{speaker.slug}.md")
+    speaker_post.metadata.update(speaker.model_dump(exclude_unset=True))
+    output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
+    post = frontmatter.loads(
+        """In this talk I'll share my personal journey of understanding diversity and inclusion.
+Being part of a minority group, I have encountered numerous challenges, I've learned
+a lot, and made my fair share of mistakes along the way.
+
+This presentation is an opportunity to reflect on my experiences, sharing the lessons
+learned and real-life stories that have shaped my view on the matter. Get ready for a
+captivating array of anecdotes!
+
+I'll openly discuss the challenges I've faced and the insights I've gained,
+highlighting both successes and shortcomings, always offering a perspective rather than
+definitive solutions or comprehensive analysis. I'll cover topics such as tone connotations,
+inclusive[n|l]ess of different languages, the importance of company policies, quirks
+derived from cultural and social norms, and more. In the final segment of this talk, I
+will discuss my recent experience within the Django project and community as a whole.
+
+This talk is not intended to provide a one-size-fits-all approach, but rather to inspire
+thought, reflection, and positive change. I hope to encourage open dialogue among
+attendees, as we explore strategies for creating a more inclusive, diverse and
+equitable environment."""
+    )
+    sched = Schedule(
+        accepted=True,
+        category=category,
+        date=start_time,
+        difficulty="All",
+        end_date=end_time,
+        layout="session-details",
+        link=None,
+        presenter_slugs=["natalia-bidart"],
+        room=location,
+        sitemap=True,
+        talk_slot="full",
+        title="Inside Out: My Journey of Understanding Inclusion",
+        track="t1",
+    )
+    post.metadata.update(sched.model_dump(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
 def generate_shots(
     height: int = 512,
     quality: int = 80,
@@ -795,6 +861,7 @@ def generate_2023_placeholders(event_date: datetime, create_keynotes: bool = Fal
         generate_quiet_room(opening_time)
         generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
         generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
+    generate_natalia_talk(talks_dates[-1].replace(hour=11, minute=10))
 
 
 @app.command()
