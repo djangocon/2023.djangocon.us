@@ -23,7 +23,7 @@ _Tutorials will only be available online due to venue availabilty limitations._
 -   Kuldeep Pisda ([twitter](https://twitter.com/KdPisda)) - Mastering Test Driven Development in Django: A Comprehensive Guide with factory_boy and faker
 -   Meagen Voss ([twitter](https://twitter.com/meagenvoss), [mastodon](https://fosstodon.org/@vossisboss)) - Best of both worlds: Next.js ❤️ Wagtail
 -   Nikolay Samokhvalov ([twitter](https://twitter.com/samokhvalov)) - Seamless Postgres Query Optimization
--   Sheena ([twitter](https://twitter.com/sheena_oconnel), [mastodon](https://mastodon.social/@sheenarbw)) - Django <3 Airflow
+-   Sheena O'Connell ([mastodon](https://mastodon.social/@sheenarbw)) - Django <3 Airflow
 -   Stephen Mitchell - Hotwire: A refreshing approach to the front-end that keeps Django the star.
 
 ## Talks (Monday, October 16 through Wednesday, October 18)
@@ -44,7 +44,7 @@ _All talks will be available live for those with online-only tickets. They will 
 -   Eliana Rosselli - An approach to lightweight tenancy management using Django Rest Framework
 -   Elizabeth Christensen ([twitter](https://twitter.com/sqlliz)) - Postgres Performance: From Slow to Pro
 -   Ernesto Rico Schmidt ([mastodon](https://hachyderm.io/@eigenwijsje)) - The evolution of a Django Website into a radio automation back-end
--   Felipe ([twitter](https://twitter.com/felipedemorais_)) - AfroPython: Using Django to change black people life in Brazil
+-   Felipe de Morais ([twitter](https://twitter.com/felipedemorais_)) - AfroPython: Using Django to change black people life in Brazil
 -   Flávio Juvenal ([twitter](https://twitter.com/flaviojuvenal)) - Mixing reliability with Celery for delicious async tasks
 -   James Walters ([mastodon](https://fosstodon.org/@jameswalters)) - What Django Deployment is Really About
 -   Josh Thomas ([mastodon](https://joshthomas.dev/@josh)) - Custom Model Managers and QuerySets: Graduating from Django Beginner to ORM Master
