@@ -21,6 +21,9 @@ IMAGE_SIZE := "1024x512"
 @fmt:
     just --fmt --unstable
 
+@lint:
+    pre-commit run --all-files
+
 @screenshots:
     python bin/process.py generate-shots > ./shots.yml
     shot-scraper multi --no-clobber ./shots.yml
