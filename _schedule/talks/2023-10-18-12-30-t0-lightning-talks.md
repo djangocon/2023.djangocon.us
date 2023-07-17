@@ -9,7 +9,6 @@ permalink: /talks/lightning-talks-wednesday/
 presenter_slugs:
 - kojo-idrissa
 room: Junior Ballroom
-schedule_layout: full
 sitemap: true
 title: Lightning Talks
 track: t0
