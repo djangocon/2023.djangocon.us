@@ -11,11 +11,11 @@ permalink: /talks/inside-out-my-journey-of-understanding-inclusion
 presenter_slugs:
 - natalia-bidart
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: inside-out-my-journey-of-understanding-inclusion
-talk_slot: full
 title: 'Inside Out: My Journey of Understanding Inclusion'
-track: t1
+track: t0
 ---
 
 In this talk I'll share my personal journey of understanding diversity and inclusion.
