@@ -14,6 +14,7 @@ presenter_slugs:
 - thibaud-colas
 published: true
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: djangos-accessibility-track-record
 summary: ''

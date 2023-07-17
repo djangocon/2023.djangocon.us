@@ -14,6 +14,7 @@ presenter_slugs:
 - ronald-maravanyika
 published: true
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: one-database-table-one-model-many-behaviours-proxy-model
 summary: ''

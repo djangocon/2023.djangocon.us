@@ -15,6 +15,7 @@ presenter_slugs:
 - drishti-jain
 published: true
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: django-s-data-science-makeover-integrating-d3-js-and-bokeh-for-data-visualization
 summary: ''

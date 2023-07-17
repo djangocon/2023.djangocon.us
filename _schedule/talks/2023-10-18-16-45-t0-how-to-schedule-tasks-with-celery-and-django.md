@@ -15,6 +15,7 @@ presenter_slugs:
 - tobias-mcnulty
 published: true
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: how-to-schedule-tasks-with-celery-and-django
 summary: ''

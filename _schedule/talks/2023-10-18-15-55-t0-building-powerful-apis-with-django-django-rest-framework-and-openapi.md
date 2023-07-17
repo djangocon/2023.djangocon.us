@@ -25,6 +25,7 @@ presenter_slugs:
 - velda-kiara
 published: true
 room: Junior Ballroom
+schedule_layout: full
 sitemap: true
 slug: building-powerful-apis-with-django-django-rest-framework-and-openapi
 summary: ''
