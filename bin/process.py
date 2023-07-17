@@ -616,7 +616,6 @@ def generate_lightning_talks(
         permalink=f"/talks/lightning-talks-{start_time:%A}/".casefold(),
         presenter_slugs=["kojo-idrissa"],
         room=location,
-        schedule_layout="full",
         sitemap=True,
         title="Lightning Talks",
         track=f"t{track}",
