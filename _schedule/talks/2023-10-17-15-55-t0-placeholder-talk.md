@@ -9,7 +9,7 @@ layout: session-details
 permalink: /talks/placeholder-talk-3/
 presenter_slugs: null
 published: true
-room: Grand Ballroom II-III
+room: Junior Ballroom
 sitemap: true
 slug: placeholder-talk-3
 summary: ''
