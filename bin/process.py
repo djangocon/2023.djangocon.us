@@ -718,8 +718,8 @@ equitable environment."""
         link=None,
         presenter_slugs=["natalia-bidart"],
         room=location,
+        schedule_layout="full",
         sitemap=True,
-        talk_slot="full",
         title="Inside Out: My Journey of Understanding Inclusion",
         track="t1",
     )
