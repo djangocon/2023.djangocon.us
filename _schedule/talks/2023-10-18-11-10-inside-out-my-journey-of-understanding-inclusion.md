@@ -7,10 +7,12 @@ end_date: 2023-10-18 11:55:00-04:00
 group: talks
 layout: session-details
 link: null
+permalink: /talks/inside-out-my-journey-of-understanding-inclusion
 presenter_slugs:
 - natalia-bidart
 room: Junior Ballroom
 sitemap: true
+slug: inside-out-my-journey-of-understanding-inclusion
 talk_slot: full
 title: 'Inside Out: My Journey of Understanding Inclusion'
 track: t1
