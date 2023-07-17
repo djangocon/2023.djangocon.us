@@ -13,8 +13,8 @@ abstract: "In this talk, we will explore how to work with Neo4j using Python to 
   and scalable web applications."
 accepted: true
 category: talks
-date: 2023-10-17 17:15:00-04:00
-end_date: 2023-10-17 17:40:00-04:00
+date: 2023-10-16 16:45:00-04:00
+end_date: 2023-10-16 17:10:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/working-with-neo4j-with-djando-neomodel-library/

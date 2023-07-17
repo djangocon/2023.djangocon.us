@@ -6,8 +6,8 @@ abstract: By an order of magnitude, Celery remains one of the most popular Djang
   tasks with Celery.
 accepted: true
 category: talks
-date: 2023-10-18 16:45:00-04:00
-end_date: 2023-10-18 17:30:00-04:00
+date: 2023-10-18 14:05:00-04:00
+end_date: 2023-10-18 14:50:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/how-to-schedule-tasks-with-celery-and-django/

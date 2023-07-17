@@ -4,8 +4,8 @@ abstract: This talk is a love letter to meetups. We'll cover how meet-ups fit in
   and maybe even make a plan for saving the world -- one meet-up at a time.
 accepted: true
 category: talks
-date: 2023-10-16 17:15:00-04:00
-end_date: 2023-10-16 17:40:00-04:00
+date: 2023-10-16 12:00:00-04:00
+end_date: 2023-10-16 12:25:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/meet-ups-a-grand-vision-for-a-humble-endeavor/

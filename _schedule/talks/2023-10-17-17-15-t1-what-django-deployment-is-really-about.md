@@ -6,22 +6,22 @@ abstract: Beginners often stumble when it’s finally time to get their Django a
   to the web.
 accepted: true
 category: talks
-date: 2023-10-16 14:55:00-04:00
-end_date: 2023-10-16 15:20:00-04:00
+date: 2023-10-17 17:15:00-04:00
+end_date: 2023-10-17 17:40:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/what-django-deployment-is-really-about/
 presenter_slugs:
 - james-walters
 published: true
-room: Junior Ballroom
+room: Grand Ballroom II-III
 sitemap: true
 slug: what-django-deployment-is-really-about
 summary: ''
 tags:
 - deployment
 title: What Django Deployment is Really About
-track: t0
+track: t1
 ---
 
 People often spend so much time learning how to build apps in Django that when it comes time for deployment, it feels like a whole new world that they don't understand. Deployment recipes might help them get their app online--but then again they might not, if the steps that worked yesterday don't work today. Even if they do get online, they might not understand that deployment process anymore than they did before.

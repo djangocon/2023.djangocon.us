@@ -5,8 +5,8 @@ abstract: Ever wonder how accessible Django is? Sites built with Django, the adm
   – and then we’ll dive into Django’s implementation choices to understand the results.
 accepted: true
 category: talks
-date: 2023-10-18 14:05:00-04:00
-end_date: 2023-10-18 14:50:00-04:00
+date: 2023-10-18 16:00:00-04:00
+end_date: 2023-10-18 16:45:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/djangos-accessibility-track-record/

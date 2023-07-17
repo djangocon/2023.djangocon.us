@@ -10,15 +10,15 @@ abstract: "Many Python developers who build web applications rely on JavaScript-
   to SPAs."
 accepted: true
 category: talks
-date: 2023-10-16 15:55:00-04:00
-end_date: 2023-10-16 16:40:00-04:00
+date: 2023-10-16 11:10:00-04:00
+end_date: 2023-10-16 11:55:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/html-ivating-your-django-web-app-s-experience-with-htmx-alpinejs-and-streaming-html/
 presenter_slugs:
 - chris-may
 published: true
-room: Junior Ballroom
+room: Grand Ballroom II-III
 sitemap: true
 slug: html-ivating-your-django-web-app-s-experience-with-htmx-alpinejs-and-streaming-html
 summary: ''
@@ -26,7 +26,7 @@ tags:
 - JS/HTMX/misc frontend tech
 title: HTML-ivating your Django web app's experience with HTMX, AlpineJS, and streaming
   HTML.
-track: t0
+track: t1
 ---
 
 The rise of SPAs has brought many benefits, but it has also introduced complexity and performance overheads that can be overwhelming. As Django developers, we know the power and elegance of the Django framework, and we believe it can deliver a better user experience without the need for heavy JavaScript frameworks.

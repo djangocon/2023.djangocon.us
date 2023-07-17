@@ -10,8 +10,8 @@ abstract: "Django and Vue both have unique front-end strengths. Django’s conte
   in the remainder."
 accepted: true
 category: talks
-date: 2023-10-16 16:45:00-04:00
-end_date: 2023-10-16 17:10:00-04:00
+date: 2023-10-16 12:00:00-04:00
+end_date: 2023-10-16 12:25:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/vue-django-combining-django-templates-and-vue-single-file-components-without-compromise/

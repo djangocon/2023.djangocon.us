@@ -14,8 +14,8 @@ abstract: "GraphQL has gained popularity for its ability to offer more flexibili
   common issues."
 accepted: true
 category: talks
-date: 2023-10-16 11:10:00-04:00
-end_date: 2023-10-16 11:55:00-04:00
+date: 2023-10-17 11:10:00-04:00
+end_date: 2023-10-17 11:55:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/building-high-performance-type-safe-graphql-apis-with-strawberry-and-django/

@@ -7,8 +7,8 @@ abstract: As the most popular and mature solution for asynchronous task queues i
   for running Celery reliably after years of running it in production.
 accepted: true
 category: talks
-date: 2023-10-17 10:45:00-04:00
-end_date: 2023-10-17 11:10:00-04:00
+date: 2023-10-17 10:40:00-04:00
+end_date: 2023-10-17 11:05:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/mixing-reliability-with-celery-for-delicious-async-tasks/

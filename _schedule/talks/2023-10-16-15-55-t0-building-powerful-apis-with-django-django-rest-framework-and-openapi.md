@@ -16,8 +16,8 @@ abstract: "In today's world, APIs have become the backbone of many modern applic
   your application."
 accepted: true
 category: talks
-date: 2023-10-18 15:55:00-04:00
-end_date: 2023-10-18 16:40:00-04:00
+date: 2023-10-16 15:55:00-04:00
+end_date: 2023-10-16 16:40:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/building-powerful-apis-with-django-django-rest-framework-and-openapi/
@@ -25,7 +25,6 @@ presenter_slugs:
 - velda-kiara
 published: true
 room: Junior Ballroom
-schedule_layout: full
 sitemap: true
 slug: building-powerful-apis-with-django-django-rest-framework-and-openapi
 summary: ''
