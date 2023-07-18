@@ -1,36 +1,48 @@
 import pathlib
+from typing import Any, Iterable
 
+import frontmatter
 import yaml
+
+from process import Presenter, Schedule
 
 
 HEADER = """---
-author: Drew Winstel
-category: Program
-date: 2021-08-26 12:00:00
+author: DjangoCon US Organizers
+category: General
+date: 2023-07-10 12:00:00-04:00
+image: /static/img/blog/speaking-2023.jpg
 layout: post
-title: Announcing the 2021 DjangoCon US Talks
+post_photo_alt: Speaker addressing a crowd at DjangoCon US 2022 in San Diego
+post_photo_url: /static/img/blog/speaking-2023.jpg
+title: Announcing Our DjangoCon US 2023 Talks!
 ---
-We're proud to announce the talks for this year's online DjangoCon US.
 
-The Django community and beyond submitted an incredible number of talk
-proposals, and selecting these talks was extremely difficult for our program
-team. We appreciate the effort everyone put into their submissions; thank you!
-Another huge thank you to our reviewers, without whom this list would still be
-weeks in the making.
+We are delighted to present our tutorial and talk lineup!
 
-We will announce the full conference schedule soon. If you haven't picked up
-your ticket yet, they're still [available](https://ti.to/defna/djangocon-us-2021).
+The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
+
+Congratulations to the presenters of the tutorials and talks below!
 """
 
 FOOTER = """
 Congratulations to all our speakers!
 
-We can't wait to see you at DCUS 2021! Get your [free tickets](https://ti.to/defna/djangocon-us-2021)
-today and follow us on [Twitter](https://twitter.com/djangocon) to stay up to
-date on the latest news.
+If you’d like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}).
+Tutorials (sold separately from conference registration) are $195 each, and we will have the schedule
+for those up soon. We hope to see you in Durham!
 """
 
 LINE_TEMPLATE = """- {talk["title"]} by {talk["presenters"][0]["name"]} {urls}"""
+
+TUTORIAL_HEADER = """## Tutorials (Sunday, October 8)
+
+_Tutorials will only be available online due to venue availabilty limitations._"""
+
+TALK_HEADER = """## Talks (Monday, October 16 through Wednesday, October 18)
+
+_All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free._
+"""
 
 
 def load_path(path: pathlib.Path) -> list[dict]:
@@ -44,36 +56,71 @@ def load_path(path: pathlib.Path) -> list[dict]:
     return return_data
 
 
-def generate_urls(presenter: dict[str, str]) -> str:
+def generate_urls(presenter: Presenter) -> str:
     urls = []
-    if presenter["github"]:
-        urls.append(f'[github](https://github.com/{presenter["github"]})')
-    if presenter["twitter"]:
-        urls.append(f'[twitter](https://twitter.com/{presenter["twitter"]})')
-    if presenter["website"]:
-        urls.append(f'[website]({presenter["website"]})')
+    if presenter.github:
+        urls.append(f"[github](https://github.com/{presenter.github})")
+    if presenter.twitter:
+        urls.append(f"[twitter](https://twitter.com/{presenter.twitter})")
+    if presenter.mastodon:
+        urls.append(f"[mastodon]({presenter.mastodon})")
+    if presenter.website:
+        urls.append(f"[website]({presenter.website})")
     if not urls:
         return ""
     return f'({", ".join(urls)})'
 
 
-def parse_talks(talks: list[dict]) -> list[str]:
+def format_talk(talk: dict[str, Any], presenters: Iterable[Presenter]) -> str:
+    presenter_details = [
+        f"{presenter.name} {generate_urls(presenter=presenter)}"
+        for presenter in sorted(
+            (p for p in presenters if p.slug in talk["presenter_slugs"]),
+            key=lambda p: talk["presenter_slugs"].index(p.slug),
+        )
+    ]
+    return f'{" and ".join(presenter_details)} - {talk["title"]}'
+
+
+def parse_talks(talks: list[dict], presenters: dict[str, Presenter]) -> list[str]:
     return [
-        f'- {talk["title"]} by {talk["presenters"][0]["name"]} {generate_urls(talk["presenters"][0])}'
-        for talk in talks
+        f'- {format_talk(talk, presenters=(presenter for slug, presenter in presenters.items() if slug in talk.get("presenter_slugs", {})))}'
+        for talk in sorted(
+            talks,
+            key=lambda t: presenters[t["presenter_slugs"][0]].name
+            if "presenter_slugs" in t and t["presenter_slugs"]
+            else "none",
+        )
+        if "Lightning Talks" not in talk["title"]
+        and talk["category"] in {"talks", "tutorials"}
+        and talk.get("presenter_slugs")
     ]
 
 
-def generate_template(talk_lines: list[str]) -> str:
-    joined = "\n".join(talk_lines)
-    return f"{HEADER}\n\n{joined}\n\n{FOOTER}"
+def load_presenters() -> dict[str, Presenter]:
+    presenters = pathlib.Path("../_presenters").glob("*.md")
+    result = (
+        Presenter(**frontmatter.loads(presenter.read_text()).metadata)
+        for presenter in presenters
+    )
+    return {p.slug: p for p in result}
+
+
+def generate_template(talk_lines: list[str], tutorial_lines: list[str]) -> str:
+    talks = "\n".join(talk_lines)
+    tutorials = "\n".join(tutorial_lines)
+    return f"{HEADER}\n\n{TUTORIAL_HEADER}\n\n{tutorials}\n\n{TALK_HEADER}\n\n{talks}\n\n{FOOTER}"
 
 
 def main():
     path = pathlib.Path("../_schedule/talks")
+    tutorial_path = pathlib.Path("../_schedule/tutorials")
     talks = load_path(path)
-    talk_lines = parse_talks(talks)
-    blog_post = generate_template(talk_lines)
+    tutorials = load_path(tutorial_path)
+    presenters = load_presenters()
+    talk_lines = parse_talks(talks, presenters=presenters)
+    tutorial_lines = parse_talks(tutorials, presenters=presenters)
+    blog_post = generate_template(talk_lines, tutorial_lines)
     print(blog_post)
 
 
