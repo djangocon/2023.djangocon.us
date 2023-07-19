@@ -14,5 +14,6 @@
 2. Import speakers: from the pretalx-api-import folder, run `python main.py speakers /path/to/pretalx-speakers.json --output-folder ../<year>.djangocon.us`
 3. Import schedule: from the pretalx-api-import folder, run `python main.py main /path/to/pretalx-sessions.json --output-folder ../<year>.djangocon.us`
 4. Generate breaks/lunch/etc.: from this repo: run `python bin/process.py generate-2023-placeholders --create-keynotes 2023-10-15` (`2023-10-15` is the Sunday before talks start, which is usually tutorial day but is not for 2023)
-5. Reformat: `python bin/process.py fmt`
-6. Commit the `_schedule` folder
+5. Generate opening remarks: `python bin/process.py generate-opening-remarks "2023-10-16 09:30:00" --speaker-name "<speaker name>"` and repeat for each talk day
+6. Reformat: `python bin/process.py fmt`
+7. Commit the `_schedule` folder
