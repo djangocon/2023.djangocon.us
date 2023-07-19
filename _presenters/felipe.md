@@ -3,9 +3,10 @@ company: AfroPython
 hidden: false
 layout: speaker-template
 mastodon: null
-name: Felipe
-permalink: /presenters/felipe/
+name: Felipe de Morais
+permalink: /presenters/felipe-de-morais/
 photo_url: /static/img/presenters/felipe.jpeg
+pronouns: he/him
 slug: felipe
 twitter: felipedemorais_
 website: null

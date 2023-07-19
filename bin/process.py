@@ -537,6 +537,36 @@ def generate_lunch(
 
 
 @app.command()
+def add_pronouns_from_csv(
+    csv_path: str,
+) -> None:
+    """Load pronouns from the speaker info form and add them to speakers"""
+    csv_data = csv.reader(
+        Path(csv_path).read_text().splitlines(),
+    )
+    # field 1 = speaker 1 name
+    # field 3 = speaker 1 pronouns
+    # NOTE: as of 2023-07-19, nobody has filled in the second speaker details
+    # and we only have one multi-speaker presentation, so it's fine to hand-update
+    # that one
+    pronouns = {row[1]: (row[3] or "").strip().casefold() for row in csv_data}
+    speaker_paths = Path("_presenters").glob("*.md")
+    for speaker in speaker_paths:
+        post = frontmatter.loads(speaker.read_text())
+        presenter = Presenter(**post.metadata)
+        try:
+            speaker_pronoun = pronouns[presenter.name]
+        except KeyError:
+            continue
+        if not speaker_pronoun:
+            continue
+        presenter.pronouns = speaker_pronoun.casefold()
+        output_path = Path(f"_presenters/{presenter.slug}.md")
+        post.metadata.update(presenter.model_dump(exclude_unset=True))
+        output_path.write_text(frontmatter.dumps(post) + "\n")
+
+
+@app.command()
 def generate_opening_remarks(
     start_time: datetime,
     duration_minutes: int = 15,

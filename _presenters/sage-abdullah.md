@@ -6,6 +6,7 @@ mastodon: https://fosstodon.org/@laymonage
 name: Sage Abdullah
 permalink: /presenters/sage-abdullah/
 photo_url: /static/img/presenters/sage-abdullah.jpeg
+pronouns: he/him
 slug: sage-abdullah
 twitter: laymonage
 website: null

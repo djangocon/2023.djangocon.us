@@ -6,6 +6,7 @@ mastodon: https://joshthomas.dev/@josh
 name: Josh Thomas
 permalink: /presenters/josh-thomas/
 photo_url: /static/img/presenters/josh-thomas.png
+pronouns: he/him
 slug: josh-thomas
 twitter: null
 website: null

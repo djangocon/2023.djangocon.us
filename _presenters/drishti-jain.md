@@ -6,6 +6,7 @@ mastodon: null
 name: Drishti Jain
 permalink: /presenters/drishti-jain/
 photo_url: /static/img/presenters/drishti-jain.jpeg
+pronouns: she/her
 slug: drishti-jain
 twitter: drishtijjain
 website: null

@@ -17,3 +17,12 @@
 5. Generate opening remarks: `python bin/process.py generate-opening-remarks "2023-10-16 09:30:00" --speaker-name "<speaker name>"` and repeat for each talk day
 6. Reformat: `python bin/process.py fmt`
 7. Commit the `_schedule` folder
+
+## Add pronouns
+
+After speakers have completed the speaker information form:
+
+1. Update bin/process.py, function `add_pronouns_from_csv` to make sure you have the right field indexes
+2. Export the speaker information form responses from Google sheets
+3. `python bin/process.py /path/to/exported.csv`
+4. Commit the changes to `_presenters/`

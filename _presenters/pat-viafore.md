@@ -6,6 +6,7 @@ mastodon: null
 name: Pat Viafore
 permalink: /presenters/pat-viafore/
 photo_url: /static/img/presenters/pat-viafore.png
+pronouns: he/him
 slug: pat-viafore
 twitter: PatViaforever
 website: null

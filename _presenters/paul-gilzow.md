@@ -3,9 +3,10 @@ company: Platform.sh
 hidden: false
 layout: speaker-template
 mastodon: https://higheredweb.social/@gilzow
-name: PAUL GILZOW
+name: Paul Gilzow
 permalink: /presenters/paul-gilzow/
 photo_url: /static/img/presenters/paul-gilzow.jpeg
+pronouns: he/him/his
 slug: paul-gilzow
 twitter: gilzow
 website: null

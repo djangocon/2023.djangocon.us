@@ -6,6 +6,7 @@ mastodon: https://mastodon.uno/@dennybiasiolli
 name: Denny Biasiolli
 permalink: /presenters/denny-biasiolli/
 photo_url: /static/img/presenters/denny-biasiolli.jpeg
+pronouns: he/him
 slug: denny-biasiolli
 twitter: dennybiasiolli
 website: null

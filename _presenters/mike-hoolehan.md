@@ -6,6 +6,7 @@ mastodon: null
 name: Mike Hoolehan
 permalink: /presenters/mike-hoolehan/
 photo_url: ''
+pronouns: he/him
 slug: mike-hoolehan
 twitter: null
 website: null

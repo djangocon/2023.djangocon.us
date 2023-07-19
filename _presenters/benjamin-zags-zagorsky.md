@@ -6,6 +6,7 @@ mastodon: null
 name: Benjamin "Zags" Zagorsky
 permalink: /presenters/benjamin-zags-zagorsky/
 photo_url: /static/img/presenters/benjamin-zags-zagorsky.jpg
+pronouns: he/him
 slug: benjamin-zags-zagorsky
 twitter: null
 website: null
