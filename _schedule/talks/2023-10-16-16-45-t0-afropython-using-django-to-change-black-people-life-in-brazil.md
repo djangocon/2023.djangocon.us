@@ -7,8 +7,8 @@ abstract: "Hi from Brazil! \U0001F44B\U0001F3FE\U0001F1E7\U0001F1F7\r\nJoin us f
   our mission and create social change. Come and be inspired by our story!"
 accepted: true
 category: talks
-date: 2023-10-16 17:15:00-04:00
-end_date: 2023-10-16 17:40:00-04:00
+date: 2023-10-16 16:45:00-04:00
+end_date: 2023-10-16 17:10:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/afropython-using-django-to-change-black-people-life-in-brazil/

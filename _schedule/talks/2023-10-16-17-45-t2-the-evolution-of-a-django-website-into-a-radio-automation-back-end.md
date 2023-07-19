@@ -4,8 +4,8 @@ abstract: What started as a Website to show the schedule of a free radio, has re
   through a REST API.
 accepted: true
 category: talks
-date: 2023-10-16 17:40:00-04:00
-end_date: 2023-10-16 18:05:00-04:00
+date: 2023-10-16 17:45:00-04:00
+end_date: 2023-10-16 18:10:00-04:00
 group: talks
 layout: session-details
 permalink: /talks/the-evolution-of-a-django-website-into-a-radio-automation-back-end/
