@@ -6,6 +6,7 @@ mastodon: null
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
 photo_url: /static/img/presenters/kuldeep-pisda.jpeg
+pronouns: he/him
 slug: kuldeep-pisda
 twitter: KdPisda
 website: null

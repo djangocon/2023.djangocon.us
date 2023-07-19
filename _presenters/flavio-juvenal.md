@@ -6,6 +6,7 @@ mastodon: null
 name: Flávio Juvenal
 permalink: /presenters/flavio-juvenal/
 photo_url: /static/img/presenters/flavio-juvenal.jpg
+pronouns: he/him
 slug: flavio-juvenal
 twitter: flaviojuvenal
 website: null

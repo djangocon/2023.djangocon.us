@@ -5,6 +5,7 @@ layout: speaker-template
 name: Elizabeth Garrett Christensen
 permalink: /presenters/elizabeth-garrett-christensen/
 photo_url: /static/img/presenters/elizabeth-garrett-christensen.jpeg
+pronouns: she/her
 slug: elizabeth-garrett-christensen
 twitter: sqlliz
 website: null

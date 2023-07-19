@@ -6,6 +6,7 @@ mastodon: https://phildini.net/@phildini
 name: Philip James
 permalink: /presenters/philip-james/
 photo_url: /static/img/presenters/philip-james.png
+pronouns: he/him
 slug: philip-james
 twitter: null
 website: null

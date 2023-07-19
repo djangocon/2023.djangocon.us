@@ -5,6 +5,7 @@ layout: speaker-template
 name: Sheena O'Connell
 permalink: /presenters/sheena-o-connell/
 photo_url: /static/img/presenters/sheena-oconnell.jpg
+pronouns: she/her
 slug: sheena-o-connell
 twitter: null
 website: null
