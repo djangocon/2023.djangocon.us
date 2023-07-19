@@ -16,3 +16,12 @@
 4. Generate breaks/lunch/etc.: from this repo: run `python bin/process.py generate-2023-placeholders --create-keynotes 2023-10-15` (`2023-10-15` is the Sunday before talks start, which is usually tutorial day but is not for 2023)
 5. Reformat: `python bin/process.py fmt`
 6. Commit the `_schedule` folder
+
+## Add pronouns
+
+After speakers have completed the speaker information form:
+
+1. Update bin/process.py, function `add_pronouns_from_csv` to make sure you have the right field indexes
+2. Export the speaker information form responses from Google sheets
+3. `python bin/process.py /path/to/exported.csv`
+4. Commit the changes to `_presenters/`

@@ -6,6 +6,7 @@ mastodon: https://freeradical.zone/@baconandcoconut
 name: Deb Nicholson
 permalink: /presenters/deb-nicholson/
 photo_url: ''
+pronouns: she/her
 slug: deb-nicholson
 twitter: baconandcoconut
 website: null

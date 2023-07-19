@@ -6,6 +6,7 @@ mastodon: null
 name: Victor Ogunjobi
 permalink: /presenters/victor-ogunjobi/
 photo_url: /static/img/presenters/victor-ogunjobi.jpeg
+pronouns: he/they
 slug: victor-ogunjobi
 twitter: chemicopy_
 website: null

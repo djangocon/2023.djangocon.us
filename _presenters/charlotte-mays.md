@@ -6,6 +6,7 @@ mastodon: https://hachyderm.io/@charlotte
 name: Charlotte Mays
 permalink: /presenters/charlotte-mays/
 photo_url: /static/img/presenters/charlotte-mays.jpeg
+pronouns: she/her
 slug: charlotte-mays
 twitter: null
 website: null
