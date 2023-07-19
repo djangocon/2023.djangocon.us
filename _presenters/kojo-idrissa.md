@@ -2,6 +2,7 @@
 company: Decisio Health
 github: kojoidrissa
 layout: speaker-template
+mastodon: https://fosstodon.org/@kojoidrissa
 name: Kojo Idrissa
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
@@ -10,9 +11,9 @@ twitter: kojoidrissa
 website: http://kojoidrissa.com/
 ---
 
-Kojo Idrissa *was* an accountant who got an MBA and taught at university in
-two different countries. He's *now* a new(ish) software engineer and is still
+Kojo Idrissa _was_ an accountant who got an MBA and taught at university in
+two different countries. He's _now_ a new(ish) software engineer and is still
 trying to figure that out and grow into the role. He's spoken at tech conferences
 about spreadsheets, contributing to tech communities, Dungeons & Dragons, inclusion
 and privilege. You can find him online at http://kojoidrissa.com/ or as
-[@transitionswpz](https://twitter.com/kojoidrissa) on Twitter.
+[@kojoidrissa@fosstodon.org](https://fosstodon.org/@kojoidrissa) on Mastodon.
