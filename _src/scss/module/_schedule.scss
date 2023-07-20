@@ -98,6 +98,15 @@
     margin-top: 1rem;
   }
 
+  &-speaker {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  &-speaker + &-speaker {
+    margin-top: .75rem;
+  }
+
   & & {
     position: static;
   }
