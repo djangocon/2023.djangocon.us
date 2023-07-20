@@ -1,7 +1,8 @@
 ---
-company: null
+company: Python By Night
 hidden: false
 layout: speaker-template
+mastodon: https://fosstodon.org/@pythonbynight
 name: Mario Munoz
 permalink: /presenters/mario-munoz/
 photo_url: /static/img/presenters/mario-munoz.png
@@ -10,4 +11,4 @@ twitter: PythonByNight
 website: null
 ---
 
-Mario started learning Python at the very young age of 39, with hardly any previous programming experience. That was three and a half years ago. Since then, he's launched Python By Night&mdash;a blog detailing the journey of learning Python when there's just not enough time during the day&mdash;as well as presented a tutorial at PyCon US 2022.
+I code Python by night, which is what happens when there's not enough time during the day. In the past couple of years, I've presented several talks/tutorials at PyCon US, DjangoCon US, Python Web Conference, and others. Sometimes I neglect/blog on my website [Python By Night](https://pythonbynight.com), and start (and abandon) too many side projects.

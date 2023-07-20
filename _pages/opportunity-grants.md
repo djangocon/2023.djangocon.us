@@ -7,6 +7,7 @@ layout: default
 permalink: /opportunity-grants/
 title: Opportunity Grants
 ---
+
 {% comment %}
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 {% endcomment %}

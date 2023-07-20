@@ -1,7 +1,6 @@
-"""NOTE: You need to adjust the dates for 2023"""
+"""NOTE: You need to adjust the dates **per year**"""
 import csv
 from io import StringIO
-from turtle import title
 import frontmatter
 import inflection
 import os
@@ -14,12 +13,22 @@ from pathlib import Path
 from pydantic import BaseModel, ValidationError
 from rich import print
 from slugify import slugify
-from typing import List, Literal, Optional, Union
+from typing import List, Literal, Optional
 from urllib.parse import quote_plus
 import pytz
 
 # TODO: Pull this from _config.yml
 CONFERENCE_TZ = pytz.timezone("America/New_York")
+YEAR = 2023
+
+# Define your rooms here
+LACTATION_ROOM = "Room TBA"
+QUIET_ROOM = "Room TBA"
+LUNCH_ROOM = "Grand Ballroom I"
+LARGE_TALK_ROOM = "Junior Ballroom"
+SMALL_TALK_ROOM = "Grand Ballroom II-III"
+BREAK_AREA = LUNCH_ROOM
+REGISTRATION_AREA = f"In front of {LARGE_TALK_ROOM}"
 
 
 class FrontmatterModel(BaseModel):
@@ -27,13 +36,13 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: Optional[datetime]
+    date: Optional[datetime] = None
     layout: str
-    permalink: Optional[str]
+    permalink: Optional[str] = None
     published: bool = True
-    redirect_from: Optional[List[str]]
-    redirect_to: Optional[str]  # via the jekyll-redirect-from plugin
-    sitemap: Optional[bool]
+    redirect_from: Optional[List[str]] = None
+    redirect_to: Optional[str] = None  # via the jekyll-redirect-from plugin
+    sitemap: Optional[bool] = None
     title: str
 
     class Config:
@@ -44,62 +53,62 @@ class Job(FrontmatterModel):
     hidden: bool = False
     layout: str = "base"
     name: str
-    title: Optional[str]
+    title: Optional[str] = None
     website: str
     website_text: str = "Apply here"
 
 
 class Organizer(FrontmatterModel):
-    github: Optional[str]
+    github: Optional[str] = None
     hidden: bool = False
     layout: str = "base"
     name: str
-    photo_url: Optional[str]
-    slug: Optional[str]
-    title: Optional[str]
-    twitter: Optional[str]
-    website: Optional[str]
-    mastodon: Optional[str]
+    photo_url: Optional[str] = None
+    slug: Optional[str] = None
+    title: Optional[str] = None
+    twitter: Optional[str] = None
+    website: Optional[str] = None
+    mastodon: Optional[str] = None
 
 
 class Page(FrontmatterModel):
-    description: Optional[str]
-    heading: Optional[str]
-    hero_text_align: Optional[str]  # homepage related
-    hero_theme: Optional[str]  # homepage related
-    layout: Optional[str]
-    testimonial_img: Optional[str]  # homepage related
-    testimonial_img_mobile: Optional[str]  # homepage related
-    title: Optional[str]
+    description: Optional[str] = None
+    heading: Optional[str] = None
+    hero_text_align: Optional[str] = None  # homepage related
+    hero_theme: Optional[str] = None  # homepage related
+    layout: Optional[str] = None
+    testimonial_img: Optional[str] = None  # homepage related
+    testimonial_img_mobile: Optional[str] = None  # homepage related
+    title: Optional[str] = None
 
 
 class Post(FrontmatterModel):
     author: Optional[str] = None
     category: Optional[str] = "General"  # TODO: build a list of these
-    categories: Optional[List[str]]
+    categories: Optional[List[str]] = None
     date: datetime  # YYYY-MM-DD HH:MM:SS +/-TTTT
     image: Optional[str] = None
     layout: Optional[str] = "post"
     slug: Optional[str] = None
-    tags: Optional[List[str]]
+    tags: Optional[List[str]] = []
 
 
 class Presenter(FrontmatterModel):
-    company: Optional[str]
-    github: Optional[str]
+    company: Optional[str] = None
+    github: Optional[str] = None
     hidden: bool = False
     layout: str = "speaker-template"
     name: str
     override_schedule_title: Optional[str] = None
-    pronouns: Optional[str]
-    photo_url: Optional[str]
-    role: Optional[str]
+    pronouns: Optional[str] = None
+    photo_url: Optional[str] = None
+    role: Optional[str] = None
     slug: Optional[str] = None
-    title: Optional[str]
-    twitter: Optional[str]
-    website: Optional[str]
+    title: Optional[str] = None
+    twitter: Optional[str] = None
+    website: Optional[str] = None
     website_text: str = "Apply here"
-    mastodon: Optional[str]
+    mastodon: Optional[str] = None
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -111,6 +120,10 @@ class Presenter(FrontmatterModel):
         # if permalink is blank, let's build a new one
         if not self.permalink:
             self.permalink = f"/presenters/{self.slug}/"
+
+        if self.mastodon and self.mastodon.startswith("@"):
+            self.mastodon = migrate_mastodon_handle(handle=self.mastodon)
+            print(f"🚜 converting {self.mastodon=}")
 
 
 class Schedule(FrontmatterModel):
@@ -137,23 +150,23 @@ class Schedule(FrontmatterModel):
             "talks",
             "tutorials",
         ]
-    ]
+    ] = None
 
-    image: Optional[str]
+    image: Optional[str] = None
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
     presenter_slugs: Optional[List[str]] = None
-    presenters: List[dict] = None  # TODO: break this into a sub-type
+    presenters: Optional[List[dict]] = None  # TODO: break this into a sub-type
     published: bool = False
-    room: Optional[str]
-    schedule: Optional[str]
-    schedule_layout: Optional[str]  # TODO: Validate for breaks, lunch, etc
-    show_video_urls: Optional[bool]
-    slides_url: Optional[str]
-    summary: Optional[str]
+    room: Optional[str] = None
+    schedule: Optional[str] = None
+    schedule_layout: Optional[str] = None  # TODO: Validate for breaks, lunch, etc
+    show_video_urls: Optional[bool] = None
+    slides_url: Optional[str] = None
+    summary: Optional[str] = None
     tags: Optional[List[str]] = None
     talk_slot: Optional[str] = "full"
     track: Optional[str] = None
-    video_url: Optional[str]
+    video_url: Optional[str] = None
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -166,15 +179,56 @@ class Schedule(FrontmatterModel):
 
 
 POST_TYPES = [
-    {"path": "_jobs", "class_name": Job},
-    {"path": "_organizers", "class_name": Organizer},
-    {"path": "_pages", "class_name": Page},
-    {"path": "_posts", "class_name": Post},
-    {"path": "_presenters", "class_name": Presenter},
-    {"path": "_schedule/sprints", "class_name": Schedule},
-    {"path": "_schedule/talks", "class_name": Schedule},
-    {"path": "_schedule/tutorials", "class_name": Schedule},
+    {
+        "path": "_jobs",
+        "class_name": Job,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_organizers",
+        "class_name": Organizer,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_pages",
+        "class_name": Page,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_posts",
+        "class_name": Post,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_presenters",
+        "class_name": Presenter,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/sprints",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/talks",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
+    {
+        "path": "_schedule/tutorials",
+        "class_name": Schedule,
+        "exclude_unset": True,
+    },
 ]
+
+
+def migrate_mastodon_handle(*, handle: str) -> str:
+    if not handle.startswith("@"):
+        return handle
+
+    username, domain = handle[1:].split("@")
+    return f"https://{domain}/@{username}"
+
 
 app = typer.Typer()
 
@@ -188,7 +242,9 @@ def fmt():
             try:
                 post = frontmatter.loads(filename.read_text())
                 data = post_type["class_name"](**post.metadata)
-                post.metadata.update(data.dict(exclude_unset=True))
+                post.metadata.update(
+                    data.model_dump(exclude_unset=post_type["exclude_unset"])
+                )
                 filename.write_text(frontmatter.dumps(post) + os.linesep)
             except ValidationError as e:
                 typer.secho(f"{filename}", fg="red")
@@ -207,21 +263,21 @@ def validate():
                 data = frontmatter.loads(filename.read_text())
                 post_type["class_name"](**data.metadata)
             except ValidationError as e:
-                typer.secho(f"{filename}", fg="red")
-                typer.echo(e.json())
+                print(f"[red]{filename}[/red]")
+                print(e.json())
             except Exception as e:
-                typer.secho(f"{filename}::{e}", fg="red")
+                print(f"[red]{filename}::{e}[/red]")
 
 
 @app.command()
 def generate_lactation_room(
     event_date: datetime,
-    link: str = "",  # TODO update this to /news/lactation-room/ after we make the blog post
-    room_name: str = "Private Dining Room",
+    link: str = "/news/childcare-lactation/",
+    room_name: str = LACTATION_ROOM,
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
-    category = "break"
+    category = "talks"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -235,7 +291,7 @@ def generate_lactation_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category="break",
         date=start,
         end_date=end,
         layout="session-details",
@@ -247,7 +303,7 @@ def generate_lactation_room(
         talk_slot="full",
         title="Lactation Room",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}"
         f"-{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-lactation-room.md"
@@ -259,7 +315,7 @@ def generate_lactation_room(
 @app.command()
 def generate_quiet_room(
     event_date: datetime,
-    room_name: str = "Santa Fe 3",
+    room_name: str = QUIET_ROOM,
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
@@ -289,9 +345,9 @@ def generate_quiet_room(
         talk_slot="full",
         title="Quiet Room",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
-        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"_schedule/talks/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-quiet-room.md"
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
@@ -301,11 +357,11 @@ def generate_quiet_room(
 @app.command()
 def generate_registration_desk(
     event_date: datetime,
-    location: str = "In front of Salon A",
+    location: str = REGISTRATION_AREA,
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "break"
+    category = "talks"
     if event_date.weekday() in {3, 4}:
         raise ValueError("We don't have a registration desk on sprint days")
 
@@ -322,7 +378,7 @@ def generate_registration_desk(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category="break",
         date=start,
         end_date=end,
         layout="session-details",
@@ -334,7 +390,7 @@ def generate_registration_desk(
         talk_slot="full",
         title="Registration",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-registration.md"
@@ -344,14 +400,16 @@ def generate_registration_desk(
 
 
 @app.command()
-def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
-    category = "lunch"  # yes, I know...
+def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
+    category = "talks"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
+    if start_time.weekday in {3, 4}:
+        category = "sprints"
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category="lunch",
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -363,7 +421,7 @@ def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
         talk_slot="full",
         title="Continental Breakfast",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -376,15 +434,17 @@ def generate_breakfast(start_time: datetime, location: str = "West Lawn"):
 def generate_break(
     start_time: datetime,
     duration_minutes: int = 30,
-    location: str = "West Lawn",
+    location: str = BREAK_AREA,
 ):
-    category = "break"
+    category = "talks"
+    if start_time.weekday in {3, 4}:
+        category = "sprints"
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        category=category,
+        category="break",
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -396,7 +456,7 @@ def generate_break(
         talk_slot="full",
         title="Break",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -409,10 +469,10 @@ def generate_break(
 def generate_early_lunch(
     start_time: datetime,
     duration_minutes: int = 50,
-    location: str = "West Lawn",
+    location: str = LUNCH_ROOM,
     track: int = 1,
 ):
-    category = "lunch"
+    category = "talks"
     if start_time.weekday() == 6:
         raise ValueError("We don't have lightning talks on tutorial days")
     elif start_time.weekday() in {3, 4}:
@@ -422,7 +482,7 @@ def generate_early_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        category=category,
+        category="lunch",
         date=start_time,
         end_date=end_time,
         layout="session-details",
@@ -432,7 +492,7 @@ def generate_early_lunch(
         title="Early Lunch",
         track=f"t{track}",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -444,8 +504,8 @@ def generate_early_lunch(
 @app.command()
 def generate_lunch(
     start_time: datetime,
-    duration_minutes: int = 40,
-    location: str = "West Lawn",
+    duration_minutes: int = 45,
+    location: str = LUNCH_ROOM,
 ):
     category = "talks"
     if start_time.weekday() == 6:
@@ -467,7 +527,7 @@ def generate_lunch(
         talk_slot="full",
         title="Lunch",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -477,11 +537,41 @@ def generate_lunch(
 
 
 @app.command()
+def add_pronouns_from_csv(
+    csv_path: str,
+) -> None:
+    """Load pronouns from the speaker info form and add them to speakers"""
+    csv_data = csv.reader(
+        Path(csv_path).read_text().splitlines(),
+    )
+    # field 1 = speaker 1 name
+    # field 3 = speaker 1 pronouns
+    # NOTE: as of 2023-07-19, nobody has filled in the second speaker details
+    # and we only have one multi-speaker presentation, so it's fine to hand-update
+    # that one
+    pronouns = {row[1]: (row[3] or "").strip().casefold() for row in csv_data}
+    speaker_paths = Path("_presenters").glob("*.md")
+    for speaker in speaker_paths:
+        post = frontmatter.loads(speaker.read_text())
+        presenter = Presenter(**post.metadata)
+        try:
+            speaker_pronoun = pronouns[presenter.name]
+        except KeyError:
+            continue
+        if not speaker_pronoun:
+            continue
+        presenter.pronouns = speaker_pronoun.casefold()
+        output_path = Path(f"_presenters/{presenter.slug}.md")
+        post.metadata.update(presenter.model_dump(exclude_unset=True))
+        output_path.write_text(frontmatter.dumps(post) + "\n")
+
+
+@app.command()
 def generate_opening_remarks(
     start_time: datetime,
     duration_minutes: int = 15,
     speaker_name: str = "",
-    location: str = "Salon A-E",
+    location: str = LARGE_TALK_ROOM,
     track: int = 0,
 ):
     category = "talks"
@@ -503,7 +593,7 @@ def generate_opening_remarks(
             speaker.website = organizer.website
             speaker.title = organizer.title
             speaker.mastodon = organizer.mastodon
-        speaker_post.metadata.update(speaker.dict(exclude_unset=True))
+        speaker_post.metadata.update(speaker.model_dump(exclude_unset=True))
         output_path = Path(f"_presenters/{speaker.slug}.md")
         output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
 
@@ -523,7 +613,7 @@ def generate_opening_remarks(
     )
     if speaker_name:
         sched.presenter_slugs = [slugify(speaker_name)]
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -536,7 +626,7 @@ def generate_opening_remarks(
 def generate_lightning_talks(
     start_time: datetime,
     duration_minutes: int = 50,
-    location: str = "Salon A-E",
+    location: str = LARGE_TALK_ROOM,
     track: int = 0,
 ):
     category = "talks"
@@ -556,12 +646,11 @@ def generate_lightning_talks(
         permalink=f"/talks/lightning-talks-{start_time:%A}/".casefold(),
         presenter_slugs=["kojo-idrissa"],
         room=location,
-        schedule_layout="full",
         sitemap=True,
         title="Lightning Talks",
         track=f"t{track}",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-t{track}-{slugify(sched.title)}.md"
@@ -572,7 +661,7 @@ def generate_lightning_talks(
 
 @app.command()
 def generate_keynote(
-    start_time: datetime, duration_minutes: int = 45, location: str = "Salon A-E"
+    start_time: datetime, duration_minutes: int = 45, location: str = LARGE_TALK_ROOM
 ):
     category = "talks"
     if start_time.weekday() == 6:
@@ -598,7 +687,73 @@ def generate_keynote(
         title="Keynote (to be announced)",
         track="t1",
     )
-    post.metadata.update(sched.dict(exclude_unset=True))
+    post.metadata.update(sched.model_dump(exclude_unset=True))
+    output_path = Path(
+        f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
+        f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
+    )
+    output_path.write_text(frontmatter.dumps(post) + "\n")
+    print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_natalia_talk(
+    start_time: datetime, duration_minutes: int = 45, location: str = LARGE_TALK_ROOM
+):
+    category = "talks"
+    if start_time.weekday() == 6:
+        raise ValueError("No keynotes on tutorial day")
+    elif start_time.weekday() in {3, 4}:
+        raise ValueError("No keynotes on tutorial day")
+    start_time = CONFERENCE_TZ.localize(start_time)
+    end_time = start_time + relativedelta(minutes=duration_minutes)
+    speaker_post = frontmatter.loads("")
+    speaker = Presenter(
+        name="Natalia Bidart",
+        slug="natalia-bidart",
+        title="Django Fellow",
+        mastodon="https://fosstodon.org/@nessita",
+    )
+    output_path = Path(f"_presenters/{speaker.slug}.md")
+    speaker_post.metadata.update(speaker.model_dump(exclude_unset=True))
+    output_path.write_text(frontmatter.dumps(speaker_post) + "\n")
+    post = frontmatter.loads(
+        """In this talk I'll share my personal journey of understanding diversity and inclusion.
+Being part of a minority group, I have encountered numerous challenges, I've learned
+a lot, and made my fair share of mistakes along the way.
+
+This presentation is an opportunity to reflect on my experiences, sharing the lessons
+learned and real-life stories that have shaped my view on the matter. Get ready for a
+captivating array of anecdotes!
+
+I'll openly discuss the challenges I've faced and the insights I've gained,
+highlighting both successes and shortcomings, always offering a perspective rather than
+definitive solutions or comprehensive analysis. I'll cover topics such as tone connotations,
+inclusive[n|l]ess of different languages, the importance of company policies, quirks
+derived from cultural and social norms, and more. In the final segment of this talk, I
+will discuss my recent experience within the Django project and community as a whole.
+
+This talk is not intended to provide a one-size-fits-all approach, but rather to inspire
+thought, reflection, and positive change. I hope to encourage open dialogue among
+attendees, as we explore strategies for creating a more inclusive, diverse and
+equitable environment."""
+    )
+    sched = Schedule(
+        accepted=True,
+        category=category,
+        date=start_time,
+        difficulty="All",
+        end_date=end_time,
+        layout="session-details",
+        link=None,
+        presenter_slugs=["natalia-bidart"],
+        room=location,
+        schedule_layout="full",
+        sitemap=True,
+        title="Inside Out: My Journey of Understanding Inclusion",
+        track="t1",
+    )
+    post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
         f"_schedule/{category}/{sched.date.year}-{sched.date.month:0>2}-"
         f"{sched.date.day:0>2}-{sched.date.hour:0>2}-{sched.date.minute:0>2}-{slugify(sched.title)}.md"
@@ -621,7 +776,7 @@ def generate_shots(
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://2023.djangocon.us{post['permalink']}")
+        print(f"  url: https://{YEAR}.djangocon.us{post['permalink']}")
         print()
 
 
@@ -648,7 +803,7 @@ def generate_speaker_csv_for_loudswarm(output_path: Path):
                 if data.twitter
                 else "",
                 "youtube_url": "",
-                "display_email": "",
+                "display_email": "",  # TODO add mastodon?
             }
         )
     buffer = StringIO()
@@ -666,11 +821,10 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
         post = frontmatter.loads(filename.read_text())
         talk = Schedule(**post.metadata)
         if talk.room in {
-            "West Lawn",
-            "Private Dining Room",
-            "Santa Fe 3",
-            "In front of Salon A",
-        }:
+            LUNCH_ROOM,
+            QUIET_ROOM,
+            REGISTRATION_AREA,
+        } or talk.room.startswith("Tutorial Track"):
             continue
         output.append(
             {
@@ -692,24 +846,26 @@ def generate_schedule_csv_for_loudswarm(output_path: Path):
 
 @app.command()
 def generate_2023_placeholders(event_date: datetime, create_keynotes: bool = False):
-    tutorial_date = event_date
+    tutorial_date = event_date - relativedelta(weeks=1)
     talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
     sprints_dates = [event_date + relativedelta(days=count) for count in [4, 5]]
-    break_times = [time(10, 40), time(15, 20)]
+    break_times = [time(10, 40), time(15, 25)]
     talk_lunch_time = time(13, 20)
     tutorial_breakfast_time = time(8)
     talk_breakfast_times = [time(8), time(8, 30), time(8, 30)]
     lightning_talk_time = time(12, 30)
-    tutorial_lunch_time = sprint_lunch_time = time(12, 30)
+    # online tutorials for 2023, so no lunch
+    sprint_lunch_time = time(12, 30)
+    # tutorial_lunch_time = sprint_lunch_time
     keynote_time = time(9, 45)
     registration_open = time(8)
-    generate_registration_desk(tutorial_date)
-    generate_lactation_room(tutorial_date)
-    generate_quiet_room(tutorial_date)
-    generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
-    generate_lunch(
-        datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
-    )
+    # generate_registration_desk(tutorial_date)
+    # generate_lactation_room(tutorial_date)
+    # generate_quiet_room(tutorial_date)
+    # generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
+    # generate_lunch(
+    #     datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
+    # )
     for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
         opening_time = datetime.combine(talk_date.date(), registration_open)
         generate_lactation_room(opening_time)
@@ -734,6 +890,7 @@ def generate_2023_placeholders(event_date: datetime, create_keynotes: bool = Fal
         generate_quiet_room(opening_time)
         generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
         generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
+    generate_natalia_talk(talks_dates[-1].replace(hour=11, minute=10))
 
 
 @app.command()
@@ -749,7 +906,7 @@ def process(
 
             # TODO: Re-enable once we know everything works...
             data = Schedule(**post.metadata)
-            post.metadata.update(data.dict(exclude_unset=True))
+            post.metadata.update(data.model_dump(exclude_unset=True))
 
             slug = slugify(
                 post["title"], max_length=slug_max_length, word_boundary=True
@@ -828,7 +985,9 @@ def process(
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    image_url = f"https://2023.djangocon.us/presenters/{presenter_slug}"
+                    image_url = (
+                        f"https://{YEAR}.djangocon.us/presenters/{presenter_slug}"
+                    )
                     image_url = quote_plus(image_url)
                     image_url = quote_plus(image_url)
                     image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"

@@ -2,9 +2,10 @@
 author: DjangoCon US Organizers
 category: General
 date: 2023-04-19 06:00:00
+description: Information regarding DjangoCon US and the US COVID-19 emergency declaration
+  expiration.
 layout: post
-title: "End of US COVID-19 emergency declaration"
-description: Information regarding DjangoCon US and the US COVID-19 emergency declaration expiration.
+title: End of US COVID-19 emergency declaration
 ---
 
 Hello folks!

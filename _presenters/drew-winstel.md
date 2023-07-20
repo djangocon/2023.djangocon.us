@@ -1,5 +1,6 @@
 ---
 github: drewbrew
+mastodon: https://mastodon.cloud/@drewbrew
 name: Drew Winstel
 permalink: /presenters/drew-winstel/
 photo_url: /static/img/organizers/drew.jpg
@@ -8,5 +9,4 @@ slug: drew-winstel
 title: null
 twitter: ''
 website: https://winstel.dev/
-mastodon: https://mastodon.cloud/@drewbrew
 ---
