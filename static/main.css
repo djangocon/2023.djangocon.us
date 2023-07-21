@@ -8596,6 +8596,13 @@ blockquote p:last-of-type {
 .event-byline {
   margin-top: 1rem;
 }
+.event-speaker {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.event-speaker + .event-speaker {
+  margin-top: 0.75rem;
+}
 .event .event {
   position: static;
 }

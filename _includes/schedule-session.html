@@ -33,7 +33,7 @@
     {% if post.presenter_slugs %}
       {% for presenter_slug in post.presenter_slugs %}
         {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
-        <p class="event-byline">
+        <p class="event-speaker">
           {% if presenter.photo_url != blank %}
           <img
             class="avatar"
