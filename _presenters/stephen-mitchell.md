@@ -6,7 +6,6 @@ mastodon: null
 name: Stephen Mitchell
 permalink: /presenters/stephen-mitchell/
 photo_url: ''
-pronouns: no preference
 slug: stephen-mitchell
 twitter: null
 website: null
