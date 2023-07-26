@@ -5,7 +5,7 @@ level: "Diamond"
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SixFeetUp_Logo.png"
 logo_orientation: "landscape"
-url_target: "https://sixfeetup.com/"
+url_target: "https://www.sixfeetup.com/?utm_source=djangocon2023"
 url_friendly: "sixfeetup.com"
 description: |
     Six Feet Up is dedicated to accelerating your impact as a tech leader, making the world a better place. As a consulting company specializing in Python and AI for good, we empower you to make informed decisions, access accurate data faster and scale up your operations. Our expert engineers are here to help you with application development, AI, and big data.
