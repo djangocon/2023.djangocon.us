@@ -47,7 +47,7 @@ Django and the Python community at large pride themselves on their commitment to
 
 The following a la carte offerings are available to increase visibility on site.
 
-|                                                                    | Diamond<br> $18,000 | Platinum<br> $9,000 | Gold<br> $4,500                         | Silver<br> $2,250 | Bronze<br> $1,125   |
+|                                                                    | Diamond<br> $19,000 | Platinum<br> $9,000 | Gold<br> $5,500                         | Silver<br> $3,000 | Bronze<br> $2,000   |
 | ------------------------------------------------------------------ | :-----------------: | :-----------------: | :-------------------------------------: | :----------------: | :----------------: |
 | Free sponsor tickets                                               |          8          |          8          |     4                                   |         2          |         1          |
 | 10% discount conference tickets  <br>(Corporate rate)              |          8          |          8          |     4                                   |         2          |         1          |

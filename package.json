@@ -17,7 +17,6 @@
     "generate": "all-contributors generate",
     "build": "webpack",
     "css": "sass _src/scss/main.scss:static/main.css --no-source-map",
-    "watch-fe-dev": "",
     "watch-jk-dev": "bundle exec jekyll serve --watch -l -H 0.0.0.0"
   },
   "repository": {
