@@ -109,9 +109,10 @@ warning the offender or expulsion from the conference with no refund._
 ## License
 
 This Code of Conduct was forked from the example policy from the [Geek
-Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-
-harassment/Policy), created by the Ada Initiative and other volunteers. which
+Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), created by the Ada Initiative and other volunteers, which
 is under a Creative Commons Zero license.
+
+This Code of Conduct also incorporates portions from PyCon's Code of Conduct, which is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Conference Code of Conduct by
 [2023.djangocon.us/coc/](https://2023.djangocon.us/coc/) is licensed under a
