@@ -71,7 +71,7 @@ should not use sexualized images, activities, or other material. Booth staff
 (including volunteers) should not use sexualized clothing/uniforms/costumes,
 or otherwise create a sexualized environment.
 
-## Examples of Inappropriate Behavior</h2>
+## Examples of Inappropriate Behavior
 
 - Harassment of any participants in any form
 - Deliberate intimidation, stalking, or following
@@ -90,7 +90,7 @@ or otherwise create a sexualized environment.
 - Continued one-on-one communication after requests to cease
 - Other conduct that is inappropriate for a professional audience including people of many different backgrounds
 
-Community members asked to stop any inappropriate behavior are expected to comply immediately.
+This list is not an exhaustive list of all inappropriate behavior that is unacceptable at DjangoCon US. Community members asked to stop any inappropriate behavior are expected to comply immediately.
 
 ## Photography
 
