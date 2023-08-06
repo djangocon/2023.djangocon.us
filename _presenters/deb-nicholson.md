@@ -5,7 +5,7 @@ layout: speaker-template
 mastodon: https://freeradical.zone/@baconandcoconut
 name: Deb Nicholson
 permalink: /presenters/deb-nicholson/
-photo_url: 'https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/20190601_DebatMeowWolf.jpg'
+photo_url: /static/img/presenters/deb-nicholson.jpg
 pronouns: she/her
 slug: deb-nicholson
 twitter: baconandcoconut
