@@ -7798,6 +7798,9 @@ blockquote p:last-of-type {
 .subpage-header.no-bottom {
   padding-bottom: 0;
 }
+.subpage-header.no-top {
+  padding-top: 0;
+}
 
 .subpage-header h1 {
   position: relative;
