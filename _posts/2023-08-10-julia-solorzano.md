@@ -11,6 +11,9 @@ title: 'Announcing Our Keynotes: Julia Solórzano'
 
 <img src="/static/img/blog/julia-solorzano.JPG" alt="Photo of Julia Solórzano" style="width:45%; display:block; float:right;" />
 
+I recently sat down to chat with Julia about her upcoming keynote. She is passionate about the history of Django and the community that has grown around it. She is excited to share her thoughts on the past, present, and future of Django. She teased me with some of the detail of her talk, and I can't wait to hear more!
+
+### Here's a little more about Julia:
 
 Julia Solórzano is the Security Experience Supervisor for [Login.gov](https://login.gov/) and is based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of Login.gov, her most recent work includes the [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also a professor at Georgetown University where she teaches technology design and development.
 
@@ -38,6 +41,7 @@ Julia's Talk is titled "Django the Dinosaur: A Story About A Web Framework."
 > - Current changes in industry considerations
 > - Conclusion
 
+
 If you are interested in learning more about Julia, you can find her on the web at:
 
 [juliasolorzano.com](https://juliaelman.com/)
@@ -46,8 +50,6 @@ If you are interested in learning more about Julia, you can find her on the web 
 
 [Julia's Resume](https://docs.google.com/document/d/1H1zzX3LqO5IPQk0h22jSTjSOq8sXRRRpp65OtGSUJqQ/edit)
 
-We are excited to have Julia join us in Durham this October!
+We at DCUS 2023 are excited to have Julia join us in Durham this October!
 
 Don't miss Julia's keynote! [Buy your ticket]({{site.ticket_link}}) today.
-
-
