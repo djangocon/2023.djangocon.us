@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins, Drew Winstel
 category: General
-date: 2023-07-07 12:00:00-05:00
+date: 2023-08-15 12:00:00-05:00
 layout: post
 title: Get Active at DjangoCon US
 ---
