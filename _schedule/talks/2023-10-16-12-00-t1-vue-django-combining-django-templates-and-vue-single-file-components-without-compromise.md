@@ -29,7 +29,7 @@ title: 'Vue + Django: Combining Django Templates and Vue Single File Components 
 track: t1
 ---
 
-Typical solutions to integrating Django and Vue forgo much of the strengths of one in lieu of the other. For example, a common approach is to use Django Rest Framework as back-end while writing the entire front-end in Vue, making it difficult to utilize Django templates in places it could be expedient. A second approach is to use Vue within Django templates using browser <script> includes, but then lost is the ability to use Vue's Single File Components (SFCs).
+Typical solutions to integrating Django and Vue forgo much of the strengths of one in lieu of the other. For example, a common approach is to use Django Rest Framework as back-end while writing the entire front-end in Vue, making it difficult to utilize Django templates in places it could be expedient. A second approach is to use Vue within Django templates using browser `<script>` includes, but then lost is the ability to use Vue's Single File Components (SFCs).
 
 This talk will explain a unique approach to intermingling Django Templates and Vue that preserves the strengths of both.
 
