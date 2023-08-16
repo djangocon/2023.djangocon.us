@@ -1,0 +1,21 @@
+---
+heading: Speakers
+layout: default
+permalink: /presenters
+published: true
+sitemap: false
+title: Speakers
+---
+
+{% assign presentations = site.schedule  %}
+
+{% for presentation in presentations %}
+  {% for presenter_slug in presentation.presenter_slugs %}
+    {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+    {{ presenter }}
+
+    <br />
+    <br />
+    <br />
+  {% endfor %}
+{% endfor %}

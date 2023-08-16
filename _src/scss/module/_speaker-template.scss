@@ -9,6 +9,10 @@
   background-position: top right;
   background-size: 50% 100%;
   background-repeat: no-repeat;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 .speaker-template::after {
@@ -45,7 +49,7 @@
   display: block;
   position: relative;
 
-  margin: .5rem 0 3rem;
+  margin: .5rem 0 1rem;
 
   width: 36%;
   height: 26px;
@@ -58,9 +62,10 @@
 }
 
 .speaker-template-session-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: $global-weight-normal;
   color: #150944;
+  line-height: 1.2;
 
   & + & {
     margin-top: 2rem;
@@ -83,5 +88,6 @@
 
   width: 414px;
   height: 414px;
+  object-fit: contain;
 }
 

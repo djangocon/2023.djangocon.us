@@ -8785,6 +8785,9 @@ blockquote p:last-of-type {
   background-position: top right;
   background-size: 50% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 .speaker-template::after {
@@ -8816,7 +8819,7 @@ blockquote p:last-of-type {
 .speaker-template-name::after {
   display: block;
   position: relative;
-  margin: 0.5rem 0 3rem;
+  margin: 0.5rem 0 1rem;
   width: 36%;
   height: 26px;
   background-image: url(/static/img/theme/speaker-card/line.svg);
@@ -8826,9 +8829,10 @@ blockquote p:last-of-type {
 }
 
 .speaker-template-session-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: #150944;
+  line-height: 1.2;
 }
 .speaker-template-session-title + .speaker-template-session-title {
   margin-top: 2rem;
@@ -8847,6 +8851,7 @@ blockquote p:last-of-type {
   mask-size: cover;
   width: 414px;
   height: 414px;
+  object-fit: contain;
 }
 
 .partner {
