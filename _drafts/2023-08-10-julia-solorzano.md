@@ -28,23 +28,22 @@ Julia's Talk is titled "Django the Dinosaur: A Story About A Web Framework."
 >
 > Topics to be covered are:
 > - History of Django
-> - LJW: Where it all started
-> - First DjangoCon 2008
-> - Django OS growing up (e.g. svn to git) 
+>   - LJW: Where it all started
+>   - First DjangoCon 2008
+>   - Django OS growing up
 > - Current Django
-> - The Code
-> - The Community
+>   - The Code
+>   - The Community
 > - Current changes in industry
-> - The rise of AI
-> - Cybersecurity
+>   - The rise of AI
+>   - Cybersecurity
 > - Future Django
-> - Current changes in industry considerations
 > - Conclusion
 
 
 If you are interested in learning more about Julia, you can find her on the web at:
 
-[juliasolorzano.com](https://juliaelman.com/)
+[juliasolorzano.com](https://juliasolorzano.com/)
 
 [hello@juliasolorzano.com](mailto:hello@juliasolorzano.com)
 
