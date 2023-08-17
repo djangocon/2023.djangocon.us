@@ -7,7 +7,7 @@ layout: post
 title: 'Announcing Our Keynotes: Andrew "Pandy" Knight'
 ---
 
-### We're honored to announce our first keynote speaker for DjangoCon US 2023: Andrew "Pandy" Knight!
+### We're honored to announce our third keynote speaker for DjangoCon US 2023: Andrew "Pandy" Knight!
 
 <img src="/static/img/blog/andy_django_profile_zoom_small.jpg" alt="Photo of Andrew 'Pandy' Knight" style="width:45%; display:block; float:right;" />
 

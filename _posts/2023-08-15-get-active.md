@@ -39,7 +39,7 @@ City of [Durham Bike & Hike Map](https://www.durhamnc.gov/1031/Durham-Bike-Hike-
 
 The [North/South Greenway](https://www.dprplaymore.org/265/North-South-Greenway) (7.5 miles of paved trail).
 
-The [American Tobacco Trail](https://triangletrails.org/american-tobacco-trail) has 22 miles of rails to trails that starts less than a mile from the hotel and continues south for 14 milespaved and 8 more of gravel after that
+The [American Tobacco Trail](https://triangletrails.org/american-tobacco-trail) has 22 miles of rails to trails that starts less than a mile from the hotel and continues south for 14 miles of paved trail and 8 more of gravel after that
 
 The [East Coast Greenway](https://www.greenway.org/states/north-carolina) runs through Durham.
 
@@ -51,7 +51,7 @@ Eno River park is a 20 minute drive from the hotel and has a lot of hiking trail
 
 The [Rollingview Marina](https://www.rollingviewmarina.com/kayaks-canoes-paddle-boards/) at Falls Lake has paddle board, kayak, and canoe rentals. 
 
-The town of Cary has a lot of greenways and parks. [Town of Cary Greenways](https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways) and has boat and Kayak rentals at [Bond Park](https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse).
+The town of Cary has a lot of [greenways](https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways) and parks have boat and kayak rentals at [Bond Park](https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse).
 
 The [Triangle Land Conservancy](https://www.triangleland.org/explore) has a lot of trails and preserves in the area.
 
