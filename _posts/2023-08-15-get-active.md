@@ -51,7 +51,7 @@ Eno River park is a 20 minute drive from the hotel and has a lot of hiking trail
 
 The [Rollingview Marina](https://www.rollingviewmarina.com/kayaks-canoes-paddle-boards/) at Falls Lake has paddle board, kayak, and canoe rentals. 
 
-The town of Cary has a lot of [greenways](https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways) and parks have boat and kayak rentals at [Bond Park](https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse).
+The town of Cary has a lot of [greenways](https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways) and parks. They have boat and kayak rentals at [Bond Park](https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse).
 
 The [Triangle Land Conservancy](https://www.triangleland.org/explore) has a lot of trails and preserves in the area.
 
