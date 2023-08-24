@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: Program
-date: 2023-08-24 11:00:00-07:00
+date: 2023-08-24 11:00:00-04:00
 image: /static/img/blog/Dogbe_Abigail-DSC07499-1.jpg
 layout: post
 title: 'Announcing Our Keynotes: Abigail Mesrenyame Dogbe'
@@ -11,7 +11,7 @@ title: 'Announcing Our Keynotes: Abigail Mesrenyame Dogbe'
 
 <img src="/static/img/blog/Dogbe_Abigail-DSC07499-1.jpg" alt="Photo of Abigail Mesrenyame Dogbe" style="width:45%; display:block; float:right;" />
 
-I recently sat down to chat with Mesrenyame about her upcoming keynote. While I don't want to spoil any of her talk, I can tell you that she is passionate about the power of Open Source and the community that has grown around it. She is excited to share her experiences building a community in opensource, inspiring women to be Stem leaders, and some of the challenges she has faced.  I can't wait to hear more!
+I recently sat down to chat with Mesrenyame about her upcoming keynote. While I don't want to spoil any of her talk, I can tell you that she is passionate about the power of Open Source and the community that has grown around it. She is excited to share her experiences building a community in open source, inspiring women to be STEM leaders, and some of the challenges she has faced.  I can't wait to hear more!
 
 Mesrenyame is an Open Source Community Builder, Programs Manager, and STEM Education advocate from Ghana who loves the power that Open Source can put in people’s hands. She wants to help create more awareness, through community building, advocacy, and research.
 
