@@ -10,7 +10,7 @@ title: 'Announcing Our Keynotes: Julia Solórzano'
 
 <img src="/static/img/blog/julia-solorzano.JPG" alt="Photo of Julia Solórzano" style="width:45%; display:block; float:right;" />
 
-I recently sat down to chat with Julia about her upcoming keynote. She is passionate about the history of Django and the community that has grown around it. She is excited to share her thoughts on the past, present, and future of Django. She teased me with some of the detail of her talk, and I can't wait to hear more!
+I recently sat down to chat with Julia about her upcoming keynote. She is passionate about the history of Django and the community that has grown around it. She is excited to share her thoughts on the past, present, and future of Django. She teased me with some of the details of her talk, and I can't wait to hear more!
 
 ### Here's a little more about Julia:
 
@@ -28,7 +28,7 @@ Julia's Talk is titled "Django the Dinosaur: A Story About A Web Framework."
 > Topics to be covered are:
 > - History of Django
 >   - LJW: Where it all started
->   - First DjangoCon 2008
+>   - First DjangoCon US 2008
 >   - Django OS growing up
 > - Current Django
 >   - The Code
@@ -46,7 +46,7 @@ If you are interested in learning more about Julia, you can find her on the web 
 
 [hello@juliasolorzano.com](mailto:hello@juliasolorzano.com)
 
-[Julia's Resume](https://docs.google.com/document/d/1H1zzX3LqO5IPQk0h22jSTjSOq8sXRRRpp65OtGSUJqQ/edit)
+[Julia's Résumé](https://docs.google.com/document/d/1H1zzX3LqO5IPQk0h22jSTjSOq8sXRRRpp65OtGSUJqQ/edit)
 
 We at DCUS 2023 are excited to have Julia join us in Durham this October!
 
