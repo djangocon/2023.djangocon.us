@@ -42,7 +42,7 @@ Julia's Talk is titled "Django the Dinosaur: A Story About A Web Framework."
 
 If you are interested in learning more about Julia, you can find her on the web at:
 
-[juliasolorzano.com](https://juliasolorzano.com/)
+[juliaelman.com](https://juliaelman.com/)
 
 [hello@juliasolorzano.com](mailto:hello@juliasolorzano.com)
 
