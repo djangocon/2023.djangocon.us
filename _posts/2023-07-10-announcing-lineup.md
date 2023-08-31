@@ -23,7 +23,7 @@ _Tutorials will only be available online due to venue availabilty limitations._
 -   Kuldeep Pisda ([twitter](https://twitter.com/KdPisda)) - Mastering Test Driven Development in Django: A Comprehensive Guide with factory_boy and faker
 -   Meagen Voss ([twitter](https://twitter.com/meagenvoss), [mastodon](https://fosstodon.org/@vossisboss)) - Best of both worlds: Next.js ❤️ Wagtail
 -   Nikolay Samokhvalov ([twitter](https://twitter.com/samokhvalov)) - Seamless Postgres Query Optimization
--   Sheena O'Connell ([mastodon](https://mastodon.social/@sheenarbw)) - Django <3 Airflow
+-   Sheena O'Connell ([mastodon](https://mastodon.social/@sheenarbw)) - Django <3 Airflow: How to use Airflow to orchestrate workflows for your Django projects
 -   Stephen Mitchell - Hotwire: A refreshing approach to the front-end that keeps Django the star.
 
 ## Talks (Monday, October 16 through Wednesday, October 18)
