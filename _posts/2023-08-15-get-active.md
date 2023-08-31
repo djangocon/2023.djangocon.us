@@ -80,4 +80,3 @@ If swimming is your thing, the [Downtown Durham YMCA](https://www.ymcatriangle.o
 If you prefer something outdoors, the [Discover Durham site](https://www.discoverdurham.com/things-to-do/sports-outdoors/water-activities/) has some links to some interesting places to get wet outdoors with varying travel times.
 
 ## We hope you enjoy your time while you are in Durham and get a chance to get out and enjoy the area!
-
