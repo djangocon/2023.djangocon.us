@@ -62,7 +62,7 @@ The opportunity grant is paid to the recipient in a check for US account holders
 A bank transfer is used for non-US account holders.
 We typically use TransferWise for international payments but have used other services for currencies they do not support.
 
-We require receipts for the items that the opportunity grant was spent.
+We require receipts for the items that the opportunity grant was spent on.
 
 ### Is there anything I should know if I am traveling into the US from another country?
 
