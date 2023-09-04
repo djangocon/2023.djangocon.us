@@ -68,7 +68,7 @@ We require receipts for the items that the opportunity grant was spent.
 
 If you are traveling into the United States, we strongly encourage you to wait to purchase airfare or book a hotel room until after your visa has been accepted.
 
-You can request a visa letter by <a href="mailto:{{site.visa_email}}">emailing us</a>.
+You can request a visa letter at <a href="/invitation">Get Invitation Letter</a>.
 
 ### What if there is an emergency and I cannot attend?
 
