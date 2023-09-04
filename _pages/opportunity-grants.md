@@ -70,8 +70,6 @@ If you are traveling into the United States, we strongly encourage you to wait t
 
 You can request a visa letter by <a href="mailto:{{site.visa_email}}">emailing us</a>.
 
-If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant).
-
 ### What if there is an emergency and I cannot attend?
 
 If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant).
