@@ -15,7 +15,7 @@ Our <a href="{{site.opportunity_grant_application}}">opportunity grant applicati
 Our opportunity grant application window is now closed. All decision notifications have been sent.
 
 {% comment %}
-Our opportunity grant application is now closed, and all decision notifications have been sent.
+Our opportunity grant application window is now closed. All decision notifications will be sent by June 28th, 2023.
 {% endcomment %}
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
@@ -41,8 +41,10 @@ We feel the wording "opportunity grants" makes a positive shift towards being a 
 ### When will I find out whether I've received an opportunity grant?
 
 {% comment %}
-You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+You will be notified by July 8th, 2023.
 {% endcomment %}
+
+You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
 ### Do I need to be a speaker, a first-time attendee, or a member of an underrepresented group to receive an opportunity grant?
 
