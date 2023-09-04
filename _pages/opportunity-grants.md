@@ -12,7 +12,7 @@ title: Opportunity Grants
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 {% endcomment %}
 
-Our opportunity grant application window is now closed. All decision notifications will be sent by June 28th, 2023.
+Our opportunity grant application window is now closed. All decision notifications have been sent.
 
 {% comment %}
 Our opportunity grant application is now closed, and all decision notifications have been sent.
@@ -39,8 +39,6 @@ We renamed "financial aid" to "opportunity grants" to become a more inclusive an
 We feel the wording "opportunity grants" makes a positive shift towards being a thriving, supportive and trusting community.
 
 ### When will I find out whether I've received an opportunity grant?
-
-You will be notified by July 8th, 2023.
 
 {% comment %}
 You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
