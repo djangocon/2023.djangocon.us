@@ -17,17 +17,17 @@ date: 2023-10-16 16:45:00-04:00
 end_date: 2023-10-16 17:10:00-04:00
 group: talks
 layout: session-details
-permalink: /talks/working-with-neo4j-with-djando-neomodel-library/
+permalink: /talks/working-with-neo4j-with-django-neomodel-library/
 presenter_slugs:
 - dara-silvera
 published: true
 room: Grand Ballroom II-III
 sitemap: true
-slug: working-with-neo4j-with-djando-neomodel-library
+slug: working-with-neo4j-with-django-neomodel-library
 summary: ''
 tags:
 - non-postgres DB
-title: Working with Neo4j with Djando neomodel library
+title: Working with Neo4j with Django neomodel library
 track: t1
 ---
 
