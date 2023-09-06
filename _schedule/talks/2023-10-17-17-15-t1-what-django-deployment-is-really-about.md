@@ -33,9 +33,7 @@ Instead of offering another set of steps, I think we can help beginners to make 
 3. WSGI Server -  how do I run my app in production? Doesn't manage.py runserver work? I've never heard of WSGI, what is it and why does it matter to my Django project?
 4. Web Server (Apache/nginx/PaaS) - What do I need to understand about web servers like Apache or nginx to get my project online? Do I even need to configure a web server if I go with PaaS?
 
-Minor concerns we'll also consider:
-- Getting your code into the deployment environment
-- Managing Secrets
+We'll also consider:
 - Django's deployment checklist
 - django-simple-deploy
 
