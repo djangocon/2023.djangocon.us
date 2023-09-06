@@ -17,7 +17,7 @@ but maybe you're more into [Airflow](https://2023.djangocon.us/tutorials/django-
 Give the whole collection a look and purchase a ticket.
 
 We also have [two days of sprints](https://2023.djangocon.us/sprints/). If you've wanted to be more involved in the Django ecosystem, you'll want to stay for
-these. You can learn how to make a code contribution to Django or get started with a third party package. Side note,
+these. You can learn how to make a code contribution to Django or get started with a third party package. As a bonus,
 when you make a commit to Django, everyone applauds and celebrates. It's the most encouraging way to contribute to open source
 software.
 
