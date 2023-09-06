@@ -18,7 +18,7 @@ Give the whole collection a look and purchase a ticket.
 
 We also have [two days of sprints](https://2023.djangocon.us/sprints/). If you've wanted to be more involved in the Django ecosystem, you'll want to stay for
 these. You can learn how to make a code contribution to Django or get started with a third party package. Side note,
-when you make a commit to Django, everyone applauds and celebrates. It's the most encouraging way to write open source
+when you make a commit to Django, everyone applauds and celebrates. It's the most encouraging way to contribute to open source
 software.
 
 Beyond the technical stuff, game night is back! We'll also be having a trivia contest and early morning virtual
