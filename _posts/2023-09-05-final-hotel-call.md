@@ -8,7 +8,7 @@ title: Buy your tickets to DjangoCon US 2023!
 
 [DjangoCon US 2023](https://2023.djangocon.us/) is quickly approaching!
 
-So yes, this is one of those, "get out there and [buy your ticket](https://ti.to/defna/djangocon-us-2023)" messages.
+So yes, this is one of those "get out there and [buy your ticket](https://ti.to/defna/djangocon-us-2023)" messages.
 Discounted rooms at the main hotel are in limited supply and go away entirely September 15, so book your room soon!
 Your organizers have been working diligently to prepare for a
 fantastic conference this fall. We have amazing keynotes and talks lined up. And [there are tutorials](https://2023.djangocon.us/schedule/#Day-Tutorials) the weekend before
