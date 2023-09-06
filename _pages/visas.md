@@ -8,7 +8,7 @@ title: Visa Support at DjangoCon US
 
 ## Do I need a visa to enter the USA?
 
-That depends on what country issued your passport; see the [US State Department](https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html) website for more information.
+That depends on which country issued your passport; see the [US State Department](https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html) website for more information.
 
 ## I need a letter to obtain a visa. Can you help me with that?
 

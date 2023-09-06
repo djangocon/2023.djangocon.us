@@ -12,10 +12,10 @@ title: Opportunity Grants
 Our <a href="{{site.opportunity_grant_application}}">opportunity grant application</a> is open until May 15th, 2023 at [6 PM EDT](https://time.is/0600PM_15_May_2023_in_Durham,_United_States?DjangoCon_US_CFP_Closes).
 {% endcomment %}
 
-Our opportunity grant application window is now closed. All decision notifications will be sent by June 28th, 2023.
+Our opportunity grant application window is now closed. All decision notifications have been sent.
 
 {% comment %}
-Our opportunity grant application is now closed, and all decision notifications have been sent.
+Our opportunity grant application window is now closed. All decision notifications will be sent by June 28th, 2023.
 {% endcomment %}
 If you have any questions, feel free to reach out to the opportunity grants team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
@@ -40,11 +40,11 @@ We feel the wording "opportunity grants" makes a positive shift towards being a 
 
 ### When will I find out whether I've received an opportunity grant?
 
-You will be notified by July 8th, 2023.
-
 {% comment %}
-You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
+You will be notified by July 8th, 2023.
 {% endcomment %}
+
+You should have received your notification. If you haven't, please email the opportunity grant team at [{{ site.opportunity_grants_email }}](mailto:{{ site.opportunity_grants_email }}).
 
 ### Do I need to be a speaker, a first-time attendee, or a member of an underrepresented group to receive an opportunity grant?
 
@@ -62,15 +62,13 @@ The opportunity grant is paid to the recipient in a check for US account holders
 A bank transfer is used for non-US account holders.
 We typically use TransferWise for international payments but have used other services for currencies they do not support.
 
-We require receipts for the items that the opportunity grant was spent.
+We require receipts for the items that the opportunity grant was spent on.
 
 ### Is there anything I should know if I am traveling into the US from another country?
 
 If you are traveling into the United States, we strongly encourage you to wait to purchase airfare or book a hotel room until after your visa has been accepted.
 
-You can request a visa letter by <a href="mailto:{{site.visa_email}}">emailing us</a>.
-
-If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant).
+You can request a visa letter at <a href="/invitation">Get Invitation Letter</a>.
 
 ### What if there is an emergency and I cannot attend?
 

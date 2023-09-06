@@ -1,6 +1,7 @@
 ---
 author: Jason Judkins
-category: Progr30 11:00:00-04:00
+category: Program
+date: 2023-08-30 11:00:00-04:00
 image: /static/img/blog/julia-solorzano.JPG
 layout: post
 title: 'Announcing Our Keynotes: Julia Solórzano'
