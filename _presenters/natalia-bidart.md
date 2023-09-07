@@ -3,6 +3,7 @@ github: nessita
 mastodon: https://fosstodon.org/@nessita
 name: Natalia Bidart
 permalink: /presenters/natalia-bidart/
+photo_url: /static/img/presenters/natalia-bidart.jpg
 pronouns: she/her
 slug: natalia-bidart
 title: Django Fellow
