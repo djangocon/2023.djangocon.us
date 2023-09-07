@@ -1,7 +1,7 @@
 ---
 author_name: Tim Schilling
 category: General
-date: 2023-09-05 12:00:00-05:00
+date: 2023-09-08 12:00:00-05:00
 layout: post
 title: Buy your tickets to DjangoCon US 2023!
 ---
