@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: Program
-date: 2023-09-06 11:00:00-04:00
+date: 2023-09-07 09:00:00-04:00
 image: /static/img/blog/andy_django_profile_zoom_small.jpg
 layout: post
 title: 'Announcing Our Keynotes: Andrew "Pandy" Knight'
