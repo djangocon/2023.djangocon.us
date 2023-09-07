@@ -8,12 +8,12 @@ group: talks
 layout: session-details
 permalink: /talks/keynote-testing-modern-web-apps-like-a-champion/
 presenter_slugs:
-    - andrew-knight
+- andrew-knight
 room: Junior Ballroom
 sitemap: true
 slug: keynote-testing-modern-web-apps-like-a-champion
 talk_slot: full
-title: "Keynote: Testing Modern Web Apps Like a Champion"
+title: 'Keynote: Testing Modern Web Apps Like a Champion'
 track: t1
 ---
 
