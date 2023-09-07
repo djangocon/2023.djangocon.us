@@ -1,6 +1,6 @@
 ---
-company: ""
-github: ""
+company: ''
+github: ''
 layout: speaker-template
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
