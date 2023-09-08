@@ -9,7 +9,7 @@ photo_url: /static/img/presenters/drishti-jain.jpeg
 pronouns: she/her
 slug: drishti-jain
 twitter: drishtijjain
-website: null
+website: https://drishtij.github.io/
 ---
 
 Drishti is a Computer Engineer and a technology enthusiast. She believes in democratizing opportunities and brings knowledge of the latest developments in the fast-moving field of technology to early professionals, students, and keep them up to date and well-equipped for their professional careers. Her initiative "SkillUp with Drishti" enables students and professionals to grow in their career.
