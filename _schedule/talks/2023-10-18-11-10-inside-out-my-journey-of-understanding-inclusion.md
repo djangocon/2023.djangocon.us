@@ -10,7 +10,6 @@ link: null
 permalink: /talks/inside-out-my-journey-of-understanding-inclusion
 presenter_slugs:
 - natalia-bidart
-- nessita
 room: Junior Ballroom
 schedule_layout: full
 sitemap: true
