@@ -23,16 +23,13 @@ Not everyone can or wants to solely write code for the rest of their working car
 
 We'll discuss:
 
--   Broader-scale individual contributor roles, such as software architects
--   Non-development individual contributor roles, such as design and tech writing
--   Dev-adjacent roles, such as developer relations
--   Going it alone: running your own consultancy shop
+-   Broader-scale individual contributor roles, such as a principal engineers
+-   Running your own consultancy agency
 -   Management roles, both technical and non-technical
--   The advantages and challenges of specializing in Django in the current technical landscape
 
 Our panelists include (and more will be added before the session):
 
--   Charles Rejonis, manager at Wharton
+-   Charles Rejonis, Chief Products Officer, Wharton Research Data Services
 -   Elizabeth Christensen, manager at Crunchydata
 -   Frank Wiles, founder of REVSYS and former Django Software Foundation President
 -   Andrew Godwin, longtime Django core contributor
