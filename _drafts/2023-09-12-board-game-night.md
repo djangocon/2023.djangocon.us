@@ -14,7 +14,7 @@ We're so excited to tell you about your opportunities to socialize with and get 
 
 **When**: 8:00-10:00 pm, Tuesday, October 17
 
-**Where**: TBD
+**Where**: Junior Ballroom
 
 **What**: Get together with other Djangonauts for board games and camaraderie. We'll have some games on hand, but feel free to bring your favorites! Talk to [Ken Whitesell](https://twitter.com/KenWhitesell) if you have questions.
 
