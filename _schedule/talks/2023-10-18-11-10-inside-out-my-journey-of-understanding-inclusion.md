@@ -14,6 +14,9 @@ room: Junior Ballroom
 schedule_layout: full
 sitemap: true
 slug: inside-out-my-journey-of-understanding-inclusion
+tags:
+- diversity
+- inclusion
 title: 'Inside Out: My Journey of Understanding Inclusion'
 track: t1
 ---
