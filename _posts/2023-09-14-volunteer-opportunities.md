@@ -1,27 +1,34 @@
 ---
 author: Meagen Voss
 category: General
-date: 2023-09-12 04:00:00
+date: 2023-09-14 04:00:00
 layout: post
-image: /static/img/blog/volunteer3.jpg.png
+post_photo_alt: Photo of Volunteer
+post_photo_url: /static/img/blog/volunteer3.jpg
 title: "Volunteering is the Best Networking Powerup!"
 ---
 
 ## If you want to network with people at DjangoCon US like a champion, then you should volunteer. No, really, click that sign up form and volunteer right now. You'll be doing your career a favor.
 
-<img src="/static/img/blog/volunteer3.JPG" alt="Photo of volunteer" class="align-center">
-
 Still need convincing? All right, here are some things to consider. First of all, community organizers are people who tend to be very well-connected within their respective communities. Making friends with DjangoCon US organizers is a great way to kickstart your Django network and get connected with other key members of the community. Plus, if you help the organizers out by donating your time, there's a better-than-average chance later on that they'll respond to your email or your Slack or whatever flavor of social media you're using these days. Organizers tend to remember volunteers fondly.
 
-<img src="/static/img/blog/volunteer2.JPG" alt="Photo of volunteer" style="width:45%; display:block; float:right;" />
+<p class="clearfix">
+    <img alt="Three masked volunteers chatting and preparing for attendees" class="float-right" src="/static/img/blog/volunteer2.jpg" />
+</p>
 
 Making friends with other volunteers is another great way to add more nodes to your personal network. Volunteers are often very passionate people who are eager to help others. These are definitely people you want to know and people who may very well come to your rescue further down the line when you're looking for feedback on a talk, staring at lines of code that make no sense, or trying to untangle some database migrations that have gone off the rails.
 
-Doing a people-facing volunteer role like checking people in at registration, being a timekeeper for speakers, or answering questions about the venue gives you a chance to meet even more key people in the Django community. "I'm the one who gave you your badge" or "I'm the one who helped you find the bathroom" are admittedly not the most fantastic conversation starters in the world, but they definitely help folks recognize you at happy hour!
+<p class="clearfix">
+    <img alt="Two volunteers helping direct two attendees" class="float-left" src="/static/img/blog/volunteer4.jpg" />
+</p>
+
+Doing people-facing volunteer roles like checking people in at registration, being a timekeeper for speakers, or answering questions about the venue gives you a chance to meet even more key people in the Django community. "I'm the one who gave you your badge" or "I'm the one who helped you find the bathroom" are admittedly not the most fantastic conversation starters in the world, but they definitely help folks recognize you at happy hour!
 
 If you're an introvert and tend to get burnt out on people, don't worry. We have things for you to do too. We have various roles and tasks that cater to different strengths. We want to make sure there is room for all sorts of volunteers.
 
-<img src="/static/img/blog/Volunteer1.jpg" alt="Photo of volunteer" style="width:45%; display:block; float:left;" />
+<p class="clearfix">
+    <img alt="A smiling volunteer sitting behind the registration desk" class="float-right" src="/static/img/blog/Volunteer1.jpg" />
+</p>
 
 We won't overwork you either. The number of hours you give us is up to you, and we'll do our best to offer timeslots that work around your preferred conference schedule so you can attend all the talks and sprints you want to enjoy. Volunteer as much or as little as you want throughout the conference.
 
