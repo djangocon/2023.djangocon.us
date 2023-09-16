@@ -43,3 +43,33 @@ This way involves letting Django do what it does best - everything, and letting 
 * Add the most highly-sought-after engineering skills to your talent stack.  That translates to a **higher salary for you**.
 
 Who knows?  You may even get to see how easy it is to deploy what you've made to the App Store. 😉
+
+
+### Tutorial Schedule
+
+We will start with a pre-made basic django application and add features as we walk through.  You may feel free to code along, or sit back, enjoy learning the demonstrated capabilities and techniques.
+
+This may look like too much to do in such a short time, but Hotwire makes things so simple, you'll be amazed what you can accomplish.  We will likely finish early.
+
+#### Hour 1
+
+* Introduction:  Why are things so complex and how did we get here?
+* Dive right in - Create a single page app in Django
+* Overview of Hotwire Turbo - What is it?
+* How to use Django forms with Turbo
+* Make lazy-loading tabs
+* Keep that dopamine coming with an infinite scrolling page
+* Create a form that only reloads one part of the page.
+
+#### Hour 2
+
+* Create a CRUD page that never reloads
+* Update a counter as you add and remove entries
+* Push live updates to the page as your fellow coders make changes
+
+#### Hour 3
+
+* Overview of Hotwire Stimulus - for when you need to add a little Javascript
+* Add a media player that keeps playing as you navigate to different pages - YouTube style.
+* Get ready for the App Store: overview of Turbo Native.
+* Q&A
