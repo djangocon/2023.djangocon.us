@@ -1,4 +1,5 @@
 import frontmatter
+import shutil
 import typer
 
 from io import StringIO
@@ -25,16 +26,28 @@ PRESENTER_TYP = [
 REPO_ROOT = Path(__file__).parent.parent
 
 
+def copy_files_to_folder(file_paths, destination_folder):
+    # Create the destination folder if it doesn't exist
+    destination_folder = Path(destination_folder)
+    destination_folder.mkdir(parents=True, exist_ok=True)
+    for file_path in file_paths:
+        file_path = Path(file_path)
+        destination_path = destination_folder / file_path.name
+        shutil.copy2(file_path, destination_path)
+
+
 @app.command()
-def main(output_file: Path):
+def main(output_file: Path, output_images: Path):
     """
-    Loop through all talks and speakers and generate a CSV of data for the comms team to tweet using
+    Loop through all talks and speakers and generate a CSV of data for the online
+    platform.
 
     The schedule path should be something like "_schedule"
     """
     schedule_path = REPO_ROOT / "_schedule"
     speaker_path = REPO_ROOT / "_presenters"
     csv_data = []
+    image_paths = []
     for talk in schedule_path.glob("*/*.md"):
         try:
             post = frontmatter.loads(talk.read_text())
@@ -70,6 +83,8 @@ def main(output_file: Path):
                         "website_url": speaker.website,
                     }
                 )
+                if speaker.photo_url:
+                    image_paths.append("../" + speaker.photo_url[1:])
 
     buffer = StringIO()
     writer = DictWriter(buffer, fieldnames=[
@@ -89,6 +104,7 @@ def main(output_file: Path):
     writer.writeheader()
     writer.writerows(csv_data)
     output_file.write_text(buffer.getvalue())
+    copy_files_to_folder(image_paths, output_images)
 
 
 if __name__ == "__main__":
