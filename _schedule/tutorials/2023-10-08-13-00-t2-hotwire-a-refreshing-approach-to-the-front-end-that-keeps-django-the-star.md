@@ -47,7 +47,7 @@ Who knows?  You may even get to see how easy it is to deploy what you've made to
 
 ### Tutorial Schedule
 
-We will start with a pre-made basic django application and add features as we walk through.  You may feel free to code along, or sit back, enjoy learning the demonstrated capabilities and techniques.
+We will start with a pre-made basic django application and add features as we walk through.  You may feel free to code along, or sit back and enjoy learning the demonstrated capabilities and techniques.
 
 This may look like too much to do in such a short time, but Hotwire makes things so simple, you'll be amazed what you can accomplish.  We will likely finish early.
 
