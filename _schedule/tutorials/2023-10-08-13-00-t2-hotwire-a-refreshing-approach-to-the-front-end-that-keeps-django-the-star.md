@@ -21,21 +21,25 @@ slug: hotwire-a-refreshing-approach-to-the-front-end-that-keeps-django-the-star
 summary: ''
 tags:
 - JS/HTMX/misc frontend tech
-title: 'Hotwire: A refreshing approach to the front-end that keeps Django the star.'
+title: 'Simplify Your Stack: Django Single-Page-Apps in 2023'
 track: t2
 ---
 
-If you are yearning for the days where a single developer could create a web application, or if you feel strained under the complexity of current web application architecture, this tutorial will illustrate how to breathe freely once again.  
+### Have you looked at your React app and asked “why is this so complex”?
 
-Hotwire takes a fresh approach to single page app development that allows the backend to remain the star; and that makes it a perfect fit for Django.  Django templates are rendered in full, but instead of loading a new page in the browser, the different elements are swiftly replaced in the page.  This provides the speed and feel of a single page application, while retaining the development efficiency and tool kit Django provides.  
+We're tired of the empty promises of heavy javascript-based build-once run-anywhere frameworks.  They’ve led to duplicated functionality, hacky work-arounds, more than twice the code, and layer upon layer of libraries to learn.
 
-This tutorial will cover:
-* How we got here
-* Overview of Hotwire (Turbo and Stimulus)
-* How to think about templates
-* Common development patterns 
-  * Forms
-	* Tabs
-  * Paginated & filtered tables
-* Javascript sprinkles with Stimulus
-* Pack it up.  Compile and deploy your new code.
+### Enough.
+
+It doesn't need to be like this.  **There is a simpler way**.
+
+This way involves letting Django do what it does best - everything, and letting a light javascript library automatically place things where you need it to go.  We'll be exploring [Hotwire](https://hotwired.dev/), from the brilliant team at [37signals](https://37signals.com/), and will demonstrate how, with minimal changes to your app, you can create a single-page-app entirely in Django without writing a single line of Javascript.
+
+**In this session, you will:**
+
+* Create a React-style single-page-application…*without a single line of Javascript*.
+* Update components on your site without a page reload…*without Javascript*.
+* Push live HTML updates to your users…*without Javascript*.
+* Add the most highly-sought-after engineering skills to your talent stack.  That translates to a **higher salary for you**.
+
+Who knows?  You may even get to see how easy it is to deploy what you've made to the App Store. 😉
