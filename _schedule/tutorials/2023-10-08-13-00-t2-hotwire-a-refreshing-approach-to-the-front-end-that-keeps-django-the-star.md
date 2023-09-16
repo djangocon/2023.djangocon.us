@@ -41,15 +41,14 @@ This way involves letting Django do what it does best - everything, and letting 
 * Update components on your site without a page reload…*without Javascript*.
 * Push live HTML updates to your users…*without Javascript*.
 * Add the most highly-sought-after engineering skills to your talent stack.  That translates to a **higher salary for you**.
-
-Who knows?  You may even get to see how easy it is to deploy what you've made to the App Store. 😉
+* Who knows?  You may even get to see how easy it is to deploy what you've made to the App Store. 😉
 
 
 ### Tutorial Schedule
 
 We will start with a pre-made basic django application and add features as we walk through.  You may feel free to code along, or sit back and enjoy learning the demonstrated capabilities and techniques.
 
-This may look like too much to do in such a short time, but Hotwire makes things so simple, you'll be amazed what you can accomplish.  We will likely finish early.
+This may look like too much to do in such a short time, but Hotwire makes things so simple, you'll be amazed what you can accomplish.  We will likely finish early.  There will be a 5-10 minute break between each segment.
 
 #### Hour 1
 
