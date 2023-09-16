@@ -33,7 +33,7 @@ We're tired of the empty promises of heavy javascript-based build-once run-anywh
 
 It doesn't need to be like this.  **There is a simpler way**.
 
-This way involves letting Django do what it does best - everything, and letting a light javascript library automatically place things where you need it to go.  We'll be exploring [Hotwire](https://hotwired.dev/), from the brilliant team at [37signals](https://37signals.com/), and will demonstrate how, with minimal changes to your app, you can create a single-page-app entirely in Django without writing a single line of Javascript.
+This way involves letting Django do what it does best - everything, and letting a light javascript library automatically place things where you need it to go.  We'll be exploring [Hotwire](https://hotwired.dev/), an emerging game-changer from the brilliant minds at [37signals](https://37signals.com/), and will demonstrate how, with minimal changes to your app, you can create a single-page-app entirely in Django without writing a single line of Javascript.
 
 **In this session, you will:**
 
