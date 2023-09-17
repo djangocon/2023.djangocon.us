@@ -5,7 +5,7 @@ layout: speaker-template
 mastodon: null
 name: Stephen Mitchell
 permalink: /presenters/stephen-mitchell/
-photo_url: ''
+photo_url: /static/img/presenters/stephen-mitchell.jpg
 slug: stephen-mitchell
 twitter: null
 website: null
