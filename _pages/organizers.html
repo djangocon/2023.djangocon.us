@@ -41,28 +41,28 @@ title: Organizers
               <ul class="social-icons">
                 {% if organizer.twitter != blank %}
                 <li>
-                  <a class="twitter" href="https://twitter.com/{{ organizer.twitter }}" target="_blank">
+                  <a class="twitter" href="https://twitter.com/{{ organizer.twitter }}" target="_blank" aria-label="Twitter for {{ organizer.name }}">
                     <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
                   </a>
                 </li>
                 {% endif %}
                 {% if organizer.mastodon != blank %}
                 <li>
-                  <a class="mastodon" href="{{ organizer.mastodon }}" target="_blank">
+                  <a class="mastodon" href="{{ organizer.mastodon }}" target="_blank" aria-label="Mastodon for {{ organizer.name }}">
                     <svg class="mastodon-icon"><use xlink:href="#mastodon-icon"></use></svg>
                   </a>
                 </li>
                 {% endif %}
                 {% if organizer.github != blank %}
                 <li>
-                  <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank">
+                  <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank" aria-label="GitHub for {{ organizer.name }}">
                     <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
                   </a>
                   </li>
                 {% endif %}
                 {% if organizer.website != blank %}
                 <li>
-                  <a class="web" href="{{ organizer.website }}" target="_blank">
+                  <a class="web" href="{{ organizer.website }}" target="_blank" aria-label="Website for {{ organizer.name }}">
                     <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
                   </a>
                 </li>
