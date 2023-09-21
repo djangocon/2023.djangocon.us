@@ -4,7 +4,7 @@ category: General
 date: 2023-09-20 04:00:00
 layout: post
 post_photo_alt: Photo of Volunteer
-post_photo_url: /static/img/blog/volunteer3.jpg
+post_photo_url: /static/img/blog/volunteer3_large.jpg
 title: "Volunteering is the Best Networking Powerup!"
 ---
 
