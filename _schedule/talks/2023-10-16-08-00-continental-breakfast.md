@@ -7,11 +7,11 @@ group: lunch
 layout: session-details
 link: /catering-menus/
 permalink: null
-room: Grand Ballroom I
+room: Grand Ballroom I-II
 schedule_layout: full
 sitemap: false
 talk_slot: full
 title: Continental Breakfast
 ---
 
-Grand Ballroom I
+Grand Ballroom I-II

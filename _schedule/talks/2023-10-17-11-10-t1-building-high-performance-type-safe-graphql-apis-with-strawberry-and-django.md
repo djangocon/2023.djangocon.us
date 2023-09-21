@@ -22,7 +22,7 @@ permalink: /talks/building-high-performance-type-safe-graphql-apis-with-strawber
 presenter_slugs:
 - thiago-bellini-ribeiro
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: building-high-performance-type-safe-graphql-apis-with-strawberry-and-django
 summary: ''

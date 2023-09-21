@@ -12,7 +12,7 @@ permalink: /talks/modern-editing-experience-for-your-django-models-with-wagtail/
 presenter_slugs:
 - sage-abdullah
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: modern-editing-experience-for-your-django-models-with-wagtail
 summary: ''

@@ -18,7 +18,7 @@ permalink: /talks/vue-django-combining-django-templates-and-vue-single-file-comp
 presenter_slugs:
 - mike-hoolehan
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: vue-django-combining-django-templates-and-vue-single-file-components-without-compromise
 summary: ''

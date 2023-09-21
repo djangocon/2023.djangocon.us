@@ -14,7 +14,7 @@ permalink: /talks/introduction-to-github-actions-understanding-key-terms-and-bui
 presenter_slugs:
 - paul-gilzow
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: introduction-to-github-actions-understanding-key-terms-and-building-your-first-github-action
 summary: ''

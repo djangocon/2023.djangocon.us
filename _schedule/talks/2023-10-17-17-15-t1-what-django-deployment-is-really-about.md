@@ -14,7 +14,7 @@ permalink: /talks/what-django-deployment-is-really-about/
 presenter_slugs:
 - james-walters
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: what-django-deployment-is-really-about
 summary: ''

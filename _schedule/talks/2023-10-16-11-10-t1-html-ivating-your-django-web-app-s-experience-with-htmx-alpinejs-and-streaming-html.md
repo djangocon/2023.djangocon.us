@@ -18,7 +18,7 @@ permalink: /talks/html-ivating-your-django-web-app-s-experience-with-htmx-alpine
 presenter_slugs:
 - chris-may
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: html-ivating-your-django-web-app-s-experience-with-htmx-alpinejs-and-streaming-html
 summary: ''
