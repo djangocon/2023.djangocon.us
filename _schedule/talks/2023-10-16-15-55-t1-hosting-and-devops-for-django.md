@@ -23,7 +23,7 @@ permalink: /talks/hosting-and-devops-for-django/
 presenter_slugs:
 - benjamin-zags-zagorsky
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: hosting-and-devops-for-django
 summary: ''

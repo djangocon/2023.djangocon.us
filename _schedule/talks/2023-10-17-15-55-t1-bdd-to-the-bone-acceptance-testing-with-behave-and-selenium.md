@@ -17,7 +17,7 @@ permalink: /talks/bdd-to-the-bone-acceptance-testing-with-behave-and-selenium/
 presenter_slugs:
 - pat-viafore
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: bdd-to-the-bone-acceptance-testing-with-behave-and-selenium
 summary: ''

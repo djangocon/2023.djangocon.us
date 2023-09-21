@@ -13,7 +13,7 @@ permalink: /talks/managing-content-with-django/
 presenter_slugs:
 - michael-trythall
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: managing-content-with-django
 summary: ''

@@ -14,7 +14,7 @@ permalink: /talks/empathetic-testing-developing-with-compassion-and-humility/
 presenter_slugs:
 - marc-gibbons
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: empathetic-testing-developing-with-compassion-and-humility
 summary: ''

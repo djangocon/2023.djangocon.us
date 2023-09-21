@@ -23,7 +23,7 @@ permalink: /talks/strategies-for-handling-conflicts-and-rollbacks-in-django-data
 presenter_slugs:
 - abigail-afi-gbadago
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: strategies-for-handling-conflicts-and-rollbacks-in-django-database-migrations
 summary: ''

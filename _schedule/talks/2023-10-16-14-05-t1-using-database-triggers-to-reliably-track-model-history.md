@@ -23,7 +23,7 @@ presenter_slugs:
 - wes-kendall
 - maxwell-muoto
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: using-database-triggers-to-reliably-track-model-history
 summary: ''
