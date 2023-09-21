@@ -1,6 +1,5 @@
 // JS
 import jQuery from 'jquery';
-import 'what-input';
 import 'foundation-sites';
 
 window.$ = window.jQuery = jQuery;
