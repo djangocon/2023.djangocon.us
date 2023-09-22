@@ -36,6 +36,8 @@ Production server infrastructure is a complicated beast that requires configurin
 
 I’m the co-founder CTO of [Zagaran, Inc.](https://zagaran.com), a software consulting company.  Over the past 10 years, we’ve built, maintained, and deployed dozens of Django websites, and have an extensive playbook for how to do that well.  In this talk, I draw from that playbook and go through the main ingredients for creating a robust and secure Django deployment.  For each piece, we'll look at the technologies and techniques to do it well.  We'll focus on AWS as a hosting platform, but these approaches work on any major cloud provider.
 
+This talk is aimed at anyone that is working with the servers and/or deployment process of a production Django project.  For people setting up a new set of servers for a Django project, this talk should be a good overview of the approach they need to take.  For people with an existing server setup for a Django project, this talk should help them identify issues that they had missed and ways to make their servers easier to manage.
+
 In this talk, we'll look at three main ways to host an application:
 1. Platform as a Service
 2. Managed Container Service
