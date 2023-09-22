@@ -32,6 +32,7 @@ tags:
 title: Hosting and DevOps for Django
 track: t1
 ---
+
 Production server infrastructure is a complicated beast that requires configuring and coordinating dozens of tools and services.  You have a new Django application and you're ready to deploy it; what next?  You have an existing Django application and you set up the servers yourself; what can you do better?  One mistake in a server setup can lead to major downtime or a security breach of a website.  Short of that, it can cause a lot of headaches for developers as complexity spirals out of control.
 
 I’m the co-founder CTO of [Zagaran, Inc.](https://zagaran.com), a software consulting company.  Over the past 10 years, we’ve built, maintained, and deployed dozens of Django websites, and have an extensive playbook for how to do that well.  In this talk, I draw from that playbook and go through the main ingredients for creating a robust and secure Django deployment.  For each piece, we'll look at the technologies and techniques to do it well.  We'll focus on AWS as a hosting platform, but these approaches work on any major cloud provider.

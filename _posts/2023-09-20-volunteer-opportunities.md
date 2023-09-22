@@ -5,7 +5,7 @@ date: 2023-09-20 04:00:00
 layout: post
 post_photo_alt: Photo of Volunteer
 post_photo_url: /static/img/blog/volunteer3_large.jpg
-title: "Volunteering is the Best Networking Powerup!"
+title: Volunteering is the Best Networking Powerup!
 ---
 
 ## If you want to network with people at DjangoCon US like a champion, then you should volunteer. No, really, click that sign up form and volunteer right now. You'll be doing your career a favor.
