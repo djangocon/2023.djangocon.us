@@ -8,12 +8,13 @@ group: talks
 layout: session-details
 permalink: /talks/panel-discussion-who-put-me-in-charge/
 presenter_slugs:
-    - jay-miller
+- jay-miller
 room: Junior Ballroom
 sitemap: true
 slug: panel-discussion-who-put-me-in-charge
 talk_slot: full
-title: "Panel Discussion: Who put me in charge? Moving beyond day-to-day coding in Django"
+title: 'Panel Discussion: Who put me in charge? Moving beyond day-to-day coding in
+  Django'
 track: t1
 ---
 

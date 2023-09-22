@@ -4,7 +4,8 @@ category: General
 date: 2023-09-22 12:00:00-04:00
 image: /static/img/blog/djangocon_us_sprints_closeup_2022.jpg
 layout: post
-post_photo_alt: Two Development Sprints attendees at DjangoCon US 2022 in San Diego, chatting. And one of them is now our conference co-chair!
+post_photo_alt: Two Development Sprints attendees at DjangoCon US 2022 in San Diego,
+  chatting. And one of them is now our conference co-chair!
 post_photo_url: /static/img/blog/djangocon_us_sprints_closeup_2022.jpg
 title: Introducing Contribution Sprints!
 ---
@@ -55,5 +56,4 @@ The "how" requires some introspection, as well as identifiying a project you'd l
 
 ## "This all seems confusing, I just want regular Development Sprints!"
 
-Fear not! If you were already comfortable with Development Sprints, you can show up and do that! Development Sprints haven't gone away; they've been added to. They used to be alone, now they have a new friend. 
-
+Fear not! If you were already comfortable with Development Sprints, you can show up and do that! Development Sprints haven't gone away; they've been added to. They used to be alone, now they have a new friend.
