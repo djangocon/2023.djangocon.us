@@ -1,13 +1,12 @@
 ---
 abstract: "Django and Vue both have unique front-end strengths. Django’s context-driven
-  template views offer rapid development of pages directly from back-end model content.
-  Vue’s modern reactive components provide powerful tools for building complex UIs
-  within the rich Javascript ecosystem.\r\n\r\nDo we have to choose one or the other,
-  or is there a way to combine both front-end frameworks in a single project without
-  compromising their strengths? \r\n\r\nThis talk will demonstrate step-by-step how
-  to intermingle Vue SFCs within Django Templates, such that targeted areas can be
-  enriched with Vue while retaining the flexibility and convenience of Django Templates
-  in the remainder."
+  template views offer rapid development directly from back-end model content. 
+  Vue’s modern reactive components provide powerful tools for building complex UIs 
+  within the rich JavaScript ecosystem.\r\n\r\nDo we have to choose one or the other, 
+  or is there a way to combine both front-end frameworks without compromising their 
+  strengths?\r\n\r\nLearn how to inject Vue SFCs directly into Django Templates, with 
+  no need for REST APIs, such that targeted areas can be enriched with Vue while 
+  retaining the flexibility and convenience of Django Templates in the remainder."
 accepted: true
 category: talks
 date: 2023-10-16 12:00:00-04:00
@@ -29,8 +28,8 @@ title: 'Vue + Django: Combining Django Templates and Vue Single File Components 
 track: t1
 ---
 
-Typical solutions to integrating Django and Vue forgo much of the strengths of one in lieu of the other. For example, a common approach is to use Django Rest Framework as back-end while writing the entire front-end in Vue, making it difficult to utilize Django templates in places it could be expedient. A second approach is to use Vue within Django templates using browser `<script>` includes, but then lost is the ability to use Vue's Single File Components (SFCs).
+There is a common misconception that Django's template-based views and "heavyweight" JavaScript frameworks such as Vue cannot co-exist without considerable compromise; that we are forced to choose between the two. For example, we may use Django Rest Framework as back-end while writing a JavaScript SPA front-end, making it difficult to utilize Django templates where convenient. Or we may use JavaScript frameworks from Django templates using browser `<script>` includes, but then lost is much of the tooling, testability, and ecosystem of the modern build-based JavaScript framework. This dilemma leads many Django developers to choose lighter-weight no-build Javascript frameworks as a means to add dynamic user experience.
 
-This talk will explain a unique new approach to intermingling Django Templates and Vue that preserves the strengths of both.
+However, there is no need for compromise. **Vue can, surprisingly easily, be mingled directly into Django templates**, allowing us to mix-and-match these two front-end technologies as we wish, without sacrificing the strengths of either.
 
-Starting with a minimal Django project, I will demonstrate the addition of Vue components into a final working app that combines both front-end frameworks. Topics such as information passing from Django to Vue, maintaining state between pages, and deferred loading of Vue resources will also be explored.
+This talk will explain a unique new approach to integrating Vue 3 within Django Templates. Starting with a minimal Django project, I will demonstrate the addition of Vue components into a templated app, harmoniously combining both front-end frameworks. We will explore topics such as information passing from Django to Vue, Vite configuration and tooling, persistent state management with Pinia, and resources to jumpstart your own project.
