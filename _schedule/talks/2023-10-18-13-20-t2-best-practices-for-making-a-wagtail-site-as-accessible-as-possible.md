@@ -33,4 +33,4 @@ Topics that will be covered include:
 - Custom validation to ensure that a page has a logical heading order
 - Ensuring alt text is used appropriately (Spoiler alert: every image doesn't need alt text!)
 - Usage of `aria-label` attributes to provide essential context to screen readers
-- Prividing timely, contextual help to editors as they create their content
+- Providing timely, contextual help to editors as they create their content
