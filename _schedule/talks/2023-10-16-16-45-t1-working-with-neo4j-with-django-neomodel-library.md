@@ -21,7 +21,7 @@ permalink: /talks/working-with-neo4j-with-django-neomodel-library/
 presenter_slugs:
 - dara-silvera
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: working-with-neo4j-with-django-neomodel-library
 summary: ''

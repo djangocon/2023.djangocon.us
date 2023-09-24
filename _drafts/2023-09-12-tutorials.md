@@ -49,7 +49,7 @@ Description: Best of both worlds: Next.js :heart: Wagtail
 Tutorial Track C 
 
 Led by Stephen Mitchell
-Description: Hotwire: A refreshing approach to the front-end that keeps Django the star 
+Description: Simplify Your Stack: Django Single-Page-Apps in 2023
 
 
 🎉 This is your chance to:

@@ -1,5 +1,5 @@
 ---
-company: Fingerprint
+company: Fingerprint Compliance Services Ltd.
 hidden: false
 layout: speaker-template
 mastodon: https://mastodon.uno/@dennybiasiolli

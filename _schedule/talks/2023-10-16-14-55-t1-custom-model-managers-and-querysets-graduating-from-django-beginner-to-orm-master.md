@@ -12,7 +12,7 @@ permalink: /talks/custom-model-managers-and-querysets-graduating-from-django-beg
 presenter_slugs:
 - josh-thomas
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: custom-model-managers-and-querysets-graduating-from-django-beginner-to-orm-master
 summary: ''

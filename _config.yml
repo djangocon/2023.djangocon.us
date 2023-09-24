@@ -88,7 +88,6 @@ twitter:
 # This is the default logo that people see with opengraph
 logo: /static/img/social/share.jpg
 
-
 # Frontmatter fallback settings
 # This is the default logo that people see on blog posts
 defaults:
@@ -112,7 +111,7 @@ visa_email: "visas@djangocon.us"
 
 # Our DjangoCon US links
 cfp_application: "https://pretalx.com/djangocon-us-2023/cfp"
-hotel_reservation_link: "https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+hotel_reservation_link: "https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/"
 # slack_link: "https://djangoconus2022.herokuapp.com"
 merchandise_link: "https://django.threadless.com/designs/djangocon-us-2023/mens/t-shirt/regular?variation=front&color=lemon"
 opportunity_grant_application: "https://forms.gle/LamfHzoXULdv63h18"

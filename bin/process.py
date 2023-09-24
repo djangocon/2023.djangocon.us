@@ -24,9 +24,9 @@ YEAR = 2023
 # Define your rooms here
 LACTATION_ROOM = "Room TBA"
 QUIET_ROOM = "Room TBA"
-LUNCH_ROOM = "Grand Ballroom I"
+LUNCH_ROOM = "Grand Ballroom I-II"
 LARGE_TALK_ROOM = "Junior Ballroom"
-SMALL_TALK_ROOM = "Grand Ballroom II-III"
+SMALL_TALK_ROOM = "Grand Ballroom III"
 BREAK_AREA = LUNCH_ROOM
 REGISTRATION_AREA = f"In front of {LARGE_TALK_ROOM}"
 
