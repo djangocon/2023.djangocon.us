@@ -15,12 +15,12 @@ I recently sat down to chat with Julia about her upcoming keynote. She is passio
 
 ### Here's a little more about Julia:
 
-Julia Solórzano is the Security Experience Supervisor based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of working on [Login.gov](https://login.gov/), her most recent work includes the [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also a professor at Georgetown University where she teaches technology design and development.
+Julia Solórzano is a Security Experience Supervisor based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of working on [Login.gov](https://login.gov/), her most recent work includes the [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also a professor at Georgetown University where she teaches technology design and development.
 
 Earlier in her career, Julia published a book called [Lightweight Django](https://www.oreilly.com/library/view/lightweight-django/9781491946275/) with [O’Reilly Media](https://www.oreilly.com/). She has also worked with clients such as Mozilla, the Python Software Foundation, University of Chicago and Product(RED).
 
 
-Julia's Talk is titled "Django the Dinosaur: A Story About A Web Framework."
+Julia's talk is titled "Django the Dinosaur: A Story About A Web Framework."
 
 ### Here's the abstract from Julia herself:
 
