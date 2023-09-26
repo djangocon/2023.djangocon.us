@@ -8993,22 +8993,22 @@ blockquote p:last-of-type {
   fill: #FFFFFF;
 }
 .social-icons a.facebook:hover svg {
-  fill: #44649D;
+  fill: #1DB4EB;
 }
 .social-icons a.twitter:hover svg {
   fill: #1DB4EB;
 }
 .social-icons a.linkedin:hover svg {
-  fill: #2b75b2;
+  fill: #1DB4EB;
 }
 .social-icons a.instagram:hover svg {
-  fill: #356692;
+  fill: #1DB4EB;
 }
 .social-icons a.github:hover svg {
-  fill: #4078c0;
+  fill: #1DB4EB;
 }
 .social-icons a.mastodon:hover svg {
-  fill: #3088D4;
+  fill: #1DB4EB;
 }
 
 .social-icons.highlight svg {
