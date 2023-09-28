@@ -8990,25 +8990,25 @@ blockquote p:last-of-type {
   fill: #140A44;
 }
 .social-icons a:hover svg {
-  fill: #1DB4EB;
+  fill: #FFFFFF;
 }
 .social-icons a.facebook:hover svg {
-  fill: #1DB4EB;
+  fill: #44649D;
 }
 .social-icons a.twitter:hover svg {
   fill: #1DB4EB;
 }
 .social-icons a.linkedin:hover svg {
-  fill: #1DB4EB;
+  fill: #2b75b2;
 }
 .social-icons a.instagram:hover svg {
-  fill: #1DB4EB;
+  fill: #356692;
 }
 .social-icons a.github:hover svg {
-  fill: #1DB4EB;
+  fill: #4078c0;
 }
 .social-icons a.mastodon:hover svg {
-  fill: #1DB4EB;
+  fill: #3088D4;
 }
 
 .social-icons.highlight svg {
