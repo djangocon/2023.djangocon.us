@@ -25,8 +25,8 @@
     fill: $primary-color;
   }
 
-  &:hover svg {
-    fill: $white;
+  &.web:hover svg {
+    fill: $black;
   }
 
   &.facebook:hover svg {
@@ -50,7 +50,7 @@
   }
 
   &.mastodon:hover svg {
-    fill: $color-twitter;
+    fill: $color-mastodon;
   }
 }
 
