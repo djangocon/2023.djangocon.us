@@ -16,7 +16,7 @@ Earlier in her career, Julia published a book called [Lightweight Django](https:
 
 If you are interested in learning more about Julia, you can find her on the web at:
 
-[juliasolorzano.com](juliasolorzano.com)
+[juliasolorzano.com](https://juliasolorzano.com)
 
 [hello@juliasolorzano.com](mailto:hello@juliasolorzano.com)
 
