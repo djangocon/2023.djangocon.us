@@ -43,8 +43,7 @@ Description: Collaborative Supercharge your Python and Django Development Enviro
 
 Tutorial Track B
 
-Led by Meagen Voss
-Description: Best of both worlds: Next.js :heart: Wagtail
+N/A
 
 Tutorial Track C 
 
