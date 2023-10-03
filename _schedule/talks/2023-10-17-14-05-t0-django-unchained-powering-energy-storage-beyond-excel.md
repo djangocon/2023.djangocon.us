@@ -12,6 +12,8 @@ date: 2023-10-17 14:05:00-04:00
 end_date: 2023-10-17 14:50:00-04:00
 group: talks
 layout: session-details
+redirect_from:
+- /talks/django-unchained-powering-energy-storage-beyond-excel/
 permalink: /talks/powering-energy-storage-beyond-excel/
 presenter_slugs:
 - calvin-hendryx-parker
