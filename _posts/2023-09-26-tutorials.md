@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: General
-date: 2023-09-12 04:00:00
+date: 2023-09-26 04:00:00
 layout: post
 image: /static/img/blog/volunteer-opportunities-2019.png
 title: "DjangoCon US 2023 Tutorials"
@@ -48,7 +48,7 @@ N/A
 Tutorial Track C 
 
 Led by Stephen Mitchell
-Description: Simplify Your Stack: Django Single-Page-Apps in 2023
+Description: Hotwire: A refreshing approach to the front-end that keeps Django the star 
 
 
 🎉 This is your chance to:
@@ -58,7 +58,7 @@ Explore the latest best practices
 Collaborate with fellow developers
 Learn from some of the brightest minds in the field
 
-🚀 Don't miss out on this incredible opportunity to grow your skills and network with the Django community. 
+🚀 Don't miss out on this incredible opportunity to grow your skills and network with the Django community!
 
 For more information and updates, visit our [website](https://2023.djangocon.us/tutorials/).
 
