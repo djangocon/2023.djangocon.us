@@ -10,7 +10,7 @@ twitter: null
 website: null
 ---
 
-Julia Solórzano is the Security Experience Supervisor is based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of Login.gov, her most recent work includes [Login.gov](https://login.gov),  [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also an adjunct professor at Georgetown University where she teaches technology design and development.
+Julia Solórzano is a Security Experience Supervisor is based in Durham, NC. She leads security, user experience and engineering teams, and coaches people to help them reach their full potential to create amazing things. Outside of Login.gov, her most recent work includes [Login.gov](https://login.gov),  [Department of Veterans API](https://developer.va.gov/) program and the [U.S. Web Design System](https://designsystem.digital.gov/). She is also an adjunct professor at Georgetown University where she teaches technology design and development.
 
 Earlier in her career, Julia published a book called [Lightweight Django](https://www.oreilly.com/library/view/lightweight-django/9781491946275/) with [O’Reilly Media](https://www.oreilly.com/). She has also worked with clients such as Mozilla, the Python Software Foundation, University of Chicago and Product(RED).
 
