@@ -7,9 +7,9 @@
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
     "resolve-url-loader": "^3.1.1",
-    "sass": "^1.62.1",
-    "sass-loader": "^13.0.2",
-    "webpack": "^5.80.0",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
