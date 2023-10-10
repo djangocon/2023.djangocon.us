@@ -413,13 +413,13 @@ def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
         talk_slot="full",
-        title="Continental Breakfast",
+        title="Breakfast",
     )
     post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
@@ -448,7 +448,7 @@ def generate_break(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link=None,
+        link=None,  # TODO: Add/link to #DOW
         permalink=None,
         room=location,
         schedule_layout="full",
@@ -486,7 +486,7 @@ def generate_early_lunch(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         room=location,
         sitemap=False,
         title="Early Lunch",
@@ -521,7 +521,7 @@ def generate_lunch(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         room=location,
         sitemap=False,
         talk_slot="full",
