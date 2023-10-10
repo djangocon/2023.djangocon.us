@@ -13,6 +13,7 @@ from process import Presenter as BasePresenter, Schedule
 
 class Presenter(BasePresenter):
     """Add the content field to be used for the presenter's bio"""
+
     content: Optional[str] = None
 
 
@@ -58,7 +59,9 @@ def main(output_file: Path, output_images: Path):
             for slug in data.presenter_slugs:
                 speaker_file = speaker_path / f"{slug}.md"
                 speaker_post = frontmatter.loads(speaker_file.read_text())
-                speakers.append(Presenter(**speaker_post.metadata, content=speaker_post.content))
+                speakers.append(
+                    Presenter(**speaker_post.metadata, content=speaker_post.content)
+                )
         except ValidationError as e:
             typer.secho(f"{talk}", fg="red")
             typer.echo(e.json())
@@ -87,20 +90,23 @@ def main(output_file: Path, output_images: Path):
                     image_paths.append("../" + speaker.photo_url[1:])
 
     buffer = StringIO()
-    writer = DictWriter(buffer, fieldnames=[
-        "attendee_name",
-        "attendee_email",
-        "bio",
-        "job_title",
-        "company_name",
-        "linkedin_url",
-        "github_url",
-        "twitter_url",
-        "youtube_url",
-        "mastodon_url",
-        "display_email",
-        "website_url",
-    ])
+    writer = DictWriter(
+        buffer,
+        fieldnames=[
+            "attendee_name",
+            "attendee_email",
+            "bio",
+            "job_title",
+            "company_name",
+            "linkedin_url",
+            "github_url",
+            "twitter_url",
+            "youtube_url",
+            "mastodon_url",
+            "display_email",
+            "website_url",
+        ],
+    )
     writer.writeheader()
     writer.writerows(csv_data)
     output_file.write_text(buffer.getvalue())

@@ -768,17 +768,17 @@ def generate_shots(
     quality: int = 80,
     width: int = 1200,
 ):
-    schedules = Path('_schedule').glob('**/*.md')
+    schedules = Path("_schedule").glob("**/*.md")
     used_talks: set[str] = set()
     for schedule in schedules:
         post = frontmatter.loads(schedule.read_text())
-        if 'presenter_slugs' in post:
-            used_talks |= set(post['presenter_slugs'])
+        if "presenter_slugs" in post:
+            used_talks |= set(post["presenter_slugs"])
     presenters = Path("_presenters").glob("*.md")
     presenters = sorted(presenters, key=os.path.getmtime)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
-        if post['slug'] not in used_talks:
+        if post["slug"] not in used_talks:
             continue
         print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
         print(f"  height: {height}")
