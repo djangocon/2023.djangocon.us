@@ -34,6 +34,6 @@ Our panelists include (and more will be added before the session):
 -   Elizabeth Christensen, manager at Crunchydata
 -   Frank Wiles, founder of REVSYS and former Django Software Foundation President
 -   Andrew Godwin, longtime Django core contributor
--   Julia Solórzano, [2023 Keynote Speaker](/news/julia-solorzano/) and the Security Experience Supervisor for login.gov
+-   Julia Solórzano, [2023 Keynote Speaker](/news/julia-solorzano/)
 
 You don't have to be an experienced developer to get something out of this talk; this talk will be helpful to people starting out on their career track so they can know what might lie ahead as well as managers who want to better understand the developer career mindset.
