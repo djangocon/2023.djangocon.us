@@ -13,6 +13,7 @@ category: tutorials
 date: 2023-10-08 09:00:00-04:00
 end_date: 2023-10-08 12:30:00-04:00
 group: tutorials
+image: https://2023.djangocon.us//static/img/social/presenters/kuldeep-pisda.png
 layout: session-details
 permalink: /tutorials/mastering-test-driven-development-in-django-a-comprehensive-guide-with-factory-boy-and-faker/
 presenter_slugs:

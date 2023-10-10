@@ -11,20 +11,21 @@ category: talks
 date: 2023-10-17 14:05:00-04:00
 end_date: 2023-10-17 14:50:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/calvin-hendryx-parker.png
 layout: session-details
-redirect_from:
-- /talks/django-unchained-powering-energy-storage-beyond-excel/
 permalink: /talks/powering-energy-storage-beyond-excel/
 presenter_slugs:
 - calvin-hendryx-parker
 published: true
+redirect_from:
+- /talks/django-unchained-powering-energy-storage-beyond-excel/
 room: Junior Ballroom
 sitemap: true
 slug: powering-energy-storage-beyond-excel
 summary: ''
 tags:
 - how I used Django
-title: 'Powering Energy Storage Beyond Excel'
+title: Powering Energy Storage Beyond Excel
 track: t0
 ---
 

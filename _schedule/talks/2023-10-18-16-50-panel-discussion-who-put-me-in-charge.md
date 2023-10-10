@@ -5,6 +5,7 @@ date: 2023-10-18 16:50:00-04:00
 difficulty: All
 end_date: 2023-10-18 17:35:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/jay-miller.png
 layout: session-details
 permalink: /talks/panel-discussion-who-put-me-in-charge/
 presenter_slugs:
@@ -34,6 +35,6 @@ Our panelists include (and more will be added before the session):
 -   Elizabeth Christensen, manager at Crunchydata
 -   Frank Wiles, founder of REVSYS and former Django Software Foundation President
 -   Andrew Godwin, longtime Django core contributor
--   Julia Solórzano, [2023 Keynote Speaker](/news/julia-solorzano/) and the Security Experience Supervisor for login.gov
+-   Julia Solórzano, [2023 Keynote Speaker](/news/julia-solorzano/)
 
 You don't have to be an experienced developer to get something out of this talk; this talk will be helpful to people starting out on their career track so they can know what might lie ahead as well as managers who want to better understand the developer career mindset.

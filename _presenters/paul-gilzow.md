@@ -4,6 +4,7 @@ hidden: false
 layout: speaker-template
 mastodon: https://higheredweb.social/@gilzow
 name: Paul Gilzow
+override_schedule_title: "Introduction to GitHub Actions: Understanding Key Terms and Building Your First GitHub Action"
 permalink: /presenters/paul-gilzow/
 photo_url: /static/img/presenters/paul-gilzow.jpeg
 pronouns: he/him/his

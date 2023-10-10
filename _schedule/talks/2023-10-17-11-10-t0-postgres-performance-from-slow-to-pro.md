@@ -10,6 +10,7 @@ category: talks
 date: 2023-10-17 11:10:00-04:00
 end_date: 2023-10-17 11:55:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/elizabeth-christensen.png
 layout: session-details
 permalink: /talks/postgres-performance-from-slow-to-pro/
 presenter_slugs:

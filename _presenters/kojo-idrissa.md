@@ -4,6 +4,7 @@ github: kojoidrissa
 layout: speaker-template
 mastodon: https://fosstodon.org/@kojoidrissa
 name: Kojo Idrissa
+override_schedule_title: Welcome and Orientation
 permalink: /presenters/kojo-idrissa/
 photo_url: /static/img/organizers/kojo.jpg
 slug: kojo-idrissa

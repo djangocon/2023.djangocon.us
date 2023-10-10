@@ -1,17 +1,18 @@
 ---
 abstract: "Django and Vue both have unique front-end strengths. Django’s context-driven
-  template views offer rapid development directly from back-end model content. 
-  Vue’s modern reactive components provide powerful tools for building complex UIs 
-  within the rich JavaScript ecosystem.\r\n\r\nDo we have to choose one or the other, 
-  or is there a way to combine both front-end frameworks without compromising their 
-  strengths?\r\n\r\nLearn how to inject Vue SFCs directly into Django Templates, with 
-  no need for REST APIs, such that targeted areas can be enriched with Vue while 
-  retaining the flexibility and convenience of Django Templates in the remainder."
+  template views offer rapid development directly from back-end model content. Vue’s
+  modern reactive components provide powerful tools for building complex UIs within
+  the rich JavaScript ecosystem.\r\n\r\nDo we have to choose one or the other, or
+  is there a way to combine both front-end frameworks without compromising their strengths?\r\n\r\nLearn
+  how to inject Vue SFCs directly into Django Templates, with no need for REST APIs,
+  such that targeted areas can be enriched with Vue while retaining the flexibility
+  and convenience of Django Templates in the remainder."
 accepted: true
 category: talks
 date: 2023-10-16 12:00:00-04:00
 end_date: 2023-10-16 12:25:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/mike-hoolehan.png
 layout: session-details
 permalink: /talks/vue-django-combining-django-templates-and-vue-single-file-components-without-compromise/
 presenter_slugs:

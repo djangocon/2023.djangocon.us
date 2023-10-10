@@ -8,6 +8,7 @@ category: talks
 date: 2023-10-18 16:00:00-04:00
 end_date: 2023-10-18 16:45:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/thibaud-colas.png
 layout: session-details
 permalink: /talks/djangos-accessibility-track-record/
 presenter_slugs:

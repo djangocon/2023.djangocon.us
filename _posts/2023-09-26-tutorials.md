@@ -2,9 +2,9 @@
 author: Jason Judkins
 category: General
 date: 2023-09-26 04:00:00
-layout: post
 image: /static/img/blog/volunteer-opportunities-2019.png
-title: "DjangoCon US 2023 Tutorials"
+layout: post
+title: DjangoCon US 2023 Tutorials
 ---
 
 ## We're thrilled to announce the highly anticipated DjangoCon US 2023 Tutorials! 🐍
@@ -65,4 +65,4 @@ For more information and updates, visit our [website](https://2023.djangocon.us/
 Tutorials are a separate registration and are $199 per session. Buy tutorial tickets before they sell out! [Buy your ticket](https://ti.to/defna/djangocon-us-2023) today.
 
 
-Let's make DjangoCon US 2023 Tutorials an unforgettable experience together. See you there! 👩‍💻👨‍💻 
+Let's make DjangoCon US 2023 Tutorials an unforgettable experience together. See you there! 👩‍💻👨‍💻

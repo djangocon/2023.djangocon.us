@@ -19,7 +19,6 @@ Julia Solórzano is a Security Experience Supervisor based in Durham, NC. She le
 
 Earlier in her career, Julia published a book called [Lightweight Django](https://www.oreilly.com/library/view/lightweight-django/9781491946275/) with [O’Reilly Media](https://www.oreilly.com/). She has also worked with clients such as Mozilla, the Python Software Foundation, University of Chicago and Product(RED).
 
-
 Julia's talk is titled "Django the Dinosaur: A Story About A Web Framework."
 
 ### Here's the abstract from Julia herself:

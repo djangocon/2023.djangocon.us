@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-18 10:40:00-04:00
 end_date: 2023-10-18 11:05:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/denny-biasiolli.png
 layout: session-details
 permalink: /talks/django-migrations-friend-or-foe-optimize-your-django-migrations-for-faster-testing/
 presenter_slugs:

@@ -18,6 +18,7 @@ category: talks
 date: 2023-10-16 15:55:00-04:00
 end_date: 2023-10-16 16:40:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/benjamin-zags-zagorsky.png
 layout: session-details
 permalink: /talks/hosting-and-devops-for-django/
 presenter_slugs:

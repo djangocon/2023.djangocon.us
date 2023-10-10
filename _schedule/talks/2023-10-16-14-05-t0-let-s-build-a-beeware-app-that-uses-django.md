@@ -8,6 +8,7 @@ category: talks
 date: 2023-10-16 14:05:00-04:00
 end_date: 2023-10-16 14:50:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/cheuk-ting-ho.png
 layout: session-details
 permalink: /talks/let-s-build-a-beeware-app-that-uses-django/
 presenter_slugs:

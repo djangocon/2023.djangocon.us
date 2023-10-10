@@ -24,17 +24,17 @@
 
       {% assign presentations = site.schedule | where: "presenter_slugs", page.slug %}
 
-
-        {% if page.override_schedule_title %}
-          <h2 class="speaker-template-session-title">{{ page.override_schedule_title }}</h2>
-        {% else %}
-          {% assign presentation_length = presentations|size %}
-          {% for schedule in presentations %}
+      {% if page.override_schedule_title %}
+        <h2 class="speaker-template-session-title">{{ page.override_schedule_title }}</h2>
+      {% else %}
+        {% assign unique_titles = "" | split: "," %}
+        {% for schedule in presentations %}
+          {% unless unique_titles contains schedule.title %}
             <h2 class="speaker-template-session-title">{{ schedule.title }}</h2>
-          {% endfor %}
-        {% endif %}
-      </h2>
-
+            {% assign unique_titles = unique_titles | push: schedule.title %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
     </div>
 
   </body>

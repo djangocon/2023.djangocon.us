@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-17 12:00:00-04:00
 end_date: 2023-10-17 12:25:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/noah-kantrowitz.png
 layout: session-details
 permalink: /talks/swiss-army-django-small-footprint-etl/
 presenter_slugs:

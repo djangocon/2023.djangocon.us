@@ -6,6 +6,7 @@ date: 2023-10-16 09:00:00-04:00
 difficulty: All
 end_date: 2023-10-16 09:30:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/kojo-idrissa.png
 layout: session-details
 permalink: /talks/orientation-and-welcome/
 presenter_slugs:

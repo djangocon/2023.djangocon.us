@@ -9,6 +9,7 @@ category: talks
 date: 2023-10-18 13:20:00-04:00
 end_date: 2023-10-18 14:05:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/scott-cranfill.png
 layout: session-details
 permalink: /talks/best-practices-for-making-a-wagtail-site-as-accessible-as-possible/
 presenter_slugs:
