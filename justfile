@@ -24,6 +24,9 @@ IMAGE_SIZE := "1024x512"
 @lint:
     pre-commit run --all-files
 
+@logs *ARGS:
+    docker-compose logs {{ ARGS }}
+
 @screenshots:
     python bin/process.py generate-shots > ./shots.yml
     shot-scraper multi --no-clobber ./shots.yml
