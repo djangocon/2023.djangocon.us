@@ -4,6 +4,7 @@ hidden: false
 layout: speaker-template
 mastodon: https://fosstodon.org/@calvinhp
 name: Calvin Hendryx-Parker
+override_schedule_title: Powering Energy Storage Beyond Excel
 permalink: /presenters/calvin-hendryx-parker/
 photo_url: /static/img/presenters/calvin-hendryx-parker.jpg
 slug: calvin-hendryx-parker

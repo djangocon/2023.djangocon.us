@@ -767,6 +767,7 @@ def generate_shots(
     height: int = 630,
     quality: int = 80,
     width: int = 1200,
+    base_url: str = f"https://{YEAR}.djangocon.us",
 ):
     schedules = Path("_schedule").glob("**/*.md")
     used_talks: set[str] = set()
@@ -775,7 +776,7 @@ def generate_shots(
         if "presenter_slugs" in post:
             used_talks |= set(post["presenter_slugs"])
     presenters = Path("_presenters").glob("*.md")
-    presenters = sorted(presenters, key=os.path.getmtime)
+    presenters = sorted(presenters, key=lambda p: p.name)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
         if post["slug"] not in used_talks:
@@ -784,7 +785,7 @@ def generate_shots(
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://{YEAR}.djangocon.us{post['permalink']}")
+        print(f"  url: {base_url}{post['permalink']}")
         print()
 
 
