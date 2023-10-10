@@ -3,7 +3,7 @@ author: Drew Winstel, Jason Judkins
 category: General
 date: 2023-10-09 12:00:00-04:00
 layout: post
-image: /static/img/blog/what-should-i-bring.png
+image: /static/img/blog/what-should-i-bring.jpg 
 title: "It’s my first DjangoCon US. What should I bring?"
 ---
 
