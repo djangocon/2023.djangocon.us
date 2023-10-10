@@ -776,7 +776,7 @@ def generate_shots(
         if "presenter_slugs" in post:
             used_talks |= set(post["presenter_slugs"])
     presenters = Path("_presenters").glob("*.md")
-    presenters = sorted(presenters, key=os.path.getmtime)
+    presenters = sorted(presenters, key=lambda p: p.name)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
         if post["slug"] not in used_talks:
