@@ -764,14 +764,22 @@ equitable environment."""
 
 @app.command()
 def generate_shots(
-    height: int = 512,
+    height: int = 630,
     quality: int = 80,
-    width: int = 1024,
+    width: int = 1200,
 ):
+    schedules = Path('_schedule').glob('**/*.md')
+    used_talks: set[str] = set()
+    for schedule in schedules:
+        post = frontmatter.loads(schedule.read_text())
+        if 'presenter_slugs' in post:
+            used_talks |= set(post['presenter_slugs'])
     presenters = Path("_presenters").glob("*.md")
     presenters = sorted(presenters, key=os.path.getmtime)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
+        if post['slug'] not in used_talks:
+            continue
         print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
         print(f"  height: {height}")
         print(f"  quality: {quality}")

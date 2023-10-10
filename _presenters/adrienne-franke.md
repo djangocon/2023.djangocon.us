@@ -1,5 +1,6 @@
 ---
 github: adriennefranke
+layout: speaker-template
 mastodon: https://mastodon.world/@adriennefranke
 name: Adrienne Franke
 permalink: /presenters/adrienne-franke/

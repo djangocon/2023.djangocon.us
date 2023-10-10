@@ -1,5 +1,6 @@
 ---
 github: nessita
+layout: speaker-template
 mastodon: https://fosstodon.org/@nessita
 name: Natalia Bidart
 permalink: /presenters/natalia-bidart/
