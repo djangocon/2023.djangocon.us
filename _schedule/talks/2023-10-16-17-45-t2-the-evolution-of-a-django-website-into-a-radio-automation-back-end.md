@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-16 17:45:00-04:00
 end_date: 2023-10-16 18:10:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/ernesto-rico-schmidt.png
 layout: session-details
 permalink: /talks/the-evolution-of-a-django-website-into-a-radio-automation-back-end/
 presenter_slugs:

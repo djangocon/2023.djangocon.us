@@ -5,10 +5,11 @@ category: talks
 date: 2023-10-18 10:30:00-04:00
 end_date: 2023-10-18 10:40:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/paul-gilzow.png
 layout: session-details
 permalink: /talks/sponsored-talk-platform-sh/
 presenter_slugs:
-    - paul-gilzow
+- paul-gilzow
 published: true
 room: Junior Ballroom
 schedule_layout: full

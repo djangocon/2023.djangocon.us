@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-17 15:55:00-04:00
 end_date: 2023-10-17 16:20:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/paolo-melchiorre.png
 layout: session-details
 permalink: /talks/all-about-djangoproject-com/
 presenter_slugs:

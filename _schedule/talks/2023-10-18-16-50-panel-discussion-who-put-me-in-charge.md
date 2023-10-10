@@ -5,6 +5,7 @@ date: 2023-10-18 16:50:00-04:00
 difficulty: All
 end_date: 2023-10-18 17:35:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/jay-miller.png
 layout: session-details
 permalink: /talks/panel-discussion-who-put-me-in-charge/
 presenter_slugs:

@@ -12,6 +12,7 @@ category: talks
 date: 2023-10-16 12:00:00-04:00
 end_date: 2023-10-16 12:25:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/mike-hoolehan.png
 layout: session-details
 permalink: /talks/vue-django-combining-django-templates-and-vue-single-file-components-without-compromise/
 presenter_slugs:

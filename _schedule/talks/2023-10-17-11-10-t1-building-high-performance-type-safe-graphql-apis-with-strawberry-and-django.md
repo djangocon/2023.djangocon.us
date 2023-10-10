@@ -17,6 +17,7 @@ category: talks
 date: 2023-10-17 11:10:00-04:00
 end_date: 2023-10-17 11:55:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/thiago-bellini-ribeiro.png
 layout: session-details
 permalink: /talks/building-high-performance-type-safe-graphql-apis-with-strawberry-and-django/
 presenter_slugs:

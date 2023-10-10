@@ -11,6 +11,7 @@ category: talks
 date: 2023-10-17 17:15:00-04:00
 end_date: 2023-10-17 17:40:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/eliana-rosselli.png
 layout: session-details
 permalink: /talks/an-approach-to-lightweight-tenancy-management-using-django-rest-framework/
 presenter_slugs:

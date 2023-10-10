@@ -5,6 +5,7 @@ date: 2023-10-16 09:45:00-04:00
 difficulty: All
 end_date: 2023-10-16 10:30:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/abigail-dogbe.png
 layout: session-details
 link: null
 permalink: /talks/keynote-finding-purpose-in-open-source-through-community-building/

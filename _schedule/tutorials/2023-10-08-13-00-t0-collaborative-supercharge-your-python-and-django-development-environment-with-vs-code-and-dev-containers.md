@@ -8,6 +8,7 @@ category: tutorials
 date: 2023-10-08 13:00:00-04:00
 end_date: 2023-10-08 16:30:00-04:00
 group: tutorials
+image: https://2023.djangocon.us//static/img/social/presenters/dawn-wages.png
 layout: session-details
 permalink: /tutorials/collaborative-supercharge-your-python-and-django-development-environment-with-vs-code-and-dev-containers/
 presenter_slugs:

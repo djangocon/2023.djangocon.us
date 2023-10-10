@@ -11,6 +11,7 @@ category: talks
 date: 2023-10-17 14:05:00-04:00
 end_date: 2023-10-17 14:50:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/calvin-hendryx-parker.png
 layout: session-details
 permalink: /talks/powering-energy-storage-beyond-excel/
 presenter_slugs:

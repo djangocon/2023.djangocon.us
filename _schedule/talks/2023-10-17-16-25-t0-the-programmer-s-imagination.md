@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-17 16:25:00-04:00
 end_date: 2023-10-17 17:10:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/daniele-procida.png
 layout: session-details
 permalink: /talks/the-programmer-s-imagination/
 presenter_slugs:

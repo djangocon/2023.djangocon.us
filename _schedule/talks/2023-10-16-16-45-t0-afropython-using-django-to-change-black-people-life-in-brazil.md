@@ -10,6 +10,7 @@ category: talks
 date: 2023-10-16 16:45:00-04:00
 end_date: 2023-10-16 17:10:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/felipe.png
 layout: session-details
 permalink: /talks/afropython-using-django-to-change-black-people-life-in-brazil/
 presenter_slugs:
