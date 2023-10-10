@@ -22,6 +22,12 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/benjamin-zags-zagorsky/
 
+- output: ./static/img/social/presenters/calvin-hendryx-parker.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/calvin-hendryx-parker/
+
 - output: ./static/img/social/presenters/chaim-kirby.png
   height: 630
   quality: 80
@@ -82,11 +88,23 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/drishti-jain/
 
+- output: ./static/img/social/presenters/eliana-rosselli.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/eliana-rosselli/
+
 - output: ./static/img/social/presenters/elizabeth-christensen.png
   height: 630
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/elizabeth-christensen/
+
+- output: ./static/img/social/presenters/ernesto-rico-schmidt.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/ernesto-rico-schmidt/
 
 - output: ./static/img/social/presenters/felipe.png
   height: 630
@@ -118,6 +136,12 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/josh-thomas/
 
+- output: ./static/img/social/presenters/julia-solorzano.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/julia-solorzano/
+
 - output: ./static/img/social/presenters/kojo-idrissa.png
   height: 630
   quality: 80
@@ -129,6 +153,12 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/kuldeep-pisda/
+
+- output: ./static/img/social/presenters/marc-gibbons.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/marc-gibbons/
 
 - output: ./static/img/social/presenters/mario-munoz.png
   height: 630
@@ -147,6 +177,12 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/michael-trythall/
+
+- output: ./static/img/social/presenters/mike-hoolehan.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/mike-hoolehan/
 
 - output: ./static/img/social/presenters/mohamed-elkalioby.png
   height: 630
@@ -184,19 +220,11 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/paul-gilzow/
 
-<<<<<<< HEAD
-- output: ./static/img/social/presenters/peter-grandstaff.png
-  height: 630
-  quality: 80
-  width: 1200
-  url: https://2023.djangocon.us/presenters/peter-grandstaff/
-=======
 - output: ./static/img/social/presenters/pavel-sviridov.png
   height: 630
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/pavel-sviridov/
->>>>>>> origin/update-opengraph-screenshots
 
 - output: ./static/img/social/presenters/philip-james.png
   height: 630
@@ -227,6 +255,12 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/sage-abdullah/
+
+- output: ./static/img/social/presenters/scott-cranfill.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/scott-cranfill/
 
 - output: ./static/img/social/presenters/sheena-o-connell.png
   height: 630
@@ -276,6 +310,12 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/wes-kendall/
 
+- output: ./static/img/social/presenters/ryan-cheley.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/ryan-cheley/
+
 - output: ./static/img/social/presenters/adrienne-franke.png
   height: 630
   quality: 80
@@ -293,3 +333,4 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/peter-grandstaff/
+
