@@ -10,12 +10,6 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/abigail-dogbe/
 
-- output: ./static/img/social/presenters/adrienne-franke.png
-  height: 630
-  quality: 80
-  width: 1200
-  url: https://2023.djangocon.us/presenters/adrienne-franke/
-
 - output: ./static/img/social/presenters/andrew-knight.png
   height: 630
   quality: 80
@@ -196,12 +190,6 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/mohamed-elkalioby/
 
-- output: ./static/img/social/presenters/natalia-bidart.png
-  height: 630
-  quality: 80
-  width: 1200
-  url: https://2023.djangocon.us/presenters/natalia-bidart/
-
 - output: ./static/img/social/presenters/nikolay-samokhvalov.png
   height: 630
   quality: 80
@@ -237,12 +225,6 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/pavel-sviridov/
-
-- output: ./static/img/social/presenters/peter-grandstaff.png
-  height: 630
-  quality: 80
-  width: 1200
-  url: https://2023.djangocon.us/presenters/peter-grandstaff/
 
 - output: ./static/img/social/presenters/philip-james.png
   height: 630
@@ -333,4 +315,22 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/wes-kendall/
+
+- output: ./static/img/social/presenters/adrienne-franke.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/adrienne-franke/
+
+- output: ./static/img/social/presenters/natalia-bidart.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/natalia-bidart/
+
+- output: ./static/img/social/presenters/peter-grandstaff.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/peter-grandstaff/
 
