@@ -30,7 +30,7 @@ Some of the rooms can get a bit chilly, so you might want to have a jacket or sw
 It’s practically essential for survival in America. The mobile coverage is great in the venue area for all four major providers, so about any device will work.
 
 ## Sunglasses, sunscreen, and maybe a raincoat
-It’s Durham, NC. It’s going to be a bit chillier than last year's warm California weather. Preliminary forecasts show mostly dry weather on the converence days with highs around 65-70 °F (18-21 °C) and lows around 45-48 °F (7-9 °C). There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is cold outside, the sun can still burn you!
+It’s Durham, NC. It’s going to be a bit chillier than last year's warm California weather. Preliminary forecasts show mostly dry weather on the conference days with highs around 65-70 °F (18-21 °C) and lows around 45-48 °F (7-9 °C). There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is cold outside, the sun can still burn you!
 
 ## Snacks
 The Convention Center will have full breakfast, lunch, and snacks during the breaks (11:00 AM and 3:40 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you’ll probably want a snack before breakfast (8:30 AM on Monday, 9:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
