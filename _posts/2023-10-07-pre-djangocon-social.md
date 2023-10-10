@@ -3,9 +3,9 @@ author: Jason Judkins
 category: General
 date: 2023-10-06 06:00:00-04:00
 layout: post
-title: "Pre-DjangoCon US Social"
 post_photo_alt: django social raleigh durham
 post_photo_url: /static/img/blog/django.social_Durham.jpg
+title: Pre-DjangoCon US Social
 ---
 
 In an attempt to further build the Django community, local groups can be a great way to meet other people, make friends and build your local networks.

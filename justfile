@@ -6,6 +6,7 @@ alias social := screenshots
 
 DOMAIN := "https://2023.djangocon.us"
 IMAGE_SIZE := "1200x630"
+
 # IMAGE_SIZE := "1024x512"
 # IMAGE_SIZE = "1400x700"
 

@@ -3,9 +3,9 @@ author: Jason Judkins
 category: General
 date: 2023-10-06 06:00:00-04:00
 layout: post
-title: "Board Game Night at DjangoCon US"
 post_photo_alt: Board Games
 post_photo_url: /static/img/blog/board_games.jpg
+title: Board Game Night at DjangoCon US
 ---
 
 We're so excited to tell you about your opportunities to socialize with and get to know other attendees, speakers, organizers, and sponsors!
