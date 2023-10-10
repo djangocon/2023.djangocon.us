@@ -1,5 +1,6 @@
 ---
 github: petergrand
+layout: speaker-template
 mastodon: null
 name: Peter Grandstaff
 permalink: /presenters/peter-grandstaff/
