@@ -764,9 +764,9 @@ equitable environment."""
 
 @app.command()
 def generate_shots(
-    height: int = 512,
+    height: int = 630,
     quality: int = 80,
-    width: int = 1024,
+    width: int = 1200,
 ):
     presenters = Path("_presenters").glob("*.md")
     presenters = sorted(presenters, key=os.path.getmtime)
