@@ -7,11 +7,11 @@ group: break
 layout: session-details
 link: /news/childcare-lactation/
 permalink: null
-room: Room TBA
+room: Meeting Room 1
 schedule_layout: full
 sitemap: false
 talk_slot: full
 title: Lactation Room
 ---
 
-Room TBA
+Meeting Room 1
