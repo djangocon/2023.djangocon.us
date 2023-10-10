@@ -12,6 +12,7 @@ from process import Schedule as BaseSchedule
 
 class Schedule(BaseSchedule):
     """Add the content field to be used for the presenter's bio"""
+
     content: Optional[str] = None
 
 
@@ -55,14 +56,17 @@ def main(output_file: Path):
             )
 
     buffer = StringIO()
-    writer = DictWriter(buffer, fieldnames=[
-        "talk_title",
-        "track_name",
-        "description",
-        "presenter_emails",
-        "start",
-        "end",
-    ])
+    writer = DictWriter(
+        buffer,
+        fieldnames=[
+            "talk_title",
+            "track_name",
+            "description",
+            "presenter_emails",
+            "start",
+            "end",
+        ],
+    )
     writer.writeheader()
     writer.writerows(csv_data)
     output_file.write_text(buffer.getvalue())
