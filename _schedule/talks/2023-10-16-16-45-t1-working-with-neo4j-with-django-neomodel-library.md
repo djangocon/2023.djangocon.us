@@ -16,12 +16,13 @@ category: talks
 date: 2023-10-16 16:45:00-04:00
 end_date: 2023-10-16 17:10:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/dara-silvera.png
 layout: session-details
 permalink: /talks/working-with-neo4j-with-django-neomodel-library/
 presenter_slugs:
 - dara-silvera
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: working-with-neo4j-with-django-neomodel-library
 summary: ''

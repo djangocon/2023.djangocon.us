@@ -6,7 +6,7 @@
     "all-contributors-cli": "^6.20.0",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
-    "resolve-url-loader": "^3.1.1",
+    "resolve-url-loader": "^5.0.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.0.2",
     "webpack": "^5.80.0",
@@ -30,7 +30,6 @@
     "foundation-sites": "^6.7.5",
     "hamburgers": "^1.2.1",
     "jquery": "^3.6.0",
-    "motion-ui": "^2.0.4",
-    "what-input": "^5.2.12"
+    "motion-ui": "^2.0.4"
   }
 }

@@ -8,12 +8,13 @@ category: talks
 date: 2023-10-17 16:25:00-04:00
 end_date: 2023-10-17 17:10:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/michael-trythall.png
 layout: session-details
 permalink: /talks/managing-content-with-django/
 presenter_slugs:
 - michael-trythall
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: managing-content-with-django
 summary: ''

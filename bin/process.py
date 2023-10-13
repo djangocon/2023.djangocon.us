@@ -24,9 +24,9 @@ YEAR = 2023
 # Define your rooms here
 LACTATION_ROOM = "Room TBA"
 QUIET_ROOM = "Room TBA"
-LUNCH_ROOM = "Grand Ballroom I"
+LUNCH_ROOM = "Grand Ballroom I-II"
 LARGE_TALK_ROOM = "Junior Ballroom"
-SMALL_TALK_ROOM = "Grand Ballroom II-III"
+SMALL_TALK_ROOM = "Grand Ballroom III"
 BREAK_AREA = LUNCH_ROOM
 REGISTRATION_AREA = f"In front of {LARGE_TALK_ROOM}"
 
@@ -413,13 +413,13 @@ def generate_breakfast(start_time: datetime, location: str = LUNCH_ROOM):
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
         talk_slot="full",
-        title="Continental Breakfast",
+        title="Breakfast",
     )
     post.metadata.update(sched.model_dump(exclude_unset=True))
     output_path = Path(
@@ -448,7 +448,7 @@ def generate_break(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link=None,
+        link=None,  # TODO: Add/link to #DOW
         permalink=None,
         room=location,
         schedule_layout="full",
@@ -486,7 +486,7 @@ def generate_early_lunch(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         room=location,
         sitemap=False,
         title="Early Lunch",
@@ -521,7 +521,7 @@ def generate_lunch(
         date=start_time,
         end_date=end_time,
         layout="session-details",
-        link="/catering-menus/",
+        link="/catering-menus/",  # TODO: Add/link to #DOW
         room=location,
         sitemap=False,
         talk_slot="full",
@@ -764,19 +764,28 @@ equitable environment."""
 
 @app.command()
 def generate_shots(
-    height: int = 512,
+    height: int = 630,
     quality: int = 80,
-    width: int = 1024,
+    width: int = 1200,
+    base_url: str = f"https://{YEAR}.djangocon.us",
 ):
+    schedules = Path("_schedule").glob("**/*.md")
+    used_talks: set[str] = set()
+    for schedule in schedules:
+        post = frontmatter.loads(schedule.read_text())
+        if "presenter_slugs" in post:
+            used_talks |= set(post["presenter_slugs"])
     presenters = Path("_presenters").glob("*.md")
-    presenters = sorted(presenters, key=os.path.getmtime)
+    presenters = sorted(presenters, key=lambda p: p.name)
     for presenter in presenters:
         post = frontmatter.loads(presenter.read_text())
+        if post["slug"] not in used_talks:
+            continue
         print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
         print(f"  height: {height}")
         print(f"  quality: {quality}")
         print(f"  width: {width}")
-        print(f"  url: https://{YEAR}.djangocon.us{post['permalink']}")
+        print(f"  url: {base_url}{post['permalink']}")
         print()
 
 

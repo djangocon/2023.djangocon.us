@@ -18,7 +18,7 @@ This year we will be hosting a virtual trivia contest. The prizes are a $100 don
 
 ### Logistics:
 
-- Date & Time: To be determined!
+- Date & Time: [Wednesday Oct 18, 7pm EDT](https://time.is/0700PM_18_October_2023_in_Durham,_United_States)
 - Teams should be limited to five people.
 - In-person and online conference attendees are welcome to participate.
 - There will be three rounds of five questions each.

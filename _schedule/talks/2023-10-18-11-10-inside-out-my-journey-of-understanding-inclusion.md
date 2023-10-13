@@ -5,6 +5,7 @@ date: 2023-10-18 11:10:00-04:00
 difficulty: All
 end_date: 2023-10-18 11:55:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/natalia-bidart.png
 layout: session-details
 link: null
 permalink: /talks/inside-out-my-journey-of-understanding-inclusion

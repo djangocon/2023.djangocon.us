@@ -7,12 +7,13 @@ category: talks
 date: 2023-10-16 14:55:00-04:00
 end_date: 2023-10-16 15:20:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/josh-thomas.png
 layout: session-details
 permalink: /talks/custom-model-managers-and-querysets-graduating-from-django-beginner-to-orm-master/
 presenter_slugs:
 - josh-thomas
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: custom-model-managers-and-querysets-graduating-from-django-beginner-to-orm-master
 summary: ''

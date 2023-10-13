@@ -12,12 +12,13 @@ category: talks
 date: 2023-10-17 15:55:00-04:00
 end_date: 2023-10-17 16:20:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/pat-viafore.png
 layout: session-details
 permalink: /talks/bdd-to-the-bone-acceptance-testing-with-behave-and-selenium/
 presenter_slugs:
 - pat-viafore
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: bdd-to-the-bone-acceptance-testing-with-behave-and-selenium
 summary: ''

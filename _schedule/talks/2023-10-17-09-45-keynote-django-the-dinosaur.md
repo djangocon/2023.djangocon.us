@@ -5,6 +5,7 @@ date: 2023-10-17 09:45:00-04:00
 difficulty: All
 end_date: 2023-10-17 10:30:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/julia-solorzano.png
 layout: session-details
 link: null
 permalink: /talks/keynote-django-the-dinosaur/

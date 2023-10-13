@@ -4,6 +4,7 @@ category: talks
 date: 2023-10-16 09:30:00-04:00
 end_date: 2023-10-16 09:45:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/peter-grandstaff.png
 layout: session-details
 permalink: /talks/opening-remarks-monday/
 presenter_slugs:

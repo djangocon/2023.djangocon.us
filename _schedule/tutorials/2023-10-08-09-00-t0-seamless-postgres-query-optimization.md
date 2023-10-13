@@ -7,6 +7,7 @@ category: tutorials
 date: 2023-10-08 09:00:00-04:00
 end_date: 2023-10-08 12:30:00-04:00
 group: tutorials
+image: https://2023.djangocon.us//static/img/social/presenters/nikolay-samokhvalov.png
 layout: session-details
 permalink: /tutorials/seamless-postgres-query-optimization/
 presenter_slugs:

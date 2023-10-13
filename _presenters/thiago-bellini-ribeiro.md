@@ -9,7 +9,7 @@ photo_url: /static/img/presenters/thiago-bellini-ribeiro.jpeg
 pronouns: he/him
 slug: thiago-bellini-ribeiro
 twitter: _bellini666
-website: null
+website: https://bellini.dev
 ---
 
 I'm a 35-year-old software developer based in Ribeirão Preto, Brazil with a passion for Python programming. Since embarking on my software development journey in 2007, I've honed my skills and specialized in Python development since 2011. Over the years, I've collaborated on numerous Python-based applications, always striving to contribute to the open-source community in meaningful ways.

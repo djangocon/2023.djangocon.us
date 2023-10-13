@@ -5,12 +5,17 @@ alias social := screenshots
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
 
 DOMAIN := "https://2023.djangocon.us"
-IMAGE_SIZE := "1024x512"
+IMAGE_SIZE := "1200x630"
 
+# IMAGE_SIZE := "1024x512"
 # IMAGE_SIZE = "1400x700"
 
 @_default:
     just --list
+
+@bootstrap:
+    pip install -r ./bin/requirements.in
+    playwright install
 
 @build:
     docker-compose build
@@ -23,6 +28,9 @@ IMAGE_SIZE := "1024x512"
 
 @lint:
     pre-commit run --all-files
+
+@logs *ARGS:
+    docker-compose logs {{ ARGS }}
 
 @screenshots:
     python bin/process.py generate-shots > ./shots.yml

@@ -54,7 +54,7 @@ This website is based on free and open source software, and was designed by our 
             <img
               class="partner-logo {{ sponsor.logo_orientation }}"
               src="{{ sponsor.logo }}"
-              alt="{{ sponsor.name }} Logo" />
+              alt="{{ sponsor.name }}" />
           </a>
         </div>
         {% endunless %}

@@ -10,6 +10,7 @@ category: talks
 date: 2023-10-17 10:40:00-04:00
 end_date: 2023-10-17 11:05:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/flavio-juvenal.png
 layout: session-details
 permalink: /talks/mixing-reliability-with-celery-for-delicious-async-tasks/
 presenter_slugs:

@@ -9,12 +9,13 @@ category: talks
 date: 2023-10-17 17:15:00-04:00
 end_date: 2023-10-17 17:40:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/james-walters.png
 layout: session-details
 permalink: /talks/what-django-deployment-is-really-about/
 presenter_slugs:
 - james-walters
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: what-django-deployment-is-really-about
 summary: ''

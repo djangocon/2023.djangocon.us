@@ -5,6 +5,7 @@ date: 2023-10-18 09:45:00-04:00
 difficulty: All
 end_date: 2023-10-18 10:30:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/andrew-knight.png
 layout: session-details
 permalink: /talks/keynote-testing-modern-web-apps-like-a-champion/
 presenter_slugs:

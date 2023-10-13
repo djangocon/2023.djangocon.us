@@ -7,6 +7,7 @@ category: talks
 date: 2023-10-16 12:00:00-04:00
 end_date: 2023-10-16 12:25:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/deb-nicholson.png
 layout: session-details
 permalink: /talks/meet-ups-a-grand-vision-for-a-humble-endeavor/
 presenter_slugs:

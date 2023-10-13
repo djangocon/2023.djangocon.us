@@ -7,12 +7,13 @@ category: talks
 date: 2023-10-16 17:15:00-04:00
 end_date: 2023-10-16 17:40:00-04:00
 group: talks
+image: https://2023.djangocon.us//static/img/social/presenters/sage-abdullah.png
 layout: session-details
 permalink: /talks/modern-editing-experience-for-your-django-models-with-wagtail/
 presenter_slugs:
 - sage-abdullah
 published: true
-room: Grand Ballroom II-III
+room: Grand Ballroom III
 sitemap: true
 slug: modern-editing-experience-for-your-django-models-with-wagtail
 summary: ''

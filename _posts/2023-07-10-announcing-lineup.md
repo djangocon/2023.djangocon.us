@@ -24,7 +24,7 @@ _Tutorials will only be available online due to venue availabilty limitations._
 -   Meagen Voss ([twitter](https://twitter.com/meagenvoss), [mastodon](https://fosstodon.org/@vossisboss)) - Best of both worlds: Next.js ❤️ Wagtail
 -   Nikolay Samokhvalov ([twitter](https://twitter.com/samokhvalov)) - Seamless Postgres Query Optimization
 -   Sheena O'Connell ([mastodon](https://mastodon.social/@sheenarbw)) - Django <3 Airflow: How to use Airflow to orchestrate workflows for your Django projects
--   Stephen Mitchell - Hotwire: A refreshing approach to the front-end that keeps Django the star.
+-   Stephen Mitchell - Simplify Your Stack: Django Single-Page-Apps in 2023
 
 ## Talks (Monday, October 16 through Wednesday, October 18)
 
