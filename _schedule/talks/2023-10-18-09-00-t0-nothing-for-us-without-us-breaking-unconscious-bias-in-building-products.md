@@ -17,8 +17,8 @@ abstract: "Are we really building products that serve everyone, or just a select
   needs & experiences for more inclusive environments."
 accepted: true
 category: talks
-date: 2023-10-17 14:55:00-04:00
-end_date: 2023-10-17 15:20:00-04:00
+date: 2023-10-18 09:00:00-04:00
+end_date: 2023-10-18 09:25:00-04:00
 group: talks
 image: https://2023.djangocon.us//static/img/social/presenters/victor-ogunjobi.png
 layout: session-details
