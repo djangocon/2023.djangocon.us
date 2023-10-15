@@ -32,7 +32,7 @@ track: t0
 
 "Those who cannot remember the past are condemned to repeat it."
 
-- George Santayana, The Life of Reason, 1905.
+– George Santayana, The Life of Reason, 1905.
 
 Congratulations, technologists! We have reached a new record for the height of the peak of inflated expectations with the hype surrounding "A.I." If you believe the recent press, "A.I." is going to be capable of everything, with some even talking of immortality.
 
