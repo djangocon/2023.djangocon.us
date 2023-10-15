@@ -1,5 +1,14 @@
 ---
-abstract: "\"Those who cannot remember the past are condemned to repeat it.\"\r\n\r\n- George Santayana, The Life of Reason, 1905.\r\n\r\nCongratulations, technologists! We have reached a new record for the height of the peak of inflated expectations with the hype surrounding \"A.I.\" If you believe the recent press, \"A.I.\" is going to be capable of everything, with some even talking of immortality.\r\n\r\nIt is a wonderful thing to be excited about new technology available to us, but this is at a level I have never seen in my career. There have been numerable lessons from the past that illustrate why we should avoid these levels of hype.\r\n\r\nIs \"A.I.\" going to change everything? I don't buy it, and in this talk, I'll explain the reasons why."
+abstract: "\"Those who cannot remember the past are condemned to repeat it.\"\r\n\r\n-
+  George Santayana, The Life of Reason, 1905.\r\n\r\nCongratulations, technologists!
+  We have reached a new record for the height of the peak of inflated expectations
+  with the hype surrounding \"A.I.\" If you believe the recent press, \"A.I.\" is
+  going to be capable of everything, with some even talking of immortality.\r\n\r\nIt
+  is a wonderful thing to be excited about new technology available to us, but this
+  is at a level I have never seen in my career. There have been numerable lessons
+  from the past that illustrate why we should avoid these levels of hype.\r\n\r\nIs
+  \"A.I.\" going to change everything? I don't buy it, and in this talk, I'll explain
+  the reasons why."
 accepted: true
 category: talks
 date: 2023-10-17 14:55:00-04:00

@@ -4,9 +4,9 @@ hidden: false
 layout: speaker-template
 mastodon: https://mastodon.social/@Rachell
 name: Rachell Calhoun
-slug: rachell-calhoun
 permalink: /presenters/rachell-calhoun/
 photo_url: /static/img/organizers/rachell-calhoun.jpg
+slug: rachell-calhoun
 twitter: Rachell_Calhoun
 website: https://www.rachellcalhoun.com/
 ---
