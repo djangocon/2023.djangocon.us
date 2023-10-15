@@ -26,7 +26,8 @@ permalink: /talks/nothing-for-us-without-us-breaking-unconscious-bias-in-buildin
 presenter_slugs:
 - victor-ogunjobi
 published: true
-room: Junior Ballroom
+room: Online talks
+schedule_layout: full
 sitemap: true
 slug: nothing-for-us-without-us-breaking-unconscious-bias-in-building-products
 summary: ''
