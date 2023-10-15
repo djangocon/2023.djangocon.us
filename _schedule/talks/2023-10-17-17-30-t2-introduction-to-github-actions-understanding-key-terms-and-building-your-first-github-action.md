@@ -6,8 +6,8 @@ abstract: Learn about GitHub Actions, a CI/CD platform for automating build, tes
   to GitHub Actions.
 accepted: true
 category: talks
-date: 2023-10-17 14:05:00-04:00
-end_date: 2023-10-17 14:50:00-04:00
+date: 2023-10-17 17:30:00-04:00
+end_date: 2023-10-17 18:15:00-04:00
 group: talks
 image: https://2023.djangocon.us//static/img/social/presenters/paul-gilzow.png
 layout: session-details
