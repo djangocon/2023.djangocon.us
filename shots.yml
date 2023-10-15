@@ -124,6 +124,12 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/flavio-juvenal/
 
+- output: ./static/img/social/presenters/guillaume-moigneu.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/guillaume-moigneu/
+
 - output: ./static/img/social/presenters/james-walters.png
   height: 630
   quality: 80
@@ -250,6 +256,12 @@
   width: 1200
   url: https://2023.djangocon.us/presenters/philip-james/
 
+- output: ./static/img/social/presenters/rachell-calhoun.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/rachell-calhoun/
+
 - output: ./static/img/social/presenters/ramon-huidobro.png
   height: 630
   quality: 80
@@ -309,6 +321,12 @@
   quality: 80
   width: 1200
   url: https://2023.djangocon.us/presenters/thibaud-colas/
+
+- output: ./static/img/social/presenters/tim-allen.png
+  height: 630
+  quality: 80
+  width: 1200
+  url: https://2023.djangocon.us/presenters/tim-allen/
 
 - output: ./static/img/social/presenters/tobias-mcnulty.png
   height: 630
