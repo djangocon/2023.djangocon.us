@@ -139,6 +139,15 @@ social:
 	@pageres $(DOMAIN)/presenters/william-s-vincent/ $(IMAGE_SIZE) \
 		--overwrite \
 		--filename=static/img/social/presenters/s-vincent
+	@pageres $(DOMAIN)/presenters/dawn-wages/ $(IMAGE_SIZE) \
+		--overwrite \
+		--filename=static/img/social/presenters/dawn-wages
+	@pageres $(DOMAIN)/presenters/rachell-calhoun/ $(IMAGE_SIZE) \
+		--overwrite \
+		--filename=static/img/social/presenters/rachell-calhoun
+	@pageres $(DOMAIN)/presenters/tim-allen/ $(IMAGE_SIZE) \
+		--overwrite \
+		--filename=static/img/social/presenters/tallen
 
 	@ # Keynotes
 	@pageres $(DOMAIN)/presenters/matt-mitchell/ $(IMAGE_SIZE) \

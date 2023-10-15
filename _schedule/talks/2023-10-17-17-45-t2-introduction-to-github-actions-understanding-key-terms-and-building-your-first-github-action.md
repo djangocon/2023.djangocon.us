@@ -6,8 +6,8 @@ abstract: Learn about GitHub Actions, a CI/CD platform for automating build, tes
   to GitHub Actions.
 accepted: true
 category: talks
-date: 2023-10-17 14:05:00-04:00
-end_date: 2023-10-17 14:50:00-04:00
+date: 2023-10-17 17:45:00-04:00
+end_date: 2023-10-17 18:30:00-04:00
 group: talks
 image: https://2023.djangocon.us//static/img/social/presenters/paul-gilzow.png
 layout: session-details
@@ -15,7 +15,8 @@ permalink: /talks/introduction-to-github-actions-understanding-key-terms-and-bui
 presenter_slugs:
 - paul-gilzow
 published: true
-room: Grand Ballroom III
+room: Online talks
+schedule_layout: full
 sitemap: true
 slug: introduction-to-github-actions-understanding-key-terms-and-building-your-first-github-action
 summary: ''
@@ -24,10 +25,10 @@ tags:
 - deployment
 title: 'Introduction to GitHub Actions: Understanding Key Terms and Building Your
   First GitHub Action'
-track: t1
+track: t2
 ---
 
-We all know we should be doing more automation of our software development lifecycle, but getting started can be challenging. Even if you have experience in continuous integration and continuous delivery (CI/CD) automation, learning a specific platform's terminology and idiosyncrasies can be frustrating.   
+We all know we should be doing more automation of our software development lifecycle, but getting started can be challenging. Even if you have experience in continuous integration and continuous delivery (CI/CD) automation, learning a specific platform's terminology and idiosyncrasies can be frustrating.
 
 This presentation is designed to provide an overview of GitHub Actions, a CI/CD platform that allows you to automate your build, test, and deployment pipelines, and writing one's first Action, a reusable component that can automate repeatable tasks. We'll start by going over key terms and concepts in the GitHub Actions platform, such as actions, workflows, events, and jobs, and explain how they can be pieced together to build robust and dynamic automations.
 
