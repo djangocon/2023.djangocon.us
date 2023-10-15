@@ -4,6 +4,7 @@ hidden: false
 layout: speaker-template
 mastodon: https://mastodon.online/@bajoranengineer
 name: Dawn Wages
+override_schedule_title: "Navigating Django's Future: Djangonaut Space"
 permalink: /presenters/dawn-wages/
 photo_url: /static/img/presenters/dawn-wages.jpeg
 slug: dawn-wages
