@@ -34,10 +34,11 @@ title: Full Conference Schedule
   <div class="row column">
     <h2 class="day">Tutorials: Sunday, October 8 (Online)</h2>
     <p class="lead">
-      Tutorials are a separate registration and are $199 per session. Buy
+      Tutorials are a separate registration and are $199 per session. {% comment
+      %}Buy
       <a href="{{ site.ticket_link }}">tutorial tickets</a> before they sell
-      out! All tutorials are online this year due to venue availability in
-      Durham.
+      out! {% endcomment %} All tutorials are online this year due to venue
+      availability in Durham.
     </p>
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
