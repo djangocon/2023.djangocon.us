@@ -1,6 +1,6 @@
 <div class="partner-footer section-pad">
   <h2 class="v-pad-bottom text-center">Our Sponsors</h2>
-  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Lanyard|Silver|Bronze|Opportunity Grant|Community" | split: "|" %}
+  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Bronze|Coffee|Opportunity Grant|Community" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}
