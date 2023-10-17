@@ -1,7 +1,7 @@
 ---
 layout: base
 hidden: false
-level: "Coffee Sponsor"
+level: "Coffee"
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SixFeetUp_Logo.png"
 logo_orientation: "landscape"
