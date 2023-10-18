@@ -18,14 +18,14 @@ permalink: /sponsors/
     </div>
     <div class="medium-5 large-4 column">
       {% comment %}
-      <div class="callout text-center partner-cta-box">
+      <div class="text-center callout partner-cta-box">
         <h2>Looking for a job?</h2>
         <p>Some of our sponsors are hiring! Take a look at our virtual jobs board to learn more.</p>
         <a href="/job-board/" class="button">Check out our jobs board</a>
       </div>
       {% endcomment %}
       {% comment %}
-      <div class="callout text-center partner-cta-box">
+      <div class="text-center callout partner-cta-box">
         <h2>Sponsor DjangoCon US!</h2>
         <p>Sign up to sponsor DjangoCon US and help make the conference happen.</p>
         <a href="/sponsors/information/" class="button">Check out sponsorship opportunities</a>
@@ -34,36 +34,36 @@ permalink: /sponsors/
     </div>
   </div>
 
-{% assign sponsors_by_level = "Diamond|Platinum|Gold|Bronze|Coffee|Opportunity Grant|Community" | split: "|" %}
-{% for level in sponsors_by_level %}
-  <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
-    <h2 class="text-center v-pad-bottom">{{ level }}</h2>
-    {% for sponsor in site.sponsors %}
-      {% if sponsor.level == level %}
-        {% unless sponsor.hidden %}
-          <div class="row partner">
-            <div class="column medium-4 text-center">
-              <a href="{{ sponsor.url_target }}" rel="sponsored">
-                <img
-                  class="partner-logo {{ sponsor.logo_orientation }}"
-                  src="{{ sponsor.logo }}"
-                  alt="{{ sponsor.name }}" />
-              </a>
-            </div>
-            <div class="column medium-8">
-              <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
-              {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
-              {{ sponsor_description | markdownify }}
+  {% assign sponsors_by_level = "Diamond|Platinum|Gold|Bronze|Coffee|Opportunity Grant|Community" | split: "|" %}
+  {% for level in sponsors_by_level %}
+    <div class="section-pad {% cycle 'theme-light-gray', 'theme-medium-gray', 'theme-white' %}">
+      <h2 class="text-center v-pad-bottom">{{ level }}</h2>
+      {% for sponsor in site.sponsors %}
+        {% if sponsor.level == level %}
+          {% unless sponsor.hidden %}
+            <div class="row partner">
+              <div class="text-center column medium-4">
+                <a href="{{ sponsor.url_target }}" rel="sponsored">
+                  <img
+                    class="partner-logo {{ sponsor.logo_orientation }}"
+                    src="{{ sponsor.logo }}"
+                    alt="{{ sponsor.name }}" />
+                </a>
+              </div>
+              <div class="column medium-8">
+                <h3 class="partner-name"><a href="{{ sponsor.url_target }}" rel="sponsored">{{ sponsor.name }}</a></h3>
+                {% capture sponsor_description %}{{ sponsor.description }}{: .partner-description }{% endcapture %}
+                {{ sponsor_description | markdownify }}
 
-              {% if sponsor.hiring_url %}
-                <a href="{{ sponsor.hiring_url }}" class="button" rel="noopener">{{ sponsor.name }} is hiring!</a>
-              {% endif %}
+                {% if sponsor.hiring_url %}
+                  <a href="{{ sponsor.hiring_url }}" class="button" rel="noopener">{{ sponsor.name }} is hiring!</a>
+                {% endif %}
+              </div>
             </div>
-          </div>
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endfor %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
 
 </div>

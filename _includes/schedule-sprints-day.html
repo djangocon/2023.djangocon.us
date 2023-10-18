@@ -7,7 +7,7 @@
           <time class="time">
             {{ post.date | date: "%l:%M %P" }}
             {% if post.end_date %}&ndash;
-            <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
+              <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
             {% endif %}
           </time>
         </div>
@@ -19,31 +19,31 @@
       </article>
     </li>
   {% else %}
-  	{% capture slot %}{% cycle 'begin', 'skip', 'end' %}{% endcapture %}
+    {% capture slot %}{% cycle 'begin', 'skip', 'end' %}{% endcapture %}
 
-  	{% if slot == 'begin' %}
+    {% if slot == 'begin' %}
       <li>
         <article class="row hour-row">
           <div class="column medium-2">
             <time class="time">
               {{ post.date | date: "%l:%M %P" }}
               {% if post.end_date %}&ndash;
-              <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
+                <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
               {% endif %}
             </time>
           </div>
           <div class="column medium-10">
-              <ul class="events">
-  	{% endif %}
+            <ul class="events">
+    {% endif %}
 
-  	{% include schedule-session.html %}
+    {% include schedule-session.html %}
 
-  	{% if slot == 'end' %}
-              </ul>
-          </div>
-        </article>
+    {% if slot == 'end' %}
+      </ul>
+      </div>
+      </article>
       </li>
-  	{% endif %}
+    {% endif %}
 
   {% endif %}
 

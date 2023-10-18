@@ -23,13 +23,13 @@ title: The programmer's imagination
 track: t0
 ---
 
-Of all our faculties, imagination is usually considered the freest, the seat of creation. 
+Of all our faculties, imagination is usually considered the freest, the seat of creation.
 
 According to Immanuel Kant, imagination allows us to take what nature gives us, and work it up into something new, that doesn't yet exist: "As natural physical beings we are bound by laws of nature, as moral agents by the law of practical reason, but **as imaginative creatures we are constrained by neither and thus have creative power**."
 
 What's more, as programmers, we are a special kind of imagineer. Unlike other engineers, or pharmacologists, or architects (but like writers and musicians) we get to work upon a blank page.
 
-I'm interested in what we are doing with this freedom, and I am suspicious of it. 
+I'm interested in what we are doing with this freedom, and I am suspicious of it.
 
 Firstly, I think that the more grandiose the pictures we describe and draw, the less they actually matter.
 

@@ -43,13 +43,13 @@ The [American Tobacco Trail](https://triangletrails.org/american-tobacco-trail) 
 
 The [East Coast Greenway](https://www.greenway.org/states/north-carolina) runs through Durham.
 
-The [Falls Lake State Recreation Area](https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area) has 15 miles of mountain biking and 25 miles of hiking. 
+The [Falls Lake State Recreation Area](https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area) has 15 miles of mountain biking and 25 miles of hiking.
 
 <img src="/static/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg" alt="Photo of bikers by Phillippe Oursel via Unsplash" title="Biking" style="width:30%; display:block; float:right;" />
 
 Eno River park is a 20 minute drive from the hotel and has a lot of hiking trails. [Eno River Association](https://www.enoriver.org/explore/eno-river-state-park/) has a lot of information about the park and trails.
 
-The [Rollingview Marina](https://www.rollingviewmarina.com/kayaks-canoes-paddle-boards/) at Falls Lake has paddle board, kayak, and canoe rentals. 
+The [Rollingview Marina](https://www.rollingviewmarina.com/kayaks-canoes-paddle-boards/) at Falls Lake has paddle board, kayak, and canoe rentals.
 
 The town of Cary has a lot of [greenways](https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways) and parks. They have boat and kayak rentals at [Bond Park](https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse).
 
@@ -68,7 +68,7 @@ Some routes from a Durham bike shop which is looking for a new location: [Ride w
 
 [Carolina Tarwheels](https://tarwheels.net/wp/): road riding group with a bunch of routes published from various start points.
 
-The [Triangle MTB](https://www.trianglemtb.com/index.php) site is a good (albeit outdated) hub for mountain biking resources in the area. 
+The [Triangle MTB](https://www.trianglemtb.com/index.php) site is a good (albeit outdated) hub for mountain biking resources in the area.
 
 If you're interested in e-bike rentals, [Triangle Bike Rentals](https://trianglebikerentals.com/service-areas/durham-nc/) has them.
 

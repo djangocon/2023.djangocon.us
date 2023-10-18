@@ -49,7 +49,7 @@ This week I had the pleasure of chatting with the DjangoCon US 2023 Conference C
 
 > Peter: "I always have a few books in progress. I love to grow plants--I'm currently waiting for the first cherry tomato of the year to ripen on my balcony. It will be ready any day now! And, I really enjoy movement arts. I've been doing martial arts for over a decade and more recently discovered dance. Specifically aerial silks and contact improvisation are where I'm focusing my energy these days."
 
-## Is there anything that you would like to talk about? 
+## Is there anything that you would like to talk about?
 
 > Peter: "I'm just really blown away by the people involved in organizing this conference. It's a tremendous experience to work with these people."
 

@@ -34,7 +34,7 @@ Many of the new things a project needs as it grows fall under the idea of projec
 - Project legal/licensing issues
 - Explicitly specifying a project's code, documentation and testing conventions. This is metadata for your Development Sprint. It provides details about how Development Sprint activities should be implemented.
 
-There is an excellent video on this topic by [Shauna Gordon-McKeon](https://www.youtube.com/watch?v=b2WHTNE4AZk). The video was part of the PyCon US 2023 [Maintainers Summit](https://www.youtube.com/@MaintainersSummit). If you maintain a project, or are interested in helping maintain one, I recommend checking out some of the other videos from the summit. 
+There is an excellent video on this topic by [Shauna Gordon-McKeon](https://www.youtube.com/watch?v=b2WHTNE4AZk). The video was part of the PyCon US 2023 [Maintainers Summit](https://www.youtube.com/@MaintainersSummit). If you maintain a project, or are interested in helping maintain one, I recommend checking out some of the other videos from the summit.
 
 
 ## How & Why To Lead a Contribution Sprint

@@ -20,8 +20,8 @@ title: Tutorials Schedule
     </p>
     <ul class="schedule">
       {% for post in site.schedule %} {% capture day %}{{ post.date | date: "%A"
-      }}{% endcapture %} {% if day == 'Sunday' %} {% include
-      schedule-tutorials-day.html %} {% endif %} {% endfor %}
+        }}{% endcapture %} {% if day == 'Sunday' %} {% include
+          schedule-tutorials-day.html %} {% endif %} {% endfor %}
     </ul>
   </div>
 </section>

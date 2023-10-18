@@ -22,7 +22,7 @@ This week I had the pleasure of chatting with one of the DjangoCon US 2023 Confe
 
 ## What motivated you to apply for the role of DjangoCon US conference chair, and what do you hope to achieve in this position?
 
-> Adrienne: "I was actually approached by Peter, the conference chair, about the co-chair position. I was initially hesitant because I've never organized a national conference before. I've done smaller local meetup organizing and I spoke at DjangoCon US in 2022, but that's about it. Peter [Grandstaff, the other co-chair] was very encouraging so I felt good about taking on the role. In this position, I'm aiming to be someone that can step up in any capacity where needed. Basically, I'm great at executing tasks. If you need something done, contact me. Whether it's leading meetings, reviewing rough drafts of things, discussing talk proposals, or talking on stage at the actual conference, I can do it." 
+> Adrienne: "I was actually approached by Peter, the conference chair, about the co-chair position. I was initially hesitant because I've never organized a national conference before. I've done smaller local meetup organizing and I spoke at DjangoCon US in 2022, but that's about it. Peter [Grandstaff, the other co-chair] was very encouraging so I felt good about taking on the role. In this position, I'm aiming to be someone that can step up in any capacity where needed. Basically, I'm great at executing tasks. If you need something done, contact me. Whether it's leading meetings, reviewing rough drafts of things, discussing talk proposals, or talking on stage at the actual conference, I can do it."
 
 ## What hobbies do you enjoy when you're away from the computer?
 

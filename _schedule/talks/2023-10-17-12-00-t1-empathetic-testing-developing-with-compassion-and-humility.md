@@ -29,7 +29,7 @@ Tests can be a powerful tool used to increase our development speed and empower 
 
 Together, we will explore the following ideas:
 
-- How writing tests beforehand is an act of compassion. 
+- How writing tests beforehand is an act of compassion.
 - Testing outcomes, rather than implementation choices, takes humility.
 - Empathizing with cognitive overwhelm: how isolating and minimizing test setup can make your code easier to understand and extend.
 - Do you really need that mock? Balancing the needs of now with those of the future.

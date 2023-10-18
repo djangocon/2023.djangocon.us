@@ -1,4 +1,4 @@
-<li class="event boxed">
+<li class="boxed event">
   {% if post.link %}
     <a href="{{ post.link }}" class="event-content">
   {% else %}
@@ -30,11 +30,11 @@
       {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
       <p class="event-speaker">
         {% if presenter.photo_url != blank %}
-        <img
-          class="avatar"
-          src="{{ presenter.photo_url }}"
-          alt="Photo of {{ presenter.name }}"
-          loading="lazy" />
+          <img
+            class="avatar"
+            src="{{ presenter.photo_url }}"
+            alt="Photo of {{ presenter.name }}"
+            loading="lazy" />
         {% endif %}
         {{ presenter.name }}
         {% if presenter.pronouns != blank %}

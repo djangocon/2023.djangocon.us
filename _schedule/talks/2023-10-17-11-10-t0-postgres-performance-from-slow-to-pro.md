@@ -44,5 +44,5 @@ Finding and stopping transactions
 #### Query performance
 Using EXPLAIN
 Reading and understanding EXPLAIN plans
-Logging EXPLAIN plans 
+Logging EXPLAIN plans
 Adding Indexes

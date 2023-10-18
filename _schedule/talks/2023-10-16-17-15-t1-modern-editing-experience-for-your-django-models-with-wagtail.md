@@ -23,7 +23,7 @@ title: "✨ Modern editing experience for your Django models with Wagtail \U0001
 track: t1
 ---
 
-Can content management features be useful when managing arbitrary Django models? 
+Can content management features be useful when managing arbitrary Django models?
 
 Wagtail is an open source, Django-powered Content Management System (CMS). It is built on the concept of pages as tree-structured Django models. As a CMS, Wagtail gives you the power to save revisions, manage live/draft versions, moderate your content, _live_ preview as you edit, and much more.
 
