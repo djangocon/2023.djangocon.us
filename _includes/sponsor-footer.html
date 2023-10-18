@@ -1,25 +1,25 @@
 <div class="partner-footer section-pad">
-  <h2 class="v-pad-bottom text-center">Our Sponsors</h2>
+  <h2 class="text-center v-pad-bottom">Our Sponsors</h2>
   {% assign sponsors_by_level = "Diamond|Platinum|Gold|Bronze|Coffee|Opportunity Grant|Community" | split: "|" %}
   {% for level in sponsors_by_level %}
     {% assign sponsors_in_level = site.sponsors | where: 'level', level | where: 'hidden', false %}
     {% assign sponsors_count = sponsors_in_level | size %}
     {% if sponsors_count != 0 %}
-    <h3 class="lead min text-center swatch-color-teal">{{ level }}</h3>
-    <div class="row partner-list">
-      {% for sponsor in sponsors_in_level %}
-        {% unless sponsor.hidden %}
-        <div class="partner-block text-center">
-          <a href="{{ sponsor.url_target }}" rel="sponsored">
-            <img
-              class="partner-logo {{ sponsor.logo_orientation }}"
-              src="{{ sponsor.logo }}"
-              alt="{{ sponsor.name }}" />
-          </a>
-        </div>
-        {% endunless %}
-      {% endfor %}
-    </div>
+      <h3 class="text-center lead min swatch-color-teal">{{ level }}</h3>
+      <div class="row partner-list">
+        {% for sponsor in sponsors_in_level %}
+          {% unless sponsor.hidden %}
+            <div class="text-center partner-block">
+              <a href="{{ sponsor.url_target }}" rel="sponsored">
+                <img
+                  class="partner-logo {{ sponsor.logo_orientation }}"
+                  src="{{ sponsor.logo }}"
+                  alt="{{ sponsor.name }}" />
+              </a>
+            </div>
+          {% endunless %}
+        {% endfor %}
+      </div>
     {% endif %}
   {% endfor %}
 </div>

@@ -30,10 +30,10 @@ track: t1
 
 It's easy to get caught up in testing metrics. We all do it. We aim for 100% code coverage, try to hit all branches, write good integration tests, and all the other good developer practices. These all indicate that we are building our product right, but are we building the right product?
 
-There's a different mentality when it comes to answering this question. We, as developers, can't just make sure that the code does what *we* want it to do. We need to think about what our users want. We need good requirements and specifications and we need to make sure that we are covering user acceptance testing. 
+There's a different mentality when it comes to answering this question. We, as developers, can't just make sure that the code does what *we* want it to do. We need to think about what our users want. We need good requirements and specifications and we need to make sure that we are covering user acceptance testing.
 
-In this talk, we're going to discuss why requirements are hard to get right, and how we can solve some of those problems. We'll introduce strong traceabilty with executable specifications and then talk about how to tie that directly to your Python tests. 
+In this talk, we're going to discuss why requirements are hard to get right, and how we can solve some of those problems. We'll introduce strong traceabilty with executable specifications and then talk about how to tie that directly to your Python tests.
 
-We'll discuss behavior driven development, primarily with the `behave` library. After we cover the basics, we'll look at a Django application and talk about the challenges in performing user acceptance testing on websites. We'll use the `selenium` library to drive website interactions through Python, and tie it all together with acceptance tests. 
+We'll discuss behavior driven development, primarily with the `behave` library. After we cover the basics, we'll look at a Django application and talk about the challenges in performing user acceptance testing on websites. We'll use the `selenium` library to drive website interactions through Python, and tie it all together with acceptance tests.
 
 This talk assumes basic knowledge of testing practices, Python, and HTML/JavaScript.

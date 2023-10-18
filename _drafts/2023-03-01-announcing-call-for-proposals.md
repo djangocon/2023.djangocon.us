@@ -3,7 +3,7 @@ author: DjangoCon US Organizers
 category: General
 date: 2023-03-01 06:00:00
 # TODO: Need image
-# image: 
+# image:
 layout: post
 # TODO: Need image and alt
 # post_photo_alt:

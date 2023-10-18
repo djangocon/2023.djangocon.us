@@ -112,7 +112,7 @@ For all dates the cutoff is on or before 5:00 PM PDT per the time stamp on DEFNA
 <div class="row column">
     <div class="medium-5 medium-centered column">
         <div class="button-group expanded">
-            <a 
+            <a
                 class="button"
                 href="{{ site.ticket_link }}"
                 target="_blank">Buy Tickets Now</a>

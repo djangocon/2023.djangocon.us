@@ -5,16 +5,16 @@ permalink: /news/
 
 {% for post in site.posts %}
   {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-  <article class="post-item">
-    <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-    <h2 class="post-title">
-      <a
-        class="post-link"
-        href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-    </h2>
-    {% if forloop.first %}
-      {{ post.excerpt }}
-    {% endif %}
-  </article>
+    <article class="post-item">
+      <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <h2 class="post-title">
+        <a
+          class="post-link"
+          href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+      </h2>
+      {% if forloop.first %}
+        {{ post.excerpt }}
+      {% endif %}
+    </article>
   {% endunless %}
 {% endfor %}

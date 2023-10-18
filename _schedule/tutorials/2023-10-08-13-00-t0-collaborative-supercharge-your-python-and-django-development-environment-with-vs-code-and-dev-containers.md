@@ -25,12 +25,12 @@ title: Collaborative Supercharge your Python and Django Development Environment 
 track: t0
 ---
 
-Dev Containers is an open spec, full-featured development environment, built on Docker, a well-defined tool and runtime stack, with the power of your favorite editor inside. We will share tips, tricks, tools and settings for VS Code, the light-weight, free and extensible code editor, to optimize your Python activities from app development to data wrangling. 
+Dev Containers is an open spec, full-featured development environment, built on Docker, a well-defined tool and runtime stack, with the power of your favorite editor inside. We will share tips, tricks, tools and settings for VS Code, the light-weight, free and extensible code editor, to optimize your Python activities from app development to data wrangling.
 
 Walking out of this tutorial, you will have:
 
 - your own, personalized profile(s) in VS Code for your workflow(s) that can include specifications for linters, terminal, type hinting, tasks, debugging, VS Code shortcut keys, creating snippets, and virtual environments.
 
-- a peek into the best VS Code Extensions for Django and Python development: Ruff, Jupyter Notebook, Data Wrangler, Remote Development extension pack, SQLTools and PostgreSQL, and more. 
+- a peek into the best VS Code Extensions for Django and Python development: Ruff, Jupyter Notebook, Data Wrangler, Remote Development extension pack, SQLTools and PostgreSQL, and more.
 
 - set up Dev Containers and CodeSpaces for an existing Open Source project or set it up for your project with all of the slick features including navigating your database and integrating with GitHub actions.

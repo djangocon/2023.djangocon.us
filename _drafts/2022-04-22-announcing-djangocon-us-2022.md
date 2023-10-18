@@ -9,7 +9,7 @@ published: false
 ---
 Hello, everyone! We are very excited to announce that the website for DjangoCon US 2022 is [live](https://2022.djangocon.us). Many thanks to [YupGup](http://yupgup.com/) for the website. It looks amazing!
 
-This year the conference will be October 16-21.  
+This year the conference will be October 16-21.
 
 - October 16: Tutorials (Additional fee)
 - October 17-19: Talks
@@ -21,6 +21,6 @@ We will open our [opportunity grant](https://2019.djangocon.us/opportunity-grant
 
 Now is the time to start getting your submissions for talks and tutorials ready because the [call for proposals (CFP)](https://2022.djangocon.us/speaking/) will open on April 1. We look forward to seeing all of the prospective talks and tutorials!
 
-[Keep in touch](https://twitter.com/djangocon) for more announcements along the way!  
+[Keep in touch](https://twitter.com/djangocon) for more announcements along the way!
 
 DjangoCon US Organizers :sailboat:

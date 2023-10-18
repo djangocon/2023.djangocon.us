@@ -14,13 +14,13 @@ title: 'Announcing Our Keynotes: Andrew "Pandy" Knight'
 
 Andrew Knight, also known as “Pandy,” is the Automation Panda. He’s a software quality champion who loves to help people build better quality software. An avid supporter of open source software, Pandy is a Playwright Ambassador as well as the lead developer for Boa Constrictor, the .NET Screenplay Pattern. On the side, he is writing a book on software testing with Manning Publications. Check out his tech blog at [AutomationPanda.com](https://www.automationpanda.com/), follow him on Twitter at [@AutomationPanda](https://twitter.com/AutomationPanda).
 
-Pandy's Talk is titled "Testing Modern Web Apps Like a Champion." 
+Pandy's Talk is titled "Testing Modern Web Apps Like a Champion."
 
 ### Here's the abstract from Pandy himself:
- 
+
 > It's 2023, and web apps are usually more complicated than just a bunch of HTML pages hosted on somebody's server. The Web is an incredible platform for building and sharing applications that bring people value, from work to social media to banking and pretty much every aspect of life. With rich features, though, comes complexity: modern web apps are more complicated than ever. It's a serious challenge to make sure web apps both look right and work right.
 >
-> Let's learn how to thoroughly test modern web apps like a CHAMPION! 
+> Let's learn how to thoroughly test modern web apps like a CHAMPION!
 >
 > In this session, we will deep dive into proper testing techniques for all layers of a web app:
 >
@@ -31,7 +31,7 @@ Pandy's Talk is titled "Testing Modern Web Apps Like a Champion."
 > 3. API testing for integrations
 >
 > 4. End-to-end testing through a browser
-> 
+>
 > 5. Performance and load testing
 >
 > 6. Continuous testing as part of DevOps pipelines

@@ -34,7 +34,7 @@ It is very hard for the average resident of a U.S. or Canadian city to know what
 
 This is pretty common across a lot of civic government. I don’t think municipalities are willfully trying to hide this information from residents, and I don’t think it’s ineptitude. I think most cities, even the large ones, are understaffed, and without a concerted push it’s hard to make “visibility of city documents” a priority.
 
-What if we could have SQL-backed full text search of city meeting minutes? Well, thanks to Datasette, Python, AWS, and some Github actions, we can! 
+What if we could have SQL-backed full text search of city meeting minutes? Well, thanks to Datasette, Python, AWS, and some Github actions, we can!
 
 Here's the process:
 

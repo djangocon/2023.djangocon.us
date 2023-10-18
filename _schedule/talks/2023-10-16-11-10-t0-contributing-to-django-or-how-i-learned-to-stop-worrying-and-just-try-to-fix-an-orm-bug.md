@@ -27,7 +27,7 @@ track: t0
 
 We'll start with my experience at DjangoCon US 2022 and the work I did while at the sprints on an ORM related bug. Then we'll walk through the process I went through as I realized that the bug I thought could be closed was actually still a bug and needed to be fixed. I'll talk about the process I used to work on the bug and the great support I got from the community (both in person at Django Con US and online afterward).
 
-By the end of this talk you'll realize that while the Django ORM can seem big and scary, and you may be hesitant to try and tackle a bug or other issue related to it, at the end of the day, it's *just* Python. 
+By the end of this talk you'll realize that while the Django ORM can seem big and scary, and you may be hesitant to try and tackle a bug or other issue related to it, at the end of the day, it's *just* Python.
 
 Key take aways:
 

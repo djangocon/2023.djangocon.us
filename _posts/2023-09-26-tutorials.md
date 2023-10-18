@@ -29,7 +29,7 @@ Tutorial Track B
 Led by Kuldeep Pisda
 Description: Mastering Test Driven Development in Django: A Comprehensive Guide with factory_boy and faker
 
-Tutorial Track C 
+Tutorial Track C
 
 Led by Sheena O'Connell
 Description: DJango <3 Airflow: How to use Airflow to orchestrate workflows for your Django projects
@@ -45,10 +45,10 @@ Tutorial Track B
 
 N/A
 
-Tutorial Track C 
+Tutorial Track C
 
 Led by Stephen Mitchell
-Description: Hotwire: A refreshing approach to the front-end that keeps Django the star 
+Description: Hotwire: A refreshing approach to the front-end that keeps Django the star
 
 
 🎉 This is your chance to:

@@ -9,7 +9,7 @@ post_photo_alt: "Atendees at DjangoCon US 2018"
 title: "Now You Can Apply for an Opportunity Grant!"
 published: false
 ---
-We are thrilled to announce that we are now accepting applications for [opportunity grants](https://docs.google.com/forms/d/e/1FAIpQLScrtXuXGuqTJFcKh9MIb1JR7APz-k7fABi3qvrH8_Do3r5-lQ/viewform). The deadline for submission is May 20th, 2019 [AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth). 
+We are thrilled to announce that we are now accepting applications for [opportunity grants](https://docs.google.com/forms/d/e/1FAIpQLScrtXuXGuqTJFcKh9MIb1JR7APz-k7fABi3qvrH8_Do3r5-lQ/viewform). The deadline for submission is May 20th, 2019 [AoE](https://time.is/compare/0000_21_May_2019_in_Anywhere_on_Earth).
 
 The primary purpose of an opportunity grant is to facilitate the participation of those who otherwise might not be able to attend the conference. By providing grants that can be used for conference-related expenses like travel, lodging, etc., we hope to help make the conference more accessible to a wider audience.
 

@@ -33,6 +33,6 @@ In a world where renewable energy is crucial for combating climate change, a nat
 
 During this talk, we will discuss the process of converting complex Excel formulas into powerful Python code. Explore the cutting-edge technologies employed, such as Django's framework and a PostgreSQL database managed by AWS RDS. Discover how Docker and AWS App Runner facilitated seamless deployment, while the Next.js React front end transformed the user experience.
 
-The impact of this project extends far beyond a single company. Attendees will uncover best practices for empowering any organization, especially those with vast amounts of data and complex processes. Learn how to streamline operations, enhance accuracy, ensure reliability and improve quality assurance, all while embracing the power of Django. Discover how Django's superpower is driving innovation, efficiency, and impact in climate tech and beyond. 
+The impact of this project extends far beyond a single company. Attendees will uncover best practices for empowering any organization, especially those with vast amounts of data and complex processes. Learn how to streamline operations, enhance accuracy, ensure reliability and improve quality assurance, all while embracing the power of Django. Discover how Django's superpower is driving innovation, efficiency, and impact in climate tech and beyond.
 
 Together, let's harness the power of Django and pave the way for a greener, more sustainable world.

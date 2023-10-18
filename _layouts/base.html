@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% seo %}
+    {% seo %}
 
-{% if page.video_url != blank %}
-{% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
-{% include youtube-embed-head.html id=youtube_id %}
-{% endif %}
+    {% if page.video_url != blank %}
+      {% assign youtube_id = page.video_url | replace:"https://youtu.be/",""%}
+      {% include youtube-embed-head.html id=youtube_id %}
+    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <link href="/static/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
   </head>
   <body class="{{ page.layout }}-page">
-   {% include social-icons.html %}
+    {% include social-icons.html %}
 
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -31,9 +31,9 @@
           id="offCanvasRight"
           data-off-canvas
           data-position="right">
-            <ul class="vertical menu drilldown" data-drilldown>
-              {% include nav.html %}
-            </ul>
+          <ul class="vertical menu drilldown" data-drilldown>
+            {% include nav.html %}
+          </ul>
         </div>
 
         <div class="off-canvas-content" data-off-canvas-content>

@@ -15,4 +15,3 @@ If you’re interested in helping out at DjangoCon US, please consider [voluntee
 For the sprint newbies or anyone who wants a refresher, we will also be holding an **Introduction to Contributing to Open Source** in Cabrillo 2 from 9am-12pm on Thursday, Sept. 26 hosted by Jeffrey Eliasen.
 
 Already know how to use Git and GitHub but need help getting set up to contribute to Django? This year we will have Carlton Gibson, one of our Django Fellows, walking you through **How To Start Contributing to Django**, also in Cabrillo 2 from 9am-12pm on Thursday, Sept. 26.
-

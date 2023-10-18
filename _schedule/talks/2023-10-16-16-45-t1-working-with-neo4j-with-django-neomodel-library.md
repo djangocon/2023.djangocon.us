@@ -32,7 +32,7 @@ title: Working with Neo4j with Django neomodel library
 track: t1
 ---
 
-My talk aims to provide a comprehensive overview of graph databases, going through the basics and fundamentals concepts. 
+My talk aims to provide a comprehensive overview of graph databases, going through the basics and fundamentals concepts.
 
 Graph databases are used for real-time transaction applications, Metadata and Advanced Analytics, Internal Business Process, and much more! There are plenty of use cases for graph databases such as recommendation systems, customer engagement, knowledge graph for AI, and so on.
 
@@ -40,7 +40,7 @@ The best part is that you can visualize the data you store as nodes, and the que
 
 Also, the attendees will see how it can work with Django, using neomodel as an interface to communicate with Neo4j.
 
-Last but not least, we will dive into some of the graph algorithms, to take advantage of this kind of database and explore possibilities. 
+Last but not least, we will dive into some of the graph algorithms, to take advantage of this kind of database and explore possibilities.
 
 This is an entry-level talk for people interested in databases. Basic database knowledge is recommended.
 

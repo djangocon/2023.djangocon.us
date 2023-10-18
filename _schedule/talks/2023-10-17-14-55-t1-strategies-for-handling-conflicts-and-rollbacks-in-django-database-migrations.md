@@ -36,7 +36,7 @@ track: t1
 
 Managing database migrations in Django can be challenging, especially in large projects with multiple developers and frequent releases. Conflicts can arise when multiple developers modify the same models when migration files are applied in the wrong order or in some cases where fields are faked. Rollbacks are also necessary when migrations fail or need to be reverted.
 
-This talk will explore various strategies for handling conflicts and rollbacks in Django database migrations. The aim is to provide attendees with practical solutions that can help them effectively manage database schema changes in their Django projects. 
+This talk will explore various strategies for handling conflicts and rollbacks in Django database migrations. The aim is to provide attendees with practical solutions that can help them effectively manage database schema changes in their Django projects.
 
 Some of the strategies that will be discussed in the talk include using database locking to prevent conflicts, resolving conflicts manually by merging migration files, using migration squashing to reduce the number of migration files, and handling rollbacks by using version control systems.
 

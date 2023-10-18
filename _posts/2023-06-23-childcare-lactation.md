@@ -9,9 +9,9 @@ post_photo_url: /static/img/blog/childcare-lactation-family.png
 title: WANTED! Parents at DjangoCon US 2023!
 ---
 
-# Are you a working parent? Are you a nursing parent? We want you to attend DjangoCon US! 
+# Are you a working parent? Are you a nursing parent? We want you to attend DjangoCon US!
 
-## Inclusion for working parents in the DjangoCon US space matters and we want you to know we can help! 
+## Inclusion for working parents in the DjangoCon US space matters and we want you to know we can help!
 
 
 We can assist in connecting you with a local daycare facility, and we will reimburse any child care expenses up to $150 per day.
