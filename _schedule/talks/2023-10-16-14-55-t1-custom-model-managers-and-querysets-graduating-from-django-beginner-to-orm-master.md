@@ -15,6 +15,7 @@ presenter_slugs:
 published: true
 room: Grand Ballroom III
 sitemap: true
+slides_url: /static/slides/joshthomas-custommanagers.pdf
 slug: custom-model-managers-and-querysets-graduating-from-django-beginner-to-orm-master
 summary: ''
 tags:
