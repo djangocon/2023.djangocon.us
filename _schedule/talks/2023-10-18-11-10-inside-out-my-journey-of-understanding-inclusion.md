@@ -14,6 +14,7 @@ presenter_slugs:
 room: Junior Ballroom
 schedule_layout: full
 sitemap: true
+slides_url: /static/slides/nataliabidart-insideout.pdf
 slug: inside-out-my-journey-of-understanding-inclusion
 tags:
 - diversity
