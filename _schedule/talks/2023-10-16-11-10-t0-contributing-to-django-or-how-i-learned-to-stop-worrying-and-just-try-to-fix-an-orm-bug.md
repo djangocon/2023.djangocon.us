@@ -15,6 +15,7 @@ presenter_slugs:
 published: true
 room: Junior Ballroom
 sitemap: true
+slides_url: /static/slides/ryancheley-contributing-to-django.pdf
 slug: contributing-to-django-or-how-i-learned-to-stop-worrying-and-just-try-to-fix-an-orm-bug
 summary: ''
 tags:
