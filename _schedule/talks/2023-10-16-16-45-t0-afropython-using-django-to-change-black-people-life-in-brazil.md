@@ -16,6 +16,7 @@ permalink: /talks/afropython-using-django-to-change-black-people-life-in-brazil/
 presenter_slugs:
 - felipe
 published: true
+featured: true
 room: Junior Ballroom
 sitemap: true
 slug: afropython-using-django-to-change-black-people-life-in-brazil

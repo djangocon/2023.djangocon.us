@@ -74,6 +74,11 @@ iframe,
   border-radius: 0;
 }
 
+.thumbnail {
+  aspect-ratio: 1/1;
+  object-fit: cover;  
+}
+
 .list-split {
   @include breakpoint(medium) {
     display: flex;
