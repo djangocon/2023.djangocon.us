@@ -8152,10 +8152,31 @@ blockquote p:last-of-type {
   margin-bottom: 1.5rem;
 }
 
+.recap-photos {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #FDCA85;
+}
+.recap-photos .text-block {
+  overflow: hidden;
+  padding: 1rem;
+}
+
 @media print, screen and (min-width: 55.625em) {
   .recap.content .row {
     padding-left: 0;
     padding-right: 0;
+  }
+  .recap-photos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .recap-photos .photo-block {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .recap-photos .text-block {
+    font-size: 1rem;
+    padding: 1.5rem;
   }
   .recap-intro > .row .column, .recap-intro > .row .columns {
     padding: 0;
@@ -8189,6 +8210,9 @@ blockquote p:last-of-type {
 @media print, screen and (min-width: 64em) {
   .recap-hero {
     margin-top: 1rem;
+  }
+  .recap-photos {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .recap-presenters .mini-profile {
     grid-template-columns: 1fr 1fr 1fr 1fr;

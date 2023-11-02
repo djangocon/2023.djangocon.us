@@ -6,6 +6,7 @@ title: 2023 DjangoCon US Recap
 subheadline: "Thank you for joining us this year in Durham (and virtually) for an amazing conference!"
 ---
 
+<!-- HERO -->
 <header class="recap-hero">
   <div class="row theme-brand-color1">
     <div class="header-text">
@@ -17,316 +18,307 @@ subheadline: "Thank you for joining us this year in Durham (and virtually) for a
 </header>
 
 <div class="content recap">
-  <div class="section-pad recap-intro">
-    <div class="row">
-      <div class="column medium-7">
-        <img
-          src="/static/img/recap/23_featured.jpg"
-          alt="The crowd of DjangoCon US 2023 attendees" />
+
+<!-- INTRO CONTENT -->
+<div class="section-pad recap-intro">
+  <div class="row">
+    <div class="column medium-7">
+      <img
+        src="/static/img/recap/23_featured.jpg"
+        alt="The crowd of DjangoCon US 2023 attendees" />
+    </div>
+
+    <div class="column medium-4">
+      <p class="lead">
+        DjangoCon US 2023 was hosted in Durham, North Carolina for the first
+        time and hosted 411 attendees from all over the world!
+      </p>
+
+      <p><strong>Fond memory from 2023?</strong><br /> Share it with us:</p>
+
+      <ul class="social-icons">
+        <li>
+          <a class="mastodon" href="https://fosstodon.org/@djangocon">
+            <svg class="social-icon">
+              <title>Mastodon</title>
+              <use xlink:href="#mastodon-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="twitter" href="https://twitter.com/djangocon">
+            <svg class="social-icon">
+              <title>Twitter</title>
+              <use xlink:href="#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="github" href="https://github.com/djangocon/">
+            <svg class="social-icon">
+              <title>Github</title>
+              <use xlink:href="#github-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="facebook" href="https://www.facebook.com/djangoconus/">
+            <svg class="social-icon">
+              <title>Facebook</title>
+              <use xlink:href="#facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-pad">
+  <div class="row">
+    <div class="column small-12 medium-8">
+      <p>From tutorials on Airflow and Postgres to talks about contributing
+        to Django and diversity, equity and inclusion to hallway tracks and
+        sprint contributions, 2023 was another fantastic year for DjangoCon
+        US!</p>
+
+      <p>Every year, DjangoCon US works hard to make our program better and
+        more accessible, and this year we're super proud of the features we
+        had:</p>
+
+      <ul>
+        <li><strong>Deep Dive Day</strong>, a single-track conference day
+          dedicated to talks that go into more detail on Django topics</li>
+        <li>Accessibility wins: Once again we provided subsidized child
+          care, a <strong>dedicated lactation room</strong> and <strong>live
+            captioning</strong> for all talks</li>
+        <li><strong>Travel stipends</strong> for all speakers</li>
+        <li><strong>Technology reimbursement</strong> for online presenters</li>
+      </ul>
+
+      <p>Thanks to our generous sponsors, who helped make these conference
+        dreams a reality.</p>
+    </div>
+
+    <div class="text-center column medium-4">
+      <img
+        src="/static/img/recap/23_badge.png"
+        alt="DjangoCon US 2023 badge"
+        width="360" />
+    </div>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="section-pad recap-events">
+  <div class="row">
+    <div class="column small-12">
+      <header class="highlight-events-header">
+        <h2>Awesome Talks and Tutorials</h2>
+        <p class="lead">We featured over <strong>50</strong> talks &amp;
+          tutorials this year. Here are some crowd favorites!</p>
+          <a href="/schedule/" class="button">See the full schedule</a>
+      </header>
+        
+      <div class="events">
+        {% for post in site.schedule %}
+          {% if post.featured %}
+          <article class="talk-card">
+            <div class="card card-theme-brand-color4">
+              <div class="card-section">
+                <h3>
+                  <a href="{{ post.permalink }}">{{ post.title }}</a>
+                </h3>
+              </div>
+            </div>
+          </article>
+          {% endif %}
+        {% endfor %}
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="column medium-4">
-        <p class="lead">
-          DjangoCon US 2023 was hosted in Durham, North Carolina for the first
-          time and hosted 411 attendees from all over the world!
-        </p>
+<!-- PRESENTERS -->
+<div class="section-pad recap-presenters">
+  <div class="row">
+    <div class="column small-12">
+      <h2 class="recap-heading">{{ "Our Presenters are :sparkles: Amazing :sparkles:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+      <section class="mini-profile">
+        {% for presenter in site.presenters %}
+        {% unless presenter.hidden %}
+        {% if presenter.name %}
+          <div class="mini-profile-byline">
+            {% if presenter.photo_url != blank %}
+              <img class="avatar" src="{{ presenter.photo_url }}" alt="Photo of {{ presenter.name }}" />
+            {% else %}
+              <img class="avatar" src="/static/img/recap/23_avatar.jpg" alt="Photo of {{ presenter.name }}" />
+            {% endif %}
 
-        <p><strong>Fond memory from 2023?</strong><br /> Share it with us:</p>
+            {{ presenter.name }}
+          </div>
+        {% endif %}
+        {% endunless %}
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+</div>
 
-        <ul class="social-icons">
+<!-- STATS-->
+<div class="section-pad theme-light-gray">
+  <div class="row">
+    <div class="column small-12 medium-5">
+      <h2>{{ ":chart_with_upwards_trend: 2023 By the Numbers" | markdownify
+        | remove: '<p>' | remove: '</p>' }}</h2>
+      <p class="lead">2023 was an amazing year for attendance, sponsorship,
+        talks, food, really everything that goes into making a conference
+        great.</p>
+      <p></p>
+    </div>
+
+    <div class="column hide-for-mobile medium-6">
+      <div class="table-scroll">
+        <table class="unstriped stacked">
+          <thead>
+            <tr>
+              <th>What?</th>
+              <th>Tell me about it.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>In-person Attendees</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <td>Online Attendees</td>
+              <td>167</td>
+            </tr>
+            <tr>
+              <td>Tutorial Attendees</td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <td>Tutorials</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Talks</td>
+              <td>51</td>
+            </tr>
+            <tr>
+              <td>Virtual Co-writing Sessions</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Trivia Questions</td>
+              <td>15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PHOTOS -->
+<div class="recap-photos">
+  <div class="text-block photo-block">
+      <h2>Picture Perfect</h2>
+      <p>We captured so many Kodak moments over the week! Thanks to <a
+          href="http://bartpawlik.com/">Bartek Pawlik</a> for being our
+        official conference photographer and saving these memories for
+        us.</p>
+      <a
+        href="https://flickr.com/photos/djangocon/albums/72177720312367244"
+        class="button theme-brand-color3">View all photos</a>
+  </div>
+  <img src="/static/img/recap/53300205366_44bde90d67_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/53300570269_ed957405f4_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/53300448483_1b45fd6a16_c.jpg" class="photo-block" alt="DjangoCon US 2023 Attendee, Noah A." />
+  <img src="/static/img/recap/53300682170_992f4a0eba_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/53300458813_9c87685d87_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/23_featured.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/53300684135_3dfa2e3076_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+  <img src="/static/img/recap/53299346052_2747690136_c.jpg" class="photo-block" alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
+</div>
+  
+<!-- ORGANIZERS -->
+<div class="section-pad recap-organizers">
+  <div class="row">
+    <header class="column small-12  recap-heading">
+      <h2>{{ "DjangoCon US 2023 was possible through lots of :heart:" |
+        markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+      <p class="lead">Our organizers put hundreds of hours of heart and
+        soul into this conference. We couldn't do it without each and
+        every one of you!</p>
+    </header>
+  </div>
+  <div class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
+    {% for organizer in site.organizers %}
+    {% unless organizer.hidden %}
+    <div
+      class="column column-block">
+      <div class="profile">
+        <img
+          class="thumbnail"
+          src="{{ organizer.photo_url }}"
+          alt="Photo of {{ organizer.name }}" />
+        <div class="profile-namecard">
+          <h3 class="profile-name">
+            {{ organizer.name }}
+            {% if organizer.pronouns != blank %}
+            ({{ organizer.pronouns }})
+            {% endif %}
+          </h3>
+          {{ organizer.role }}
+        </div>
+        <ul class="social-icons highlight">
+          {% if organizer.mastodon != blank %}
           <li>
-            <a class="mastodon" href="https://fosstodon.org/@djangocon">
+            <a class="mastodon" href="{{organizer.mastodon}}"
+              target="_blank">
               <svg class="social-icon">
                 <title>Mastodon</title>
                 <use xlink:href="#mastodon-icon"></use>
               </svg>
             </a>
           </li>
+          {% endif %}
+          {% if organizer.twitter != blank %}
           <li>
-            <a class="twitter" href="https://twitter.com/djangocon">
-              <svg class="social-icon">
-                <title>Twitter</title>
-                <use xlink:href="#twitter-icon"></use>
-              </svg>
+            <a class="twitter"
+              href="https://twitter.com/{{ organizer.twitter }}"
+              target="_blank">
+              <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
             </a>
           </li>
+          {% endif %}
+          {% if organizer.github != blank %}
           <li>
-            <a class="github" href="https://github.com/djangocon/">
-              <svg class="social-icon">
-                <title>Github</title>
-                <use xlink:href="#github-icon"></use>
-              </svg>
+            <a class="github"
+              href="https://github.com/{{ organizer.github }}/"
+              target="_blank">
+              <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
             </a>
           </li>
+          {% endif %}
+          {% if organizer.website != blank %}
           <li>
-            <a class="facebook" href="https://www.facebook.com/djangoconus/">
-              <svg class="social-icon">
-                <title>Facebook</title>
-                <use xlink:href="#facebook-icon"></use>
-              </svg>
+            <a class="web" href="{{ organizer.website }}" target="_blank">
+              <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
             </a>
           </li>
+          {% endif %}
         </ul>
-      </div>
-    </div>
-    </div>
-
-    <div class="section-pad">
-      <div class="row">
-        <div class="column small-12 medium-8">
-          <p>From tutorials on Airflow and Postgres to talks about contributing
-            to Django and diversity, equity and inclusion to hallway tracks and
-            sprint contributions, 2023 was another fantastic year for DjangoCon
-            US!</p>
-
-          <p>Every year, DjangoCon US works hard to make our program better and
-            more accessible, and this year we're super proud of the features we
-            had:</p>
-
-          <ul>
-            <li><strong>Deep Dive Day</strong>, a single-track conference day
-              dedicated to talks that go into more detail on Django topics</li>
-            <li>Accessibility wins: Once again we provided subsidized child
-              care, a <strong>dedicated lactation room</strong> and <strong>live
-                captioning</strong> for all talks</li>
-            <li><strong>Travel stipends</strong> for all speakers</li>
-            <li><strong>Technology reimbursement</strong> for online presenters</li>
-          </ul>
-
-          <p>Thanks to our generous sponsors, who helped make these conference
-            dreams a reality.</p>
-        </div>
-
-        <div class="text-center column medium-4">
-          <img
-            src="/static/img/recap/23_badge.png"
-            alt="DjangoCon US 2023 badge"
-            width="360" />
-        </div>
-      </div>
-    </div>
-
-    <div class="section-pad recap-events">
-      <div class="row">
-        <div class="column small-12">
-        <header class="highlight-events-header">
-          <h2>Awesome Talks and Tutorials</h2>
-            <p class="lead">We featured over <strong>50</strong> talks &amp;
-              tutorials this year. Here are some crowd favorites!</p>
-              <a href="/schedule/" class="button">See the full schedule</a>
-            </header>
-            
-            <div class="events">
-              {% for post in site.schedule %}
-                {% if post.featured %}
-                <article class="talk-card">
-                  <div class="card card-theme-brand-color4">
-                    <div class="card-section">
-                      <h3>
-                        <a href="{{ post.permalink }}">{{ post.title }}</a>
-                      </h3>
-                    </div>
-                  </div>
-                </article>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-        </div>
-
-        <div class="section-pad recap-presenters">
-          <div class="row">
-            <div class="column small-12">
-
-            <h2 class="recap-heading">{{ "Our Presenters are :sparkles: Amazing :sparkles:" | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-            <section class="mini-profile">
-              {% for presenter in site.presenters %}
-              {% unless presenter.hidden %}
-              {% if presenter.name %}
-                <div class="mini-profile-byline">
-                  {% if presenter.photo_url != blank %}
-                    <img class="avatar" src="{{ presenter.photo_url }}" alt="Photo of {{ presenter.name }}" />
-                  {% else %}
-                    <img class="avatar" src="/static/img/recap/23_avatar.jpg" alt="Photo of {{ presenter.name }}" />
-                  {% endif %}
-
-                  {{ presenter.name }}
-                </div>
-              {% endif %}
-              {% endunless %}
-              {% endfor %}
-            </section>
-          </div>
-          </div>
-        </div>
+      </div><!--/.profile -->
+    </div><!--/.column -->
+    {% endunless %}
+    {% endfor %}
+  </div>
+</div>
 
 
-    <div class="section-pad  theme-light-gray">
-      <div class="row">
-        <div class="column small-12 medium-5">
-          <h2>{{ ":chart_with_upwards_trend: 2023 By the Numbers" | markdownify
-            | remove: '<p>' | remove: '</p>' }}</h2>
-          <p class="lead">2023 was an amazing year for attendance, sponsorship,
-            talks, food, really everything that goes into making a conference
-            great.</p>
-          <p></p>
-        </div>
-
-        <div class="column hide-for-mobile medium-6">
-          <div class="table-scroll">
-            <table class="unstriped stacked">
-              <thead>
-                <tr>
-                  <th>What?</th>
-                  <th>Tell me about it.</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>In-person Attendees</td>
-                  <td>244</td>
-                </tr>
-                <tr>
-                  <td>Online Attendees</td>
-                  <td>167</td>
-                </tr>
-                <tr>
-                  <td>Tutorial Attendees</td>
-                  <td>42</td>
-                </tr>
-                <tr>
-                  <td>Tutorials</td>
-                  <td>5</td>
-                </tr>
-                <tr>
-                  <td>Talks</td>
-                  <td>51</td>
-                </tr>
-                <tr>
-                  <td>Virtual Co-writing Sessions</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>Trivia Questions</td>
-                  <td>15</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        {% comment %}
-        <div class="row">
-          <div class="column medium-6 small-12">
-            <h3>And remember...</h3>
-            <p>Under the hood it's all just a grid system. So you can just add a
-              new row if you want to associate more text with this block. Easy
-              peasy, lemon squeezy.</p>
-          </div>
-        </div>
-        {% endcomment %}
-      </div>
-
-      <div class="section-pad photos-block">
-        <div class="row">
-          <div class="column small-12 medium-5">
-            <img src="/static/img/bartek_photographer.jpg"
-              alt="Bartek Pawlik, DjangoCon US 2023 photographer" />
-          </div>
-
-          <div class="column hide-for-mobile medium-6">
-            <div class="table-scroll">
-              <h2>Picture Perfect</h2>
-              <p>We captured so many Kodak moments over the week! Thanks to <a
-                  href="http://bartpawlik.com/">Bartek Pawlik</a> for being our
-                official conference photographer and saving these memories for
-                us.</p>
-              <a
-                href="https://flickr.com/photos/djangocon/albums/72157711339647298"
-                class="button theme-brand-color3">View all photos</a>
-            </div>
-          </div>
-        </div>
-
-        
-      </div>
-      </div>
-
-      <div class="section-pad recap-organizers  ">
-        <div class="row">
-          <header class="column small-12  recap-heading">
-            <h2>{{ "DjangoCon US 2023 was possible through lots of :heart:" |
-              markdownify | remove: '<p>' | remove: '</p>' }}</h2>
-            <p class="lead">Our organizers put hundreds of hours of heart and
-              soul into this conference. We couldn't do it without each and
-              every one of you!</p>
-          </header>
-        </div>
-        <div
-          class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
-          {% for organizer in site.organizers %}
-          {% unless organizer.hidden %}
-          <div
-            class="column column-block">
-            <div class="profile">
-              <img
-                class="thumbnail"
-                src="{{ organizer.photo_url }}"
-                alt="Photo of {{ organizer.name }}" />
-              <div class="profile-namecard">
-                <h3 class="profile-name">
-                  {{ organizer.name }}
-                  {% if organizer.pronouns != blank %}
-                  ({{ organizer.pronouns }})
-                  {% endif %}
-                </h3>
-                {{ organizer.role }}
-              </div>
-              <ul class="social-icons highlight">
-                {% if organizer.mastodon != blank %}
-                <li>
-                  <a class="mastodon" href="{{organizer.mastodon}}"
-                    target="_blank">
-                    <svg class="social-icon">
-                      <title>Mastodon</title>
-                      <use xlink:href="#mastodon-icon"></use>
-                    </svg>
-                  </a>
-                </li>
-                {% endif %}
-                {% if organizer.twitter != blank %}
-                <li>
-                  <a class="twitter"
-                    href="https://twitter.com/{{ organizer.twitter }}"
-                    target="_blank">
-                    <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
-                  </a>
-                </li>
-                {% endif %}
-                {% if organizer.github != blank %}
-                <li>
-                  <a class="github"
-                    href="https://github.com/{{ organizer.github }}/"
-                    target="_blank">
-                    <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
-                  </a>
-                </li>
-                {% endif %}
-                {% if organizer.website != blank %}
-                <li>
-                  <a class="web" href="{{ organizer.website }}" target="_blank">
-                    <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
-                  </a>
-                </li>
-                {% endif %}
-              </ul>
-            </div><!--/.profile -->
-          </div><!--/.column -->
-          {% endunless %}
-          {% endfor %}
-        </div>
-      </div>
-
-    </div> <!-- End .content -->
-    {% include sponsor-footer.html %}
+</div> <!-- End .content -->
+{% include sponsor-footer.html %}
