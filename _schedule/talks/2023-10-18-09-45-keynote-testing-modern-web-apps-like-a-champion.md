@@ -12,6 +12,7 @@ presenter_slugs:
 - andrew-knight
 room: Junior Ballroom
 sitemap: true
+featured: true
 slug: keynote-testing-modern-web-apps-like-a-champion
 talk_slot: full
 title: 'Keynote: Testing Modern Web Apps Like a Champion'

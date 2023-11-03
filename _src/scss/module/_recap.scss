@@ -1,0 +1,194 @@
+.recap.content {
+    .column {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .section-pad {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.recap-hero {
+    position: relative;
+    margin: 80px auto 0;
+  
+    .row {
+        padding: 1.5rem;
+    }
+  
+    h1 {
+        margin-bottom: 1.25rem;
+        font-size: 1.6rem;
+        color: $brand-color5;
+    }
+  
+    p {
+        margin: 0;
+    }
+}
+
+.recap-intro {
+    .lead {
+        padding-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.recap-events {
+    background-color: $brand-color7;
+
+    h2 {
+        color: $brand-color1;
+    }
+
+    .events {
+        margin-top: 2rem;
+        display: grid;
+        gap: 0.5rem;
+
+        .card {
+            background-color: white;
+        }
+    }
+}
+
+.recap-presenters {
+    .mini-profile {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mini-profile-byline {
+        flex-flow: column;
+        margin: 0;
+        gap: 0.5rem;
+        text-align: center;
+
+        & + .mini-profile-byline {
+            margin: 0;
+        }
+        .avatar {
+            aspect-ratio: 1/1;
+            margin: 0;
+            object-fit: cover;
+            max-width: 50%;
+        }
+    }
+}
+
+.recap-organizers {
+    .recap-heading {
+        margin-bottom: 1.5rem;
+    }
+}
+  
+.recap-photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $brand-color5;
+
+    .text-block {
+        overflow: hidden;
+        padding: 1rem;
+    }
+}
+
+@include breakpoint(medium) {
+    .recap.content .row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .recap-photos {
+        grid-template-columns: 1fr 1fr;
+
+        .photo-block {
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+
+        .text-block {
+            font-size: 1rem;
+            padding: 1.5rem;
+        }
+    }
+
+    .recap-intro > .row .column {
+        padding: 0;
+    }
+
+    .recap-events .events {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .recap-presenters {
+        .mini-profile {
+            gap: 2rem;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .mini-profile-byline .avatar {
+            max-width: 100px; 
+        }
+    }
+    
+    .recap-hero {
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 2.25rem;
+      }
+
+      .row {
+        padding: 2.5rem;
+        background-image:
+         url(/static/img/theme/hero-lemur.svg),
+         url(/static/img/theme/hero-map.svg);
+  
+        background-repeat:
+         no-repeat,
+         no-repeat;
+  
+       background-size:
+         auto 100%,
+         auto 130%;
+  
+        background-position:
+          right 10% center,
+          right -16vw center
+      }
+      .header-text {
+        max-width: 26rem;
+      }
+    }
+  }
+  
+  @include breakpoint(large) {
+    .recap-hero {
+        margin-top: 1rem;
+    }
+
+    .recap-photos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .recap-presenters .mini-profile {
+        grid-template-columns: 1fr 1fr 1fr 1fr;   
+    }
+
+    .recap.content .section-pad {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+  }
+  
+  @include breakpoint(xlarge) {
+    .recap-hero .row {
+        background-position:
+          right 30% center,
+          right 0% center;
+    }
+  }
+  

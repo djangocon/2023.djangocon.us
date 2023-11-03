@@ -17,6 +17,7 @@ presenter_slugs:
 published: true
 room: Online talks
 schedule_layout: full
+featured: true
 sitemap: true
 slug: best-practices-for-making-a-wagtail-site-as-accessible-as-possible
 summary: ''

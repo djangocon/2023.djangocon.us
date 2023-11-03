@@ -30,3 +30,10 @@
     fill: currentColor;
   }
 }
+
+.profile .social-icons.highlight {
+  background: none;
+  a svg {
+    fill: $brand-color5;
+  }
+}
