@@ -109,6 +109,8 @@ program_team_email: "program@djangocon.us"
 sponsors_email: "sponsors@djangocon.us"
 visa_email: "visas@djangocon.us"
 
+schedule_show_video_urls: true
+
 # Our DjangoCon US links
 cfp_application: "https://pretalx.com/djangocon-us-2023/cfp"
 hotel_reservation_link: "https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/"
