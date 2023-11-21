@@ -23,6 +23,7 @@ tags:
 title: 'Custom Model Managers and QuerySets: Graduating from Django Beginner to ORM
   Master'
 track: t1
+video_url: https://youtu.be/0irSaCTMb5E
 ---
 
 In my journey as a Django developer, I know the moment when I did not consider myself a beginner anymore: when I started leveraging Django custom model managers and querysets. Initially they can seem intimidating and potentially complex. However, they can help make your use of the ORM more efficient, allow you to encapsulate complex and repetitive queries, and provide an API surface area that makes it easier to introduce certain changes to Model fields and queries, among other benefits.
