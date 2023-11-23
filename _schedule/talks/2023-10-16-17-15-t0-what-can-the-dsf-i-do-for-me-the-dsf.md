@@ -21,6 +21,7 @@ tags:
 - community
 title: ^What can (the DSF | I) do for (me | the DSF)\?$
 track: t0
+video_url: https://youtu.be/kFSGgDS_H4E
 ---
 
 An introduction into the reason for and purpose of the Django Software Foundation with special focus on recent changes and new initiatives meant to increase engagement with Django, the DSF, and the greater Django Community. Followed by a Q&A session.

@@ -17,6 +17,7 @@ slug: keynote-django-the-dinosaur
 talk_slot: full
 title: 'Keynote: Django the Dinosaur: A Story About A Web Framework.'
 track: t1
+video_url: https://youtu.be/IO-BFgDRsL4
 ---
 
 Django is one of the first and longest running open source web frameworks in the world. This talk will expand on how Django has sustained itself over the years and where it needs to go in the future. Since its beginnings in the basement of a small paper in Kansas to where it stands now, this keynote will review the past, present and future of Django in our current digital age.

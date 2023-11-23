@@ -23,6 +23,7 @@ summary: ''
 tags: null
 title: 'Sponsored Talk: Supercharge Your Django Dev Team: Introducing the BEST Framework'
 track: t0
+video_url: https://youtu.be/JC5Agdvs1eM
 ---
 
 Ever sensed an unseen throttle on your team's potential? Get ready to unmask those bottlenecks and elevate your Django prowess. Explore the BEST framework with Six Feet Up CTO Calvin Hendryx-Parker. BEST is a catalyst designed by devs, for devs, to turbocharge team efficiency. Ready to up your game? Join Calvin and dive into insights to lay the groundwork for unmatched synergy.

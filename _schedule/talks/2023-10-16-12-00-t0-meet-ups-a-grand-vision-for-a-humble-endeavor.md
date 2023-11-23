@@ -21,6 +21,7 @@ tags:
 - community
 title: 'Meet-ups: A Grand Vision for a Humble Endeavor'
 track: t0
+video_url: https://youtu.be/JLuXMxqhUVQ
 ---
 
 Meet-ups are one of the best places to bring new people into our communities, but it feels like each one is constantly reinventing the wheel. What if we thought about running meet-ups as a craft and talked about what we're doing there as one of the most important activities that code communities can engage in? Python and Django have built fantastically welcoming communities, and now it's time go out there and bring in the next wave of community members.

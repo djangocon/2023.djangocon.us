@@ -24,6 +24,7 @@ tags:
 title: Contributing to Django or how I learned to stop worrying and just try to fix
   an ORM Bug
 track: t0
+video_url: https://youtu.be/VPldDxuJDsg
 ---
 
 We'll start with my experience at DjangoCon US 2022 and the work I did while at the sprints on an ORM related bug. Then we'll walk through the process I went through as I realized that the bug I thought could be closed was actually still a bug and needed to be fixed. I'll talk about the process I used to work on the bug and the great support I got from the community (both in person at Django Con US and online afterward).
