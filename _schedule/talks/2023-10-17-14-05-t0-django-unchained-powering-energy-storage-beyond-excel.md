@@ -27,6 +27,7 @@ tags:
 - how I used Django
 title: Powering Energy Storage Beyond Excel
 track: t0
+video_url: https://youtu.be/9dFv6gu83Ls
 ---
 
 In a world where renewable energy is crucial for combating climate change, a national installer of battery energy storage solutions found themselves outgrowing Excel and seeking a more powerful solution. Django’s superpowers allowed this company to optimize energy storage configurations, enhance accuracy in pricing models, and streamline business workflows.

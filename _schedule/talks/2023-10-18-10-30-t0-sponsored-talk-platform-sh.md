@@ -30,6 +30,7 @@ tags: null
 title: 'Sponsored Talk: Optimizing Django deployments with a Continuous Observability
   Strategy.'
 track: t0
+video_url: https://youtu.be/ot9ULcAF2p0
 ---
 
 When applications fall short of performance expectations - they are consuming too much memory, response times increase, etc. - it can be tempting to increase the resources in the environment to respond. At the heart of the issue is application performance, and what's missing is a comprehensive strategy that connects production monitoring to tools that allow you to identify bottlenecks and enforce performance expectations (a performance budget) in development.

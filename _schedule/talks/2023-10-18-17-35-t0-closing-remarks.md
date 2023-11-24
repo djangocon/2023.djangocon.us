@@ -14,6 +14,7 @@ schedule_layout: full
 sitemap: true
 title: Closing Remarks
 track: t0
+video_url: https://youtu.be/jx14c0dPOrU
 ---
 
 Peter and the organizers will wrap things up for 2023!

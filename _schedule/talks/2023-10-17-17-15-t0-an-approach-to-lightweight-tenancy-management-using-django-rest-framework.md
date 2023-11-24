@@ -26,6 +26,7 @@ tags:
 - how I used Django
 title: An approach to lightweight tenancy management using Django Rest Framework
 track: t0
+video_url: https://youtu.be/BW9ju19u1zU
 ---
 
 Over the last few years, I have run into the same multitenancy use case across different projects. This scenario is a “lightweight” multitenancy use case, where we have a tenant model and tenants are instances of this model; all tenants share the same database, schema, and application instance. Resources belong to a single tenant, but users can belong to multiple tenants. Almost all API routes need to be nested under the tenant id, with urls of the form `api/tenants/tenant-id/some-resource`. The challenges we faced were how to effectively nest our API urls and how to consistently restrict access to resources, so that users could only access those resources that belong to tenants that the user has permission to access.

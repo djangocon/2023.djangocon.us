@@ -23,6 +23,7 @@ tags:
 - ORM
 title: 'One database table, one model, many behaviours: Proxy model'
 track: t0
+video_url: https://youtu.be/qowFCmaNFp4
 ---
 
 At times, when inheriting a model one doesn’t want to create a table in the database, you maybe looking to change just the pythonic behaviour of the data without necessarily creating a new table, for example you might be looking  to ordering the data while maintain the original model data structure, this is where Django proxy models come in play, this talk will highlight, what are proxy models, how they are created using the model’s Meta class and how they can make your life easier as a developer.

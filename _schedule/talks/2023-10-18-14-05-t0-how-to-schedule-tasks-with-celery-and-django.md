@@ -24,6 +24,7 @@ tags:
 - celery
 title: How to Schedule Tasks with Celery and Django
 track: t0
+video_url: https://youtu.be/_c1-re23R2k
 ---
 
 Celery is a distributed system for message processing in Python first released in 2009, not long after Django itself. With over 20,000 stars on GitHub, it remains one of the most popular Django-adjacent Python packages. Similarly, my colleague Dan's post on the Caktus blog, "How to Use Celery for Scheduling Tasks," is by an order of magnitude one of the most popular pieces of content on our site.

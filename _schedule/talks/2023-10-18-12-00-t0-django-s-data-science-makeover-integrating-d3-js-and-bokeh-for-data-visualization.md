@@ -24,6 +24,7 @@ tags:
 - data analysis/ipython
 title: 'Django''s Data Science Makeover: Integrating D3.js and Bokeh for Data Visualization'
 track: t0
+video_url: https://youtu.be/e05m_C-tHrI
 ---
 
 Django is a versatile web framework that can be used for building a wide range of applications, from blogs to e-commerce platforms. In recent years, there has been a growing demand for web-based data visualization, which requires integrating data visualization libraries with web frameworks like Django. This talk will demonstrate how to use D3.js and Bokeh, two popular data visualization libraries, with Django to create dynamic and interactive visualizations.
