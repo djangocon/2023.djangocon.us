@@ -34,6 +34,7 @@ tags:
 - deployment
 title: 'Navigating Django''s Future: Djangonaut Space'
 track: t1
+video_url: https://youtu.be/UTKcPBKCQEc
 ---
 
 Embark on a voyage through Djangonaut Space, a one-of-a-kind mentorship initiative within the Django community. With a focus on collaborative learning, sustainability, and long-term growth, we invite aspiring Djangonauts to join our 8-week group mentoring program. Here, participants work at their own pace in a structured learning environment, setting the stage for future contributions and potential leadership roles within the Django community.

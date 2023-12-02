@@ -21,6 +21,7 @@ tags:
 - how I used Django
 title: 'Swiss Army Django: Small Footprint ETL'
 track: t0
+video_url: https://youtu.be/v65n9yQWfVs
 ---
 
 ETL systems have become commonplace in our world, from tiny personal web scrapers to complex distributed data pipelines. With Django offering a fully async API, new possibilities have opened to simplify the many different microservices into a single Python application that hosts the scrapers, query systems, and administrative interface all in one box. With this comes simplified code and deployment, and many other benefits.

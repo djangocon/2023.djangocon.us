@@ -18,6 +18,7 @@ slug: orientation-and-welcome
 talk_slot: full
 title: Orientation and Welcome
 track: t0
+video_url: https://youtu.be/O3ZN5qts2fc
 ---
 
 Are you:

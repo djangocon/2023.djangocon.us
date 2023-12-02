@@ -22,6 +22,7 @@ tags:
 - JS/HTMX/misc frontend tech
 title: Back to the Future of Hypermedia in Django
 track: t2
+video_url: https://youtu.be/LwH4ifjt3Y4
 ---
 
 "Hypermedia is your friend", they said. "You don't need JavaScript", they said. "You'll be _fine_..."

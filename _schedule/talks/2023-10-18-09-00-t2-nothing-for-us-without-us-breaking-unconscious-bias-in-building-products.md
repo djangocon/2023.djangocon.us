@@ -35,6 +35,7 @@ tags:
 - community
 title: Nothing for Us, Without Us; Breaking Unconscious Bias in Building Products
 track: t0
+video_url: https://youtu.be/1kICEzz3ESA
 ---
 
 Are we really building products that serve everyone, or just a selected few?

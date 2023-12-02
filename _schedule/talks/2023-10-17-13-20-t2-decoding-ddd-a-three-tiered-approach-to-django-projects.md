@@ -25,6 +25,7 @@ tags:
 - career development
 title: 'Decoding DDD: A Three-Tiered Approach to Django Projects'
 track: t2
+video_url: https://youtu.be/72V-5hrilv0
 ---
 
 ## Audience

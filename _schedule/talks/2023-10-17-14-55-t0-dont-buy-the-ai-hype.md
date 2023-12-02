@@ -28,6 +28,7 @@ tags:
 - community
 title: Don't Buy the "A.I." Hype
 track: t0
+video_url: https://youtu.be/NhHGrizbKc4
 ---
 
 "Those who cannot remember the past are condemned to repeat it."

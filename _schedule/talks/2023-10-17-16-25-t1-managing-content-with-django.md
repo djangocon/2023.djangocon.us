@@ -22,6 +22,7 @@ tags:
 - wagtail/butter/other CMS
 title: Managing Content with Django
 track: t1
+video_url: https://youtu.be/XOPkMiViuQA
 ---
 
 Django is used to power lots of high-traffic, content-driven websites. It’s a great fit, providing features that help quickly scaffold data-rich systems with slick editing. But the admin isn’t powerful enough to make managing rich content super user-friendly. Luckily, Djangonauts have some solid solutions for building excellent content-managed websites. This talk explores Wagtail, django CMS, and other options and helps developers pick the right tool for their next project.

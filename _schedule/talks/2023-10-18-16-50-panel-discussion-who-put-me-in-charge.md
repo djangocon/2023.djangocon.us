@@ -17,6 +17,7 @@ talk_slot: full
 title: 'Panel Discussion: Who put me in charge? Moving beyond day-to-day coding in
   Django'
 track: t1
+video_url: https://youtu.be/8HbI9HvPzaI
 ---
 
 Jay Miller will host a panel discussion about career development in the Django world.

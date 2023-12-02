@@ -22,6 +22,7 @@ tags:
 - community
 title: All about djangoproject.com
 track: t0
+video_url: https://youtu.be/2wwiFe1PKfU
 ---
 
 The djangoproject.com website is the showcase of the Django project and developers and users have always looked for updates on the project, documentation, and information from the Django Software Foundation.

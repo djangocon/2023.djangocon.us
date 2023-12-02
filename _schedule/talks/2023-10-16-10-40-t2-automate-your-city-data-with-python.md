@@ -25,6 +25,7 @@ tags:
 - how I used Django
 title: Automate Your City Data with Python
 track: t2
+video_url: https://youtu.be/fHsMZ3cuMhU
 ---
 
 It is very hard for the average resident of a U.S. or Canadian city to know what’s going on with their civic government. It’s even harder for them to get any sort of historical context on why things are the way they are. Let’s take my hometown, the City of Alameda. Six months ago if you wanted to know which city meetings had discussed rent control, your options were:

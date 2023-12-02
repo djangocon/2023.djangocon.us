@@ -13,4 +13,5 @@ room: Junior Ballroom
 sitemap: true
 title: Lightning Talks
 track: t0
+video_url: https://youtu.be/M3-WlpJFcKM
 ---

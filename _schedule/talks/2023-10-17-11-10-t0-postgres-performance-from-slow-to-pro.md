@@ -25,6 +25,7 @@ tags:
 - postgres
 title: 'Postgres Performance: From Slow to Pro'
 track: t0
+video_url: https://youtu.be/gpbpVheR3gM
 ---
 
 At some point, every application is limited by the database. You don’t have to be a Postgres expert to get started with a few key performance improvements. This gentle introduction is meant for folks who’ve never ventured into their database before, or those who have been turning knobs blindly. I’ll present how Postgres uses memory. Then, I’ll connect that to how you can monitor, tune, and optimize queries. You’ll be ready to take on the challenge as your application grows.

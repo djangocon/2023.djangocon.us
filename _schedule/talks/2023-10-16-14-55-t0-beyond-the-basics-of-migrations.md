@@ -19,6 +19,7 @@ summary: ''
 tags: null
 title: Beyond the Basics of Migrations
 track: t0
+video_url: https://youtu.be/mnr_fJhbMzc
 ---
 
 This talk will go into the basic anatomy of an auto-generated migration, as well as ways to leverage migrations for more complex functionality, such as data transformation. The goal is to demystify migrations for beginners and to empower intermediate users to do more with migrations.

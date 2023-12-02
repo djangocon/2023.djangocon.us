@@ -32,6 +32,7 @@ tags:
 - postgres
 title: Using database triggers to reliably track model history
 track: t1
+video_url: https://youtu.be/LFIAqFt9z2s
 ---
 
 Tracking model history is an essential aspect of many web applications, as it allows developers to monitor and analyze changes made to the data over time. In Django, the majority of history tracking apps are implemented in Python at the application level, making a tamper-proof audit trail nearly impossible to implement accurately.

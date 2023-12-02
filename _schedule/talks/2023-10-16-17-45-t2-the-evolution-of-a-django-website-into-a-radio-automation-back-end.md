@@ -23,6 +23,7 @@ tags:
 - how I used Django
 title: The evolution of a Django Website into a radio automation back-end
 track: t2
+video_url: https://youtu.be/B4lVhbQzn0s
 ---
 
 There are both commercial and open-source solutions for radio automation, but the requirements of free radios are very different from commercial radios, specially regarding the scheduling options and the end-user interface.

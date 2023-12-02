@@ -32,6 +32,7 @@ tags:
 - deployment
 title: Hosting and DevOps for Django
 track: t1
+video_url: https://youtu.be/nCaEXtFTpKQ
 ---
 
 Production server infrastructure is a complicated beast that requires configuring and coordinating dozens of tools and services.  You have a new Django application and you're ready to deploy it; what next?  You have an existing Django application and you set up the servers yourself; what can you do better?  One mistake in a server setup can lead to major downtime or a security breach of a website.  Short of that, it can cause a lot of headaches for developers as complexity spirals out of control.

@@ -21,6 +21,7 @@ tags:
 - wagtail/butter/other CMS
 title: "✨ Modern editing experience for your Django models with Wagtail \U0001F426"
 track: t1
+video_url: https://youtu.be/fblHyh8XWXU
 ---
 
 Can content management features be useful when managing arbitrary Django models?

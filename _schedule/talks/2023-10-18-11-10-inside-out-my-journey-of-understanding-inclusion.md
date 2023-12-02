@@ -21,6 +21,7 @@ tags:
 - inclusion
 title: 'Inside Out: My Journey of Understanding Inclusion'
 track: t1
+video_url: https://youtu.be/jYAeO37-420
 ---
 
 In this talk I'll share my personal journey of understanding diversity and inclusion.

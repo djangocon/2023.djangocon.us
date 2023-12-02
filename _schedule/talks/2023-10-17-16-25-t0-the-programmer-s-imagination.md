@@ -21,6 +21,7 @@ tags:
 - career development
 title: The programmer's imagination
 track: t0
+video_url: https://youtu.be/uvh6yXEbHUc
 ---
 
 Of all our faculties, imagination is usually considered the freest, the seat of creation.

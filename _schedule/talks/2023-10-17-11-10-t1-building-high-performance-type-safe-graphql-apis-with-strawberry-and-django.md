@@ -32,6 +32,7 @@ tags:
 - optimization/speed
 title: Building high-performance, type-safe GraphQL APIs with Strawberry and Django
 track: t1
+video_url: https://youtu.be/TP8MC2W3eIw
 ---
 
 In this talk, we will explore the world of GraphQL APIs with Strawberry, a new Python library that makes it easy to create GraphQL APIs with Django. We will dive into what GraphQL is, how it compares to traditional RESTful APIs, and what makes Strawberry stand out from other Python GraphQL libraries.

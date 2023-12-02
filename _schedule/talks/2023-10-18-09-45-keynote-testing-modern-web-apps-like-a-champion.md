@@ -17,6 +17,7 @@ slug: keynote-testing-modern-web-apps-like-a-champion
 talk_slot: full
 title: 'Keynote: Testing Modern Web Apps Like a Champion'
 track: t1
+video_url: https://youtu.be/Ze62p97coaY
 ---
 
 It's 2023, and web apps are usually more complicated than just a bunch of HTML pages hosted on somebody's server. The Web is an incredible platform for building and sharing applications that bring people value, from work to social media to banking and pretty much every aspect of life. With rich features, though, comes complexity: modern web apps are more complicated than ever. It's a serious challenge to make sure web apps both look right and work right.

@@ -26,6 +26,7 @@ tags:
 - testing
 title: 'BDD To The Bone: Acceptance Testing with Behave and Selenium'
 track: t1
+video_url: https://youtu.be/3VcprC3G7aQ
 ---
 
 It's easy to get caught up in testing metrics. We all do it. We aim for 100% code coverage, try to hit all branches, write good integration tests, and all the other good developer practices. These all indicate that we are building our product right, but are we building the right product?

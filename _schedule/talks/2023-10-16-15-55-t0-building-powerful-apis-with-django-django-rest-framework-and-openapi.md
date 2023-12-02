@@ -33,6 +33,7 @@ tags:
 - APIs
 title: Building Powerful APIs with Django, Django Rest Framework, and OpenAPI
 track: t0
+video_url: https://youtu.be/qcxio8C9Mh0
 ---
 
 In this session, attendees will be introduced to the world of APIs and learn how Django, one of the most popular web frameworks, can be used to build them. We will explore the capabilities of Django Rest Framework (DRF), a powerful and flexible platform for building RESTful APIs.

@@ -23,6 +23,7 @@ tags:
 - community
 title: There's More to Open Source than Code
 track: t2
+video_url: https://youtu.be/cgFtVshbAec
 ---
 
 Open source software has always been about more than just code. While the technical contributions of developers are critical to the success of an open source project, there are countless other ways that people can contribute to the community. From documentation and translation to community management and design, non-code contributions are essential to building a healthy and sustainable open source ecosystem.

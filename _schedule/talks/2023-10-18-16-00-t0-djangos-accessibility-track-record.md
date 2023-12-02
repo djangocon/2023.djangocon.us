@@ -23,6 +23,7 @@ tags:
 - accessibility
 title: Django’s accessibility track record
 track: t0
+video_url: https://youtu.be/IXxwzFusFlM
 ---
 
 There are great accessibility guidelines out there. Great tools to evaluate individual websites too. Between the big picture and individual projects, we can look at what Django specifically does – and what changes at the level of the framework could improve large swaths of the Django web.
