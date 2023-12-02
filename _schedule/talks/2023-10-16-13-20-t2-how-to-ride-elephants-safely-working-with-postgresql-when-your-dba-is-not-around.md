@@ -22,6 +22,7 @@ tags:
 title: 'How to Ride Elephants Safely: Working with PostgreSQL when your DBA is not
   around'
 track: t2
+video_url: https://youtu.be/cajn_hqQiG4
 ---
 
 Every so often, one may be called upon to perform the tasks of a database administrator, especially in cases where application performance seems to be affected by the database.  This talk will give non-DBAs an insight into how the world's most powerful open-source database works, and the kind of tools and features that are readily available for people who unexpectedly find themselves in the DBA pilot's seat.  Topics covered will include query tuning, monitoring, indexing, and a basic run-down of some configurables to help you know what options are at your disposal

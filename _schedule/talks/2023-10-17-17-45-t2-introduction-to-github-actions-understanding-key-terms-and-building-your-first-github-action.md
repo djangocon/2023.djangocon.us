@@ -26,6 +26,7 @@ tags:
 title: 'Introduction to GitHub Actions: Understanding Key Terms and Building Your
   First GitHub Action'
 track: t2
+video_url: https://youtu.be/DL55_xUhBMY
 ---
 
 We all know we should be doing more automation of our software development lifecycle, but getting started can be challenging. Even if you have experience in continuous integration and continuous delivery (CI/CD) automation, learning a specific platform's terminology and idiosyncrasies can be frustrating.

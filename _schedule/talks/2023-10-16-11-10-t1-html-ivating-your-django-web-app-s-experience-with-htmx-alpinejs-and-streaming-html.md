@@ -28,6 +28,7 @@ tags:
 title: HTML-ivating your Django web app's experience with HTMX, AlpineJS, and streaming
   HTML.
 track: t1
+video_url: https://youtu.be/kYV8K71pY64
 ---
 
 The rise of SPAs has brought many benefits, but it has also introduced complexity and performance overheads that can be overwhelming. As Django developers, we know the power and elegance of the Django framework, and we believe it can deliver a better user experience without the need for heavy JavaScript frameworks.

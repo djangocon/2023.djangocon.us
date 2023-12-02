@@ -26,6 +26,7 @@ tags:
 - wagtail/butter/other CMS
 title: Best Practices for Making a Wagtail Site as Accessible as Possible
 track: t2
+video_url: https://youtu.be/qqQBbVIHkCA
 ---
 
 Over the past few years, the Wagtail CMS core team and accessibility subteam have made a [significant commitment to improving Wagtail's accessibility](https://wagtail.org/accessibility/) – of the CMS interface itself as well as the websites that it produces. This talk is focused on the latter, showing how you (a developer of a Wagtail-powered site) can set up your models, templates, and workflows in order to make it as easy as possible for your editors to create websites that are as accessible _as possible_. I say "as possible" because it's important to recognize that it's _not_ possible for a website to ever be considered 100% accessible, but by putting some care into what we do on the development side, we can prevent some of the most widespread accessibility issues that users may come across.

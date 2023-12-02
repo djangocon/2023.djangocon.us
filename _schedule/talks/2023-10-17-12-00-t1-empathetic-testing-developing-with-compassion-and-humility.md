@@ -23,6 +23,7 @@ tags:
 - testing
 title: 'Empathetic testing: Developing with compassion and humility.'
 track: t1
+video_url: https://youtu.be/BH9BaJ3o628
 ---
 
 Tests can be a powerful tool used to increase our development speed and empower us with the confidence to refactor and improve codebases. Writing tests with these goals in mind requires empathy and compassion toward other developers and even our future selves. Conversely, tests written with different objectives, such as achieving an arbitrary coverage score, can have the opposite effect and cause suffering.

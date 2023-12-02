@@ -32,6 +32,7 @@ tags:
 - ORM
 title: Strategies for handling conflicts and rollbacks in Django database migrations
 track: t1
+video_url: https://youtu.be/YrlSlOZOkNQ
 ---
 
 Managing database migrations in Django can be challenging, especially in large projects with multiple developers and frequent releases. Conflicts can arise when multiple developers modify the same models when migration files are applied in the wrong order or in some cases where fields are faked. Rollbacks are also necessary when migrations fail or need to be reverted.

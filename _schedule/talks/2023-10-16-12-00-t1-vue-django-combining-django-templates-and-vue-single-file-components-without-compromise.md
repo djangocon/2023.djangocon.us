@@ -27,6 +27,7 @@ tags:
 title: 'Vue + Django: Combining Django Templates and Vue Single File Components without
   compromise'
 track: t1
+video_url: https://youtu.be/16rKyUZuttE
 ---
 
 There is a common misconception that Django's template-based views and "heavyweight" JavaScript frameworks such as Vue cannot co-exist without considerable compromise; that we are forced to choose between the two. For example, we may use Django Rest Framework as back-end while writing a JavaScript SPA front-end, making it difficult to utilize Django templates where convenient. Or we may use JavaScript frameworks from Django templates using browser `<script>` includes, but then lost is much of the tooling, testability, and ecosystem of the modern build-based JavaScript framework. This dilemma leads many Django developers to choose lighter-weight no-build Javascript frameworks as a means to add dynamic user experience.

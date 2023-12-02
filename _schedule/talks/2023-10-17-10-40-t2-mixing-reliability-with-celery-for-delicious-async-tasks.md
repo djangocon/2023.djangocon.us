@@ -25,6 +25,7 @@ tags:
 - celery
 title: Mixing reliability with Celery for delicious async tasks
 track: t2
+video_url: https://youtu.be/VuONiF99Oqc
 ---
 
 Celery is essential for asynchronous processing in Django backends. In multiple Django projects, we used far beyond the use case of sending emails without blocking HTTP responses. Celery helped us aggregate data, fill caches, run ETL workflows, parallelize heavy workloads, sync with external services, set up periodic background jobs, and much more.

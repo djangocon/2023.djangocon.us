@@ -30,6 +30,7 @@ tags:
 - non-postgres DB
 title: Working with Neo4j with Django neomodel library
 track: t1
+video_url: https://youtu.be/K8nQg6e11N8
 ---
 
 My talk aims to provide a comprehensive overview of graph databases, going through the basics and fundamentals concepts.
