@@ -23,6 +23,7 @@ tags:
 title: Django migrations, friend or foe? Optimize your Django migrations for faster
   testing
 track: t2
+video_url: https://youtu.be/YYF1b1QdPlA
 ---
 
 Django migrations are a great tool for keeping track of changes you made to your models over time.

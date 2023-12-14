@@ -23,6 +23,7 @@ tags:
 - deployment
 title: What Django Deployment is Really About
 track: t1
+video_url: https://youtu.be/t-wsiW5mkgA
 ---
 
 People often spend so much time learning how to build apps in Django that when it comes time for deployment, it feels like a whole new world that they don't understand. Deployment recipes might help them get their app online--but then again they might not, if the steps that worked yesterday don't work today. Even if they do get online, they might not understand that deployment process anymore than they did before.
