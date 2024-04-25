@@ -53,9 +53,9 @@ playwright==1.35.0
     #   shot-scraper
 prompt-toolkit==3.0.39
     # via click-repl
-pydantic==2.0.3
+pydantic==2.4.0
     # via -r requirements.in
-pydantic-core==2.3.0
+pydantic-core==2.10.0
     # via pydantic
 pyee==9.0.4
     # via playwright
