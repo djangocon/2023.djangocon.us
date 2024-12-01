@@ -37,7 +37,7 @@ dateutils==0.6.12
     # via -r requirements.in
 greenlet==2.0.2
     # via playwright
-idna==3.4
+idna==3.7
     # via requests
 inflection==0.5.1
     # via -r requirements.in
